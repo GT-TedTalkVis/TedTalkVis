@@ -9,3 +9,18 @@ The recommended IDE is VS Code since the project uses TypeScript, Prettier, and 
 To run the development webserver, use `npm run start`. You can view the project at `localhost:8080` with hot reloading.
 
 To compile the production build, use `npm run build`.
+
+## Python
+Mac
+```
+virtualenv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
+
+Windows
+```
+virtualenv venv
+venv\Scripts\activate
+pip install -r requirements.txt
+```
