@@ -1,0 +1,1782 @@
+[
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/-3j5SL7nPNzhER8CTDbvH18ZVvg\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 118,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/GdMmBO7UhHjzYdKJPvsn350AQWY\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "RRymi-lFHpE"
+                },
+                "snippet": {
+                    "publishedAt": "2007-01-12T17:29:51.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Richard Baraniuk on open-source learning",
+                    "description": "http://www.ted.com Rice University professor Richard Baraniuk explains the vision behind Connexions, his open-source, online education system. It cuts out the ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/RRymi-lFHpE/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/RRymi-lFHpE/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/RRymi-lFHpE/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/bm0oXkl13iQ8wc1CZNLFt9TatSM\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/xuL7CQsB7KlPKZgLj9k_Gh5WLOM\"",
+                            "id": "RRymi-lFHpE",
+                            "statistics": {
+                                "viewCount": "97244",
+                                "likeCount": "499",
+                                "dislikeCount": "29",
+                                "favoriteCount": "0",
+                                "commentCount": "96"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/q0Q0Fq0F4yjirQGO0MYo-kwjpJ8\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "IMg9FDsPe0Q"
+                },
+                "snippet": {
+                    "publishedAt": "2009-08-04T08:47:45.000Z",
+                    "channelId": "UCGfOPWiWWqFMvSyteGorzSw",
+                    "title": "TED.com Richard Baraniuk - Open Source Learning",
+                    "description": "Rice University professor Richard Baraniuk explains the vision behind Connexions, his open-source, online education system. It cuts out the textbook, allowing ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/IMg9FDsPe0Q/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/IMg9FDsPe0Q/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/IMg9FDsPe0Q/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Mark Osborne",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/n7A-TDWwVOma3KbLk72jD0UeJiU\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Dr7UJpJt3mjSN0ylNXGlvYCRq-c\"",
+                            "id": "IMg9FDsPe0Q",
+                            "statistics": {
+                                "viewCount": "1036",
+                                "likeCount": "3",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "1"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/YR3pecwNgE7_KoKY4iXGYYdEe-0\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "X2HbVztv_RI"
+                },
+                "snippet": {
+                    "publishedAt": "2010-12-19T04:04:45.000Z",
+                    "channelId": "UCPrNNf33Apr-nQnHcAjVZFw",
+                    "title": "Richard Baraniuk - Open Source Learning Reflection",
+                    "description": "",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/X2HbVztv_RI/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/X2HbVztv_RI/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/X2HbVztv_RI/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "jonnyf201",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/PV4sbBnRsSdL0wYkuMKZ_YCqq0A\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/wtt53PzO4r59OB1naeJTAWUe99Y\"",
+                            "id": "X2HbVztv_RI",
+                            "statistics": {
+                                "viewCount": "68",
+                                "likeCount": "0",
+                                "dislikeCount": "1",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Richard Baraniuk: The birth of the open source learning revolution"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/3ygBuPTYgMZpE09mCq3PU8ZxjMA\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 1847,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/z3lJMd0vHFb1dQb-lH20Tu06vMI\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "FMkJVXi7Rp8"
+                },
+                "snippet": {
+                    "publishedAt": "2007-01-16T18:24:53.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Nerdcore comedy | Ze Frank",
+                    "description": "Performer and web toymaker Ze Frank delivers a hilarious nerdcore standup routine, then tells us what he's seriously passionate about: helping people create ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/FMkJVXi7Rp8/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/FMkJVXi7Rp8/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/FMkJVXi7Rp8/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/mtOR_Lv0SjHLyNaGhQN5DZ-P4Ms\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/P1AzHckpQYYLSaWsH3wVVIXQiIE\"",
+                            "id": "FMkJVXi7Rp8",
+                            "statistics": {
+                                "viewCount": "1563759",
+                                "likeCount": "11816",
+                                "dislikeCount": "520",
+                                "favoriteCount": "0",
+                                "commentCount": "722"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/8J4hpgk_NIJN5BWG6-UiusXiFO4\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "ccIt-qRQBoI"
+                },
+                "snippet": {
+                    "publishedAt": "2014-07-18T15:19:50.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Ze Frank: Are you human?",
+                    "description": "Have you ever wondered: Am I a human being? Ze Frank suggests a series of simple questions that will determine this. Please relax and follow the prompts.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/ccIt-qRQBoI/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/ccIt-qRQBoI/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/ccIt-qRQBoI/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/pGPuugMuDE4plhs9zL4c7pVZiTM\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/TblAUqqyDJQkdCMX6-8iy5QlaYs\"",
+                            "id": "ccIt-qRQBoI",
+                            "statistics": {
+                                "viewCount": "1093806",
+                                "likeCount": "26116",
+                                "dislikeCount": "513",
+                                "favoriteCount": "0",
+                                "commentCount": "1045"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/HcIve6bMwgUFU66RCWCys87xl9A\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "3gSSNHO1dDs"
+                },
+                "snippet": {
+                    "publishedAt": "2010-10-15T14:05:27.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Ze Frank&#39;s web playroom",
+                    "description": "http://www.ted.com On the web, a new \"Friend\" may be just a click away, but true connection is harder to find and express. Ze Frank presents a medley of zany ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/3gSSNHO1dDs/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/3gSSNHO1dDs/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/3gSSNHO1dDs/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/stlOZNRw37ObEz52PRpFBJPzufE\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/q8NEo9rA0qm_t4B0uh_Ehu5k7GE\"",
+                            "id": "3gSSNHO1dDs",
+                            "statistics": {
+                                "viewCount": "421946",
+                                "likeCount": "8270",
+                                "dislikeCount": "171",
+                                "favoriteCount": "0",
+                                "commentCount": "580"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Ze Frank: Nerdcore comedy"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/-vYS8LsydlmDyp4sdzmqOjZVD-U\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 15,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/AtqbhmRykZ-5OXcXcMZvoOx8oZE\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "RlBTxuWCuL8"
+                },
+                "snippet": {
+                    "publishedAt": "2007-01-16T18:33:29.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Mena Trott: How blogs are building a friendlier world",
+                    "description": "http://www.ted.com The founding mother of the blog revolution, Movable Type's Mena Trott, talks about the early days of blogging, when she realized that giving ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/RlBTxuWCuL8/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/RlBTxuWCuL8/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/RlBTxuWCuL8/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/D0tt9C-ZMlS1gBduGunZQdfN70o\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/P4VmnFsOYJil5dB95_jz9pGQKYo\"",
+                            "id": "RlBTxuWCuL8",
+                            "statistics": {
+                                "viewCount": "12716",
+                                "likeCount": "92",
+                                "dislikeCount": "17",
+                                "favoriteCount": "0",
+                                "commentCount": "4"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/EMpoVhBHRqAPVbh4FcJGdNMax0c\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "Iu2kauouCGY"
+                },
+                "snippet": {
+                    "publishedAt": "2014-11-12T19:49:54.000Z",
+                    "channelId": "UCsT0YIqwnpJCM-mx7-gSA4Q",
+                    "title": "Always South Dakota -- blogging, identity, and community | Cory Allen Heidelberger | TEDxBrookings",
+                    "description": "This talk was given at a local TEDx event, produced independently of the TED Conferences. Cory Allen Heidelberger loves South Dakota. Blogging helps him ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/Iu2kauouCGY/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/Iu2kauouCGY/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/Iu2kauouCGY/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TEDx Talks",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/oA0JDrkqOaSHf023_M1kJtWI2qE\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/UCOHKth62H8csoJPkiNwmtKxqVg\"",
+                            "id": "Iu2kauouCGY",
+                            "statistics": {
+                                "viewCount": "1439",
+                                "likeCount": "3",
+                                "dislikeCount": "9",
+                                "favoriteCount": "0",
+                                "commentCount": "1"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Y-d6Wh-2cOxhtlgT6tt7kw_5cXE\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "PZJvgR3NM18"
+                },
+                "snippet": {
+                    "publishedAt": "2007-11-14T04:16:10.000Z",
+                    "channelId": "UCHDr4RtxwA1KqKGwxgdK4Vg",
+                    "title": "Social Computing: From Message Boards to Blogs and Beyond",
+                    "description": "[Recorded Feb 14, 2006] Usenet guru Erik Fair, virtual worlds pioneer and Yahoo! Community Strategist Randy Farmer, LinkedIn founder Reid Hoffman, and Six ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/PZJvgR3NM18/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/PZJvgR3NM18/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/PZJvgR3NM18/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Computer History Museum",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/r9irR8BrYrbvV1yqzBnkjpo_5B8\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/A9voULCWep2p88WkfMw7p2EH2pc\"",
+                            "id": "PZJvgR3NM18",
+                            "statistics": {
+                                "viewCount": "3454",
+                                "likeCount": "16",
+                                "dislikeCount": "2",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Mena Trott: Meet the founder of the blog revolution"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/yyeOnktGxX71oUHBgX4PN39dJNU\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 6871,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/1VQPAGjpQ-2xzYQzA16UTLFmI9g\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "x-ewvCNguug"
+                },
+                "snippet": {
+                    "publishedAt": "2007-01-16T18:20:55.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Why we love, why we cheat | Helen Fisher",
+                    "description": "http://www.ted.com Anthropologist Helen Fisher takes on a tricky topic -- love - and explains its evolution, its biochemical foundations and its social importance.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/x-ewvCNguug/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/x-ewvCNguug/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/x-ewvCNguug/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/LP5YWIz2z3ONrXxBiD7YSh55cjo\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/L4fFt5PGZM1FopVNiaosTQyFWto\"",
+                            "id": "x-ewvCNguug",
+                            "statistics": {
+                                "viewCount": "1335831",
+                                "likeCount": "10983",
+                                "dislikeCount": "723",
+                                "favoriteCount": "0",
+                                "commentCount": "868"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/dk42qmzfMi9RXblXnJNTftuYGhg\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "4lj8d7U9nZg"
+                },
+                "snippet": {
+                    "publishedAt": "2015-10-18T10:43:10.000Z",
+                    "channelId": "UCgdbDbPZfozmQYiMrQVqTzw",
+                    "title": "Helen Fisher : Why we love and cheat",
+                    "description": "uploaded in HD at http://www.TunesToTube.com.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/4lj8d7U9nZg/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/4lj8d7U9nZg/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/4lj8d7U9nZg/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Listen To English Club",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/wGwVJEvw28VMhLqSWbKxiMl2gYI\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/3fEvEyTJ4Drn1kqg4_AqTJMuC6g\"",
+                            "id": "4lj8d7U9nZg",
+                            "statistics": {
+                                "viewCount": "4841",
+                                "likeCount": "29",
+                                "dislikeCount": "2",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/R39tsKVC7v7OXWp24B0QrC7uJbc\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "OYfoGTIG7pY"
+                },
+                "snippet": {
+                    "publishedAt": "2008-07-15T19:46:50.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "The brain in love | Helen Fisher",
+                    "description": "http://www.ted.com Why do we crave love so much, even to the point that we would die for it? To learn more about our very real, very physical need for romantic ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/OYfoGTIG7pY/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/OYfoGTIG7pY/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/OYfoGTIG7pY/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/RVvtkXJaYqzOfm9lHEUIfH2pDLo\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/xg0t0WYrJGLgBabCs14L0HvPOvc\"",
+                            "id": "OYfoGTIG7pY",
+                            "statistics": {
+                                "viewCount": "1391126",
+                                "likeCount": "12200",
+                                "dislikeCount": "401",
+                                "favoriteCount": "0",
+                                "commentCount": "652"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Helen Fisher: Why we love, why we cheat"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/V4g4tpXPcfS3SIZVmrFYloD61Ok\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 937,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/eulV8nJf0ixl7byftmHFudELueU\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "NQvMQEB0j_A"
+                },
+                "snippet": {
+                    "publishedAt": "2007-01-16T17:45:07.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Finding happiness in body and soul | Eve Ensler",
+                    "description": "http://www.ted.com Eve Ensler, creator of The Vagina Monologues, shares how a discussion about menopause with her friends led to talking about all sorts of ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/NQvMQEB0j_A/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/NQvMQEB0j_A/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/NQvMQEB0j_A/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/6rwGBbk-i853Ct1JmlBZTSgneQ0\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/MhBhHV9OOQ0OzznoxljnvCQni44\"",
+                            "id": "NQvMQEB0j_A",
+                            "statistics": {
+                                "viewCount": "86183",
+                                "likeCount": "551",
+                                "dislikeCount": "59",
+                                "favoriteCount": "0",
+                                "commentCount": "131"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/-g6iVQnX8U4RbXGBM6NugtAznac\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "8D7rXXUeiR8"
+                },
+                "snippet": {
+                    "publishedAt": "2015-10-15T16:14:07.000Z",
+                    "channelId": "UCgdbDbPZfozmQYiMrQVqTzw",
+                    "title": "Eve Ensler : Happiness in body and soul",
+                    "description": "uploaded in HD at http://www.TunesToTube.com.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/8D7rXXUeiR8/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/8D7rXXUeiR8/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/8D7rXXUeiR8/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Listen To English Club",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/2MkslgwD3LjF_JHED5RT9k7UnvI\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/mQI3OcxvFsiX7UxbtFutqahUSjk\"",
+                            "id": "8D7rXXUeiR8",
+                            "statistics": {
+                                "viewCount": "189",
+                                "likeCount": "0",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "1"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/9EK0MqymnkF3evWfM0hS4FiGMNw\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "BsZHhGW2tI4"
+                },
+                "snippet": {
+                    "publishedAt": "2013-07-03T13:21:39.000Z",
+                    "channelId": "UC1nw_szfrEsDWcwD32wHE_w",
+                    "title": "Eve Ensler brings &quot;In the Body of the World&quot; to Studio Q",
+                    "description": "http://www.cbc.ca/Q Acclaimed author and playwright, Eve Ensler, returns to Studio Q with her new memoir \"In the Body of the World\". It chronicles her own battle ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/BsZHhGW2tI4/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/BsZHhGW2tI4/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/BsZHhGW2tI4/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "q on cbc",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/NI-npwTfpavZV2hIWxWHOfWBRpM\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/YYx0uwDNCe3fZq0X7_YSRCvyQWA\"",
+                            "id": "BsZHhGW2tI4",
+                            "statistics": {
+                                "viewCount": "743",
+                                "likeCount": "15",
+                                "dislikeCount": "1",
+                                "favoriteCount": "0",
+                                "commentCount": "1"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Eve Ensler: Happiness in body and soul"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/ZjF5QmEPSbciOA7d177_9AtDIFA\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 398,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/PnJda_iBrkYdIDE_mIyeswNzXTM\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "gQliI_WGaGk"
+                },
+                "snippet": {
+                    "publishedAt": "2007-01-16T17:13:41.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "David Deutsch: Chemical scum that dream of distant quasars",
+                    "description": "http://www.ted.com Legendary scientist David Deutsch puts theoretical physics on the back burner to discuss a more urgent matter: the survival of our species.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/gQliI_WGaGk/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/gQliI_WGaGk/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/gQliI_WGaGk/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/6voxeecbvQ7ZEBQkJA-T_K8fFuo\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/tuj13hQMUCYFI6YhdZQZbVVxzUg\"",
+                            "id": "gQliI_WGaGk",
+                            "statistics": {
+                                "viewCount": "120277",
+                                "likeCount": "1328",
+                                "dislikeCount": "42",
+                                "favoriteCount": "0",
+                                "commentCount": "139"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/lRchKzQFYzUuzX7fQmM9oYew37w\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "3eEffbjzNwE"
+                },
+                "snippet": {
+                    "publishedAt": "2016-10-17T15:22:45.000Z",
+                    "channelId": "UCl9StMQ79LtEvlrskzjoYbQ",
+                    "title": "David Deutsch - What is Truth?",
+                    "description": "Defining 'truth' is an ancient question that in the age of science should find resolution and agreement. But this is not so. Even today, truth remains elusive.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/3eEffbjzNwE/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/3eEffbjzNwE/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/3eEffbjzNwE/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Closer To Truth",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/iz_uRqtnHfSYVy-TEoGNAcNmH9k\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/rH9vhtL8MCn_1xd7MZIhdnCb6x4\"",
+                            "id": "3eEffbjzNwE",
+                            "statistics": {
+                                "viewCount": "45819",
+                                "likeCount": "768",
+                                "dislikeCount": "18",
+                                "favoriteCount": "0",
+                                "commentCount": "159"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/MZOj5bbPDhCZwoVCNg5Q02rsCZc\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "lX-K63pVPTM"
+                },
+                "snippet": {
+                    "publishedAt": "2015-11-17T16:38:34.000Z",
+                    "channelId": "UCvhsiQGy_zcNCiSbeXEjhLg",
+                    "title": "David Deutsch on Optimism",
+                    "description": "Physicist David Deutsch explores the theme of optimism as a force for 21st century progress. Watch the full replay here: https://youtu.be/ncJQTYc27ME RSA ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/lX-K63pVPTM/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/lX-K63pVPTM/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/lX-K63pVPTM/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "The RSA",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Mm_Lu64uDzaFpdWCnpQwi0ssRlA\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/0IHywthIDF1ZIsr-_JI0KwS2VQg\"",
+                            "id": "lX-K63pVPTM",
+                            "statistics": {
+                                "viewCount": "13642",
+                                "likeCount": "411",
+                                "dislikeCount": "2",
+                                "favoriteCount": "0",
+                                "commentCount": "55"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "David Deutsch: Chemical scum that dream of distant quasars"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/5Mwm4hv0UQ2EvCSxEuRqBo9t0W8\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 86860,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/DXOVMCDyyXQHoSX-9MhurSx6Uts\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "1APOxsp1VFw"
+                },
+                "snippet": {
+                    "publishedAt": "2007-01-16T17:03:18.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Why the universe seems so strange | Richard Dawkins",
+                    "description": "http://www.ted.com Biologist Richard Dawkins makes a case for \"thinking the improbable\" by looking at how the human frame of reference limits our ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/1APOxsp1VFw/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/1APOxsp1VFw/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/1APOxsp1VFw/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/DNcbj8TwCw7NJKMPWWaJGCOyWFE\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/r0Ird48Hpb2Kl-VjotFaoFNzihA\"",
+                            "id": "1APOxsp1VFw",
+                            "statistics": {
+                                "viewCount": "1692179",
+                                "likeCount": "20068",
+                                "dislikeCount": "856",
+                                "favoriteCount": "0",
+                                "commentCount": "5403"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/UNMLGr1EKIUe-MlOFuTJ4L7PVpQ\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "VxGMqKCcN6A"
+                },
+                "snippet": {
+                    "publishedAt": "2008-04-15T19:13:10.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Militant atheism | Richard Dawkins",
+                    "description": "http://www.ted.com Biologist Richard Dawkins launches into a full-on appeal for atheists to make public their beliefs and to aggressively fight the incursion of ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/VxGMqKCcN6A/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/VxGMqKCcN6A/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/VxGMqKCcN6A/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/2UOjVpit0NKk350plvkpdFeh9rw\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Y8iEa_bB6hkGHTTGgkB3XsswuOM\"",
+                            "id": "VxGMqKCcN6A",
+                            "statistics": {
+                                "viewCount": "1810328",
+                                "likeCount": "31794",
+                                "dislikeCount": "2161",
+                                "favoriteCount": "0",
+                                "commentCount": "25532"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/-phiQQ-OL9vZobpNj_wKVowwpG0\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "EWGAg9iGPLQ"
+                },
+                "snippet": {
+                    "publishedAt": "2013-10-15T22:13:36.000Z",
+                    "channelId": "UCbmNph6atAoGfqLoCL_duAg",
+                    "title": "Richard Dawkins: &quot;The Making of a Scientist&quot; | Talks at Google",
+                    "description": "Ray Kurzweil welcomes Richard Dawkins to the Talks at Google program. With the 2006 publication of The God Delusion, the name Richard Dawkins became a ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/EWGAg9iGPLQ/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/EWGAg9iGPLQ/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/EWGAg9iGPLQ/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Talks at Google",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/19wvWrx3Lg9uRxGCSseKf_dknEg\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/-NVwWsYQeYch0edTH7B7TdPG0YY\"",
+                            "id": "EWGAg9iGPLQ",
+                            "statistics": {
+                                "viewCount": "162955",
+                                "likeCount": "2353",
+                                "dislikeCount": "73",
+                                "favoriteCount": "0",
+                                "commentCount": "588"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Richard Dawkins: Why the universe seems so strange"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/3fQc8oubH8C76ZxdT1PqxulxLZM\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 193,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/lLuvUsQKv_grr68j60LnHulUhWM\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "5UGC2nLnaes"
+                },
+                "snippet": {
+                    "publishedAt": "2007-01-16T17:25:33.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "The freakonomics of McDonalds vs. drugs | Steven Levitt",
+                    "description": "http://www.ted.com Freakonomics author Steven Levitt presents new data on the finances of drug dealing. Contrary to popular myth, he says, being a ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/5UGC2nLnaes/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/5UGC2nLnaes/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/5UGC2nLnaes/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/31NxgTXftmxSJ6rtLVJd8Uv3ark\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/mafxv_Q7m8VTlHg6a8OyK8d1u-E\"",
+                            "id": "5UGC2nLnaes",
+                            "statistics": {
+                                "viewCount": "2118480",
+                                "likeCount": "23091",
+                                "dislikeCount": "1000",
+                                "favoriteCount": "0",
+                                "commentCount": "2116"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/U1nyjUAacE43SViho7nljwCJpeE\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "hABM20X0iZg"
+                },
+                "snippet": {
+                    "publishedAt": "2012-08-05T00:30:07.000Z",
+                    "channelId": "UCnzItcpd7WGVn80TRRb8RcQ",
+                    "title": "Freakonomics: What Prostitutes Can Teach About Economics",
+                    "description": "Steven Levitt, author of Freakonomics, recounts a story of talking economics and business practice with a prostitute while researching for SuperFreakonomics.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/hABM20X0iZg/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/hABM20X0iZg/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/hABM20X0iZg/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "FORA.tv",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/wWo5MX_CcddTDGWpjeAImaS3Kps\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/QsKQwPgw666WTq_j0GQpd3A5ico\"",
+                            "id": "hABM20X0iZg",
+                            "statistics": {
+                                "viewCount": "180230",
+                                "likeCount": "2045",
+                                "dislikeCount": "115",
+                                "favoriteCount": "0",
+                                "commentCount": "212"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/ZmN1wOIr5egM0KrFyfma37A0dHU\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "eKE7RPr3OKU"
+                },
+                "snippet": {
+                    "publishedAt": "2012-04-12T01:20:24.000Z",
+                    "channelId": "UCc5JHBip3ma9qJKG6NFOb7Q",
+                    "title": "Steven Levitt analyzes crack economics",
+                    "description": "Steven Levitt analyzes crack economics.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/eKE7RPr3OKU/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/eKE7RPr3OKU/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/eKE7RPr3OKU/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Complex Labs - Complex Labs Latam",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/m_2S4YLqv1coEUZrx1zL3z1A3dk\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/bjhkBcQZ-f4CHEsnfBu7bngqMdE\"",
+                            "id": "eKE7RPr3OKU",
+                            "statistics": {
+                                "viewCount": "1656",
+                                "likeCount": "7",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Steven Levitt: The freakonomics of crack dealing"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Pgjn_6GlfYlNh6fqoGY7p3DHHkQ\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 7862,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/iXTt7GdPGXS8v1wxQU1GxXNfdb4\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "iIiAAhUeR6Y"
+                },
+                "snippet": {
+                    "publishedAt": "2007-01-16T16:40:16.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Choice, happiness and spaghetti sauce | Malcolm Gladwell",
+                    "description": "http://www.ted.com Tipping Point author Malcolm Gladwell gets inside the food industry's pursuit of the perfect spaghetti sauce -- and makes a larger argument ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/iIiAAhUeR6Y/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/iIiAAhUeR6Y/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/iIiAAhUeR6Y/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/1cpkmCRFQXrA-ndkf0UX_dQ5dHg\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/9NB4Hir6HiiuKo-2nrXXgDBUfJA\"",
+                            "id": "iIiAAhUeR6Y",
+                            "statistics": {
+                                "viewCount": "1487981",
+                                "likeCount": "9946",
+                                "dislikeCount": "330",
+                                "favoriteCount": "0",
+                                "commentCount": "558"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/kpOJXfWweLb6_c4gvPIqetnXY8E\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "964va3YwPms"
+                },
+                "snippet": {
+                    "publishedAt": "2015-04-11T19:02:47.000Z",
+                    "channelId": "UCl4lTUQKsml7RHVMzaTtq6Q",
+                    "title": "Malcolm Gladwell on the Pitfalls of Market Research",
+                    "description": "Malcolm Gladwell takes the lessons of psychology and sociology and applies them to business in ways we've never thought of before. Here, he deep-dives into ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/964va3YwPms/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/964va3YwPms/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/964va3YwPms/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "rickyxjtu",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/MDr4xDp1RuMDrgZU77lnBd8FZ60\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/OHuyxsy27iSkS41zCxg-nL3ndA8\"",
+                            "id": "964va3YwPms",
+                            "statistics": {
+                                "viewCount": "64308",
+                                "likeCount": "507",
+                                "dislikeCount": "8",
+                                "favoriteCount": "0",
+                                "commentCount": "25"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/XVucrnkpmsASGMl7l_1Sy9-zZ4s\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "ziGD7vQOwl8"
+                },
+                "snippet": {
+                    "publishedAt": "2013-09-30T16:42:15.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "The unheard story of David and Goliath | Malcolm Gladwell",
+                    "description": "It's a classic underdog tale: David, a young shepherd armed only with a sling, beats Goliath, the mighty warrior. The story has transcended its biblical origins to ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/ziGD7vQOwl8/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/ziGD7vQOwl8/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/ziGD7vQOwl8/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/qSPd803MCdT6sbVnwaqmXFOpKtg\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/txTQpl-7VcWAx56PRzMBnituudI\"",
+                            "id": "ziGD7vQOwl8",
+                            "statistics": {
+                                "viewCount": "3484897",
+                                "likeCount": "37548",
+                                "dislikeCount": "10578",
+                                "favoriteCount": "0",
+                                "commentCount": "14131"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Malcolm Gladwell: Choice, happiness and spaghetti sauce"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/fQaieDJ70rbqPbc68sO6GojjZ2k\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 103324,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/m7371M0-Xtz5Crsjhi6Yc3LUAA4\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "4q1dgn_C0AU"
+                },
+                "snippet": {
+                    "publishedAt": "2012-04-26T19:50:07.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "The surprising science of happiness | Dan Gilbert",
+                    "description": "http://www.ted.com Dan Gilbert, author of Stumbling on Happiness, challenges the idea that we'll be miserable if we don't get what we want. Our \"psychological ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/4q1dgn_C0AU/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/4q1dgn_C0AU/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/4q1dgn_C0AU/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Fb7pkX3YRlOcVF2APSQAVnslm4g\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/eFl29R0WtqihuC7Bvr8o0fiHb4s\"",
+                            "id": "4q1dgn_C0AU",
+                            "statistics": {
+                                "viewCount": "3275068",
+                                "likeCount": "27133",
+                                "dislikeCount": "1150",
+                                "favoriteCount": "0",
+                                "commentCount": "1279"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/URycCTGRNZHzOp3z40M4s5pNZCc\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "b1Y2Z1BGwno"
+                },
+                "snippet": {
+                    "publishedAt": "2018-12-13T10:26:58.000Z",
+                    "channelId": "UCezYx4TT_1RAugqHCw6qY9A",
+                    "title": "Dan Gilbert: Happiness: What Your Mother Didn&#39;t Tell You (2018 WORLD.MINDS Annual Symposium)",
+                    "description": "Our cultures give us a lot of advice about how to find happiness. Science, however, suggests that much of that advice just isn't right. Presented at the WORLD.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/b1Y2Z1BGwno/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/b1Y2Z1BGwno/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/b1Y2Z1BGwno/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "WORLD.MINDS",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Pd1ToorB15j6BI78EKSGfA9AuAA\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/GYezawHi-JWAqhLCakBCMjSUC08\"",
+                            "id": "b1Y2Z1BGwno",
+                            "statistics": {
+                                "viewCount": "265793",
+                                "likeCount": "3297",
+                                "dislikeCount": "217",
+                                "favoriteCount": "0",
+                                "commentCount": "221"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/MgotT05mIC_IlkvdaAzONOt2eVs\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "t5LYAh33b4c"
+                },
+                "snippet": {
+                    "publishedAt": "2017-11-11T17:20:34.000Z",
+                    "channelId": "UC1DrSWl6tGF7Gv0RBUfjo8w",
+                    "title": "The Surprising Science of Happiness | Dan Gilbert | English Subtitles",
+                    "description": "Dan Gilbert, author of 'Stumbling on Happiness,' challenges the idea that we'll be miserable if we don't get what we want. Our 'psychological immune system' ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/t5LYAh33b4c/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/t5LYAh33b4c/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/t5LYAh33b4c/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Ernesto Ferreira",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/NBmdgwPZTBWchzZy-FIqp8rJhl8\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/NYJJV5AajpSKQa9BUEgarrD9yGc\"",
+                            "id": "t5LYAh33b4c",
+                            "statistics": {
+                                "viewCount": "8850",
+                                "likeCount": "77",
+                                "dislikeCount": "2",
+                                "favoriteCount": "0",
+                                "commentCount": "2"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Dan Gilbert: The surprising science of happiness"
+    }
+]

@@ -1,0 +1,1780 @@
+[
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/5VZA1qGiGQ-95qXMf6YW0JMSBS4\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 35,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/T8o4H817qz_LzoimuazgJ3dpDDQ\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "_2Js_g7M60M"
+                },
+                "snippet": {
+                    "publishedAt": "2007-01-12T21:15:27.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Robert Neuwirth: The &quot;shadow cities&quot; of the future",
+                    "description": "http://www.ted.com Robert Neuwirth, author of Shadow Cities, finds the worlds squatter sites -- where a billion people now make their homes -- to be thriving ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/_2Js_g7M60M/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/_2Js_g7M60M/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/_2Js_g7M60M/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/CAP1HjRK-Rp8OgZVkVrjMiqCXbM\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Gdat0s5Ib_XvRyFjTsM-mZ1iW48\"",
+                            "id": "_2Js_g7M60M",
+                            "statistics": {
+                                "viewCount": "44701",
+                                "likeCount": "226",
+                                "dislikeCount": "24",
+                                "favoriteCount": "0",
+                                "commentCount": "35"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/9o0-9CD91FzlkPCMoLrihwzXFfc\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "H5a9FY1_9fU"
+                },
+                "snippet": {
+                    "publishedAt": "2013-05-13T07:16:12.000Z",
+                    "channelId": "UCsT0YIqwnpJCM-mx7-gSA4Q",
+                    "title": "Robert Neuwirth at TEDxBerkeley",
+                    "description": "Robert Neuwirth is the author of two books on alternative social and economic structures — Stealth of Nations, an up-close investigation of the value of street ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/H5a9FY1_9fU/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/H5a9FY1_9fU/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/H5a9FY1_9fU/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TEDx Talks",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/CYQLrfksqOH7wqR47QLQrDFX5o4\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/EulJVwERKZqi7W3Xq2e8nL4HdVI\"",
+                            "id": "H5a9FY1_9fU",
+                            "statistics": {
+                                "viewCount": "981",
+                                "likeCount": "5",
+                                "dislikeCount": "2",
+                                "favoriteCount": "0",
+                                "commentCount": "1"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/MWFMfLf2n5k9vNflZKKCr77MqnI\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "tvTRFrsBlWk"
+                },
+                "snippet": {
+                    "publishedAt": "2010-07-19T21:10:59.000Z",
+                    "channelId": "UCQmZhpat5WxWhKZayur93xg",
+                    "title": "Shadow Cities: A Billion Squatters - A New Urban World (Part 6 of 9)",
+                    "description": "Robert Neuwirth visited the University of Oklahoma on April 18, 2005. Speaking about his new book, Shadow Cities, he addressed the subject of \"squatter\" ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/tvTRFrsBlWk/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/tvTRFrsBlWk/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/tvTRFrsBlWk/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "OULanguageLab",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/4zejpNlDngqhz_-5eQ9vYoIS68Y\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/9Xr83ZugkyRkyBYI5sXWOrPnJYI\"",
+                            "id": "tvTRFrsBlWk",
+                            "statistics": {
+                                "viewCount": "226",
+                                "likeCount": "0",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Robert Neuwirth: The hidden world of shadow cities"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/GdVO78gov3tKZ_dBgTr_gtvm6gE\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 1035,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/twsgzKqJRSnPFwSN6voWtssp9e4\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "Dtbn9zBfJSs"
+                },
+                "snippet": {
+                    "publishedAt": "2007-01-12T20:59:37.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Bjorn Lomborg: Global priorities bigger than climate change",
+                    "description": "http://www.ted.com Given $50 billion to spend, which would you solve first, AIDS or global warming? Danish political scientist Bjorn Lomborg comes up with ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/Dtbn9zBfJSs/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/Dtbn9zBfJSs/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/Dtbn9zBfJSs/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/UU6wmihny3-lNJzE5aTBXLq20XQ\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/VQhCLav92VOqCpsxhp9-fyz_MtI\"",
+                            "id": "Dtbn9zBfJSs",
+                            "statistics": {
+                                "viewCount": "252153",
+                                "likeCount": "1837",
+                                "dislikeCount": "342",
+                                "favoriteCount": "0",
+                                "commentCount": "874"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/gEQVYm7oHhQglIz-S5E6HiQ2zPo\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "SEjNVWV5jbs"
+                },
+                "snippet": {
+                    "publishedAt": "2017-02-13T18:06:26.000Z",
+                    "channelId": "UCQSrdt0-Iu8qVEiJyzhrfdQ",
+                    "title": "Economics of climate change innovation | Bjørn Lomborg",
+                    "description": "There is a smarter way to source green energy instead of subsidies. In this smart talk, political scientist Bjørn Lomborg explains why Innovation in green energy ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/SEjNVWV5jbs/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/SEjNVWV5jbs/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/SEjNVWV5jbs/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED Archive",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/25H7NzgAehOR2bPKPOEEYWRBaVQ\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/VC3FOaKMrCbiNTNpgmhmmnaycrQ\"",
+                            "id": "SEjNVWV5jbs",
+                            "statistics": {
+                                "viewCount": "71212",
+                                "likeCount": "1666",
+                                "dislikeCount": "149",
+                                "favoriteCount": "0"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Nht4ryk8HJwGMKWPTSDi44IR-IQ\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "HhWQ1uAwoPI"
+                },
+                "snippet": {
+                    "publishedAt": "2018-03-20T18:05:19.000Z",
+                    "channelId": "UCjmGwjC7pytqz8vvL5lIuxA",
+                    "title": "Bjorn Lomborg exposes the truth about global warming",
+                    "description": "",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/HhWQ1uAwoPI/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/HhWQ1uAwoPI/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/HhWQ1uAwoPI/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Canoe",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/mVwP3f4VgykoEofsblUD56zAkvY\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/g9cbhtxBLXdlnqWYC4D4h1VQ25g\"",
+                            "id": "HhWQ1uAwoPI",
+                            "statistics": {
+                                "viewCount": "18932",
+                                "likeCount": "287",
+                                "dislikeCount": "63",
+                                "favoriteCount": "0",
+                                "commentCount": "224"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Bjorn Lomborg: Global priorities bigger than climate change"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/BdEqCZtpci9eABB5lYOBKDnXgm8\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 28,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/epM-gJqEH4Ub0qYrNXTAecn8810\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "bL7vK0pOvKI"
+                },
+                "snippet": {
+                    "publishedAt": "2007-01-12T20:09:42.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Wade Davis: Cultures at the far edge of the world",
+                    "description": "http://www.ted.com With stunning photos and stories, National Geographic Explorer Wade Davis celebrates the extraordinary diversity of the world's indigenous ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/bL7vK0pOvKI/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/bL7vK0pOvKI/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/bL7vK0pOvKI/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/dV98iBx1K2EwXLLVBLeX4zfbako\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/FztWurwJoj3RMZQFd2nnxvxHeRI\"",
+                            "id": "bL7vK0pOvKI",
+                            "statistics": {
+                                "viewCount": "295786",
+                                "likeCount": "2178",
+                                "dislikeCount": "76",
+                                "favoriteCount": "0",
+                                "commentCount": "170"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/e7I8X2BT6xbItyVwwwh6v0OcJp0\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "rRULnD3jkVo"
+                },
+                "snippet": {
+                    "publishedAt": "2014-10-07T20:42:39.000Z",
+                    "channelId": "UCyBS3BJVdSl5mLBz3a0SJ8Q",
+                    "title": "Wade Davis 2003",
+                    "description": "",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/rRULnD3jkVo/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/rRULnD3jkVo/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/rRULnD3jkVo/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Artek.com",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/J9dD68dI28KL_XZG60dqbnPYV4A\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/tRodUMDRWzZBYYSNIcUqV2s_KAw\"",
+                            "id": "rRULnD3jkVo",
+                            "statistics": {
+                                "viewCount": "2572",
+                                "likeCount": "15",
+                                "dislikeCount": "3",
+                                "favoriteCount": "0",
+                                "commentCount": "1"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Kkb9L3StxR2ZNJFhma7p6sqhbp4\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "hwk2w-9aekA"
+                },
+                "snippet": {
+                    "publishedAt": "2014-12-03T18:12:43.000Z",
+                    "channelId": "UCsT0YIqwnpJCM-mx7-gSA4Q",
+                    "title": "Schooling the world | Wade Davis | TEDxWestVancouverED",
+                    "description": "This talk was given at a local TEDx event, produced independently of the TED Conferences. What education and learning looks like from the jungles of the ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/hwk2w-9aekA/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/hwk2w-9aekA/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/hwk2w-9aekA/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TEDx Talks",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/X75TxnUti6N4uAmZxASUh2JO59k\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/-mTUjNpcVWEIMci5GOyte-w1ZIY\"",
+                            "id": "hwk2w-9aekA",
+                            "statistics": {
+                                "viewCount": "23507",
+                                "likeCount": "365",
+                                "dislikeCount": "7",
+                                "favoriteCount": "0",
+                                "commentCount": "22"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Wade Davis: Dreams from endangered cultures"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/EgMG80Mv8BSpbdasD3mdPw8_RMM\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 38,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/1rVOREuNck3O9etXyBRJQ2SiL-o\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "NGRnJ-zhSOk"
+                },
+                "snippet": {
+                    "publishedAt": "2007-01-12T21:07:20.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Phil Borges: Documenting our endangered cultures",
+                    "description": "http://www.ted.com Photographer Phil Borges shows rarely seen images of people from the mountains of Dharamsala, India, and the jungles of the Ecuadorean ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/NGRnJ-zhSOk/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/NGRnJ-zhSOk/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/NGRnJ-zhSOk/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/uH-0U7KmPfgjTbVQ-Up0eVZi4xo\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/sTdFu1uTNqp6xf_0RxA6gayYgKU\"",
+                            "id": "NGRnJ-zhSOk",
+                            "statistics": {
+                                "viewCount": "22132",
+                                "likeCount": "152",
+                                "dislikeCount": "17",
+                                "favoriteCount": "0",
+                                "commentCount": "13"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Ilh0b2aJSu_QVHTtsHshXaJzGC0\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "9_KSYu1Tqx8"
+                },
+                "snippet": {
+                    "publishedAt": "2016-01-03T06:04:49.000Z",
+                    "channelId": "UCsT0YIqwnpJCM-mx7-gSA4Q",
+                    "title": "CRAZYWISE: A Traditional Approach to Mental Illness | Phil Borges | TEDxSanJuanIsland",
+                    "description": "When a young person experiences a frightening break from reality, Western experts usually label it a \"first-episode psychosis\", while many psychologists and ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/9_KSYu1Tqx8/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/9_KSYu1Tqx8/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/9_KSYu1Tqx8/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TEDx Talks",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/ootKMEM6vgYcsY5nPdJ9J041WPA\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/WmgJd15z85bLu--U5wYS7g-wKFs\"",
+                            "id": "9_KSYu1Tqx8",
+                            "statistics": {
+                                "viewCount": "26819",
+                                "likeCount": "526",
+                                "dislikeCount": "13",
+                                "favoriteCount": "0",
+                                "commentCount": "25"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/epM-gJqEH4Ub0qYrNXTAecn8810\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "bL7vK0pOvKI"
+                },
+                "snippet": {
+                    "publishedAt": "2007-01-12T20:09:42.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Wade Davis: Cultures at the far edge of the world",
+                    "description": "http://www.ted.com With stunning photos and stories, National Geographic Explorer Wade Davis celebrates the extraordinary diversity of the world's indigenous ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/bL7vK0pOvKI/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/bL7vK0pOvKI/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/bL7vK0pOvKI/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/dV98iBx1K2EwXLLVBLeX4zfbako\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/FztWurwJoj3RMZQFd2nnxvxHeRI\"",
+                            "id": "bL7vK0pOvKI",
+                            "statistics": {
+                                "viewCount": "295786",
+                                "likeCount": "2178",
+                                "dislikeCount": "76",
+                                "favoriteCount": "0",
+                                "commentCount": "170"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Phil Borges: Photos of endangered cultures"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/VPJWrjwuT9-0EBya_Tr6I7HhxzM\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 1759,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/0eO54Manc5Xn91UtVxJ_rw0vWCY\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "3qF26MbYgOA"
+                },
+                "snippet": {
+                    "publishedAt": "2008-04-15T19:57:42.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Sir Martin Rees: Earth in its final century?",
+                    "description": "http://www.ted.com In a taut soliloquy that takes us from the origins of the universe to the last days of a dying sun 6 billion years later, renowned cosmologist Sir ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/3qF26MbYgOA/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/3qF26MbYgOA/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/3qF26MbYgOA/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/r7v291hkqJsuj86mYdDqk0eSA3o\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/SI7zo4nFRBcz4dy7hxJSedavVS0\"",
+                            "id": "3qF26MbYgOA",
+                            "statistics": {
+                                "viewCount": "777611",
+                                "likeCount": "7319",
+                                "dislikeCount": "1117",
+                                "favoriteCount": "0",
+                                "commentCount": "3395"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/wjBTiLGCIzyqp_ONSDCGvw_og3Y\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "tMSU6k5-WXg"
+                },
+                "snippet": {
+                    "publishedAt": "2014-08-25T15:26:48.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Martin Rees: Can we prevent the end of the world?",
+                    "description": "A post-apocalyptic Earth, emptied of humans, seems like the stuff of science fiction TV and movies. But in this short, surprising talk, Lord Martin Rees asks us to ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/tMSU6k5-WXg/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/tMSU6k5-WXg/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/tMSU6k5-WXg/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/3xwqZYJE6xo5xd-fWCvacZ7lACI\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/RB6ZmXCLo_jLUm89aYav-9U5T1I\"",
+                            "id": "tMSU6k5-WXg",
+                            "statistics": {
+                                "viewCount": "128909",
+                                "likeCount": "1719",
+                                "dislikeCount": "102",
+                                "favoriteCount": "0",
+                                "commentCount": "251"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/ZOG9JLSKhbar72oaW7LXYHtxPZk\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "XTxbUaw8HNM"
+                },
+                "snippet": {
+                    "publishedAt": "2019-03-12T10:25:47.000Z",
+                    "channelId": "UCvjt0No0sOsJPBZE_2gdjug",
+                    "title": "Sir Martin Rees on the Future: Prospects for Humanity",
+                    "description": "Today my guest is world-renowned cosmologist and Astronomer Royal Sir Martin Rees. Martin has written 11 books and more than 500 scientific papers on ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/XTxbUaw8HNM/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/XTxbUaw8HNM/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/XTxbUaw8HNM/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Singularity Weblog",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/NfVrscpGb-rYSDLuv-L-kQdfe64\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/hEZ0wfrhdzrfXofEAmTOd0zeeXA\"",
+                            "id": "XTxbUaw8HNM",
+                            "statistics": {
+                                "viewCount": "1479",
+                                "likeCount": "53",
+                                "dislikeCount": "3",
+                                "favoriteCount": "0",
+                                "commentCount": "33"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Martin Rees: Is this our final century?"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/ThctR-43D27pQkiV2ggbgO8E3Xg\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 510,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/uvw9ZLNS5_PPLFbXGHGsLzja5lE\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "wcZFIy2mfyE"
+                },
+                "snippet": {
+                    "publishedAt": "2008-04-15T17:58:25.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Robert Wright: The logic of non-zero-sum progress",
+                    "description": "http://www.ted.com Author Robert Wright explains \"non-zero-sumness,\" a game-theory term describing how players with linked fortunes tend to cooperate for ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/wcZFIy2mfyE/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/wcZFIy2mfyE/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/wcZFIy2mfyE/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/c52htr56wSZZlKPRN1JFqwE5pXY\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/qs5Q9W7ccsUMsmmyoeYFXSIcHps\"",
+                            "id": "wcZFIy2mfyE",
+                            "statistics": {
+                                "viewCount": "68123",
+                                "likeCount": "904",
+                                "dislikeCount": "55",
+                                "favoriteCount": "0",
+                                "commentCount": "99"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/W9CgIJ7I46cO2Kyg5ufxD9ecnWI\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "Qz9UIOLp278"
+                },
+                "snippet": {
+                    "publishedAt": "2018-02-17T08:04:22.000Z",
+                    "channelId": "UCi6IyHBufR8-N75aBz6tTsw",
+                    "title": "Progress is not a Zero - Sum game",
+                    "description": "https://soundcloud.com/spaceshipearthtimedoesnotexist/progress-is-not-a-zero-sum-game.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/Qz9UIOLp278/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/Qz9UIOLp278/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/Qz9UIOLp278/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "spaceshipearth timedoesnotexist",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/3GRE0TPCL1Watpn4pL7a4Dmi9u8\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/CsJrJ2FNZgpGUYuFtsKBYrFxcEo\"",
+                            "id": "Qz9UIOLp278",
+                            "statistics": {
+                                "viewCount": "97",
+                                "likeCount": "4",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/HJa0-vg4ECKw1DH77q6wZMaQv_U\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "jVRfjBlE7Ew"
+                },
+                "snippet": {
+                    "publishedAt": "2016-10-06T19:52:52.000Z",
+                    "channelId": "UCwWeR7z1tDD-SFkWjQrUrQA",
+                    "title": "Why Trade Is Not a Zero-Sum Game",
+                    "description": "Trade brings many benefits, says Douglas Irwin of Dartmouth College; it lowers prices and increases variety, among other things. Irwin, who is also author of ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/jVRfjBlE7Ew/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/jVRfjBlE7Ew/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/jVRfjBlE7Ew/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Columbia Business School",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/_9vU792UaaClFq4NgsN7vIWJNOU\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/jX2OShmlAJEfMWwCnxPByRPyfow\"",
+                            "id": "jVRfjBlE7Ew",
+                            "statistics": {
+                                "viewCount": "5799",
+                                "likeCount": "75",
+                                "dislikeCount": "3",
+                                "favoriteCount": "0",
+                                "commentCount": "28"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Robert Wright: Progress is not a zero sum game"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/JpLl7sY1tXA7RmdjcKXwaCBacVc\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 23,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/DL4QTYB3RTNUyk9lh_2sizh-vbg\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "KvHL0dHj3RM"
+                },
+                "snippet": {
+                    "publishedAt": "2007-05-18T16:52:39.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Steven Johnson: A guided tour of the Ghost Map",
+                    "description": "http://www.ted.com Author Steven Johnson takes us on a 10-minute tour of The Ghost Map, his book about a cholera outbreak in 1854 London and the impact it ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/KvHL0dHj3RM/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/KvHL0dHj3RM/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/KvHL0dHj3RM/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/5rvW95xMfk5geLu8VYhLEdJJrAo\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/ji-8U05a3bo5d38bPS7GgLDg1fM\"",
+                            "id": "KvHL0dHj3RM",
+                            "statistics": {
+                                "viewCount": "86662",
+                                "likeCount": "284",
+                                "dislikeCount": "14",
+                                "favoriteCount": "0",
+                                "commentCount": "21"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/BdoARJh2OXCyXoUR5RFb2uhjYb0\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "39X_qKkX8eI"
+                },
+                "snippet": {
+                    "publishedAt": "2015-02-11T13:29:34.000Z",
+                    "channelId": "UCICJKjLMfO6cZQ7vwJ-y0Yw",
+                    "title": "How the ghost map helped end a killer disease Steven Johnson",
+                    "description": "",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/39X_qKkX8eI/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/39X_qKkX8eI/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/39X_qKkX8eI/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "tedstageHD",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/DoHhTDrI0DxJpcQhOzsQ1PEeljU\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/nBy2SB8baC4nkRCydd7aqNNqDkM\"",
+                            "id": "39X_qKkX8eI",
+                            "statistics": {
+                                "viewCount": "2116",
+                                "likeCount": "8",
+                                "dislikeCount": "1",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Egm4TjEYV__Sg99K-ZhuzE6H4Jc\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "3P8shnNEXb4"
+                },
+                "snippet": {
+                    "publishedAt": "2006-09-27T20:32:32.000Z",
+                    "channelId": "UCabsDKXMkPJdggx8TOgWgaA",
+                    "title": "Steven Johnson on THE GHOST MAP",
+                    "description": "Author Steven Johnson discusses the most intense outbreak of cholera in Victorian London - and what it means to us today, from the way we understand cities, ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/3P8shnNEXb4/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/3P8shnNEXb4/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/3P8shnNEXb4/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "neverrockfila",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/uhe3tYsllU7poG7jPPVwywHDEHQ\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/fGEWXapQnQE5nEFLfTTRhYMlPpA\"",
+                            "id": "3P8shnNEXb4",
+                            "statistics": {
+                                "viewCount": "64391",
+                                "likeCount": "81",
+                                "dislikeCount": "22",
+                                "favoriteCount": "0",
+                                "commentCount": "11"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Steven Johnson: How the \"ghost map\" helped end a killer disease"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/zj7KIF9IXnG2D2ehLXdtXjXV1TE\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 1046,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/P6mJA6JWxhDIVtBlZ8q6W-m6Dcc\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "W7raJeMpyM0"
+                },
+                "snippet": {
+                    "publishedAt": "2008-04-14T17:27:12.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Charles Leadbeater: The era of open innovation",
+                    "description": "http://www.ted.com In this deceptively casual talk, Charles Leadbeater weaves a tight argument that innovation isn't just for professionals anymore. Passionate ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/W7raJeMpyM0/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/W7raJeMpyM0/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/W7raJeMpyM0/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/rGpu_zSUoq_YWDhurdQ9c4WNmR4\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/3TqhJqItHghZDc96lQpjq4vH-nA\"",
+                            "id": "W7raJeMpyM0",
+                            "statistics": {
+                                "viewCount": "99934",
+                                "likeCount": "492",
+                                "dislikeCount": "20",
+                                "favoriteCount": "0",
+                                "commentCount": "28"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/3b8Q91ETL0yIBzhhDVc-0WRZ9Ps\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "8t4Vj6lmzVo"
+                },
+                "snippet": {
+                    "publishedAt": "2017-03-24T15:03:03.000Z",
+                    "channelId": "UCsT0YIqwnpJCM-mx7-gSA4Q",
+                    "title": "The era of Open Innovation | Adrian Johnson | TEDxHRCollege",
+                    "description": "Why do big companies lose out to start-ups? Is innovation dead? Can start-ups and MNCs work together for the betterment of both? Adrian Johnson is a former ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/8t4Vj6lmzVo/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/8t4Vj6lmzVo/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/8t4Vj6lmzVo/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TEDx Talks",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/9JX1kmloydGZgmSYSO-k-iCyDaw\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/_N4ileXrt3XS9rW3YKF8fAL3w8o\"",
+                            "id": "8t4Vj6lmzVo",
+                            "statistics": {
+                                "viewCount": "1542",
+                                "likeCount": "22",
+                                "dislikeCount": "1",
+                                "favoriteCount": "0",
+                                "commentCount": "1"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/hrxUW4dQL7W2lT2jZzqis3ovqR8\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "t0wCoANTg2U"
+                },
+                "snippet": {
+                    "publishedAt": "2016-06-20T04:16:01.000Z",
+                    "channelId": "UCsapoJBLQAEP2A_ib9RQmrw",
+                    "title": "TED Talks Series: Charles Leadbeater’s &quot;The Era of Open Innovation&quot;",
+                    "description": "http://alankritadayal.blogspot.com/2015/05/ted-talks-series-charles-leadbeaters.html.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/t0wCoANTg2U/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/t0wCoANTg2U/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/t0wCoANTg2U/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Patent Engineering Basics",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Uu9AZN_sZfHFJBIX2TJPaqmIJX4\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/XVPdY_nJJS5ZPZ4-QhV0pQxbRTI\"",
+                            "id": "t0wCoANTg2U",
+                            "statistics": {
+                                "viewCount": "29",
+                                "likeCount": "0",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Charles Leadbeater: The era of open innovation"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/ZPpQ7oIoCTw3pU8qiVkexvCBToA\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 126,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/yQKPXOTmcZcSV_t7LCPfyL8Z9AU\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "FOZ6KnVPvIU"
+                },
+                "snippet": {
+                    "publishedAt": "2007-06-20T22:54:19.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "A performance merging dance and biology | Pilobolus",
+                    "description": "http://www.ted.com Two Pilobolus dancers perform \"Symbiosis.\" Does it trace the birth of a relationship? Or the co-evolution of symbiotic species? Music: \"God ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/FOZ6KnVPvIU/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/FOZ6KnVPvIU/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/FOZ6KnVPvIU/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/7T4oRAFksjP9WmM1SQ-64Cwwsls\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/V3Qn7BaM_rcZ14Ya-rfNWRThkS8\"",
+                            "id": "FOZ6KnVPvIU",
+                            "statistics": {
+                                "viewCount": "1944680",
+                                "likeCount": "9203",
+                                "dislikeCount": "296",
+                                "favoriteCount": "0",
+                                "commentCount": "648"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/l4N2nQ7wewooMZwnjgD_r6rrR9k\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "uFO0hzI75L8"
+                },
+                "snippet": {
+                    "publishedAt": "2012-02-18T15:57:46.000Z",
+                    "channelId": "UC2_lFpGxe2HGpb7kSKBQ32Q",
+                    "title": "Pilobolus &#39;Symbiosis&#39;",
+                    "description": "Pilobolus performing 'Symbiosis'",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/uFO0hzI75L8/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/uFO0hzI75L8/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/uFO0hzI75L8/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Venusta Maria",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/8Op59hTefffPX9ipiQlvcza-wAo\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/TwED3qzTjcOBcQ8YVl4ZgDCkdUc\"",
+                            "id": "uFO0hzI75L8",
+                            "statistics": {
+                                "viewCount": "6702",
+                                "likeCount": "41",
+                                "dislikeCount": "3",
+                                "favoriteCount": "0",
+                                "commentCount": "6"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/m6Vqo_XH7dCJTH4ps1doemmvY8A\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "C2j4mU4nDw0"
+                },
+                "snippet": {
+                    "publishedAt": "2017-06-06T22:35:22.000Z",
+                    "channelId": "UC7ZWq0v4coODbpEcOpl45fw",
+                    "title": "Pilobolus: &#39;On The Nature of Things&#39;",
+                    "description": "Internationally acclaimed dance company Pilobolus performs their work, \"On The Nature of Things\" at the June edition of 44 Charlton. Watch the full show: ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/C2j4mU4nDw0/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/C2j4mU4nDw0/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/C2j4mU4nDw0/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "The Greene Space at WNYC & WQXR",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/WXiaCz59Mq5gVsPox8vHI3PJOqk\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/uZzWpquCzNPaoqVkrOcxY_7jwm8\"",
+                            "id": "C2j4mU4nDw0",
+                            "statistics": {
+                                "viewCount": "8108",
+                                "likeCount": "54",
+                                "dislikeCount": "3",
+                                "favoriteCount": "0"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Pilobolus: A dance of \"Symbiosis\""
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/6xsl2ATEE6W3Cy1fpwaGhXShhXc\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 798,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/XFTBK-HoE_yQGWIefAMbmeOOpOs\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "KR8SwPmCFd4"
+                },
+                "snippet": {
+                    "publishedAt": "2007-03-23T19:27:38.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Anna Deavere Smith: Four American characters",
+                    "description": "http://www.ted.com Writer and actor Anna Deavere Smith gives life to author Studs Terkel, convict Paulette Jenkins, a Korean shopkeeper and a bull rider, ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/KR8SwPmCFd4/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/KR8SwPmCFd4/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/KR8SwPmCFd4/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/4qt8KoajzLXC8oonmCfY_1kiXy0\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Hs1mHLOUcM59_aYx8KOdPyhk1zY\"",
+                            "id": "KR8SwPmCFd4",
+                            "statistics": {
+                                "viewCount": "139004",
+                                "likeCount": "755",
+                                "dislikeCount": "34",
+                                "favoriteCount": "0",
+                                "commentCount": "48"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/pmXRZmvSMG0pM9ywYm2FAbU1qCs\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "XRhQTWX2zPw"
+                },
+                "snippet": {
+                    "publishedAt": "2016-12-23T03:19:08.000Z",
+                    "channelId": "UCQSrdt0-Iu8qVEiJyzhrfdQ",
+                    "title": "On Black Lives Matter, intersectionality and race | Anna Deveare Smith",
+                    "description": "Playwright, actress and professor Anna Deavere Smith delivers two powerful monologues, “No Music” and “Big Stick,” re-creating conversations she had with ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/XRhQTWX2zPw/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/XRhQTWX2zPw/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/XRhQTWX2zPw/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED Archive",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/geF1ovyto4jGTULe_X3GMAP9u8c\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/QzgMMhrkM9Kindnt645tY0DDk94\"",
+                            "id": "XRhQTWX2zPw",
+                            "statistics": {
+                                "viewCount": "6028",
+                                "likeCount": "86",
+                                "dislikeCount": "13",
+                                "favoriteCount": "0",
+                                "commentCount": "2"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/vTtW9RJ8cPK7R0MUY3lg8O2fadc\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "gSxuO2k9sXw"
+                },
+                "snippet": {
+                    "publishedAt": "2015-01-29T16:51:54.000Z",
+                    "channelId": "UCtanu3Fq1nljkYBUjD3o8Xw",
+                    "title": "Anna Deavere Smith lecture at Ball State University",
+                    "description": "Anna Deavere Smith lecture \"Snapshots : glimpses of America in change\" at Ball State University. Lecture part of Ball State University's UniverCity cultural ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/gSxuO2k9sXw/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/gSxuO2k9sXw/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/gSxuO2k9sXw/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Ball State University Libraries",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/_FO103Bs4jPXVObPDBQnsX4DBLc\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/i2xXdZ9DN8fzZrsPjTxtdUEkrxI\"",
+                            "id": "gSxuO2k9sXw",
+                            "statistics": {
+                                "viewCount": "311",
+                                "likeCount": "0",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Anna Deavere Smith: Four American characters"
+    }
+]
