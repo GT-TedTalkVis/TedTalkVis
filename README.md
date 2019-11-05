@@ -16,6 +16,7 @@ Mac
 virtualenv venv
 source venv/bin/activate
 pip install -r requirements.txt
+jupyter notebook
 ```
 
 Windows
@@ -23,4 +24,5 @@ Windows
 virtualenv venv
 venv\Scripts\activate
 pip install -r requirements.txt
+jupyter notebook
 ```
