@@ -10,17 +10,20 @@ module.exports = env => {
     entry: "./src/index.ts",
     devtool: "inline-source-map",
     devServer: {
-      contentBase: "./docs",
+      contentBase: "./src/public",
+      watchContentBase: true,
       hot: true
     },
     plugins: [
       new CleanWebpackPlugin(),
       new HtmlWebpackPlugin({
-        template: "./src/index.html",
+        template: "./src/public/index.html",
         filename: "./index.html"
       }),
       new CopyPlugin([
         { from: 'src/data', to: 'data'},
+        { from: 'src/public/css', to: 'css'},
+        { from: 'src/public/images', to: 'images'}
       ])
     ],
     module: {
