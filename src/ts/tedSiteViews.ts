@@ -28,63 +28,50 @@ export default function(svg: d3.Selection<BaseType, unknown, HTMLElement, unknow
   g.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
   // Get min and max year
-  const yearRange = d3.extent(data, d => parseInt(d["year"], 10));
-  console.log(yearRange);
+  const dateRange = d3.extent(data, d => +d["film_date"]);
+  console.log(dateRange);
 
   // X axis
   const x = d3
     .scaleLinear()
-    .domain(yearRange)
+    .domain(dateRange)
     .range([0, width]);
 
   g.append("g")
     .attr("transform", "translate(0," + height + ")")
     .call(d3.axisBottom(x).tickFormat(d3.format("d")));
 
-  // set the parameters for the histogram
-  const histogram = d3
-    .histogram()
-    .domain(x.domain() as [number, number]) // Type assertion. x.domain() returns number[], but d3.histogram().domain() expects [number, number]
-    .thresholds(x.ticks(yearRange[1] - yearRange[0]));
+  // Compute y axis
+  const yExtent = d3.extent(data, d => {
+    return +d["views"];
+  })
 
-  // Get histogram data in Number type.
-  const yearList = data.map(talk => parseInt(talk["year"], 10));
-  //console.log(yearList);
-
-  // Use histogram() to compute bins
-  const bins = histogram(yearList);
-
-  // Compute y axis now that we have counts
   const y = d3
     .scaleLinear()
-    .domain([0, d3.max(bins, d => d.length)])
+    .domain(yExtent)
     .range([height, 0]);
   g.append("g").call(d3.axisLeft(y));
 
   // Append rectangles
-  g.selectAll("rect")
-    .data(bins)
+  g.selectAll("circle")
+    .data(data)
     .enter()
-    .append("rect")
-    .attr("x", 1)
+    .append("circle")
     .attr("transform", function(d) {
-      return "translate(" + x(d.x0) + "," + y(d.length) + ")";
+      return "translate(" + x(parseInt(d["film_date"], 10)) + "," + y(+d["views"]) + ")";
     })
-    .attr("width", function(d) {
-      return x(d.x1) - x(d.x0) - 1;
-    })
-    .attr("height", function(d) {
-      return height - y(d.length);
-    })
-    .style("fill", COLORS.TED_RED);
+    .attr("r", 2)
+    .style("fill", COLORS.TEAL);
 
   // Append axis labels
   g.append("text")
     .attr("transform", "translate(-50, 300) rotate(-90)")
     .attr("fill", COLORS.TITLE_WHITE)
-    .text("Number of talks");
+    .text("Number of Views");
   g.append("text")
     .attr("transform", "translate(320, 550)")
+    .attr("stroke-width", 0)
+    .attr("opacity", "0.5")
     .attr("fill", COLORS.TITLE_WHITE)
     .text("Year");
 }
