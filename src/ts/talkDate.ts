@@ -1,5 +1,6 @@
 import * as d3 from "d3";
 import { BaseType } from "d3";
+import COLORS from "../colors";
 
 // Accepts a d3.Selection as a parameter and modifies it.
 // This function expects the d3.Selection to be an SVG.
@@ -10,8 +11,8 @@ export default function(svg: d3.Selection<BaseType, unknown, HTMLElement, unknow
   const margin = {
     top: 10,
     right: 30,
-    bottom: 30,
-    left: 40,
+    bottom: 80,
+    left: 80,
   };
   const svgWidth = 800;
   const svgHeight = 600;
@@ -19,8 +20,9 @@ export default function(svg: d3.Selection<BaseType, unknown, HTMLElement, unknow
   const height = svgHeight - margin.top - margin.bottom;
 
   // Set width and height of svg
-  svg.attr("width", svgWidth);
-  svg.attr("height", svgHeight);
+  // svg.attr("width", svgWidth);
+  // svg.attr("height", svgHeight);
+  svg.attr("viewBox", `0 0 ${svgWidth} ${svgHeight}`);
   // Inner group
   const g = svg.append("g");
   g.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
@@ -74,5 +76,15 @@ export default function(svg: d3.Selection<BaseType, unknown, HTMLElement, unknow
     .attr("height", function(d) {
       return height - y(d.length);
     })
-    .style("fill", "#69b3a2");
+    .style("fill", COLORS.TED_RED);
+
+  // Append axis labels
+  g.append("text")
+    .attr("transform", "translate(-50, 300) rotate(-90)")
+    .attr("fill", "#FFFFFF")
+    .text("Number of talks");
+  g.append("text")
+    .attr("transform", "translate(320, 550)")
+    .attr("fill", "#FFFFFF")
+    .text("Year");
 }
