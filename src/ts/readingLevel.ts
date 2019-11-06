@@ -15,7 +15,7 @@ export default function(svg: d3.Selection<BaseType, unknown, HTMLElement, unknow
     left: 80,
   };
   const svgWidth = 800;
-  const svgHeight = 600;
+  const svgHeight = 500;
   const width = svgWidth - margin.left - margin.right;
   const height = svgHeight - margin.top - margin.bottom;
 
@@ -80,7 +80,7 @@ export default function(svg: d3.Selection<BaseType, unknown, HTMLElement, unknow
 
   // Append axis labels
   g.append("text")
-    .attr("transform", "translate(-50, 300) rotate(-90)")
+    .attr("transform", "translate(-50, 250) rotate(-90)")
     .attr("fill", COLORS.TITLE_WHITE)
     .text("Number of talks");
   g.append("text")
