@@ -15,7 +15,7 @@ export default function(svg: d3.Selection<BaseType, unknown, HTMLElement, unknow
     left: 80,
   };
   const svgWidth = 800;
-  const svgHeight = 600;
+  const svgHeight = 500;
   const width = svgWidth - margin.left - margin.right;
   const height = svgHeight - margin.top - margin.bottom;
 
@@ -61,17 +61,16 @@ export default function(svg: d3.Selection<BaseType, unknown, HTMLElement, unknow
       return "translate(" + x(parseInt(d["film_date"], 10)) + "," + y(+d["views"]) + ")";
     })
     .attr("r", 2)
+    .style("opacity", "0.75")
     .style("fill", COLORS.TEAL);
 
   // Append axis labels
   g.append("text")
-    .attr("transform", "translate(-50, 300) rotate(-90)")
+    .attr("transform", "translate(-70, 250) rotate(-90)")
     .attr("fill", COLORS.TITLE_WHITE)
     .text("Number of Views");
   g.append("text")
-    .attr("transform", "translate(320, 550)")
-    .attr("stroke-width", 0)
-    .attr("opacity", "0.5")
+    .attr("transform", "translate(320, 450)")
     .attr("fill", COLORS.TITLE_WHITE)
     .text("Year");
 }
