@@ -2,10 +2,12 @@ import "bootstrap";
 import * as d3 from "d3";
 import talkDate from "./ts/talkDate";
 import tedSiteViews from "./ts/tedSiteViews";
+import readingLevel from "./ts/readingLevel";
 
 // Give each svg a variable name
 const svg1 = d3.select("svg.figure1");
 const svg2 = d3.select("svg.figure2");
+const svg3 = d3.select("svg.figure3");
 
 // Define data cleaner function
 function dataCleaner(data: d3.DSVRowArray<string>): void {
@@ -23,4 +25,9 @@ d3.csv("./data/ted_main.csv").then(data => {
 
   talkDate(svg1, data);
   tedSiteViews(svg2, data);
+});
+
+d3.csv("./data/fk_scores.csv").then(data => {
+  console.log(data);
+  readingLevel(svg3, data);
 });
