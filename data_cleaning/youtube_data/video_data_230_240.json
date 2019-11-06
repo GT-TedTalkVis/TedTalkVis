@@ -1,0 +1,1726 @@
+[
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/xceVWyP9mQ1ORINzkVOvu9dAXFM\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 28,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/G-97dNvKz2F5rUsj9S9LFcH3rPA\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "bOYIKJho18I"
+                },
+                "snippet": {
+                    "publishedAt": "2013-01-05T15:58:10.000Z",
+                    "channelId": "UCsooa4yRKGN_zEE8iknghZA",
+                    "title": "On exploring the oceans - Robert Ballard",
+                    "description": "View full lesson: http://ed.ted.com/lessons/on-exploring-the-oceans-robert-ballard Ocean explorer Robert Ballard takes us on a mindbending trip to hidden ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/bOYIKJho18I/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/bOYIKJho18I/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/bOYIKJho18I/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED-Ed",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/j-pAyC4cCimbGhzKsQEZVGx16Q8\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/EQjIxqz_dWbyl0ur8slZRyxDAHQ\"",
+                            "id": "bOYIKJho18I",
+                            "statistics": {
+                                "viewCount": "67334",
+                                "likeCount": "1393",
+                                "dislikeCount": "27",
+                                "favoriteCount": "0",
+                                "commentCount": "122"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/yHtns58wVjVmvu6OuNlRedLVSWw\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "c6cxM6pq6G8"
+                },
+                "snippet": {
+                    "publishedAt": "2018-04-03T23:06:35.000Z",
+                    "channelId": "UCOaD4JxNYk29LHbHTOx3SQA",
+                    "title": "What’s better than finding a lost aircraft Finding it 10,000 feet under water!",
+                    "description": "Imagr : https://www.paulallen.com source :http://www.dduknow.com Darkness, cold and depth were the only the U.S. Navy aircraft carrier USS Lexington (CV-2) ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/c6cxM6pq6G8/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/c6cxM6pq6G8/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/c6cxM6pq6G8/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Did You Know ?",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/BfWj4xf7BiuBqV870UnljQ15tyU\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/p9svx_URajgoumlJnkUcQ3jR9Lo\"",
+                            "id": "c6cxM6pq6G8",
+                            "statistics": {
+                                "viewCount": "98876",
+                                "likeCount": "1109",
+                                "dislikeCount": "46",
+                                "favoriteCount": "0",
+                                "commentCount": "110"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/nccPm61qC7ontWTrVyAog2bMPKU\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "u0VHC1-DO_8"
+                },
+                "snippet": {
+                    "publishedAt": "2010-05-05T15:07:24.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Jeremy Jackson: How we wrecked the ocean",
+                    "description": "http://www.ted.com In this bracing talk, coral reef ecologist Jeremy Jackson lays out the shocking state of the ocean today: overfished, overheated, polluted, with ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/u0VHC1-DO_8/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/u0VHC1-DO_8/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/u0VHC1-DO_8/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/CGwKMNzLLvgpqIv2La6mXEoF3lg\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/VVRwtFNDR7ecC6mONKaA2RKrgO0\"",
+                            "id": "u0VHC1-DO_8",
+                            "statistics": {
+                                "viewCount": "63525",
+                                "likeCount": "845",
+                                "dislikeCount": "39",
+                                "favoriteCount": "0",
+                                "commentCount": "145"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Robert Ballard: The astonishing hidden world of the deep ocean"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/eXHoD5ys9o6C1sKco2dlpAztFAM\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 514,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/ldZKEPv-pjhMt9ajZqghqGxRX70\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "QGn8F4j6pH8"
+                },
+                "snippet": {
+                    "publishedAt": "2008-05-21T21:53:58.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Yves Behar: Designing objects that tell stories",
+                    "description": "http://www.ted.com Designer Yves Behar digs up his creative roots to discuss some of the iconic objects he's created (the Leaf lamp, the Jawbone headset).",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/QGn8F4j6pH8/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/QGn8F4j6pH8/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/QGn8F4j6pH8/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/9IvkA9epmrfn7z81-tBDoMh5w7Q\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/4YRA3uTU9GHq6UcvGGu5ZUrjyCI\"",
+                            "id": "QGn8F4j6pH8",
+                            "statistics": {
+                                "viewCount": "62491",
+                                "likeCount": "349",
+                                "dislikeCount": "28",
+                                "favoriteCount": "0",
+                                "commentCount": "32"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/YSN4Fbq_IoKsZDIaEDjvyCEpIMk\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "IYCJG0APQTA"
+                },
+                "snippet": {
+                    "publishedAt": "2017-03-24T13:18:58.000Z",
+                    "channelId": "UCQKgZigqj_EedSot2SB8iaw",
+                    "title": "Yves Behar  Designing objects that tell stories",
+                    "description": "El diseñador Yves Behar indaga en sus raíces creativas para comentar alguno de sus íconos de diseño (la lámpara Leaf, los auriculares Jawbone). Luego pasa ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/IYCJG0APQTA/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/IYCJG0APQTA/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/IYCJG0APQTA/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Javier Joison",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/8f6xODfUGVQ84BWdIpWPNxmBhF0\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/OjjDiVdM0Rq4W5aUrvHqL_fV5mE\"",
+                            "id": "IYCJG0APQTA",
+                            "statistics": {
+                                "viewCount": "18",
+                                "likeCount": "0",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/OAjcjJW7_iisGYiHrTPnOCnff6E\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "DXv2oAIHkdM"
+                },
+                "snippet": {
+                    "publishedAt": "2012-11-16T16:52:21.000Z",
+                    "channelId": "UCVpIzLeRuPW5xy4iBum3IPw",
+                    "title": "Yves Béhar : Why Designers Should Be In Love With The Process",
+                    "description": "About the presentation Fuseproject founder Yves Béhar, the creator of the Jawbone headset and the $100 laptop, shares the seven principles that define his ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/DXv2oAIHkdM/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/DXv2oAIHkdM/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/DXv2oAIHkdM/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "99U",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/jGjN9WF1HM3t2KpeemYc7DEfthE\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/hbd7GHs2x5iAwURREl-yt8ctmyE\"",
+                            "id": "DXv2oAIHkdM",
+                            "statistics": {
+                                "viewCount": "46298",
+                                "likeCount": "389",
+                                "dislikeCount": "18",
+                                "favoriteCount": "0",
+                                "commentCount": "9"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Yves Behar: Designing objects that tell stories"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/xrw476PlxBKhXveByKEb_qUvbUg\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 5406,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/oM99ALSJuPEDY8vpIQoB053cIAI\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "bPfn01Ndc1g"
+                },
+                "snippet": {
+                    "publishedAt": "2008-05-28T15:49:44.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Arthur Ganson: Moving sculpture",
+                    "description": "http://www.ted.com Sculptor and engineer Arthur Ganson talks about his work -- kinetic art that explores deep philosophical ideas and is gee-whiz fun to look at.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/bPfn01Ndc1g/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/bPfn01Ndc1g/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/bPfn01Ndc1g/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/QbMEbXChydtnMxKUKrdFxzjszfI\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Mx2b7vzdvwvF6cJYauhtzo-zfE8\"",
+                            "id": "bPfn01Ndc1g",
+                            "statistics": {
+                                "viewCount": "44722",
+                                "likeCount": "379",
+                                "dislikeCount": "9",
+                                "favoriteCount": "0",
+                                "commentCount": "24"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/NeZ7aoOrRXcN_-DQ1rtm74-jTO0\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "R-d7l48-95A"
+                },
+                "snippet": {
+                    "publishedAt": "2014-02-21T05:18:35.000Z",
+                    "channelId": "UC5k4rnCQ0f_wSOYUk_VEmcQ",
+                    "title": "Top 6 kinetic art objects by Arthur Ganson || Perpetual Useless",
+                    "description": "Top 6 kinetic art objects by Arthur Ganson || Perpetual Useless 1. Thinking Chair 2. Machine with Oil 3. Machine with Artichoke Petal #1 4. Machine with ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/R-d7l48-95A/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/R-d7l48-95A/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/R-d7l48-95A/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Perpetual Useless",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Ff5OgoaxjyyyfIF1ietoP7LBO5w\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/eqU0LGo9GqG-SUXnQSAhjrvh7sk\"",
+                            "id": "R-d7l48-95A",
+                            "statistics": {
+                                "viewCount": "230892",
+                                "likeCount": "840",
+                                "dislikeCount": "44",
+                                "favoriteCount": "0",
+                                "commentCount": "57"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/VeLAlv3yMzZXfWchLhnIE88MsF0\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "5qeaP6LmS64"
+                },
+                "snippet": {
+                    "publishedAt": "2012-09-22T06:18:12.000Z",
+                    "channelId": "UCoJCzLINwoV1dBLzlxNw92A",
+                    "title": "Arthur Ganson&#39;s Kinetic Sculptures at MIT Museum",
+                    "description": "Arthur Ganson's Kinetic Sculptures at MIT Museum.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/5qeaP6LmS64/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/5qeaP6LmS64/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/5qeaP6LmS64/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "lafuda",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/gaQ0V9mhEtzuGwZ9pfAJc_EQu5Q\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/RV9emxoiKwr2apVPf13vtXIyH8g\"",
+                            "id": "5qeaP6LmS64",
+                            "statistics": {
+                                "viewCount": "33958",
+                                "likeCount": "250",
+                                "dislikeCount": "7",
+                                "favoriteCount": "0",
+                                "commentCount": "5"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Arthur Ganson: Moving sculpture"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/mVzEnOIlBPgGBLDHNIhSp4oP6zQ\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 12,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/2p_R2PBrVoz4NKierNkUHgpDKR8\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "abHnRZK5GQo"
+                },
+                "snippet": {
+                    "publishedAt": "2014-07-04T06:03:23.000Z",
+                    "channelId": "UCs-46U7G_ZueqBUfCydsSVQ",
+                    "title": "Dr Seyi Oyesola Health care off the grid &amp; tours a hospital in Nigeria",
+                    "description": "Alternative cost effective healthcare solutions Dr. Seyi Oyesola helped develop the \"Hospital in a Box\" to solve a few of the problems plaguing health care on the ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/abHnRZK5GQo/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/abHnRZK5GQo/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/abHnRZK5GQo/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "JuicePlusGB",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/GWZOq0HLyQKQcK2YDLh9upHqh1c\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/n7AXLiZmWjmkroMk14FK6QdtaB8\"",
+                            "id": "abHnRZK5GQo",
+                            "statistics": {
+                                "viewCount": "115",
+                                "likeCount": "3",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/gNO01GNNd8aDbZt7oRYSn3ut4nw\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "8oVT8jg1R6s"
+                },
+                "snippet": {
+                    "publishedAt": "2008-05-28T16:25:05.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Seyi Oyesola: Health care off the grid",
+                    "description": "http://www.ted.com Dr. Seyi Oyesola helped develop the \"Hospital in a Box\" to solve a few of the problems plaguing health care on the African continent ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/8oVT8jg1R6s/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/8oVT8jg1R6s/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/8oVT8jg1R6s/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Es4_0YpJQxPW-tWF33ce0_Tel-M\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Fi9rlmW98tdm5atzCXkmS_TDvtU\"",
+                            "id": "8oVT8jg1R6s",
+                            "statistics": {
+                                "viewCount": "17624",
+                                "likeCount": "104",
+                                "dislikeCount": "9",
+                                "favoriteCount": "0",
+                                "commentCount": "31"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/8uk0Gt3_fzOSTLKkZ64EPeMWWHg\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "pd4knv21QdY"
+                },
+                "snippet": {
+                    "publishedAt": "2018-12-13T13:43:33.000Z",
+                    "channelId": "UCyEJX-kSj0kOOCS7Qlq2G7g",
+                    "title": "Doctors Lalude and Oyesola of Reddington Hospitals on the menace of medical tourism in Nigeria",
+                    "description": "Doctors Lalude and Oyesola of Reddington Hospitals on the menace of medical tourism in Nigeria.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/pd4knv21QdY/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/pd4knv21QdY/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/pd4knv21QdY/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Arise News",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/wx88BBPT2UVqNIr-rgHuJTjkSws\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/3srl3JGQocAyhn5ImkLvZDW1Gk0\"",
+                            "id": "pd4knv21QdY",
+                            "statistics": {
+                                "viewCount": "762",
+                                "likeCount": "5",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "4"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Seyi Oyesola: A hospital tour in Nigeria"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/tLmN-DlXfy8aUKvhl_YZsQYzS7g\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 724,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/37pdnCIqogsRHWilt48NQ0naYMI\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "4k1JlhniQFI"
+                },
+                "snippet": {
+                    "publishedAt": "2013-01-16T21:02:38.000Z",
+                    "channelId": "UCsooa4yRKGN_zEE8iknghZA",
+                    "title": "The &quot;bottom billion&quot; - Paul Collier",
+                    "description": "View full lesson: http://ed.ted.com/lessons/the-bottom-billion-paul-collier Around the world right now, one billion people are trapped in poor or failing countries.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/4k1JlhniQFI/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/4k1JlhniQFI/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/4k1JlhniQFI/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED-Ed",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/DYGhPCCrfffo8rtE9Xb85scBemI\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/kd2mSinqhRuduy1Jm3op9FsJf58\"",
+                            "id": "4k1JlhniQFI",
+                            "statistics": {
+                                "viewCount": "35327",
+                                "likeCount": "350",
+                                "dislikeCount": "10",
+                                "favoriteCount": "0",
+                                "commentCount": "31"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/fjFK6fTtFyk9ChUXN_mL-bQIexU\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "nIbo5Cs6bPs"
+                },
+                "snippet": {
+                    "publishedAt": "2013-09-17T10:34:36.000Z",
+                    "channelId": "UCmXB98lpzelFrlryV2llXUQ",
+                    "title": "Paul Collier - The Bottom Billion",
+                    "description": "Oxford Martin School, University of Oxford www.oxfordmartin.ox.ac.uk.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/nIbo5Cs6bPs/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/nIbo5Cs6bPs/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/nIbo5Cs6bPs/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Oxford Martin School",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/kSEbBdJN_TTujfw6gPMRAZGzwpw\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/cbnRWGSajS6-mFrN35MpgE3BaMA\"",
+                            "id": "nIbo5Cs6bPs",
+                            "statistics": {
+                                "viewCount": "3228",
+                                "likeCount": "16",
+                                "dislikeCount": "1",
+                                "favoriteCount": "0",
+                                "commentCount": "3"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/9B8_5UxZW4UpqaG-KjGhYBSAiXE\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "VhAD0dMslB8"
+                },
+                "snippet": {
+                    "publishedAt": "2008-06-02T22:10:47.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Paul Collier: 4 ways to improve the lives of the &quot;bottom bil",
+                    "description": "http://www.ted.com Around the world right now, one billion people are trapped in poor or failing countries. How can we help them? Economist Paul Collier lays ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/VhAD0dMslB8/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/VhAD0dMslB8/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/VhAD0dMslB8/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/O8Ae0x96oy5LGNS8knQzG_eYJ-Y\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/cCWENCKlePW6GhpuPOWC43VRxhs\"",
+                            "id": "VhAD0dMslB8",
+                            "statistics": {
+                                "viewCount": "49244",
+                                "likeCount": "244",
+                                "dislikeCount": "21",
+                                "favoriteCount": "0",
+                                "commentCount": "73"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Paul Collier: The \"bottom billion\""
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/IArg3g1oCZgTkjpXd3yXp7xyJzM\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 920,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/8wKPN1wzb4sJzOR8gNnu7QvQYnI\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "fQ_9-Qx5Hz4"
+                },
+                "snippet": {
+                    "publishedAt": "2008-06-04T15:29:59.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Susan Blackmore: Memes and &quot;temes&quot;",
+                    "description": "http://www.ted.com Susan Blackmore studies memes: ideas that replicate themselves from brain to brain like a virus. She makes a bold new argument: Humanity ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/fQ_9-Qx5Hz4/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/fQ_9-Qx5Hz4/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/fQ_9-Qx5Hz4/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/2yNSib7xWeBqM24odqnTATlf5Ts\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/pCA8v8rBYD4XzditqWEkYnV2YOY\"",
+                            "id": "fQ_9-Qx5Hz4",
+                            "statistics": {
+                                "viewCount": "126652",
+                                "likeCount": "1281",
+                                "dislikeCount": "120",
+                                "favoriteCount": "0",
+                                "commentCount": "418"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/oTv0smxDykKwllCCfwj-OUk0pLg\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "5v5z5rjgOQY"
+                },
+                "snippet": {
+                    "publishedAt": "2018-11-12T10:18:04.000Z",
+                    "channelId": "UC9GdZek2gIsfE00Rs0L8ISw",
+                    "title": "Genes, Memes and Tremes: The Future of Artificial Intelligence | Susan Blackmore",
+                    "description": "It´s hard to get a good meme out of your head - and it spreads like wildfire among all your friends. The eccentric psychologist and physiologist Susan Blackmore ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/5v5z5rjgOQY/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/5v5z5rjgOQY/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/5v5z5rjgOQY/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Studium Generale Delft",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/6E4nhz9UIoNMmW307OCq73w2JuQ\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/iCPNDBvpQe7m9hqI36glz6B2SG4\"",
+                            "id": "5v5z5rjgOQY",
+                            "statistics": {
+                                "viewCount": "992",
+                                "likeCount": "20",
+                                "dislikeCount": "2",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Hl76V-TmVuakNQFSg1xDs1MfPyg\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "5HnfL5JHXw4"
+                },
+                "snippet": {
+                    "publishedAt": "2017-07-07T09:15:50.000Z",
+                    "channelId": "UCrN1lcGgsCB9axGjZjpOqiQ",
+                    "title": "Susan Blackmore - Memes today (21/23)",
+                    "description": "To listen to more of Susan Blackmore's stories, go to the playlist: https://www.youtube.com/playlist?list=PLVV0r6CmEsFzEmqR8Hi9ZSwsu7fmSJc0Q Born in ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/5HnfL5JHXw4/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/5HnfL5JHXw4/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/5HnfL5JHXw4/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Web of Stories - Life Stories of Remarkable People",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/AJw-xnbvJ3hwT0aAXjtTlGHl04w\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/qiyiLDFtPosmAMcYUNBq1GGY6WM\"",
+                            "id": "5HnfL5JHXw4",
+                            "statistics": {
+                                "viewCount": "144",
+                                "likeCount": "2",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Susan Blackmore: Memes and \"temes\""
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/KbThra8SLufduBREGEuVB8Gzm5o\"",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 2,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/q-CoPqGgvu3zSJ0C--ghxVc3U1o\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "l13ezJ9rsAQ"
+                },
+                "snippet": {
+                    "publishedAt": "2008-06-04T15:54:49.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Nathan Myhrvold: A life of fascinations",
+                    "description": "http://www.ted.com Nathan Myhrvold talks about a few of his latest fascinations -- animal photography, archeology, BBQ and generally being an eccentric genius ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/l13ezJ9rsAQ/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/l13ezJ9rsAQ/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/l13ezJ9rsAQ/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/1pxtUcksjHX9YgvqnQOGj8_6Srs\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/96qAPoV8ZPhAYVjj2r0FpuNX37s\"",
+                            "id": "l13ezJ9rsAQ",
+                            "statistics": {
+                                "viewCount": "47889",
+                                "likeCount": "337",
+                                "dislikeCount": "26",
+                                "favoriteCount": "0",
+                                "commentCount": "48"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/rQZCrxvK0KuXlSqSQNqBA7LH1v8\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "7W57gOGBm40"
+                },
+                "snippet": {
+                    "publishedAt": "2017-11-01T07:01:39.000Z",
+                    "channelId": "UCVU_mKjK1z8dxd_g3eJAYTg",
+                    "title": "Nathan Myhrvold: Cut your food in half",
+                    "description": "Cookbook author (and geek) Nathan Myhrvold talks about his magisterial work, Modernist Cuisine -- and shares the secret of its cool . Nathan Myhrvold talks ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/7W57gOGBm40/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/7W57gOGBm40/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/7W57gOGBm40/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Julio Hines",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/qO9eSa8ResL-t0XpkAuPMzCfUlQ\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/qVgALS7dUwL3zmyQzbaez1Sp9wk\"",
+                            "id": "7W57gOGBm40",
+                            "statistics": {
+                                "viewCount": "9",
+                                "likeCount": "0",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Nathan Myhrvold: Archeology, animal photography, BBQ ..."
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/bijCjyTmWzAnG_0KRxMCHoryMts\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 306,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/2Lg0rbQxLXljZPqCgLfckk2QF30\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "p7sqlQfev9I"
+                },
+                "snippet": {
+                    "publishedAt": "2013-05-01T11:52:42.000Z",
+                    "channelId": "UCDtcO3D547E7WVLHw5TYwfg",
+                    "title": "Rokia Traore Kounandi (african song)",
+                    "description": "an amaizing song from Mali, une musique superbe du Mali, una canción muy linda del Mali uma música muito linda do Maili.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/p7sqlQfev9I/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/p7sqlQfev9I/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/p7sqlQfev9I/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "andremonteiro2008",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/eZcgUDjzJHYMWaujBO2RMYyAOco\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/dPYTLqXF8gpr-9AuN_xuQjvYTnM\"",
+                            "id": "p7sqlQfev9I",
+                            "statistics": {
+                                "viewCount": "44094",
+                                "likeCount": "214",
+                                "dislikeCount": "2",
+                                "favoriteCount": "0",
+                                "commentCount": "10"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/A3Yp-xcRUzb239pP2ghIjppJxHo\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "-LWdBuaK3iI"
+                },
+                "snippet": {
+                    "publishedAt": "2019-05-15T16:08:33.000Z",
+                    "channelId": "UChb9mKOHjw2aFQ8onRGDf0Q",
+                    "title": "05 Kounandi Rokia Traoré Tchamantché Bonus Track",
+                    "description": "",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/-LWdBuaK3iI/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/-LWdBuaK3iI/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/-LWdBuaK3iI/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Run As One",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/ZDT1vexl8fL2bjAwguoUURIw50U\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/pWWaWaG5qQ6p_YrnyDZiD7JPcZM\"",
+                            "id": "-LWdBuaK3iI",
+                            "statistics": {
+                                "viewCount": "229",
+                                "likeCount": "0",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/rs0CO6qBmf-q9Ms7uYrU6KXjLNA\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "yPJdqwiq61c"
+                },
+                "snippet": {
+                    "publishedAt": "2018-06-29T08:23:17.000Z",
+                    "channelId": "UCJubXOaNbtLtZKXIzO4G_Kw",
+                    "title": "Rokia Traore Kounandi african song",
+                    "description": "",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/yPJdqwiq61c/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/yPJdqwiq61c/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/yPJdqwiq61c/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Nir Stern",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/-dCCrl-86e35221TELpAF45v9fc\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/ZLu5Dnp7EaMjGLQho2q85R9VgY4\"",
+                            "id": "yPJdqwiq61c",
+                            "statistics": {
+                                "viewCount": "106",
+                                "likeCount": "2",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Rokia Traore: \"Kounandi\""
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/l4KJSiLlsao6kKgx6n6WyR2OQ6E\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 32,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/V2p96RgFrFPZHaYSR3ZOVSox_Ho\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "y8zWH3T5RCA"
+                },
+                "snippet": {
+                    "publishedAt": "2008-06-13T13:59:12.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Wade Davis: The worldwide web of belief and ritual",
+                    "description": "http://www.ted.com Anthropologist Wade Davis muses on the worldwide web of belief and ritual that makes us human. He shares breathtaking photos and ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/y8zWH3T5RCA/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/y8zWH3T5RCA/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/y8zWH3T5RCA/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/ufLfKtJNOUy_8uKO5VwzOVtNBCM\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/RhpsqnVtYzxgaA19E3n-SnIWIXk\"",
+                            "id": "y8zWH3T5RCA",
+                            "statistics": {
+                                "viewCount": "67335",
+                                "likeCount": "578",
+                                "dislikeCount": "41",
+                                "favoriteCount": "0",
+                                "commentCount": "109"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/onDBJydrL3ffD-q1SV5EaIO0cKM\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "E0Le48D0Fvw"
+                },
+                "snippet": {
+                    "publishedAt": "2017-10-31T22:48:37.000Z",
+                    "channelId": "UCVU_mKjK1z8dxd_g3eJAYTg",
+                    "title": "Wade Davis: Cultures at the far edge of the world",
+                    "description": "With stunning photos and stories, National Geographic Explorer Wade Davis celebrates the extraordinary diversity of the world's indigenous . Photographer Phil ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/E0Le48D0Fvw/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/E0Le48D0Fvw/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/E0Le48D0Fvw/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Julio Hines",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/f2VmiFaXDEYL6C1gXsHIuP7_pqs\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/ju8NtYT2uCD3eKR-fMVNyZM-JFY\"",
+                            "id": "E0Le48D0Fvw",
+                            "statistics": {
+                                "viewCount": "272",
+                                "likeCount": "3",
+                                "dislikeCount": "2",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/epM-gJqEH4Ub0qYrNXTAecn8810\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "bL7vK0pOvKI"
+                },
+                "snippet": {
+                    "publishedAt": "2007-01-12T20:09:42.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Wade Davis: Cultures at the far edge of the world",
+                    "description": "http://www.ted.com With stunning photos and stories, National Geographic Explorer Wade Davis celebrates the extraordinary diversity of the world's indigenous ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/bL7vK0pOvKI/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/bL7vK0pOvKI/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/bL7vK0pOvKI/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/VbSqlbEsITnw7VafPa3OmTqJcpU\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/qjO3p462jpwF6OCHHMMMa8_LezE\"",
+                            "id": "bL7vK0pOvKI",
+                            "statistics": {
+                                "viewCount": "295813",
+                                "likeCount": "2178",
+                                "dislikeCount": "76",
+                                "favoriteCount": "0",
+                                "commentCount": "170"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Wade Davis: The worldwide web of belief and ritual"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/FPfqFh0VNberLRdxTTTf9zGZnn8\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 202,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/43WMpkFVZUagZOGimcIOpnvY6ko\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "gR4UlNoOrlc"
+                },
+                "snippet": {
+                    "publishedAt": "2008-06-13T14:01:56.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Murray Gell-Mann: Do all languages have a common ancestor?",
+                    "description": "http://www.ted.com After speaking at TED2007 on elegance in physics, the amazing Murray Gell-Mann gives a quick overview of another passionate interest: ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/gR4UlNoOrlc/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/gR4UlNoOrlc/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/gR4UlNoOrlc/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Gs9DlCbhLxSu5BmMdg9lbXE4TDc\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/cWbAwUpd6a2lOdbu33sp8zGM7NE\"",
+                            "id": "gR4UlNoOrlc",
+                            "statistics": {
+                                "viewCount": "47484",
+                                "likeCount": "222",
+                                "dislikeCount": "20",
+                                "favoriteCount": "0",
+                                "commentCount": "41"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/_-h9o8zzIK9mU1W-7gssCgW-ytQ\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "EgDdu-zdqEk"
+                },
+                "snippet": {
+                    "publishedAt": "2019-08-12T19:35:42.000Z",
+                    "channelId": "UC9rHXgUE9pikzYcGrAujMXQ",
+                    "title": "Murray Gell-Mann and the Evolution of Human Languages: The Burden of Proof",
+                    "description": "George Starostin, Higher School of Economics, Moscow; SFI From 2001 and all the way up to his recent passing, Dr. Murray Gell-Mann, in addition to his ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/EgDdu-zdqEk/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/EgDdu-zdqEk/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/EgDdu-zdqEk/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Santa Fe Institute",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/X3_qeAzYBUnFWRUZbjKx-elLK-s\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/tkysVR4eYgGRdxWuFtluZXC8QQg\"",
+                            "id": "EgDdu-zdqEk",
+                            "statistics": {
+                                "viewCount": "1288",
+                                "likeCount": "32",
+                                "dislikeCount": "2",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/I2gOq-euFLVKd8lPuTE1VsiVx40\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "fxL1aozNfH4"
+                },
+                "snippet": {
+                    "publishedAt": "2014-09-02T15:03:37.000Z",
+                    "channelId": "UClx8Z1BU8cHDK3WwI2G32ag",
+                    "title": "Murray Gell Mann - The ancestor of language",
+                    "description": "Курсы иностранных языков Дмитрия Кривошеева - iMova! http://imova.com.ua/ ЗВОНИ!!! (057) 761-32-34, (044) 362-74-51, (063) 761-32-34, (050)777-67-00 ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/fxL1aozNfH4/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/fxL1aozNfH4/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/fxL1aozNfH4/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "\"iMova\" - школа иностранных языков Дмитрия Кривошеева",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/7q28idUgL3J6UBj8Gya0udEW82o\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/mMPnFzrYiluhlZONQpdrMClIeR0\"",
+                            "id": "fxL1aozNfH4",
+                            "statistics": {
+                                "viewCount": "45",
+                                "likeCount": "0",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Murray Gell Mann: The ancestor of language"
+    }
+]

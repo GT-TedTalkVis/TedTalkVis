@@ -1,0 +1,1782 @@
+[
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/JulqsUapk6Ve_ArBK3XfYKN59Vw\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 212,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/0Mqhg6aRoVY9sX7J989-aDqaYgo\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "UUfUAJD3qrU"
+                },
+                "snippet": {
+                    "publishedAt": "2015-07-17T22:12:30.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Bill Strickland: Rebuilding a neighborhood with beauty, dignity, hope",
+                    "description": "Bill Strickland tells a quiet and astonishing tale of redemption through arts, music, and unlikely partnerships. TEDTalks is a daily video podcast of the best talks ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/UUfUAJD3qrU/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/UUfUAJD3qrU/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/UUfUAJD3qrU/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/zAORotdx82LZuK11k_xjyVcrUOM\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/dsUZNGbnjUUXIyxZBG4cC5ckz78\"",
+                            "id": "UUfUAJD3qrU",
+                            "statistics": {
+                                "viewCount": "11585",
+                                "likeCount": "159",
+                                "dislikeCount": "4",
+                                "favoriteCount": "0",
+                                "commentCount": "10"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Kmn_t84gg0JPGOOyg26OqJa3M-Q\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "bnhSLAmDRh0"
+                },
+                "snippet": {
+                    "publishedAt": "2014-03-05T03:48:48.000Z",
+                    "channelId": "UCsT0YIqwnpJCM-mx7-gSA4Q",
+                    "title": "Environments change behavior: Bill Strickland at TEDxMidwest Youth",
+                    "description": "Bill Strickland, builder, innovator, educator, MacArthur Award winner, is the creative mind behind the Manchester Bidwell Project. In this Talk, Mr. Strickland ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/bnhSLAmDRh0/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/bnhSLAmDRh0/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/bnhSLAmDRh0/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TEDx Talks",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/r5h4gU7uCUpyurFFBsmZu7Qjxug\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/ix4a3hqBbWDoonVSuCZt9fmXGH0\"",
+                            "id": "bnhSLAmDRh0",
+                            "statistics": {
+                                "viewCount": "14693",
+                                "likeCount": "177",
+                                "dislikeCount": "4",
+                                "favoriteCount": "0",
+                                "commentCount": "5"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/NEowCw2MpcBjj-8l2WSx8guWjDg\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "jA7nO7QzzfI"
+                },
+                "snippet": {
+                    "publishedAt": "2012-04-10T19:36:13.000Z",
+                    "channelId": "UCz1DiTur0a3hfx5zNpxyX3Q",
+                    "title": "Make the Impossible Possible: Bill Strickland",
+                    "description": "Bridgewater State University Distinguished Speaker Series For 30 years, Bill Strickland has transformed thousands of lives, restored our faith in ethical ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/jA7nO7QzzfI/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/jA7nO7QzzfI/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/jA7nO7QzzfI/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Team TVS",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/3_EVJZnkGVKwLAv6ZNqZNGzL944\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/zVs4nRQsPeDW9w2XksiZaiwMVP4\"",
+                            "id": "jA7nO7QzzfI",
+                            "statistics": {
+                                "viewCount": "6372",
+                                "likeCount": "49",
+                                "dislikeCount": "2",
+                                "favoriteCount": "0",
+                                "commentCount": "6"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Bill Strickland: Rebuilding a neighborhood with beauty, dignity, hope"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/wsCMd8lDj4LbLSQuLVql3mImo4k\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 829,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/J0_kh2vdrjOtJgyetGjo28BWvVg\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "39rIebbXshA"
+                },
+                "snippet": {
+                    "publishedAt": "2008-01-23T20:59:21.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Ben Dunlap: The life-long learner",
+                    "description": "http://www.ted.com Wofford College president Ben Dunlap tells the story of Sandor Teszler, a Hungarian Holocaust survivor who taught him about passionate ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/39rIebbXshA/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/39rIebbXshA/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/39rIebbXshA/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/K8PMrB3o5bXDyzKlFJYUYMUUFEs\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/4Yu0frAIIQVa7gpnOKNX1l5epPU\"",
+                            "id": "39rIebbXshA",
+                            "statistics": {
+                                "viewCount": "68481",
+                                "likeCount": "566",
+                                "dislikeCount": "16",
+                                "favoriteCount": "0",
+                                "commentCount": "41"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/_IcbbSQzxZGfNxHBecy0QSt7Pw0\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "1fp75hx08OE"
+                },
+                "snippet": {
+                    "publishedAt": "2017-04-25T19:10:45.000Z",
+                    "channelId": "UCNXrg_GZZAgi3-H94THUiHg",
+                    "title": "Life Long Learner Toks Omishakin",
+                    "description": "Deputy Commissioner/Chief, Environment & Planning Bureau Toks Omishakin was \"not the most studious guy\" sometimes in school but with some inspiration ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/1fp75hx08OE/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/1fp75hx08OE/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/1fp75hx08OE/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TDOT Learning Network",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/paNs4qyJzKY3uHyhMlDvRgCAEPA\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/XkJGhVNtqp97crV7_WbHp0CtATg\"",
+                            "id": "1fp75hx08OE",
+                            "statistics": {
+                                "viewCount": "1901",
+                                "likeCount": "19",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "1"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/AaATiCM2p4vf-URm1tv6KPXAF1g\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "sVQrwP765Tg"
+                },
+                "snippet": {
+                    "publishedAt": "2013-01-20T19:11:23.000Z",
+                    "channelId": "UCsT0YIqwnpJCM-mx7-gSA4Q",
+                    "title": "Life Long Learning: AnnaMaria Romero-Lehrer: at TEDxHampstead",
+                    "description": "Ms. Romero-Lehrer is a life long educator whose career has crossed the country from New Mexico to Colorado to Eastern North Carolina. Her broad experience ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/sVQrwP765Tg/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/sVQrwP765Tg/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/sVQrwP765Tg/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TEDx Talks",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/CEg8joWcAO4741eeCdkLL6Digc8\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/gGcMeSimYlJl7dzZNraLokxCKHU\"",
+                            "id": "sVQrwP765Tg",
+                            "statistics": {
+                                "viewCount": "7354",
+                                "likeCount": "40",
+                                "dislikeCount": "6",
+                                "favoriteCount": "0",
+                                "commentCount": "9"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Bernie Dunlap: The life long learner"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/ZDGD6Qm5mriVuN_neWokbcwS-qo\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 641,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/yafuEyO9uIxxkFgdH1EQVVeSqNc\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "xF7cHmyEJ-c"
+                },
+                "snippet": {
+                    "publishedAt": "2008-01-25T15:17:24.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "David Pogue: A 4-minute medley on the music wars",
+                    "description": "http://www.ted.com New York Times tech columnist David Pogue performs a satirical mini-medley about iTunes and the downloading wars, borrowing a few ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/xF7cHmyEJ-c/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/xF7cHmyEJ-c/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/xF7cHmyEJ-c/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/AyODwxvsMWEqZq3YjoSKqCB19z8\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/qDXgT50vfdFMH0KvDH1XsiFk7MA\"",
+                            "id": "xF7cHmyEJ-c",
+                            "statistics": {
+                                "viewCount": "28765",
+                                "likeCount": "162",
+                                "dislikeCount": "70",
+                                "favoriteCount": "0",
+                                "commentCount": "25"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/QwPPMXwN9ox0xQz8MMsql6bL5co\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "QrE6zNeXJlI"
+                },
+                "snippet": {
+                    "publishedAt": "2012-01-18T21:21:31.000Z",
+                    "channelId": "UCoSghlw44OnNDRcqAzHFftw",
+                    "title": "David Pogue On The Music War",
+                    "description": "Understanding Ted Post for my pcp class.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/QrE6zNeXJlI/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/QrE6zNeXJlI/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/QrE6zNeXJlI/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "patmusicful",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/_NRaIHv0SyK6-fdkWu6AR-dVvDQ\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/1Bz4yIoDmPS8mZgN9bT1-bn1iMo\"",
+                            "id": "QrE6zNeXJlI",
+                            "statistics": {
+                                "viewCount": "33",
+                                "likeCount": "0",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/dE1Q9iwZpJo7bwphcanWlIhAwME\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "LJhZ2oU-Wr4"
+                },
+                "snippet": {
+                    "publishedAt": "2016-03-05T21:17:57.000Z",
+                    "channelId": "UCqm1bRJ-2ltt7nUVmAjEChg",
+                    "title": "Mark Pogue Music-clips...visit MarkPogue.com",
+                    "description": "This video is about Mark Pogue Music-clips.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/LJhZ2oU-Wr4/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/LJhZ2oU-Wr4/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/LJhZ2oU-Wr4/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Mark Pogue",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/tfC6fx4obB1GRXn4C07qV05Yf0A\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/cDHhzKPRbCMxeDYo_aKaJWq4n3g\"",
+                            "id": "LJhZ2oU-Wr4",
+                            "statistics": {
+                                "viewCount": "770",
+                                "likeCount": "7",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "1"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "David Pogue: The music wars"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/nreHZ0wn3kR4Sx7jh6gucmhEjyo\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 10,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/2XxauFxZI0l6Wbom6BazzmwgahQ\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "S2re6DHcJ3k"
+                },
+                "snippet": {
+                    "publishedAt": "2019-01-22T16:25:50.000Z",
+                    "channelId": "UCl5TsO7BDcr0inVCTI3E4UA",
+                    "title": "Alison Jackson TED Talk an Unusual Glimpse at Celebrity",
+                    "description": "Facebook: https://www.facebook.com/AlisonJacksonOnline/ Instagram: https://instagram.com/alisonjacksonartist Twitter: https://twitter.com/alisonjackson ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/S2re6DHcJ3k/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/S2re6DHcJ3k/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/S2re6DHcJ3k/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Alison Jackson",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/BGN2O3wPcy4UbevjBGVj_WYeplc\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/vRTJPTSjg7lMkrkNCJv3_sS1q-U\"",
+                            "id": "S2re6DHcJ3k",
+                            "statistics": {
+                                "viewCount": "85",
+                                "likeCount": "1",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/xZrw7stci52NFTQq37Gxi-28RhE\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "7LYu31hVMqo"
+                },
+                "snippet": {
+                    "publishedAt": "2019-03-19T11:51:01.000Z",
+                    "channelId": "UCkRx8HJO-qMSNijMAwTafUA",
+                    "title": "Alison Jackson shoot BTS featuring Woofles",
+                    "description": "A behind the scenes look at our recent work with Alison Jackson, \"celebrating\" the recent visit by Trump to meet Queen Elizabeth II.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/7LYu31hVMqo/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/7LYu31hVMqo/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/7LYu31hVMqo/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Urban Paws UK",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/no1HnzsJ77J2r9XoKtXpkkktgk0\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/hzv4tNZzgZAICOfQL066gamKMkI\"",
+                            "id": "7LYu31hVMqo",
+                            "statistics": {
+                                "viewCount": "28",
+                                "likeCount": "1",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/_S4rlK6aKQ--TUCPtWqkTHTmCwM\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "D5P8ZrhgHbE"
+                },
+                "snippet": {
+                    "publishedAt": "2019-03-09T10:55:18.000Z",
+                    "channelId": "UCATgMpwD7827_fg8OoXfL4A",
+                    "title": "Alternative Facts - The Thing About...Art &amp; Artists - Alison Jackson",
+                    "description": "Alison Jackson is a contemporary BAFTA and multi award winning artist who explores the cult of celebrity – an extraordinary phenomenon created by the media, ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/D5P8ZrhgHbE/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/D5P8ZrhgHbE/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/D5P8ZrhgHbE/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "The Thing About",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/v_yYbD592mrWFcsNdR7WcPZQT8M\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/LjfjLRU3eB4mL3Tygzh82Jijlpk\"",
+                            "id": "D5P8ZrhgHbE",
+                            "statistics": {
+                                "viewCount": "1445",
+                                "likeCount": "6",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Alison Jackson: An unusual glimpse at celebrity"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/pWZqGpOhZ2HGRI0x1_FgOYDbCK8\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 77,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/EakZUJP52HHXfEqExGUJQy70_sY\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "1NiB2ZAS-tk"
+                },
+                "snippet": {
+                    "publishedAt": "2008-02-01T18:37:12.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Chris Anderson (TED): A vision for TED",
+                    "description": "http://www.ted.com When Curator Chris Anderson gave this talk in 2002, TEDs future was hanging in the balance. Here, he attempts to persuade TEDsters that ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/1NiB2ZAS-tk/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/1NiB2ZAS-tk/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/1NiB2ZAS-tk/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/cA_9h8DGSxVRuiAqQvatT1b9i98\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/mw-SKEcXWD-ar7fHE91JRm9aYWQ\"",
+                            "id": "1NiB2ZAS-tk",
+                            "statistics": {
+                                "viewCount": "28174",
+                                "likeCount": "238",
+                                "dislikeCount": "29",
+                                "favoriteCount": "0",
+                                "commentCount": "21"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/UwWDslKbvx3OBW9tnyR-GYj00eQ\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "hVimVzgtD6w"
+                },
+                "snippet": {
+                    "publishedAt": "2007-01-16T22:47:37.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "The best stats you&#39;ve ever seen | Hans Rosling",
+                    "description": "http://www.ted.com With the drama and urgency of a sportscaster, statistics guru Hans Rosling uses an amazing new presentation tool, Gapminder, to present ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/hVimVzgtD6w/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/hVimVzgtD6w/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/hVimVzgtD6w/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/gi0GkyE9VbXJKpHsv7oET9NahsI\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/jARhXxUbxkipUCZh9Di9Ahfho1A\"",
+                            "id": "hVimVzgtD6w",
+                            "statistics": {
+                                "viewCount": "3045333",
+                                "likeCount": "23399",
+                                "dislikeCount": "544",
+                                "favoriteCount": "0",
+                                "commentCount": "979"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/9XNawhzjcL1c0Z6u6ZWSOiwwPCw\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "BlXRAX7B4Io"
+                },
+                "snippet": {
+                    "publishedAt": "2013-11-15T00:58:02.000Z",
+                    "channelId": "UCsT0YIqwnpJCM-mx7-gSA4Q",
+                    "title": "Over the wall and gone, a Jewish-American in the Palestinian West Bank: Joshua Davis at TEDxMuskegon",
+                    "description": "In February of 2012, Joshua joined the non-profit organization On the Ground for the Run Across Palestine - a 5 day, 129 mile ultra marathon to raise funds and ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/BlXRAX7B4Io/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/BlXRAX7B4Io/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/BlXRAX7B4Io/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TEDx Talks",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/7hQyCdA5UK99voP-DIugWVbBF4w\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/AbM6gufwy45apHPiKE2hvgEfc_E\"",
+                            "id": "BlXRAX7B4Io",
+                            "statistics": {
+                                "viewCount": "19369",
+                                "likeCount": "194",
+                                "dislikeCount": "31",
+                                "favoriteCount": "0",
+                                "commentCount": "68"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Chris Anderson: TED's nonprofit transition"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/5TZZ6vO4DmEgDDWxwVlFKyJ4cOE\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 775,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/KrMM9sdyhLMMXurYJ9In8VjK5AM\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "yZ412HQ3hG8"
+                },
+                "snippet": {
+                    "publishedAt": "2015-04-16T18:27:22.000Z",
+                    "channelId": "UCICJKjLMfO6cZQ7vwJ-y0Yw",
+                    "title": "Robin Chase The idea behind Zipcar and what comes next",
+                    "description": "",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/yZ412HQ3hG8/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/yZ412HQ3hG8/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/yZ412HQ3hG8/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "tedstageHD",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/EMFOO-TTRwWauwTJ7Sy2XjkhBIE\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/TMl4xDBZz8Za8kpDV73SgcddoJo\"",
+                            "id": "yZ412HQ3hG8",
+                            "statistics": {
+                                "viewCount": "292",
+                                "likeCount": "3",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/lju2Wq5fUJoAxC37APn0r-m84cc\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "DGbhhqYNcBY"
+                },
+                "snippet": {
+                    "publishedAt": "2015-12-11T19:49:22.000Z",
+                    "channelId": "UCC69dxCZQB9VURlHQ8wesPA",
+                    "title": "Zipcar Co-Founder Robin Chase on the Future of the Shareconomy | Inc. Magazine",
+                    "description": "Robin Chase explains why companies such as Airbnb and Uber have quickly outpaced traditional competitors -- and what it means for American workers.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/DGbhhqYNcBY/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/DGbhhqYNcBY/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/DGbhhqYNcBY/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Inc.",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/5jVOqaB3fhOqdkKgEGgdK5on6cM\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/lXTOTSmW6CwG2Ts7U1HhaTOOFwM\"",
+                            "id": "DGbhhqYNcBY",
+                            "statistics": {
+                                "viewCount": "2226",
+                                "likeCount": "16",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/IwgNRMX3OWkvN02I6k6b74zb9us\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "-tzZB6RbXsY"
+                },
+                "snippet": {
+                    "publishedAt": "2008-02-01T19:43:04.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Robin Chase: Getting cars off the road and data into the skies",
+                    "description": "http://www.ted.com Robin Chase founded Zipcar, the worlds biggest car-sharing business. That was one of her smaller ideas. Here she travels much farther, ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/-tzZB6RbXsY/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/-tzZB6RbXsY/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/-tzZB6RbXsY/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/el_J8E_ZEgK5KGP5XQSn4YQLxF0\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/o648LFXsZBY84IfFQvbnE3FX1mk\"",
+                            "id": "-tzZB6RbXsY",
+                            "statistics": {
+                                "viewCount": "17438",
+                                "likeCount": "105",
+                                "dislikeCount": "36",
+                                "favoriteCount": "0",
+                                "commentCount": "36"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Robin Chase: The idea behind Zipcar (and what comes next)"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/dYq6LI2aY4pQWaaPNhNdsCrf1As\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 971,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/CmSD_vAjB6kg6HdzSya--mKPOXE\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "haKh9mCk3xk"
+                },
+                "snippet": {
+                    "publishedAt": "2008-02-07T15:28:35.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Jaime Lerner: Sing a song of sustainable cities",
+                    "description": "http://www.ted.com Jaime Lerner reinvented urban space in his native Curitiba, Brazil. Along the way, he changed the way city planners worldwide see whats ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/haKh9mCk3xk/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/haKh9mCk3xk/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/haKh9mCk3xk/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/jCD9MQrWBeiN_WKBac2t2AUlpqE\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/P5Uxy2K-Ur_ols9Hwo-Pqz1jcLk\"",
+                            "id": "haKh9mCk3xk",
+                            "statistics": {
+                                "viewCount": "48642",
+                                "likeCount": "319",
+                                "dislikeCount": "19",
+                                "favoriteCount": "0",
+                                "commentCount": "20"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/rGrDQNBy-4uIaMhDqddFaNTkYCQ\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "1nROMmEJHbM"
+                },
+                "snippet": {
+                    "publishedAt": "2012-04-30T14:11:27.000Z",
+                    "channelId": "UCEoQHEFHC4sOiTeSozv6NEg",
+                    "title": "Jaime Lerner - TED talks Monterey, California",
+                    "description": "Jaime Lerner fala sobre como revolucionar o tráfego de ônibus, despertar a consciência verde na população e mudar a concepção que os planejadores das ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/1nROMmEJHbM/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/1nROMmEJHbM/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/1nROMmEJHbM/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Cidade Pedra Branca",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/PAwgzu89T1r1HLMYVYSjlg6G4mY\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/4i_efmNyAD_TjoT7aoFHZ1oOfpg\"",
+                            "id": "1nROMmEJHbM",
+                            "statistics": {
+                                "viewCount": "5690",
+                                "likeCount": "58",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "3"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Wm4q4LEBls27OJNlvFP-0momJ40\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "Y4DiJF0AKAU"
+                },
+                "snippet": {
+                    "publishedAt": "2009-11-24T17:12:30.000Z",
+                    "channelId": "UC3VNhwJdIWml97JrOZnMYZA",
+                    "title": "City is not a Problem, It is the Solution - Jaime Lerner - Parte 1",
+                    "description": "Jaime Lerner reinventou o espaço urbano em Curitiba. Neste processo, ele mudou a forma como os planejadores urbanos de todo o mundo vêem o que é ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/Y4DiJF0AKAU/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/Y4DiJF0AKAU/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/Y4DiJF0AKAU/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "redeinovacao",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/WkY214dL5rVnIty_rIOaaoH3J7I\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/esI5cTW6xnQLUVGxFB4Ju2ZA1pY\"",
+                            "id": "Y4DiJF0AKAU",
+                            "statistics": {
+                                "viewCount": "5370",
+                                "likeCount": "22",
+                                "dislikeCount": "1",
+                                "favoriteCount": "0",
+                                "commentCount": "1"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Jaime Lerner: A song of the city"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/XnT-SEL2bCqXcA72bTleCSPfjNM\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 13,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/czbIk2r4xo82urNJPiIWJpXvg6g\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "seD2MuBTNuI"
+                },
+                "snippet": {
+                    "publishedAt": "2008-02-07T16:14:35.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "David Macaulay: All roads lead to Rome Antics",
+                    "description": "http://www.ted.com David Macaulay relives the winding and sometimes surreal journey toward the completion of Rome Antics, his illustrated homage to the ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/seD2MuBTNuI/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/seD2MuBTNuI/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/seD2MuBTNuI/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/W7nylwwJ47_79J5Aj8-CZmILZXA\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/LAcdg19bGZyOXRS6AAb8BYEd8w0\"",
+                            "id": "seD2MuBTNuI",
+                            "statistics": {
+                                "viewCount": "98400",
+                                "likeCount": "280",
+                                "dislikeCount": "45",
+                                "favoriteCount": "0",
+                                "commentCount": "17"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/sbgStA82aRs2ZweiEVw8hE5pwmQ\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "0NeagNdB7gE"
+                },
+                "snippet": {
+                    "publishedAt": "2012-10-29T20:05:02.000Z",
+                    "channelId": "UCReaDHRdbH-uSgL-34FZRCA",
+                    "title": "David Macaulay - 2012--2013 Lowell Lecture Series: Common Ground, Boston Public Libary",
+                    "description": "David Macaulay spoke at the Boston Public Library Rabb Lecture Hall on Thursday, October 11, 2012 at 6:00 p.m. From the pyramids of Egypt to the skyscrapers ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/0NeagNdB7gE/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/0NeagNdB7gE/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/0NeagNdB7gE/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Boston Public Library",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Fn7gBZQzPky-WTiprOcWUFy8bLs\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/VddE6K00JlFMI_LtsoC553Sjh4Q\"",
+                            "id": "0NeagNdB7gE",
+                            "statistics": {
+                                "viewCount": "1427",
+                                "likeCount": "0",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "1"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/uKxN9wk9quqftldFnvhedG0nvhU\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "JGbPShUpjpg"
+                },
+                "snippet": {
+                    "publishedAt": "2012-04-01T21:30:19.000Z",
+                    "channelId": "UCJAXoKaGGDb1bn30gvmwKBQ",
+                    "title": "PBS - Castle - David Macaulay",
+                    "description": "CASTLE combines colorful animation with live-action documentary sequences to tell the story of a 13th-century Welsh castle. Author David Macaulay, who wrote ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/JGbPShUpjpg/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/JGbPShUpjpg/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/JGbPShUpjpg/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "anthony223",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/OuKi5mqWPJgg7y_j72Rn0NT2VnQ\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/KWkwDUrwgYnnPjifXyQyBs3sOpw\"",
+                            "id": "JGbPShUpjpg",
+                            "statistics": {
+                                "viewCount": "500247",
+                                "likeCount": "2397",
+                                "dislikeCount": "182",
+                                "favoriteCount": "0",
+                                "commentCount": "709"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "David Macaulay: An illustrated journey through Rome"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/hsbsBUNkOLeABcFv2iChWKlze8c\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 1799,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/w6fHtb1nsjNzba9Pe8PCHK1RQrw\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "p54VVLSS6Qk"
+                },
+                "snippet": {
+                    "publishedAt": "2013-01-12T16:00:15.000Z",
+                    "channelId": "UCsooa4yRKGN_zEE8iknghZA",
+                    "title": "A plant&#39;s-eye view - Michael Pollan",
+                    "description": "View full lesson: http://ed.ted.com/lessons/a-plant-s-eye-view-michael-pollan What if human consciousness isn't the end-all be-all of Darwinism? What if we are ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/p54VVLSS6Qk/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/p54VVLSS6Qk/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/p54VVLSS6Qk/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED-Ed",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/u_CfD_-OTj7BJzocwqB4j6LHuUU\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/A5wtI3SEm2oiC7L7Ma9qfL90xHI\"",
+                            "id": "p54VVLSS6Qk",
+                            "statistics": {
+                                "viewCount": "42037",
+                                "likeCount": "802",
+                                "dislikeCount": "27",
+                                "favoriteCount": "0",
+                                "commentCount": "106"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/NaqiTJkfwAbWEYRM_7Kn_9EnklE\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "bK0vErB4X9U"
+                },
+                "snippet": {
+                    "publishedAt": "2012-02-09T14:25:42.000Z",
+                    "channelId": "UCNFFPyYY_dJgNkpf0PAYa0g",
+                    "title": "A plants eye view - MICHAEL POLLAN TED AWARDS - Talk, Lecture, Documentary - (Health Food)",
+                    "description": "http://www.healthandsuperfoods.com/ A plants eye view - Michael Pollan TED awards - Talk, Lecture, Documentary - (Health Food) What if human ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/bK0vErB4X9U/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/bK0vErB4X9U/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/bK0vErB4X9U/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Richard Morris",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/H2nEQIrkNMY46IP1YY604GRxF0Y\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Qs4k-0MPpdYiVZsQfOqlPkhsyn4\"",
+                            "id": "bK0vErB4X9U",
+                            "statistics": {
+                                "viewCount": "14684",
+                                "likeCount": "69",
+                                "dislikeCount": "2",
+                                "favoriteCount": "0",
+                                "commentCount": "9"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/eYZuzEqV7gR6QZElMp1wxf7Zl-M\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "S7QA7Ae1ENA"
+                },
+                "snippet": {
+                    "publishedAt": "2011-10-25T18:35:04.000Z",
+                    "channelId": "UCFkid-1EIBbauJLbMFDp2Cg",
+                    "title": "Michael Pollan: &quot;Cannabis, The Importance of Forgetting, and the Botany of Desire&quot;",
+                    "description": "Michael Pollan presented his lecture as the 2002-2003 Avenali Chair in the Humanities at the Townsend Center for the Humanities, UC Berkeley. Pollan is the ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/S7QA7Ae1ENA/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/S7QA7Ae1ENA/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/S7QA7Ae1ENA/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "UC Berkeley Events",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/bSQub0zem0o7cbiWPYWAn5iE4eY\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/AXV4JxMaBofOnn7PHMNfkGxlajo\"",
+                            "id": "S7QA7Ae1ENA",
+                            "statistics": {
+                                "viewCount": "165482",
+                                "likeCount": "1839",
+                                "dislikeCount": "94",
+                                "favoriteCount": "0",
+                                "commentCount": "230"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Michael Pollan: A plant's eye view"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/7tvgHUUPwUBhC6OS4YF8WVH3ybE\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 397,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/plZVO0bYUeSoX0TXK6z8O59gJJ8\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "d5s3Z0iesRM"
+                },
+                "snippet": {
+                    "publishedAt": "2008-02-12T19:37:54.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Howard Rheingold: Way-new collaboration",
+                    "description": "http://www.ted.com Howard Rheingold talks about the coming world of collaboration, participatory media and collective action -- and how Wikipedia is really an ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/d5s3Z0iesRM/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/d5s3Z0iesRM/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/d5s3Z0iesRM/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/L5i9URhTSnO5zc0ycAM_znBMnVw\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/IY-LA71AnlRdrxHlFmY95YRmMkQ\"",
+                            "id": "d5s3Z0iesRM",
+                            "statistics": {
+                                "viewCount": "43092",
+                                "likeCount": "247",
+                                "dislikeCount": "13",
+                                "favoriteCount": "0",
+                                "commentCount": "22"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/aLLKsgCxmBQ8h9WLpiN9C8HFmew\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "9bjj9AXg4cU"
+                },
+                "snippet": {
+                    "publishedAt": "2013-12-20T13:21:25.000Z",
+                    "channelId": "UCRa_v9dNkwQg-2pB6s8a4DQ",
+                    "title": "The new power of collaboration. Cultura Empresarial. TED por Howard Rheingold. PRAXIS",
+                    "description": "La cultura empresarial es la forma de ser de la empresa, valores y procesos. La personalidad de empresa y la cultura organizacional que viven los trabajadores ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/9bjj9AXg4cU/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/9bjj9AXg4cU/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/9bjj9AXg4cU/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "PraxisLGConsultores",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/trXM7fkAHZU-09rEqw1h2xL2sjc\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/HKFuYVLbDAgiWjIQq3PcnaBfeaE\"",
+                            "id": "9bjj9AXg4cU",
+                            "statistics": {
+                                "viewCount": "2086",
+                                "likeCount": "5",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/ABfiww6v0edT1UIO7VnM4xrMDX8\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "Wc1WE3TlNwg"
+                },
+                "snippet": {
+                    "publishedAt": "2014-01-24T09:01:48.000Z",
+                    "channelId": "UCKm0gIV7eisHiIJsGTSqZeA",
+                    "title": "Howard Rheingold - Shifts in Technology and Power",
+                    "description": "http://q.gs/3GggL San Francisco, April 2007 // Categories: history, collaboration Rheingold recounts how the development of communication technology has ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/Wc1WE3TlNwg/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/Wc1WE3TlNwg/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/Wc1WE3TlNwg/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Steal ThisFilm",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/ISwYCgOUvqzjvUq87YWgL1CdQ8o\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/jiWQNbmRNeFhy1b3l7n1j76IdFU\"",
+                            "id": "Wc1WE3TlNwg",
+                            "statistics": {
+                                "viewCount": "469",
+                                "likeCount": "7",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "1"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Howard Rheingold: The new power of collaboration"
+    }
+]

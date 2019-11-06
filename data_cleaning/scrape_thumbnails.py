@@ -54,7 +54,7 @@ if __name__ == "__main__":
                 data.to_csv(data_path + data_file)
             count += 1
             bar.next()
-            time.sleep(5 + random.randint(-1, 1))
+            time.sleep(6 + random.randint(-1, 3))
     data.to_csv(data_path + data_file)
 
     # page = requests.get("https://www.ted.com/talks/chris_anderson_of_wired_on_tech_s_long_tail")

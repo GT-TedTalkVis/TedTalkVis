@@ -1,0 +1,1781 @@
+[
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/XIOwsCaoHO_jXKvrIvkm9q0b3jg\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 785,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/NFleJuO7j-_I-kq25sYGEmt9NFc\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "eYyN_6GmzWI"
+                },
+                "snippet": {
+                    "publishedAt": "2008-10-28T21:54:53.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "A story of mixed emoticons | Rives",
+                    "description": "http://www.ted.com Rives -- star of the Bravo special \"Ironic Iconic America\" -- tells a typographical fairy tale that's short and bittersweet.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/eYyN_6GmzWI/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/eYyN_6GmzWI/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/eYyN_6GmzWI/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Dk_xU2F9aPPGwZLOMaX8MgHHY6M\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/F7fqyYf9qvvl2DsLOC9PCKVwFmA\"",
+                            "id": "eYyN_6GmzWI",
+                            "statistics": {
+                                "viewCount": "266977",
+                                "likeCount": "1366",
+                                "dislikeCount": "197",
+                                "favoriteCount": "0",
+                                "commentCount": "229"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/om40GChK75XfrVv941nMLpbbPto\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "ePNv-QaHJGM"
+                },
+                "snippet": {
+                    "publishedAt": "2014-06-04T21:59:09.000Z",
+                    "channelId": "UCw2wolnSDjudhzuUbHG6WUg",
+                    "title": "A story of mixed emoticons | Rives | TEDxNéwEnglínd",
+                    "description": "This talk was given at a local TEDx event, produced independently of the TED Conferences. Rives tells a typographical fairy tale that's short and bittersweet ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/ePNv-QaHJGM/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/ePNv-QaHJGM/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/ePNv-QaHJGM/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Dam Uploadertest",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/rrtLwGRDxOKigB3eECJdiBMQ_Y4\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/VNzOtTgbdg511vRWDjxgtCjCIlU\"",
+                            "id": "ePNv-QaHJGM",
+                            "statistics": {
+                                "viewCount": "131",
+                                "likeCount": "0",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/-lh_hGFUiLdGavNc7rlakL0qdbc\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "31gDJHkmG6o"
+                },
+                "snippet": {
+                    "publishedAt": "2011-09-12T11:59:13.000Z",
+                    "channelId": "UC-6XJLtRVFaRLH0D3Pey7VQ",
+                    "title": "Rives tells a story of mixed emoticons (rus sub)",
+                    "description": "Rives tells a story of mixed emoticons. http://www.ted.com/talks/lang/eng/rives_tells_a_story_of_mixed_emoticons.html.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/31gDJHkmG6o/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/31gDJHkmG6o/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/31gDJHkmG6o/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "ferus404",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/9pXWnyal-PqpPYnvMsyd4gPOTQY\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/L6w09Op3E9l9Lsz48c0hKwA4D3w\"",
+                            "id": "31gDJHkmG6o",
+                            "statistics": {
+                                "viewCount": "792",
+                                "likeCount": "3",
+                                "dislikeCount": "1",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Rives: A story of mixed emoticons"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/dnyuYG6_H3XvDQdshWFJ-mc9r6I\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 4,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/9dsJkaMRmWeeuQfphO4ep35l7qw\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "MEfH6-nJ--E"
+                },
+                "snippet": {
+                    "publishedAt": "2008-11-04T21:02:55.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Keith Schacht &amp; Zach Kaplan: Products (and toys) from the fu",
+                    "description": "http://www.ted.com The Inventables guys, Zach Kaplan and Keith Schacht, demo some amazing new materials and how we might use them. Look for squishy ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/MEfH6-nJ--E/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/MEfH6-nJ--E/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/MEfH6-nJ--E/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/5xofA2oLLQoyfFxvFMP222looUw\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/tSq2sa9dV5cpcSCPNdqWPLZgdOM\"",
+                            "id": "MEfH6-nJ--E",
+                            "statistics": {
+                                "viewCount": "33490",
+                                "likeCount": "112",
+                                "dislikeCount": "16",
+                                "favoriteCount": "0",
+                                "commentCount": "25"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/ydLbD7EXwrB89QViUIUjA-AYln8\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "qDYQBY_6S0A"
+                },
+                "snippet": {
+                    "publishedAt": "2010-09-17T21:03:26.000Z",
+                    "channelId": "UCv8IIBIaAgsggSr-BpyDcbg",
+                    "title": "Zach Kaplan, Founder of Inventables",
+                    "description": "Zach Kaplan is an inventor/entrepreneur and the founder of Inventables, a materials and technology website that allows users to purchase small quantities of ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/qDYQBY_6S0A/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/qDYQBY_6S0A/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/qDYQBY_6S0A/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TheDreamShareProject",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/iHWJJXoFz6UgAe6C_inxTjI8-yE\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/bSd3WgH012THiBToNygxew7vQng\"",
+                            "id": "qDYQBY_6S0A",
+                            "statistics": {
+                                "viewCount": "159",
+                                "likeCount": "0",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/OTHSUjo3JHgNiUuJ2QrEXFI7HpE\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "h-Xm4ufnoxY"
+                },
+                "snippet": {
+                    "publishedAt": "2008-11-05T18:54:04.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "James Surowiecki: The power and the danger of online crowds",
+                    "description": "http://www.ted.com James Surowiecki pinpoints the moment when social media became an equal player in the world of news-gathering: the 2005 tsunami, when ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/h-Xm4ufnoxY/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/h-Xm4ufnoxY/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/h-Xm4ufnoxY/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/YIXPAJYoYoHSgYKcaEw1UhdCkmk\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Jz3rDywujRS4v0U3u34SEfdVNi4\"",
+                            "id": "h-Xm4ufnoxY",
+                            "statistics": {
+                                "viewCount": "33606",
+                                "likeCount": "159",
+                                "dislikeCount": "14",
+                                "favoriteCount": "0",
+                                "commentCount": "14"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Zach Kaplan + Keith Schacht: Toys and materials from the future"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/95iGrj9BMBwzEginhlYQdRQiws8\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 85,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/3ao3VWO7Fzwjk2CdxYnhlQw8WUA\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "PLXsUgL_wpc"
+                },
+                "snippet": {
+                    "publishedAt": "2008-11-04T21:50:33.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Newton Aduaka: The story of Ezra, a child soldier",
+                    "description": "http://www.ted.com Filmmaker Newton Aduaka shows clips from his powerful, lyrical feature film \"Ezra,\" about a child soldier in Sierra Leone.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/PLXsUgL_wpc/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/PLXsUgL_wpc/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/PLXsUgL_wpc/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/4CjP3vxNWmCJLjFFaA5zdFqRA3Q\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/3P_Pege-0WUdhsSO5HCqKEvGasY\"",
+                            "id": "PLXsUgL_wpc",
+                            "statistics": {
+                                "viewCount": "12705",
+                                "likeCount": "62",
+                                "dislikeCount": "4",
+                                "favoriteCount": "0",
+                                "commentCount": "9"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/KsAR_9-cuzTtatAw74gMLRCyJtc\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "gcq5LFK218U"
+                },
+                "snippet": {
+                    "publishedAt": "2010-02-09T23:35:12.000Z",
+                    "channelId": "UCm5jbnsxoM4XAV140vbGpMg",
+                    "title": "Ezra (2007) Official Trailer",
+                    "description": "Ezra by Newton I Aduaka, Trailer.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/gcq5LFK218U/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/gcq5LFK218U/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/gcq5LFK218U/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Newton Aduaka",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/GlK8XDxFXN_jKlq9N4wmrEBSKsU\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/3pYJXLQVWZvWFrrQuP39nQN-9uU\"",
+                            "id": "gcq5LFK218U",
+                            "statistics": {
+                                "viewCount": "24264",
+                                "likeCount": "76",
+                                "dislikeCount": "4",
+                                "favoriteCount": "0",
+                                "commentCount": "12"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Wa9HyMtLxWg2uRVgPNvATVb45gw\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "06gORLEohrs"
+                },
+                "snippet": {
+                    "publishedAt": "2014-01-29T20:24:59.000Z",
+                    "channelId": "UCt0uHPH-VHLPdcF3t-zuhsw",
+                    "title": "TED  Newton Aduaka narra la historia de Ezra",
+                    "description": "",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/06gORLEohrs/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/06gORLEohrs/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/06gORLEohrs/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Eduardo Arenas MD",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/DDc9ii0qLNogrb-M5_DHQw2JNxM\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/iOTvxnODBliFzSXhgPqpCHtltyw\"",
+                            "id": "06gORLEohrs",
+                            "statistics": {
+                                "viewCount": "21",
+                                "likeCount": "0",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Newton Aduaka: The story of Ezra"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/SWAIxQxfAUyzkpc3FAHnlYhOEH8\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 90,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/u0AVjAhBf1ZaRRqgVdDv4KB1IJI\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "sEOSCziWuP8"
+                },
+                "snippet": {
+                    "publishedAt": "2015-07-17T22:13:15.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Jackie Tabick: The balancing act of compassion",
+                    "description": "While we all agree that compassion is a great idea, Rabbi Tabick acknowledges there are challenges to its execution. She explains how a careful balance of ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/sEOSCziWuP8/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/sEOSCziWuP8/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/sEOSCziWuP8/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/nTt6NdAj3GnyfIJNsao2k55WGUA\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/ng4Yqh0DYfrXT0szcBqlao0PYtk\"",
+                            "id": "sEOSCziWuP8",
+                            "statistics": {
+                                "viewCount": "8614",
+                                "likeCount": "65",
+                                "dislikeCount": "10",
+                                "favoriteCount": "0",
+                                "commentCount": "1"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Q1SR16R2QFkhG-LUZkk_O_BJuCs\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "d0WXmgz_Ub0"
+                },
+                "snippet": {
+                    "publishedAt": "2014-11-26T18:34:12.000Z",
+                    "channelId": "UCrVWNQQ-qfZld6XCG3PGAew",
+                    "title": "The Balancing Act - Grace &amp; Lace, Fashion With Compassion",
+                    "description": "Fashion with Compassion - with Grace and Lace The holiday season is coming up, and in the spirit of sharing, The Balancing Act has some exciting fashion to ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/d0WXmgz_Ub0/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/d0WXmgz_Ub0/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/d0WXmgz_Ub0/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "The Balancing Act",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/TBAvjtLRiBpvjPUmZxvG2LQrv54\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/7Os7SPhYq1qT7v532LvNnEZnYhQ\"",
+                            "id": "d0WXmgz_Ub0",
+                            "statistics": {
+                                "viewCount": "4082",
+                                "likeCount": "18",
+                                "dislikeCount": "1",
+                                "favoriteCount": "0",
+                                "commentCount": "1"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/RKx6d_kIQv2DG5Ar6IbjUanUnPI\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "u-aPrtAqMAM"
+                },
+                "snippet": {
+                    "publishedAt": "2016-06-16T17:22:32.000Z",
+                    "channelId": "UCy4OVQwrdL_FSeZNVrXkILA",
+                    "title": "Jackie Tabick: Many Moments Led Me to the Rabbinate",
+                    "description": "From her early involvement with the World Union for Progressive Judaism Youth Section (WUPJYS) to a powerful encounter with a revered scholar and a swarm ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/u-aPrtAqMAM/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/u-aPrtAqMAM/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/u-aPrtAqMAM/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Jewish Women's Archive",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/2E3byeFTPIeNdRZ1-h5TM6sPr_4\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/ulysC0G69E0E3Rj79ps4NBNh8Ds\"",
+                            "id": "u-aPrtAqMAM",
+                            "statistics": {
+                                "viewCount": "153",
+                                "likeCount": "0",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Jackie Tabick: The balancing act of compassion"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Q3zaUPy3XNhmZYOKphmRAhuVU8k\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 524,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/9kwBXj-KmDupb0e_8KYKDWr8Tx8\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "tIhk2EswC_U"
+                },
+                "snippet": {
+                    "publishedAt": "2015-07-17T22:13:40.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Dayananda Saraswati: The profound journey of compassion",
+                    "description": "Swami Dayananda Saraswati unravels the parallel paths of personal development and attaining true compassion. He walks us through each step of ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/tIhk2EswC_U/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/tIhk2EswC_U/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/tIhk2EswC_U/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Y8uhW4gtwSxBbRPjKGyo933LRUk\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/NLj0VgfmuUKNJcFmHMOgONq9t3E\"",
+                            "id": "tIhk2EswC_U",
+                            "statistics": {
+                                "viewCount": "32348",
+                                "likeCount": "380",
+                                "dislikeCount": "11",
+                                "favoriteCount": "0",
+                                "commentCount": "14"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/WX05s409GhGpJFa30OObkr6sYiE\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "PaqT8umuHN4"
+                },
+                "snippet": {
+                    "publishedAt": "2011-05-12T20:52:37.000Z",
+                    "channelId": "UCWB_hc-wpgErwr0ZNpUhsTw",
+                    "title": "La Vida y La Obra de Swami Dayananda Saraswati - The Life and Work of Swami Dayananda Saraswati",
+                    "description": "La Tradición de Maestros y Discípulos (Guru-Sisya-Parampara) que ha venido trayendo a la humanidad la Visión de los Rishis (Sabios), se ha hecho realidad ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/PaqT8umuHN4/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/PaqT8umuHN4/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/PaqT8umuHN4/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Jorge-Luis Jauregui",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/EaUrfIGfnMiz5lq96bnTQt_0oBY\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/clb6MEqX2AA0MbrO7qIPgme4O0g\"",
+                            "id": "PaqT8umuHN4",
+                            "statistics": {
+                                "viewCount": "3072",
+                                "likeCount": "33",
+                                "dislikeCount": "1",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/j1b9O69KmcFaBvZb61ALjilIpN4\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "e12iRVwVUAg"
+                },
+                "snippet": {
+                    "publishedAt": "2015-09-28T10:11:46.000Z",
+                    "channelId": "UCHd3LiTGI0o7u0r_bJXbVrA",
+                    "title": "Bhū Samādhi of Pūjya Swāmiji: Swami Dayananda Saraswati",
+                    "description": "",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/e12iRVwVUAg/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/e12iRVwVUAg/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/e12iRVwVUAg/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "viswakala parishat",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/rpGViw268ddCaOclHPhEIF9l0J4\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/-Cvd-A3cncTLQo8Eg2YZV6jGydA\"",
+                            "id": "e12iRVwVUAg",
+                            "statistics": {
+                                "viewCount": "19606",
+                                "likeCount": "77",
+                                "dislikeCount": "12",
+                                "favoriteCount": "0",
+                                "commentCount": "3"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Dayananda Saraswati: The profound journey of compassion"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/jsWSdfvQvx0DIsMmjd4aGGd1bF4\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 214,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/qk0g-ufnVAveJVXs5HT-OcXuq6k\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "8E9Fx71e7zw"
+                },
+                "snippet": {
+                    "publishedAt": "2015-07-17T22:14:04.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "James Forbes: Compassion at the dinner table",
+                    "description": "Join Rev. James Forbes at the dinner table of his Southern childhood, where his mother and father taught him what compassion really means day to day ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/8E9Fx71e7zw/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/8E9Fx71e7zw/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/8E9Fx71e7zw/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/_muZBFAK3E1KfcuXlhKWU9j0Z_4\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/6LBEyEul3EZrMbaenEm6DZtsBxo\"",
+                            "id": "8E9Fx71e7zw",
+                            "statistics": {
+                                "viewCount": "22711",
+                                "likeCount": "330",
+                                "dislikeCount": "78",
+                                "favoriteCount": "0",
+                                "commentCount": "56"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/TQiDjlQ-qbOc8kChUnB1WOURA5Q\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "oT4DAK_xOhk"
+                },
+                "snippet": {
+                    "publishedAt": "2010-12-03T19:14:30.000Z",
+                    "channelId": "UC_Nd8JomoFKhzo14ptqrlCA",
+                    "title": "Dr. James A. Forbes, Keynote Speaker, n the Spirit Symposium",
+                    "description": "Dr. Reverend James Forbes, Keynote speaker, In the Spirit Symposium, sponsored by the Washington, DC Department of Health, November 13, 2010.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/oT4DAK_xOhk/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/oT4DAK_xOhk/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/oT4DAK_xOhk/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Art Jones",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/LWhvAoXRNnjoBxo-scQ-fcMTmi8\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/qLbQs8UkPpZU_D3_ZS1xzO-e1WU\"",
+                            "id": "oT4DAK_xOhk",
+                            "statistics": {
+                                "viewCount": "128",
+                                "likeCount": "0",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/PcLUYFzlp8hB7KqmmnynEmvLiMU\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "J5HJX6nF5CM"
+                },
+                "snippet": {
+                    "publishedAt": "2015-10-18T11:10:19.000Z",
+                    "channelId": "UCgdbDbPZfozmQYiMrQVqTzw",
+                    "title": "James Forbes : Compassion",
+                    "description": "uploaded in HD at http://www.TunesToTube.com.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/J5HJX6nF5CM/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/J5HJX6nF5CM/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/J5HJX6nF5CM/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Listen To English Club",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Xq6o6YLIkgYxtNHXu6jXjIjRJfA\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/iAJkRWaaUeWqbxRiBU-c1Buvpl8\"",
+                            "id": "J5HJX6nF5CM",
+                            "statistics": {
+                                "viewCount": "13",
+                                "likeCount": "0",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "James Forbes: Compassion at the dinner table"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/BM6PQ9iW-W0SKjzi9yq_7VtjZa4\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 557,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/4BQZVL__UMW5aL2mo76NwKfOEDo\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "7HD3lrb6VtM"
+                },
+                "snippet": {
+                    "publishedAt": "2015-07-17T22:14:42.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Feisal Abdul Rauf: Lose your ego, find your compassion",
+                    "description": "Imam Faisal Abdul Rauf combines the teachings of the Qur'an, the stories of Rumi, and the examples of Muhammad and Jesus, to demonstrate that only one ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/7HD3lrb6VtM/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/7HD3lrb6VtM/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/7HD3lrb6VtM/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/9JFETWOyQkuqTsujBw52ZnNYlBw\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/pmJ-dCB0BsVvhk9LM1UjGsOH9wA\"",
+                            "id": "7HD3lrb6VtM",
+                            "statistics": {
+                                "viewCount": "27547",
+                                "likeCount": "302",
+                                "dislikeCount": "30",
+                                "favoriteCount": "0",
+                                "commentCount": "38"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/kfayUbuWGMYQoBC-QUUACN8PJ2Q\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "SalS7dlNKRU"
+                },
+                "snippet": {
+                    "publishedAt": "2019-05-03T16:34:11.000Z",
+                    "channelId": "UCsT0YIqwnpJCM-mx7-gSA4Q",
+                    "title": "Overcoming Our Egos  | Craig Manning | TEDxBYU",
+                    "description": "\"It is not how talented you are or much information you have stored in your mind but how well you use your mind that leads to high performance. The ego is the ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/SalS7dlNKRU/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/SalS7dlNKRU/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/SalS7dlNKRU/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TEDx Talks",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/1VSrWHKWWizjOFFj9mP5asC7pLk\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/EfMmubpPG7fmiJltO_JtrpAUWxI\"",
+                            "id": "SalS7dlNKRU",
+                            "statistics": {
+                                "viewCount": "4922",
+                                "likeCount": "94",
+                                "dislikeCount": "3",
+                                "favoriteCount": "0",
+                                "commentCount": "5"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Qu3enfI3_LfFIpyeWY25n7PwdfA\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "6l4vMCQVXX4"
+                },
+                "snippet": {
+                    "publishedAt": "2010-09-12T17:38:41.000Z",
+                    "channelId": "UCBi2mrWuNuyYy4gbM6fU18Q",
+                    "title": "Imam Feisal Abdul Rauf on Islam in America",
+                    "description": "The man behind the Islamic Center near Ground Zero speaks out on \"This Week.\"",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/6l4vMCQVXX4/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/6l4vMCQVXX4/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/6l4vMCQVXX4/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "ABC News",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/sZiP1nPLOn66ofKQV-ZFGYnL4bY\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/dJ-Vufm6jx34YpqSyE4oKWXG0Rs\"",
+                            "id": "6l4vMCQVXX4",
+                            "statistics": {
+                                "viewCount": "9479",
+                                "likeCount": "38",
+                                "dislikeCount": "13",
+                                "favoriteCount": "0",
+                                "commentCount": "55"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Feisal Abdul Rauf: Lose your ego, find your compassion"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/zJB9OLgK6ykgp_n4UpecmUjyYSU\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 308,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/sbk6K8Re2bQo7H3wEyXOmzdEulE\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "MBZyRlxVd-E"
+                },
+                "snippet": {
+                    "publishedAt": "2015-07-17T22:15:04.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Robert Thurman: Expanding your circle of compassion",
+                    "description": "It's hard to always show compassion — even to the people we love, but Robert Thurman asks that we develop compassion for our enemies. He prescribes a ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/MBZyRlxVd-E/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/MBZyRlxVd-E/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/MBZyRlxVd-E/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/ouRK9eG-FNxW1NgkA9aLFKi4sZA\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/AJakRPysdI_dRmSc-DS2oteP-Hc\"",
+                            "id": "MBZyRlxVd-E",
+                            "statistics": {
+                                "viewCount": "21689",
+                                "likeCount": "249",
+                                "dislikeCount": "16",
+                                "favoriteCount": "0",
+                                "commentCount": "15"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/A_GXFUAWW7TCWhbUWXpGyBQUAFU\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "voGvH4a_wAQ"
+                },
+                "snippet": {
+                    "publishedAt": "2015-12-30T23:29:37.000Z",
+                    "channelId": "UCG9_3MP30-PDAMuEte8HUNw",
+                    "title": "Emptiness the Womb of Compassion, Robert Thurman",
+                    "description": "http://scienceandnonduality.com/ We here a lot about compassion nowadays, along with mindfulness, and there is no doubt it is the essence of all spirituality and ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/voGvH4a_wAQ/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/voGvH4a_wAQ/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/voGvH4a_wAQ/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "scienceandnonduality",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/ZrpPVypwGoTxD_DwMO4o1wlKYKY\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Gh5iorLKb92QLopYvdpJ6KmamOQ\"",
+                            "id": "voGvH4a_wAQ",
+                            "statistics": {
+                                "viewCount": "44612",
+                                "likeCount": "691",
+                                "dislikeCount": "27",
+                                "favoriteCount": "0",
+                                "commentCount": "64"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/XphFPIEM9LH1krwemceHULsX4zc\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "h8nydWbBCC8"
+                },
+                "snippet": {
+                    "publishedAt": "2018-09-17T18:21:50.000Z",
+                    "channelId": "UCx0owCKYXfW1ssg9BHpvlZw",
+                    "title": "Robert Thurman on the Compassionate Bliss of the Artist",
+                    "description": "Meredith Monk opened the last Artist and Buddhist Contemplatives event at the Garrison Institute by inviting everyone into a circle to vocalize \"OM\" (\"AUM\") as a ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/h8nydWbBCC8/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/h8nydWbBCC8/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/h8nydWbBCC8/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "GarrisonInstitute",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/TCcWGOK3rGlH-z2gQ_umbAt-L-U\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/OmrZFNB4Fp-5PO6zl3jib7ppmcs\"",
+                            "id": "h8nydWbBCC8",
+                            "statistics": {
+                                "viewCount": "533",
+                                "likeCount": "12",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Robert Thurman: Expanding your circle of compassion"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/XmEqPX5QsJEdeqE0Tbk1UityKa4\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 761,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/axsOQok6dNafDxpgDL--DXudilU\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "N4wFyRGilp4"
+                },
+                "snippet": {
+                    "publishedAt": "2015-07-17T22:15:23.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Robert Wright: The evolution of compassion",
+                    "description": "Robert Wright uses evolutionary biology and game theory to explain why we appreciate the Golden Rule (\"Do unto others...\"), why we sometimes ignore it and ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/N4wFyRGilp4/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/N4wFyRGilp4/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/N4wFyRGilp4/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/jAXCcT_6I8qBiLpXHe9IZ49duKg\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/jF0xXJgX-6ZhzjEHMq6m3XezkQs\"",
+                            "id": "N4wFyRGilp4",
+                            "statistics": {
+                                "viewCount": "24416",
+                                "likeCount": "313",
+                                "dislikeCount": "26",
+                                "favoriteCount": "0",
+                                "commentCount": "37"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/uvw9ZLNS5_PPLFbXGHGsLzja5lE\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "wcZFIy2mfyE"
+                },
+                "snippet": {
+                    "publishedAt": "2008-04-15T17:58:25.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Robert Wright: The logic of non-zero-sum progress",
+                    "description": "http://www.ted.com Author Robert Wright explains \"non-zero-sumness,\" a game-theory term describing how players with linked fortunes tend to cooperate for ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/wcZFIy2mfyE/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/wcZFIy2mfyE/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/wcZFIy2mfyE/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/MO2e-B44Xuqh2Ov-JjBNJD0YJYg\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/9Os5qV2r-TfkPW4CXAemUgIDuZs\"",
+                            "id": "wcZFIy2mfyE",
+                            "statistics": {
+                                "viewCount": "68140",
+                                "likeCount": "904",
+                                "dislikeCount": "55",
+                                "favoriteCount": "0",
+                                "commentCount": "99"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/JLhA3gB_w5oRzsn2YFkofv7imN0\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "yC4q-dhaTYU"
+                },
+                "snippet": {
+                    "publishedAt": "2009-06-30T23:13:17.000Z",
+                    "channelId": "UCbmNph6atAoGfqLoCL_duAg",
+                    "title": "Robert Wright: &quot;The Evolution of God&quot; | Talks at Google",
+                    "description": "Journalist Robert Wright visits Google's Mountain View, CA headquarters to discuss his book, \"The Evolution of God.\" This event took place on June 8, 2009, ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/yC4q-dhaTYU/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/yC4q-dhaTYU/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/yC4q-dhaTYU/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Talks at Google",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/4zT6IbW-hGsUlzLkmijPjLa_Gac\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/HvWBqkFLF1UOoiuSJvbIiajSYIU\"",
+                            "id": "yC4q-dhaTYU",
+                            "statistics": {
+                                "viewCount": "18902",
+                                "likeCount": "146",
+                                "dislikeCount": "21",
+                                "favoriteCount": "0"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Robert Wright: The evolution of compassion"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/WdFe_gB_St2PrA8s3gIayT1-HMo\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 164,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/0mHoILPj5chxAjwfPgmDVn3ZqAs\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "AU4_Y2o45I4"
+                },
+                "snippet": {
+                    "publishedAt": "2010-08-19T18:03:14.000Z",
+                    "channelId": "UCeC0IOo7i1P_61zVUWbJ4nw",
+                    "title": "Underwater Flight with Graham Hawkes - KQED QUEST",
+                    "description": "It's not James Bond-- it's Graham Hawkes, record holder for the deepest underwater solo dive and inventor of Deep Flight, a winged submersible that may ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/AU4_Y2o45I4/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/AU4_Y2o45I4/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/AU4_Y2o45I4/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "KQED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/FJsX3nUTsSxF7XYiloL_lXb0XpY\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/rSGUZAku4EGiplVCS522o-4PHsc\"",
+                            "id": "AU4_Y2o45I4",
+                            "statistics": {
+                                "viewCount": "8336",
+                                "likeCount": "37",
+                                "dislikeCount": "1",
+                                "favoriteCount": "0",
+                                "commentCount": "3"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/QGGCBIU8QNHDCWVCEA2-v1Ht934\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "qZ7wL4gIzCE"
+                },
+                "snippet": {
+                    "publishedAt": "2010-03-24T22:28:35.000Z",
+                    "channelId": "UCtXKDgv1AVoG88PLl8nGXmw",
+                    "title": "Graham Hawkes Introduces Underwater Flight",
+                    "description": "Google Tech Talk March 23, 2010 ABSTRACT Graham Hawkes Introduces Underwater Flight: State-of-the-Art Vehicles to Explore/Survey the Unknown Territory ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/qZ7wL4gIzCE/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/qZ7wL4gIzCE/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/qZ7wL4gIzCE/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "GoogleTechTalks",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/esD2TGHEMkP43K6TsQ8waCRChnM\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/2dC_gN11IV7h6Rq-ZOeXv8ob-8I\"",
+                            "id": "qZ7wL4gIzCE",
+                            "statistics": {
+                                "viewCount": "11792",
+                                "likeCount": "56",
+                                "dislikeCount": "5",
+                                "favoriteCount": "0",
+                                "commentCount": "7"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/qhtFSUmhCIX-C01QjnlUSe5m3UE\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "v5WplIYQ1tI"
+                },
+                "snippet": {
+                    "publishedAt": "2013-03-14T18:44:05.000Z",
+                    "channelId": "UCx0PgXEM2NcvXjaMsu2t0QA",
+                    "title": "Graham Hawkes: The Future of Underwater Flight",
+                    "description": "Is there anything left to explore on earth? Hear why Graham Hawkes, CEO of Hawkes Ocean Technologies, thinks \"earth\" is a silly name for an ocean planet and ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/v5WplIYQ1tI/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/v5WplIYQ1tI/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/v5WplIYQ1tI/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Chicago Ideas",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/lLN-CjOdaR_hCwo6bg9nhIXYPaE\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/IPQP7gqWHy_TLoe1Fn0SOgXtTDY\"",
+                            "id": "v5WplIYQ1tI",
+                            "statistics": {
+                                "viewCount": "245",
+                                "likeCount": "4",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Graham Hawkes: A flight through the ocean"
+    }
+]
