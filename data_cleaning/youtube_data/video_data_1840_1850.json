@@ -1,0 +1,1780 @@
+[
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/HLTlEE8x0pyqMqy0qqe7EdYgpSY\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 28638,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/VXCGJxt6Fq351K8M6xMIc8X83-0\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "MJK-dMlATmM"
+                },
+                "snippet": {
+                    "publishedAt": "2014-10-13T16:41:00.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "One more reason to get a good night’s sleep | Jeff Iliff",
+                    "description": "The brain uses a quarter of the body's entire energy supply, yet only accounts for about two percent of the body's mass. So how does this unique organ receive ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/MJK-dMlATmM/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/MJK-dMlATmM/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/MJK-dMlATmM/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/pHXnWSIn3CbscZ75AE-fMgiF9Uk\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/rsDhlcvkoJU4Wsj0s-bs_scso0U\"",
+                            "id": "MJK-dMlATmM",
+                            "statistics": {
+                                "viewCount": "1246211",
+                                "likeCount": "16043",
+                                "dislikeCount": "311",
+                                "favoriteCount": "0",
+                                "commentCount": "697"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/SKPaeojPSAmN-JKmq47VvOrlmoE\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "gedoSfZvBgE"
+                },
+                "snippet": {
+                    "publishedAt": "2015-01-05T16:01:12.000Z",
+                    "channelId": "UCsooa4yRKGN_zEE8iknghZA",
+                    "title": "The benefits of a good night&#39;s sleep - Shai Marcu",
+                    "description": "View full lesson: http://ed.ted.com/lessons/the-benefits-of-a-good-night-s-sleep-shai-marcu It's 4am, and the big test is in 8 hours. You've been studying for days, ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/gedoSfZvBgE/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/gedoSfZvBgE/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/gedoSfZvBgE/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED-Ed",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/lgDjHGvS_4hBndu71RehBycOM0o\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/_2dbFRDPoDQPxu_PI1QtwI-E9Uw\"",
+                            "id": "gedoSfZvBgE",
+                            "statistics": {
+                                "viewCount": "2917027",
+                                "likeCount": "68585",
+                                "dislikeCount": "456",
+                                "favoriteCount": "0",
+                                "commentCount": "1358"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/buHBPiIHsR_a-MJ5nNfC-3KmLBA\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "5MuIMqhT8DM"
+                },
+                "snippet": {
+                    "publishedAt": "2019-06-03T15:27:56.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Sleep is your superpower | Matt Walker",
+                    "description": "Sleep is your life-support system and Mother Nature's best effort yet at immortality, says sleep scientist Matt Walker. In this deep dive into the science of slumber, ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/5MuIMqhT8DM/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/5MuIMqhT8DM/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/5MuIMqhT8DM/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/DWfi8xVm2VgIwB1dKerE3L7r1sw\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/NQfsRETfj5OHFs1VY0DYXS7oVyM\"",
+                            "id": "5MuIMqhT8DM",
+                            "statistics": {
+                                "viewCount": "3300548",
+                                "likeCount": "100832",
+                                "dislikeCount": "1772",
+                                "favoriteCount": "0",
+                                "commentCount": "4915"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Jeff Iliff: One more reason to get a good night's sleep"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/9XBPQ8yF9GniB6Yyn0N0y3GZ9sU\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 630,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/K8WZwOHFOgs3xezb2xEJCSIq6k0\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "c64M1tZyWPM"
+                },
+                "snippet": {
+                    "publishedAt": "2014-10-14T16:31:31.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Myriam Sidibe: The simple power of handwashing",
+                    "description": "Myriam Sidibe is a warrior in the fight against childhood disease. Her weapon of choice? A bar of soap. For cost-effective prevention against sickness, it's hard to ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/c64M1tZyWPM/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/c64M1tZyWPM/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/c64M1tZyWPM/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/pYZKrqT9u55AAlgZGa9l4Vz4KQ8\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/F0Axs5JfGj0EWu08I6QcWSCN4Ao\"",
+                            "id": "c64M1tZyWPM",
+                            "statistics": {
+                                "viewCount": "94064",
+                                "likeCount": "870",
+                                "dislikeCount": "63",
+                                "favoriteCount": "0",
+                                "commentCount": "99"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/061O0uJwlSXxwf_2Z0-3bLQOjFw\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "QPUY4xl3V4w"
+                },
+                "snippet": {
+                    "publishedAt": "2013-06-25T13:14:09.000Z",
+                    "channelId": "UCqxgWVouffjNs1xo0sH5kGA",
+                    "title": "Myriam Sidibe, Lifebuoy Health Expert",
+                    "description": "Myriam Sidibe is the Global Social Mission Director at Lifebuoy. Born in Mali, West Africa, she comes from an environmental engineering and water ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/QPUY4xl3V4w/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/QPUY4xl3V4w/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/QPUY4xl3V4w/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Lifebuoy Arabia",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/czsY18YqPvvfm3Hu1sm8ADh4oNw\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/4peC-_xEeO53HfAnUwspAEIHruc\"",
+                            "id": "QPUY4xl3V4w",
+                            "statistics": {
+                                "viewCount": "4843",
+                                "likeCount": "9",
+                                "dislikeCount": "2",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/4vu-L8m0EX1mrUUmciEzdYRmjh4\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "Qi4ilfzkGII"
+                },
+                "snippet": {
+                    "publishedAt": "2012-04-05T16:42:33.000Z",
+                    "channelId": "UCbTu1-70XVCTQLh3So0GX4w",
+                    "title": "K24 Handwashing Interview with Dr. Myriam Sidibe (Lifebuoy Global Social Mission Director)",
+                    "description": "Dr. Myriam Sidibe, Lifebuoy Global Social Mission Director, is one of the only two holders of a PhD in Handwashing globally. She notes that only one in four ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/Qi4ilfzkGII/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/Qi4ilfzkGII/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/Qi4ilfzkGII/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "elivsmuturi",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/6HRF_eGfSQvOKw02JpaY1Utlp3A\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/495q-IVuMFnvA504_oTfLC4MfEk\"",
+                            "id": "Qi4ilfzkGII",
+                            "statistics": {
+                                "viewCount": "193",
+                                "likeCount": "0",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Myriam Sidibe: The simple power of hand washing"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/xeV5gL4Fv9_o9T9zE4sJbiR5I8U\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 976,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/If2f0chJebCvG_Xg5xrJMplSBNw\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "dm4fvbrMLPw"
+                },
+                "snippet": {
+                    "publishedAt": "2014-10-15T15:36:12.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "The Future of Early Cancer Detection? | Jorge Soto | TED Talks",
+                    "description": "Along with a crew of technologists and scientists, Jorge Soto is developing a simple, noninvasive, open-source test that looks for early signs of multiple forms of ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/dm4fvbrMLPw/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/dm4fvbrMLPw/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/dm4fvbrMLPw/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/gldQmOSTo1FaPr8g1SZ5pdBNqVY\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/rMNvumBgUC1mIw_xf3rRETq0als\"",
+                            "id": "dm4fvbrMLPw",
+                            "statistics": {
+                                "viewCount": "123639",
+                                "likeCount": "2477",
+                                "dislikeCount": "18",
+                                "favoriteCount": "0",
+                                "commentCount": "128"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Q3B_y-QmVowY1o9xfU9ssJN8rL0\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "5HSMlim8N6w"
+                },
+                "snippet": {
+                    "publishedAt": "2015-11-20T09:22:05.000Z",
+                    "channelId": "UCu2dehvPe9e_ui_1HN7INxw",
+                    "title": "The Future of Early Cancer Detection - Jorge Soto - Miroculus",
+                    "description": "Early detection of cancer has been problematic due to the fact that there are so many different variations of cancer and that current diagnostic approaches are ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/5HSMlim8N6w/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/5HSMlim8N6w/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/5HSMlim8N6w/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "MIT Club of Northern California",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/v4EpZXvwME1cVkSuiWXcER-FmsI\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/m-rGzxr9SWVppGFeBj7hFXnTsCI\"",
+                            "id": "5HSMlim8N6w",
+                            "statistics": {
+                                "viewCount": "1428",
+                                "likeCount": "10",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "1"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/k1sdm7IccCLLzW_6njV-F8ZYKQs\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "WTiL0ofHlo4"
+                },
+                "snippet": {
+                    "publishedAt": "2017-05-30T14:57:57.000Z",
+                    "channelId": "UCATNzbTbfeoMhNonZGZmrhA",
+                    "title": "Early Detection Cancer Diagnosis with Oncologist Ben Ho Park, M.D. | 2017 A Woman&#39;s Journey",
+                    "description": "Oncologist Ben Ho Park reveals the promise of experimental, noninvasive liquid biopsies for the early detection of breast, colon, pancreas, brain and other ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/WTiL0ofHlo4/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/WTiL0ofHlo4/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/WTiL0ofHlo4/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Johns Hopkins Medicine",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Rkd7vGwRNorIFn75NoAfbWWa17w\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/FC4ai-AbV1lrlM2_6xDOC98nSQA\"",
+                            "id": "WTiL0ofHlo4",
+                            "statistics": {
+                                "viewCount": "1190",
+                                "likeCount": "19",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Jorge Soto: The future of early cancer detection?"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/iED9683HIC4ze1rt4yRyQKVMVsQ\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 1729,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/wWGasEe7MNGOOZyIMxP3kkepGNU\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "1bXAkbCyjpo"
+                },
+                "snippet": {
+                    "publishedAt": "2014-10-16T16:04:10.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Let’s Help Refugees Thrive, Not Just Survive | Melissa Fleming | TED Talks",
+                    "description": "50 million people in the world today have been forcefully displaced from their home — a level not seen since WWII. Right now, more than 3 million Syrian ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/1bXAkbCyjpo/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/1bXAkbCyjpo/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/1bXAkbCyjpo/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/wt1KBpUeDAVn3PFtxUVzRV6xLI4\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/PK-UTcnA2UrdCo7Xa5dR7Y1KXxA\"",
+                            "id": "1bXAkbCyjpo",
+                            "statistics": {
+                                "viewCount": "118267",
+                                "likeCount": "1427",
+                                "dislikeCount": "254",
+                                "favoriteCount": "0",
+                                "commentCount": "311"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/q0TwFffk4erEQcVYMw5ljg9JXkg\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "c00zfzk4gdg"
+                },
+                "snippet": {
+                    "publishedAt": "2015-06-12T19:27:57.000Z",
+                    "channelId": "UCsT0YIqwnpJCM-mx7-gSA4Q",
+                    "title": "The refugee boat hero who saved a child and stirred a continent | Melissa Fleming | TEDxThessaloniki",
+                    "description": "Everyday we listen to harrowing stories of people fleeing for their lives, across dangerous borders, and unfriendly seas”. The Syrian war has driven almost 4 ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/c00zfzk4gdg/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/c00zfzk4gdg/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/c00zfzk4gdg/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TEDx Talks",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/teXNForErl7Y4FlUa1JvPXbEjSQ\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/3nTA6tj3vNLsmHWx4nEKHazuLuE\"",
+                            "id": "c00zfzk4gdg",
+                            "statistics": {
+                                "viewCount": "57455",
+                                "likeCount": "496",
+                                "dislikeCount": "31",
+                                "favoriteCount": "0",
+                                "commentCount": "17"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/eceHn4cLKZJC4Dmd6zmqx9Ao-h0\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "B12syeJflbQ"
+                },
+                "snippet": {
+                    "publishedAt": "2015-11-30T17:23:17.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "A boat carrying 500 refugees sunk at sea. The story of two survivors | Melissa Fleming",
+                    "description": "Aboard an overloaded ship carrying more than 500 refugees, a young woman becomes an unlikely hero. This single, powerful story, told by Melissa Fleming of ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/B12syeJflbQ/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/B12syeJflbQ/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/B12syeJflbQ/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/e7OXF0YVYZCs86O4ogDnmBIHkl4\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/O0lC6A_I05Xd1948vLoYgicZAes\"",
+                            "id": "B12syeJflbQ",
+                            "statistics": {
+                                "viewCount": "106687",
+                                "likeCount": "2172",
+                                "dislikeCount": "409",
+                                "favoriteCount": "0",
+                                "commentCount": "525"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Melissa Fleming: Let's help refugees thrive, not just survive"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Th6_PulUVCbNPOXXWY7RBI4DnL0\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 136,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/UVDT70wHxt_oAaOGdhQ0o0IQRY0\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "Qb-D6PTcmfs"
+                },
+                "snippet": {
+                    "publishedAt": "2014-10-17T16:02:25.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Kitra Cahana: My father, locked in his body but soaring free",
+                    "description": "In 2011 Ronnie Cahana suffered a severe stroke that left him with locked-in syndrome: completely paralyzed except for his eyes. While this might shatter a ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/Qb-D6PTcmfs/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/Qb-D6PTcmfs/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/Qb-D6PTcmfs/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/XWjX8h8Keab8RDO9PlBZosupmN8\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/abxcXa43J0jgrRjVZ8bvU82tdYs\"",
+                            "id": "Qb-D6PTcmfs",
+                            "statistics": {
+                                "viewCount": "83817",
+                                "likeCount": "894",
+                                "dislikeCount": "134",
+                                "favoriteCount": "0",
+                                "commentCount": "120"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/qqweQkTGLk9UxVnfo1oBDqVKEwo\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "2Li1WfUjA8M"
+                },
+                "snippet": {
+                    "publishedAt": "2016-06-15T23:37:03.000Z",
+                    "channelId": "UCQUEr3sTH0sFPMmCSgZmjBw",
+                    "title": "Father Free",
+                    "description": "",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/2Li1WfUjA8M/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/2Li1WfUjA8M/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/2Li1WfUjA8M/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "walter young",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/S5fhiQxDTC7VsccQ0-JFecGhOr0\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/AD0KLTp_fRJrUuxEglYkWc8AyT0\"",
+                            "id": "2Li1WfUjA8M",
+                            "statistics": {
+                                "viewCount": "1357",
+                                "likeCount": "5",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/kILMJQ8zSt7hzJrJRD3nWuXa_4Y\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "LzUvk7bKNQA"
+                },
+                "snippet": {
+                    "publishedAt": "2017-05-18T09:27:58.000Z",
+                    "channelId": "UCnZeNDKHz-XTGiHKFSti7GA",
+                    "title": "Kitra Cahana",
+                    "description": "Canadian photographer Kitra Cahana speaks about her photo story Nomadia: Young American Nomads.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/LzUvk7bKNQA/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/LzUvk7bKNQA/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/LzUvk7bKNQA/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "World Press Photo Foundation",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/I-_aVqfJp-lI0q33fIcQm4-WhHA\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Dd5MGuIFbtK8Ips68sTU7uDPRPg\"",
+                            "id": "LzUvk7bKNQA",
+                            "statistics": {
+                                "viewCount": "225",
+                                "likeCount": "3",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Kitra Cahana: My father, locked in his body but soaring free"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/WEjgb46cxJpxm_t1fYZhbe7P5t4\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 941,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/ljyGfkWKQFtSjDV9Ic5fpJR1bus\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "AWPrOvzzqZk"
+                },
+                "snippet": {
+                    "publishedAt": "2014-10-20T15:46:33.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Susan Etlinger: What do we do with all this big data?",
+                    "description": "Does a set of data make you feel more comfortable? More successful? Then your interpretation of it is likely wrong. In a surprisingly moving talk, Susan Etlinger ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/AWPrOvzzqZk/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/AWPrOvzzqZk/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/AWPrOvzzqZk/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/2UbR47jTN0R8BSWcR7fp5oBfCzA\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/rDxIA3bbjk8GAbAMyDBjzOxCRi8\"",
+                            "id": "AWPrOvzzqZk",
+                            "statistics": {
+                                "viewCount": "112710",
+                                "likeCount": "825",
+                                "dislikeCount": "147",
+                                "favoriteCount": "0",
+                                "commentCount": "84"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/X3GJHNerOUT3S2CkWu4ig9Y4n5A\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "vZ7RMjacUGo"
+                },
+                "snippet": {
+                    "publishedAt": "2019-10-23T11:32:36.000Z",
+                    "channelId": "UCQvdU25Eqk3YS9-QnILhKKQ",
+                    "title": "Three Things I Worry About... And So Can You! - Susan Etlinger",
+                    "description": "Susan Etlinger is a globally recognized expert in digital strategy, with a focus on artificial intelligence, AI ethics and big data. In addition to her work at Altimeter, ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/vZ7RMjacUGo/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/vZ7RMjacUGo/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/vZ7RMjacUGo/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "ThoughtWorks",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/0wrlrvCaARG4VAD5te4cFqZyAUQ\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/YAEXVkfnVplIVd-IguKBoZbrQvo\"",
+                            "id": "vZ7RMjacUGo",
+                            "statistics": {
+                                "viewCount": "56",
+                                "likeCount": "1",
+                                "dislikeCount": "1",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/9Uyy-HD8s-PZN_NaykF1LdQ97F4\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "yO45E9bJQgY"
+                },
+                "snippet": {
+                    "publishedAt": "2015-12-17T20:35:41.000Z",
+                    "channelId": "UCg62bJ1Axl1oCzs74PeeF7g",
+                    "title": "Commerce Conversations with Susan Etlinger",
+                    "description": "Susan Etliner will cover topics related to 2014 TED talk titled “What do we do with all this big data?”",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/yO45E9bJQgY/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/yO45E9bJQgY/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/yO45E9bJQgY/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "IBM Sterling Supply Chain",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/tH6ekmTBWC7p4BgzFoZtUA2oHZM\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/8YCYiGaNxi9xL3kNxp8lgQ-YnBE\"",
+                            "id": "yO45E9bJQgY",
+                            "statistics": {
+                                "viewCount": "151",
+                                "likeCount": "0",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Susan Etlinger: What do we do with all this big data?"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/lc_robt2HMKdEy0nf-7us39DQKw\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 1882,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/bBpVvwGwdk6HYJbU292xJ0Nx3ww\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "kcEIsbO0ivA"
+                },
+                "snippet": {
+                    "publishedAt": "2014-10-21T17:09:11.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Fred Swaniker: The leaders who ruined Africa, and the generation who can fix it",
+                    "description": "Before he hit eighteen, Fred Swaniker had lived in Ghana, Gambia, Botswana and Zimbabwe. What he learned from a childhood across Africa was that while ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/kcEIsbO0ivA/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/kcEIsbO0ivA/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/kcEIsbO0ivA/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/WFhMbKLbyFDUWQ6Xg2VlGUYQiqo\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/wlYGTdroppxIGmjOIGkKHzyNhOU\"",
+                            "id": "kcEIsbO0ivA",
+                            "statistics": {
+                                "viewCount": "142630",
+                                "likeCount": "2667",
+                                "dislikeCount": "79",
+                                "favoriteCount": "0",
+                                "commentCount": "399"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/dOlJjEnVbzljsWb54BpxEz8YVrA\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "HEKWt__M6KM"
+                },
+                "snippet": {
+                    "publishedAt": "2015-01-18T10:15:27.000Z",
+                    "channelId": "UC0OhAyKU7WKsdmqvuVJuwRA",
+                    "title": "The leaders who ruined Africa, and the generation who can fix it",
+                    "description": "Fred Swaniker.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/HEKWt__M6KM/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/HEKWt__M6KM/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/HEKWt__M6KM/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "weiyong gao",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/EfCdFex60HcdAPBVQjLRJwsZFmc\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/QzqfRP0ZC6NU3h4QT5lmHdCm7M4\"",
+                            "id": "HEKWt__M6KM",
+                            "statistics": {
+                                "viewCount": "309",
+                                "likeCount": "1",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/YO1ZJgOdAai9mdtkFm8uEP44RXA\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "_62VrGjMdVg"
+                },
+                "snippet": {
+                    "publishedAt": "2019-08-31T07:39:59.000Z",
+                    "channelId": "UCJH-fn0wLu5uwXX33jNToQw",
+                    "title": "Building the next generation of African Leaders | Fred Swaniker",
+                    "description": "By the year 2035, Africa will have the largest workforce in the entire world. In this video we take a look at the Ghanaian entrepreneur that has dedicated his life to ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/_62VrGjMdVg/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/_62VrGjMdVg/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/_62VrGjMdVg/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "NewAfrica",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/hY49c5lFQrB7mz7Hk8GVykEL6yU\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/CNg9qwk1K-KIs_mkHETEEm5pLsI\"",
+                            "id": "_62VrGjMdVg",
+                            "statistics": {
+                                "viewCount": "19875",
+                                "likeCount": "1340",
+                                "dislikeCount": "17",
+                                "favoriteCount": "0",
+                                "commentCount": "288"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Fred Swaniker: The leaders who ruined Africa, and the generation who can fix it"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/F6roCny7bPqT8jkCw3CT7tCBoHY\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 2050,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/h64ry9VwLYooI50-SydJNvtTQ9Y\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "bArH8r8jJ4g"
+                },
+                "snippet": {
+                    "publishedAt": "2014-10-22T16:22:50.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Joy Sun: Should you donate differently?",
+                    "description": "Technology allows us to give cash directly to the poorest people on the planet. Should we do it? In this thought-provoking talk, veteran aid worker Joy Sun ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/bArH8r8jJ4g/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/bArH8r8jJ4g/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/bArH8r8jJ4g/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/GAzoz-OBSHq24YBwdL1vXYdKp50\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/vSMQbLVFDW3B0bTV0y_E_iib6vM\"",
+                            "id": "bArH8r8jJ4g",
+                            "statistics": {
+                                "viewCount": "75179",
+                                "likeCount": "1031",
+                                "dislikeCount": "70",
+                                "favoriteCount": "0",
+                                "commentCount": "121"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/vGpE67XWNWgiVnD4drbYVAJEDRg\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "8beOdVYZhcI"
+                },
+                "snippet": {
+                    "publishedAt": "2015-07-29T19:32:03.000Z",
+                    "channelId": "UCsT0YIqwnpJCM-mx7-gSA4Q",
+                    "title": "Why You Should Give It | Rachel Robbins Laird | TEDxGlasgow",
+                    "description": "Why should I give blood? Every 3 seconds someone needs a blood transfusion and currently only 4% of the population donates despite the fact that 1 in 4 of us ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/8beOdVYZhcI/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/8beOdVYZhcI/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/8beOdVYZhcI/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TEDx Talks",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/_kTnbmShHszODh87kXyD-xBxR6o\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/H8-VL43qNlAkMZgQpUdxK_us62Y\"",
+                            "id": "8beOdVYZhcI",
+                            "statistics": {
+                                "viewCount": "4848",
+                                "likeCount": "59",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "1"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/v3Qo_tHcRNG_mox98B-lKhRdvKg\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "iyeIsVXjMzU"
+                },
+                "snippet": {
+                    "publishedAt": "2018-02-08T18:55:32.000Z",
+                    "channelId": "UCbmNph6atAoGfqLoCL_duAg",
+                    "title": "Joe Huston: &quot;GiveDirectly: Cash Transfers, Basic Income, and Hurricane Relief&quot; | Talks at Google",
+                    "description": "GiveDirectly CFO Joe Huston visited Google's Mountain View headquarters to discuss the nonprofit's cash transfer programs in East Africa, their groundbreaking ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/iyeIsVXjMzU/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/iyeIsVXjMzU/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/iyeIsVXjMzU/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Talks at Google",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/V41Or1WOaIsG_haZRWORJh3OJgs\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/8WjjgD1vhE7bRv-UJAYbUolnOsg\"",
+                            "id": "iyeIsVXjMzU",
+                            "statistics": {
+                                "viewCount": "2606",
+                                "likeCount": "63",
+                                "dislikeCount": "5",
+                                "favoriteCount": "0",
+                                "commentCount": "6"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Joy Sun: Should you donate differently?"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/rKImW5jo9KbjvwfcbV8Xh_urebk\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 557,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/LMY3ueMQiQLVbNppgKTZVww07CU\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "MbBHVL4hT90"
+                },
+                "snippet": {
+                    "publishedAt": "2014-10-23T15:40:58.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Fabien Cousteau: What I learned from spending 31 days underwater",
+                    "description": "In 1963, Jacques Cousteau lived for 30 days in an underwater laboratory positioned on the floor of the Red Sea, and set a world record in the process.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/MbBHVL4hT90/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/MbBHVL4hT90/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/MbBHVL4hT90/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/zNK7hDp1i_PM9F5F9x38E2KHDCE\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/vu2GN_0qgm-K0INFHpV-Rts3fEg\"",
+                            "id": "MbBHVL4hT90",
+                            "statistics": {
+                                "viewCount": "88696",
+                                "likeCount": "1239",
+                                "dislikeCount": "37",
+                                "favoriteCount": "0",
+                                "commentCount": "77"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/sm_6qvGzO86hP_MuiumbLiggZU4\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "VQWVaATmJP0"
+                },
+                "snippet": {
+                    "publishedAt": "2014-07-03T08:36:18.000Z",
+                    "channelId": "UCSrZ3UV4jOidv8ppoVuvW9Q",
+                    "title": "Fabien Cousteau surfaces after record-breaking 31 days underwater",
+                    "description": "After spending 31 days living under the sea, marine explorer Fabien Cousteau has surfaced, like a fish out of water. He's beaten the previous record of 30 days ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/VQWVaATmJP0/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/VQWVaATmJP0/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/VQWVaATmJP0/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "euronews (in English)",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/JtxLDaTe0Gv1zW-x631IY6JeijU\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/nzktOjNzgm7hznHVLLNJnBYC5ro\"",
+                            "id": "VQWVaATmJP0",
+                            "statistics": {
+                                "viewCount": "3549",
+                                "likeCount": "7",
+                                "dislikeCount": "2",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/UAzko-KNs5F22ZnVGCemdFBBVto\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "6GHHOq00OwM"
+                },
+                "snippet": {
+                    "publishedAt": "2014-07-02T22:59:46.000Z",
+                    "channelId": "UC52X5wxOL_s5yw0dQk7NtgA",
+                    "title": "Fabien Cousteau Emerges After Month Underwater",
+                    "description": "Fabien Cousteau, grandson of famed explorer Jaques Cousteau, has returned to the surface after spending 31 days living underwater in the Florida Keys.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/6GHHOq00OwM/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/6GHHOq00OwM/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/6GHHOq00OwM/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Associated Press",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/yUd9IjCobdnm971CrMvj2_BahCo\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/tkoa07Dv6GxT3W6v854Dnci0uKU\"",
+                            "id": "6GHHOq00OwM",
+                            "statistics": {
+                                "viewCount": "6947",
+                                "likeCount": "27",
+                                "dislikeCount": "5",
+                                "favoriteCount": "0"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Fabien Cousteau: What I learned from spending 31 days underwater"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/qHhDtkIu3Wse8TukJrQotZl4JLg\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 700,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/9qSRkGnyc6Ee1AzTgEctS5LP7SA\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "FFG2rilqT2g"
+                },
+                "snippet": {
+                    "publishedAt": "2014-10-24T17:34:42.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Marc Abrahams: A science award that makes you laugh, then think",
+                    "description": "As founder of the Ig Nobel awards, Marc Abrahams explores the world's most improbable research. In this thought-provoking (and occasionally side-splitting) ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/FFG2rilqT2g/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/FFG2rilqT2g/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/FFG2rilqT2g/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/N49CYiG8kQZqo-R5ejUB90Seyec\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/gicjZ-b0ZgKhL5aBUV3tyntuADs\"",
+                            "id": "FFG2rilqT2g",
+                            "statistics": {
+                                "viewCount": "143361",
+                                "likeCount": "2228",
+                                "dislikeCount": "62",
+                                "favoriteCount": "0",
+                                "commentCount": "92"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/N43U0tUpyT5C_uMzEQIrDA8MtF0\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "VIa8ssUZnno"
+                },
+                "snippet": {
+                    "publishedAt": "2014-10-24T15:21:22.000Z",
+                    "channelId": "UC6Arrv8WD3Z2CehgFefCXTA",
+                    "title": "A science award that makes you laugh, then think",
+                    "description": "As founder of the Ig Nobel awards, Marc Abrahams explores the world's most improbable research. In this thought-provoking (and occasionally side-splitting) ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/VIa8ssUZnno/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/VIa8ssUZnno/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/VIa8ssUZnno/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TEDMED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/K7nVPv907FhPTjkeOiNZupwqPA4\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/ACS5MvysWG8a-LhYn0lQ9POWjoM\"",
+                            "id": "VIa8ssUZnno",
+                            "statistics": {
+                                "viewCount": "5394",
+                                "likeCount": "32",
+                                "dislikeCount": "1",
+                                "favoriteCount": "0",
+                                "commentCount": "3"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/CrCY1CAZlZGNPZezCUUYzIJCe5Q\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "RA-imyU9je0"
+                },
+                "snippet": {
+                    "publishedAt": "2013-05-23T08:48:36.000Z",
+                    "channelId": "UCsT0YIqwnpJCM-mx7-gSA4Q",
+                    "title": "Why All Good, and Some Bad, Research Is Improbable: Marc Abrahams at TEDxCERN",
+                    "description": "Marc Abrahams, MC of the infamous Ig Nobel Awards and editor of the Annals of Improbable Research, focusses on research that makes you laugh, and then ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/RA-imyU9je0/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/RA-imyU9je0/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/RA-imyU9je0/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TEDx Talks",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/7CsgBqJMmjLmD6FEde-beAr-CAI\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/rDuSR1dP7TeGY0AXwbPBiwj5dts\"",
+                            "id": "RA-imyU9je0",
+                            "statistics": {
+                                "viewCount": "24242",
+                                "likeCount": "114",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "3"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Marc Abrahams: A science award that makes you laugh, then think"
+    }
+]
