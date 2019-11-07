@@ -1,0 +1,1781 @@
+[
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/HftEhZbXR--Ye0JFI9dTFUaoeHg\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 967,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/wIsfqEcIXtzYkNfG72xuenUCe7U\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "pk35J2u8KqY"
+                },
+                "snippet": {
+                    "publishedAt": "2017-08-02T19:06:48.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "The human insights missing from big data | Tricia Wang",
+                    "description": "Why do so many companies make bad decisions, even with access to unprecedented amounts of data? With stories from Nokia to Netflix to the oracles of ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/pk35J2u8KqY/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/pk35J2u8KqY/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/pk35J2u8KqY/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/804OOMfeIKYgcbra8EKec3wyUm8\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/qf94jW6YHPFG1mFzkszu-igZKWg\"",
+                            "id": "pk35J2u8KqY",
+                            "statistics": {
+                                "viewCount": "119303",
+                                "likeCount": "2206",
+                                "dislikeCount": "112",
+                                "favoriteCount": "0",
+                                "commentCount": "101"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/ZhRjllJRO1BbANROp7hIvFiMF5o\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "WaOUJa9fjXU"
+                },
+                "snippet": {
+                    "publishedAt": "2016-11-28T22:38:54.000Z",
+                    "channelId": "UCsT0YIqwnpJCM-mx7-gSA4Q",
+                    "title": "The Cost of Missing Something | Tricia Wang | TEDxCambridge",
+                    "description": "Why do so many companies make such bad decisions? Tricia Wang demystifies the pitfalls of big data, with stories from Nokia to Netflix to the Oracles of Ancient ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/WaOUJa9fjXU/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/WaOUJa9fjXU/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/WaOUJa9fjXU/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TEDx Talks",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/GMZXuL6V46dnVtHNIz13UzwocY0\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/0M95JmjEOMo6NNAJVG91ClUOPeA\"",
+                            "id": "WaOUJa9fjXU",
+                            "statistics": {
+                                "viewCount": "119638",
+                                "likeCount": "1299",
+                                "dislikeCount": "68",
+                                "favoriteCount": "0",
+                                "commentCount": "38"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/oVDQRWDJbr0ZZooI3jhQT-sm400\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "xyWTjqlRLD4"
+                },
+                "snippet": {
+                    "publishedAt": "2018-06-26T22:12:17.000Z",
+                    "channelId": "UCtY8JjMQpzYb5FFvUr2JnUw",
+                    "title": "Data Science in 30 Minutes: Why Big Data Needs Thick Data with Tricia Wang",
+                    "description": "Tricia Wang, co-founder of Sudden Compass, joins The Data Incubator for the June installment of our free online webinar series, Data Science in 30 Minutes: ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/xyWTjqlRLD4/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/xyWTjqlRLD4/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/xyWTjqlRLD4/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "The Data Incubator",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/5WXjSG9ZEKCL85Hj-tFSuPszVW8\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Rg4JWXRLvY4QEO8b81czRc28TXY\"",
+                            "id": "xyWTjqlRLD4",
+                            "statistics": {
+                                "viewCount": "1931",
+                                "likeCount": "34",
+                                "dislikeCount": "1",
+                                "favoriteCount": "0",
+                                "commentCount": "3"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Tricia Wang: The human insights missing from big data"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/geTr-UnftiQDqrEIWKz-hTqDTv0\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 225,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/5VweVoVeORAbezfXbRaBmaA7mkE\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "PrK0CifulU0"
+                },
+                "snippet": {
+                    "publishedAt": "2017-08-04T16:04:20.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Hamilton vs. Madison and the birth of American partisanship | Noah Feldman",
+                    "description": "The divisiveness plaguing American politics today is nothing new, says constitutional law scholar Noah Feldman. In fact, it dates back to the early days of the ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/PrK0CifulU0/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/PrK0CifulU0/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/PrK0CifulU0/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/R_CknAYspYZwfPQQr-H95Xut20M\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Ops28Gevp_OBsWnyk9T27Gdfhtg\"",
+                            "id": "PrK0CifulU0",
+                            "statistics": {
+                                "viewCount": "70677",
+                                "likeCount": "1163",
+                                "dislikeCount": "84",
+                                "favoriteCount": "0",
+                                "commentCount": "156"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Wg6xdso_PsCrKE7p2Usuog-27kc\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "kwNb7lHMxa4"
+                },
+                "snippet": {
+                    "publishedAt": "2016-09-22T14:14:45.000Z",
+                    "channelId": "UCBcn1VNOJUsPNrsCJGTcquw",
+                    "title": "Constitution Day: Noah Feldman on &#39;Madison, Slavery and the 3/5 Compromise&#39;",
+                    "description": "To commemorate the signing of the U.S. Constitution, Professor Noah Feldman, the Felix Frankfurter Professor of Law at HLS and one of the nation's leading ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/kwNb7lHMxa4/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/kwNb7lHMxa4/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/kwNb7lHMxa4/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Harvard Law School",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/zf16Ar39K8gY2yWuSS2L9D2UoZg\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/-Xd3D5Ugrem6pIs6S6p93kojF_o\"",
+                            "id": "kwNb7lHMxa4",
+                            "statistics": {
+                                "viewCount": "3583",
+                                "likeCount": "41",
+                                "dislikeCount": "2",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/pYtfYWADvsp1kEXxRVEY6IFyB4w\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "o9V7M9Pa578"
+                },
+                "snippet": {
+                    "publishedAt": "2014-11-24T14:59:13.000Z",
+                    "channelId": "UCBcn1VNOJUsPNrsCJGTcquw",
+                    "title": "Noah Feldman on &#39;Madison and Frankfurter: Friends, Enemies, and the Meaning of the Constitution&#39;",
+                    "description": "Prof. Noah Feldman marked his appointment as the Felix Frankfurter Professor of Law on Nov. 12 at Harvard Law School with a lecture titled \"James Madison ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/o9V7M9Pa578/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/o9V7M9Pa578/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/o9V7M9Pa578/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Harvard Law School",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/7Gkwy6s0B_a7PFYqbHVBP7cYO0Q\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/tYT1qPQgoFMX0GVuJt5N9VxXsTs\"",
+                            "id": "o9V7M9Pa578",
+                            "statistics": {
+                                "viewCount": "10525",
+                                "likeCount": "61",
+                                "dislikeCount": "3",
+                                "favoriteCount": "0",
+                                "commentCount": "7"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Noah Feldman: Hamilton vs. Madison and the birth of American partisanship"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/QRhRPoLoRN4XNB5dG-hzbFrv6Lc\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 447,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/U8bncLkCq1Y9sAnZ7rOLhm7T1CU\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "SSZG5aPkZyM"
+                },
+                "snippet": {
+                    "publishedAt": "2017-08-03T14:49:44.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "How I fail at being disabled | Susan Robinson",
+                    "description": "Born with a genetic visual impairment that has no correction or cure, Susan Robinson is legally blind (or partially sighted, as she prefers it) and entitled to a label ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/SSZG5aPkZyM/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/SSZG5aPkZyM/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/SSZG5aPkZyM/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/fdwqhXLyqgJDOySX_fefrJuLk18\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/CSgmz45jleUcjceq71g_1CI6RCA\"",
+                            "id": "SSZG5aPkZyM",
+                            "statistics": {
+                                "viewCount": "67985",
+                                "likeCount": "1186",
+                                "dislikeCount": "253",
+                                "favoriteCount": "0",
+                                "commentCount": "121"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/5dj3blj2F6AA0Y8Ik4vY-We_h00\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "nMAOdpvRwWA"
+                },
+                "snippet": {
+                    "publishedAt": "2017-10-09T16:54:08.000Z",
+                    "channelId": "UC8uBf7rIfmWDutYg3ZpHnTw",
+                    "title": "Susan Robinson: Consultant, Business Owner, TED Talk One Million Club - How I Fail at Being Disabled",
+                    "description": "Susan Robinson's Ted Talk just surpassed 1 million views and is still going strong. Susan's humor and unique presentation about her experience with vision ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/nMAOdpvRwWA/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/nMAOdpvRwWA/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/nMAOdpvRwWA/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Blind Abilities",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/6UHataUgLGRz0wCv0HbYwI2VuR0\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/SiFelP66vkcNavNJDIvXPrPjJJo\"",
+                            "id": "nMAOdpvRwWA",
+                            "statistics": {
+                                "viewCount": "24",
+                                "likeCount": "0",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/xxBVFTpWm6J43-fgOWIwkiqzA6w\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "QSeZQf5WyxA"
+                },
+                "snippet": {
+                    "publishedAt": "2017-07-21T18:05:09.000Z",
+                    "channelId": "UCtsHxYoaxKBDl_kMQmtLPCw",
+                    "title": "Seen &amp; Heard: Susan Robinson",
+                    "description": "Check out our interview with Susan Robinson and more on our blog \"The Blind Spot\" - https://twoblindbrothers.com/blindspot/",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/QSeZQf5WyxA/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/QSeZQf5WyxA/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/QSeZQf5WyxA/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Two Blind Brothers",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/mLX0DXR3PJiHpmBwQjQOmgfY0Fg\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/eYm8NxDeY3tRzXpjPPilJp9PZjc\"",
+                            "id": "QSeZQf5WyxA",
+                            "statistics": {
+                                "viewCount": "98",
+                                "likeCount": "6",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Susan Robinson: How I fail at being disabled"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/IyDuXDZeLj_QEwWA4Xt_EGYHyzg\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 3763,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/NQyuKjS5gNDJpScII5eXtWRzddE\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "mguvTfAw4wk"
+                },
+                "snippet": {
+                    "publishedAt": "2017-08-07T14:56:31.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "How cohousing can make us happier (and live longer) | Grace Kim",
+                    "description": "Loneliness doesn't always stem from being alone. For architect Grace Kim, loneliness is a function of how socially connected we feel to the people around us ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/mguvTfAw4wk/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/mguvTfAw4wk/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/mguvTfAw4wk/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/v8H4Mvy8vi1pUNFI8FkDhBtyuLs\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/bYBIEb4ZaJns5qtO-iGAFNq178w\"",
+                            "id": "mguvTfAw4wk",
+                            "statistics": {
+                                "viewCount": "571824",
+                                "likeCount": "13811",
+                                "dislikeCount": "1454",
+                                "favoriteCount": "0",
+                                "commentCount": "1824"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/GQxgBV2xEhgmTDXSbA7zSiadUow\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "DmWrx0ntATU"
+                },
+                "snippet": {
+                    "publishedAt": "2017-02-12T17:48:27.000Z",
+                    "channelId": "UC6ZFN9Tx6xh-skXCuRHCDpQ",
+                    "title": "Cohousing communities help prevent social isolation",
+                    "description": "Groups in Denmark and the U.S. are choosing to live in intentionally intergenerational communities, which emerged to strengthen social ties between aging ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/DmWrx0ntATU/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/DmWrx0ntATU/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/DmWrx0ntATU/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "PBS NewsHour",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/q2TlLYzP2KdnZpMZDsO-EumMmaY\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/hPZxEDeWPkZqVGsibMeoxLvghD0\"",
+                            "id": "DmWrx0ntATU",
+                            "statistics": {
+                                "viewCount": "397784",
+                                "likeCount": "7792",
+                                "dislikeCount": "199",
+                                "favoriteCount": "0"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/15bo2T09u541cXLO7FYHtMK2bH4\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "h6e7d8cwdLY"
+                },
+                "snippet": {
+                    "publishedAt": "2016-12-22T21:45:21.000Z",
+                    "channelId": "UCsT0YIqwnpJCM-mx7-gSA4Q",
+                    "title": "Co-housing, a Future Way of Living Together | Eef Tanghe | TEDxLeuven",
+                    "description": "Here is an unsettling question: Our population and our cities are growing. How will we handle our needs for sustainable housing? Here is one solution... In this ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/h6e7d8cwdLY/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/h6e7d8cwdLY/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/h6e7d8cwdLY/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TEDx Talks",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/8JN1iEeAUC8odVYK39LR0Ud6DbI\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/ca3VK7iL3Df0wAfirDhGL8KxTbk\"",
+                            "id": "h6e7d8cwdLY",
+                            "statistics": {
+                                "viewCount": "35468",
+                                "likeCount": "448",
+                                "dislikeCount": "26",
+                                "favoriteCount": "0",
+                                "commentCount": "54"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Grace Kim: How cohousing can make us happier (and live longer)"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/4vTSSW1KE1nXL9wp_L9TmilMGyI\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 480,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/1yI9U7nE47mYLLo4PZCK2WmbVuI\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "nO69Njad-ec"
+                },
+                "snippet": {
+                    "publishedAt": "2017-08-08T14:49:18.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "A simple new blood test that can catch cancer early | Jimmy Lin",
+                    "description": "Jimmy Lin is developing technologies to catch cancer months to years before current methods. He shares a breakthrough technique that looks for small signals ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/nO69Njad-ec/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/nO69Njad-ec/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/nO69Njad-ec/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/99dXk2atht84HEZYXqhNfO8MLTw\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/6Qx6fIyQcv6pK8wjaC-W4MzJi3Q\"",
+                            "id": "nO69Njad-ec",
+                            "statistics": {
+                                "viewCount": "77810",
+                                "likeCount": "2275",
+                                "dislikeCount": "42",
+                                "favoriteCount": "0",
+                                "commentCount": "170"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/JEh888L-3kZKf_qEaeo6OMsuIVw\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "jBey2ml4XHE"
+                },
+                "snippet": {
+                    "publishedAt": "2018-11-14T20:20:00.000Z",
+                    "channelId": "UCB-segCeC3f2DcEY6HtaavQ",
+                    "title": "A new approach to detecting cancer earlier from blood tests: study",
+                    "description": "Cancer scientists led by principal investigator Dr. Daniel De Carvalho at Princess Margaret Cancer Centre have combined “liquid biopsy”, epigenetic alterations ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/jBey2ml4XHE/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/jBey2ml4XHE/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/jBey2ml4XHE/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "UHNToronto",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/S_ibgypou7OmpPTF8EQj1sd-9WM\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/3eQVGDr2zoINDNw-aNvCmwCrP1w\"",
+                            "id": "jBey2ml4XHE",
+                            "statistics": {
+                                "viewCount": "5396",
+                                "likeCount": "22",
+                                "dislikeCount": "2",
+                                "favoriteCount": "0",
+                                "commentCount": "2"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/ISUo02okui8cpDXGncBNzXacONM\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "kEtYLVPUp_Q"
+                },
+                "snippet": {
+                    "publishedAt": "2013-02-08T14:32:53.000Z",
+                    "channelId": "UC49JYhKBzUidtsDzG-SmFEA",
+                    "title": "Looking for Cancer in a Blood Test",
+                    "description": "Imagine finding a single cancer cell among a huge sample of healthy cells. It's next generation cancer technology being used in the real world. \"We now have a ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/kEtYLVPUp_Q/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/kEtYLVPUp_Q/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/kEtYLVPUp_Q/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Lee Health",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/XWDfO3FKKcc0hoikp4CLYkeOML4\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/fv3oH8fbNUtekmPq6wHv-04568Y\"",
+                            "id": "kEtYLVPUp_Q",
+                            "statistics": {
+                                "viewCount": "38672",
+                                "likeCount": "111",
+                                "dislikeCount": "6",
+                                "favoriteCount": "0",
+                                "commentCount": "3"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Jimmy Lin: A simple new blood test that can catch cancer early"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/25dVCP-k4v237jDr4xd4cn22nXE\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 1467,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/M8LMt1sXw607buzyw_1VEeT1umE\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "C74amJRp730"
+                },
+                "snippet": {
+                    "publishedAt": "2017-07-28T16:01:36.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "How a handful of tech companies control billions of minds every day | Tristan Harris",
+                    "description": "A handful of people working at a handful of tech companies steer the thoughts of billions of people every day, says design thinker Tristan Harris. From Facebook ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/C74amJRp730/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/C74amJRp730/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/C74amJRp730/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/yNOOapnOradNAlbbBr3Hm-qSMwM\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/--aqwNeLyHc_gIlr9MJvO_5536Q\"",
+                            "id": "C74amJRp730",
+                            "statistics": {
+                                "viewCount": "467395",
+                                "likeCount": "10354",
+                                "dislikeCount": "324",
+                                "favoriteCount": "0",
+                                "commentCount": "533"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/rT2DsXrFcs7iEP60b8n8umXXh3E\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "D55ctBYF3AY"
+                },
+                "snippet": {
+                    "publishedAt": "2016-07-14T15:10:30.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "How better tech could protect us from distraction | Tristan Harris",
+                    "description": "How often does technology interrupt us from what we really mean to be doing? At work and at play, we spend a startling amount of time distracted by pings and ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/D55ctBYF3AY/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/D55ctBYF3AY/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/D55ctBYF3AY/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/bqY5LTUID4TjB2xxymGrxm2Nbac\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/IQe8hHoTFyxi9758Zwo1paxXZDc\"",
+                            "id": "D55ctBYF3AY",
+                            "statistics": {
+                                "viewCount": "186393",
+                                "likeCount": "3951",
+                                "dislikeCount": "153",
+                                "favoriteCount": "0",
+                                "commentCount": "229"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/kdM6Kn6F_Xf368O1LBZ7PaCOt-A\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "qsUrOmwI82I"
+                },
+                "snippet": {
+                    "publishedAt": "2017-05-22T13:00:04.000Z",
+                    "channelId": "UCJdKr0Bgd_5saZYqLCa9mng",
+                    "title": "How Tech Uses Unethical Tricks To Addict Us (Pt. 1) | Tristan Harris | TECH | Rubin Report",
+                    "description": "Dave Rubin of The Rubin Report talks to Tristan Harris (Ex-Design Ethicist at Google) to discuss how technology really affects our lives, why design needs ethics ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/qsUrOmwI82I/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/qsUrOmwI82I/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/qsUrOmwI82I/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "The Rubin Report",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/PWTgRkiWq7geN4TWD1Dyh7gYGzo\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/8Ykq7zdSf56dkmhuV5efnD1eTn0\"",
+                            "id": "qsUrOmwI82I",
+                            "statistics": {
+                                "viewCount": "56869",
+                                "likeCount": "1405",
+                                "dislikeCount": "66",
+                                "favoriteCount": "0",
+                                "commentCount": "245"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Tristan Harris: How a handful of tech companies control billions of minds every day"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/go7Nlb8zERIJWQqsdW6Oy1cSjzA\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 135,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/FdMpB1G-r9E8KIx0H7siKElZ1WA\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "bJkv9b9o9lo"
+                },
+                "snippet": {
+                    "publishedAt": "2017-08-09T15:07:23.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "You smell with your body, not just your nose | Jennifer Pluznick",
+                    "description": "Do your kidneys have a sense of smell? Turns out, the same tiny scent detectors found in your nose are also found in some pretty unexpected places -- like your ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/bJkv9b9o9lo/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/bJkv9b9o9lo/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/bJkv9b9o9lo/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/gfXoapVXb-sJKYWHUr2VN2x85MM\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/jM-NxTYHsGrQz4iNvVPY8f0eD5M\"",
+                            "id": "bJkv9b9o9lo",
+                            "statistics": {
+                                "viewCount": "122345",
+                                "likeCount": "1739",
+                                "dislikeCount": "109",
+                                "favoriteCount": "0",
+                                "commentCount": "151"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/9996VLAZ7PsUJKpwTcqLiiaE0a0\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "XIOw62ZlP0I"
+                },
+                "snippet": {
+                    "publishedAt": "2017-07-27T15:33:53.000Z",
+                    "channelId": "UC6Arrv8WD3Z2CehgFefCXTA",
+                    "title": "You smell with your body, not just your nose",
+                    "description": "Jennifer Pluznick and her lab at the Johns Hopkins School of Medicine research the role of the body's olfactory signaling system. While we generally think of ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/XIOw62ZlP0I/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/XIOw62ZlP0I/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/XIOw62ZlP0I/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TEDMED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/j1sH1Ft9Be8ntphRfCDVMlRsn7A\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/P5RX2eq3gQYMX512q-Yx_E5tUks\"",
+                            "id": "XIOw62ZlP0I",
+                            "statistics": {
+                                "viewCount": "5063",
+                                "likeCount": "85",
+                                "dislikeCount": "4",
+                                "favoriteCount": "0",
+                                "commentCount": "7"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/mfMaAKTzO7Yl-Oofd6DFp0ykdMQ\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "W12PlEeO_CA"
+                },
+                "snippet": {
+                    "publishedAt": "2013-02-26T14:23:10.000Z",
+                    "channelId": "UCATNzbTbfeoMhNonZGZmrhA",
+                    "title": "Jen Pluznick | The Role of Smell Receptors in the Kidney",
+                    "description": "Jen Pluznick describes the research in her lab: studying olfactory and taste receptors and their role in helping the kidney maintain homeostasis.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/W12PlEeO_CA/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/W12PlEeO_CA/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/W12PlEeO_CA/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Johns Hopkins Medicine",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/lgiOnRwsXsEluNVTbKVrKTQTXh0\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/BicH8dDDT1VUlpgFKjSfmauNBBQ\"",
+                            "id": "W12PlEeO_CA",
+                            "statistics": {
+                                "viewCount": "1425",
+                                "likeCount": "10",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "1"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Jennifer Pluznick: You smell with your body, not just your nose"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/WUhH1nZbJwKpQZt-IRsKcgwXEQw\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 235,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/vuHhNJ18QSO4PYQ-9P621R0tRVM\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "FauPVZxDXxk"
+                },
+                "snippet": {
+                    "publishedAt": "2017-08-11T14:10:41.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Why I still have hope for coral reefs | Kristen Marhaver",
+                    "description": "Corals in the Pacific Ocean have been dying at an alarming rate, particularly from bleaching brought on by increased water temperatures. But it's not too late to ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/FauPVZxDXxk/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/FauPVZxDXxk/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/FauPVZxDXxk/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Npt7xnlzGFWzedtYLXH3NeH9hxU\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/gv6jIBb8gt74HVc0CY6Dj9chJ7A\"",
+                            "id": "FauPVZxDXxk",
+                            "statistics": {
+                                "viewCount": "74012",
+                                "likeCount": "1453",
+                                "dislikeCount": "67",
+                                "favoriteCount": "0",
+                                "commentCount": "127"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/7eHzrYcM_1nNXXxvOyHMdQwZIc4\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "vPn94XAUBoo"
+                },
+                "snippet": {
+                    "publishedAt": "2015-12-23T17:08:41.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "How we&#39;re growing baby corals to rebuild reefs | Kristen Marhaver",
+                    "description": "Kristen Marhaver studies coral, tiny creatures the size of a poppyseed that, over hundreds of slow years, create beautiful, life-sustaining ocean structures ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/vPn94XAUBoo/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/vPn94XAUBoo/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/vPn94XAUBoo/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/OLGw8UdXok-cF6x2kWQNLcKUKb0\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/pt37XI68lSVYv_L7puV9lyjIhJw\"",
+                            "id": "vPn94XAUBoo",
+                            "statistics": {
+                                "viewCount": "111936",
+                                "likeCount": "2087",
+                                "dislikeCount": "21",
+                                "favoriteCount": "0",
+                                "commentCount": "127"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/pX4EI9FKcOOUlPuVErojy4zlDks\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "iwENBNrfKj4"
+                },
+                "snippet": {
+                    "publishedAt": "2017-11-14T22:46:54.000Z",
+                    "channelId": "UCsT0YIqwnpJCM-mx7-gSA4Q",
+                    "title": "Can we save our coral reefs? | Phillip Dustan | TEDxCharleston",
+                    "description": "Biology Professor Phillip Dustan is spreading the word that the future of underwater ecosystem is in our hands. Across the world coral reefs are a harbinger of ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/iwENBNrfKj4/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/iwENBNrfKj4/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/iwENBNrfKj4/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TEDx Talks",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/nsQTv6F-jXxLcMtR6_Mb8YtIYCM\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/N-TxWbqaXk4IwZMP8gAKcW-5BQ8\"",
+                            "id": "iwENBNrfKj4",
+                            "statistics": {
+                                "viewCount": "1092",
+                                "likeCount": "22",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "2"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Kristen Marhaver: Why I still have hope for coral reefs"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/bcAKrJw_eJ4vSXTNQ80pw014dXg\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 3781,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/4OoESvycp7MlVU1jGnw-C5KUXuw\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "AO4In7d6X-c"
+                },
+                "snippet": {
+                    "publishedAt": "2017-08-14T15:17:59.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Meet Spot, the robot dog that can run, hop and open doors | Marc Raibert",
+                    "description": "That science fiction future where robots can do what people and animals do may be closer than you think. Marc Raibert, founder of Boston Dynamics, ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/AO4In7d6X-c/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/AO4In7d6X-c/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/AO4In7d6X-c/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/DFSQUhEEwdVSLxFFYW6x2aFRDG4\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/h1XJLIx77-l4O5m_adQAifw2TYM\"",
+                            "id": "AO4In7d6X-c",
+                            "statistics": {
+                                "viewCount": "2190074",
+                                "likeCount": "41509",
+                                "dislikeCount": "948",
+                                "favoriteCount": "0",
+                                "commentCount": "2964"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/BSOI7GDZwzxnkW7yoOpNVDefoYI\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "TuphAsK2Qms"
+                },
+                "snippet": {
+                    "publishedAt": "2017-08-19T17:11:42.000Z",
+                    "channelId": "UC1SiuJTnIIbmTv_1cvnB_dg",
+                    "title": "Meet Spot, the robot dog that can run, hop and open doors | Marc Raibert",
+                    "description": "Marc Raibert of Boston Dynamics takes the stage with Darrell Etherington to chat about how to teach a robot and his plans for the future before bringing one .",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/TuphAsK2Qms/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/TuphAsK2Qms/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/TuphAsK2Qms/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Ken Carson",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/6oLVCRkdH36jdmfNBugBbVyxdIM\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/1vIzPrTEcrbr5MW-x2QV2RxXYms\"",
+                            "id": "TuphAsK2Qms",
+                            "statistics": {
+                                "viewCount": "61",
+                                "likeCount": "1",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/dbL8rRoHMLgWOsCTbFEELhYP70Q\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "W1LWMk7JB80"
+                },
+                "snippet": {
+                    "publishedAt": "2018-02-21T11:15:10.000Z",
+                    "channelId": "UCIRYBXDze5krPDzAEOxFGVA",
+                    "title": "Human v robot dog: Boston Dynamics takes on its door-opening SpotMini",
+                    "description": "Boston Dynamics' four-legged machine SpotMini has already proved that it can easily open a door and walk through unchallenged, but now the robotics firm is ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/W1LWMk7JB80/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/W1LWMk7JB80/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/W1LWMk7JB80/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Guardian News",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Nd2LdH0Cv4Ua5R8VIRLWR6rL7A8\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/8m0PxvkehnX497GY0nGk3Rr4F0g\"",
+                            "id": "W1LWMk7JB80",
+                            "statistics": {
+                                "viewCount": "384483",
+                                "likeCount": "718",
+                                "dislikeCount": "68",
+                                "favoriteCount": "0",
+                                "commentCount": "161"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Marc Raibert: Meet Spot, the robot dog that can run, hop and open doors"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Q_I94du0KB66AOZSJfMNBwpIlfw\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 281,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/0fdZ-Aa7LhbmHkgMYP2cMwnamNE\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "DDaldVHUedI"
+                },
+                "snippet": {
+                    "publishedAt": "2017-08-15T15:33:18.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Can art amend history? | Titus Kaphar",
+                    "description": "Artist Titus Kaphar makes paintings and sculptures that wrestle with the struggles of the past while speaking to the diversity and advances of the present.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/DDaldVHUedI/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/DDaldVHUedI/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/DDaldVHUedI/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/cmOdwJMNYuFV4igydBhshH7jmW0\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/MkvIQI_RP-9r3lnngZiM3B54HYI\"",
+                            "id": "DDaldVHUedI",
+                            "statistics": {
+                                "viewCount": "83792",
+                                "likeCount": "2507",
+                                "dislikeCount": "535",
+                                "favoriteCount": "0",
+                                "commentCount": "333"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/i7SYVKcBJ1PZdAYbqzeHFprBEm4\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "in3CdCh9_DA"
+                },
+                "snippet": {
+                    "publishedAt": "2017-09-25T02:48:59.000Z",
+                    "channelId": "UCBIBBcOv5mW5Roc2emMiW_w",
+                    "title": "Can Art Amend History? Titus Kaphar",
+                    "description": "",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/in3CdCh9_DA/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/in3CdCh9_DA/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/in3CdCh9_DA/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "America's Black Holocaust Museum",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/hoSo-S09KtxBqCR3374EYGPERXM\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/q3VrD7Vm8xR-JW-Bz5tOIHr6tzY\"",
+                            "id": "in3CdCh9_DA",
+                            "statistics": {
+                                "viewCount": "422",
+                                "likeCount": "4",
+                                "dislikeCount": "1",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/rj6U8z_mDgg32hmfgqjlTvJ8rCg\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "oLmB9Qnyk4o"
+                },
+                "snippet": {
+                    "publishedAt": "2018-03-22T02:20:18.000Z",
+                    "channelId": "UCbsD6BypPD5hqCFNrfsdgdw",
+                    "title": "Opinion on Can Art Amend History Ted Talk by Titus Kaphar",
+                    "description": "Major Points I took from the Ted Talk and my opinions associated!",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/oLmB9Qnyk4o/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/oLmB9Qnyk4o/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/oLmB9Qnyk4o/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Tia Davis",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/B9wyyW1Y3Fb4dWVlbrS55f2ISaA\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/q5DczSrEFP8lisJBfUc_toxUVN8\"",
+                            "id": "oLmB9Qnyk4o",
+                            "statistics": {
+                                "viewCount": "155",
+                                "likeCount": "1",
+                                "dislikeCount": "1",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Titus Kaphar: Can art amend history?"
+    }
+]

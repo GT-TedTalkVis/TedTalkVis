@@ -1,0 +1,1782 @@
+[
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/eeP6x8d-g4VRXG1k0pn3OQSD21M\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 1841,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/TeReiu1NbB91EoX9Kcck3xsgAKo\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "_ZG8HBuDjgc"
+                },
+                "snippet": {
+                    "publishedAt": "2008-05-22T22:34:20.000Z",
+                    "channelId": "UCh6KFtW4a4Ozr81GI1cxaBQ",
+                    "title": "Douglas Adams: Parrots the Universe and Everything",
+                    "description": "Douglas Adams was the best-selling British author and satirist who created The Hitchhiker's Guide to the Galaxy. In this talk at UCSB recorded shortly before his ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/_ZG8HBuDjgc/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/_ZG8HBuDjgc/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/_ZG8HBuDjgc/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "University of California Television (UCTV)",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/3kQWwYmHlexW9MoDTS6DXqLE-Wo\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Z-CddVedr_ssW5pzJ1spaL4HyKE\"",
+                            "id": "_ZG8HBuDjgc",
+                            "statistics": {
+                                "viewCount": "879551",
+                                "likeCount": "9768",
+                                "dislikeCount": "119",
+                                "favoriteCount": "0",
+                                "commentCount": "624"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/sxV__CqCx0KCYak5VMuy8F69eZ0\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "YQlzZ4Jr_64"
+                },
+                "snippet": {
+                    "publishedAt": "2013-02-07T22:46:51.000Z",
+                    "channelId": "UCLdf7G6WhTlI1IkvGounrdQ",
+                    "title": "Douglas Adams - Parrots the Universe and Everything (ελληνικοι υποτιτλοι)",
+                    "description": "DON'T PANIC http://en.wikipedia.org/wiki/Douglas_Adams http://www.goodreads.com/book/show/8696.Last_Chance_to_See ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/YQlzZ4Jr_64/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/YQlzZ4Jr_64/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/YQlzZ4Jr_64/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "nounoukos",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/SMn6X9hca5Hp0Xwc17NQqP504Y4\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/DGtbs-k1yTUgWCcO9JCrTx1G8RU\"",
+                            "id": "YQlzZ4Jr_64",
+                            "statistics": {
+                                "viewCount": "1130",
+                                "likeCount": "12",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/2NW28F_1861z5kLomiI7_2YsheU\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "OHJLNrDzYm0"
+                },
+                "snippet": {
+                    "publishedAt": "2011-05-22T08:42:57.000Z",
+                    "channelId": "UCy8510nmbNPgB1F2KlsqiCw",
+                    "title": "Life, The Universe and Douglas Adams",
+                    "description": "If Hitchhiker is a must-see for the dedicated fan, so much more so is a new film biography of Douglas Adams entitled Life, the Universe, and Douglas Adams.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/OHJLNrDzYm0/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/OHJLNrDzYm0/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/OHJLNrDzYm0/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "niza310",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/xLyAK_R1s0vJyBa4wo-jUaJfpVY\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/VS30T2g3O6MSCijEfiMO2HgXZPY\"",
+                            "id": "OHJLNrDzYm0",
+                            "statistics": {
+                                "viewCount": "116457",
+                                "likeCount": "993",
+                                "dislikeCount": "25",
+                                "favoriteCount": "0",
+                                "commentCount": "118"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Douglas Adams: Parrots, the universe and everything"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/w3eIXMlaKCMUQ1KQKiMvjanVjTw\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 21640,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Ec1bVrIzjT2csko1tODLsqkEAvs\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "dE1DuBesGYM"
+                },
+                "snippet": {
+                    "publishedAt": "2010-03-17T15:19:22.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Gaming can make a better world | Jane McGonigal",
+                    "description": "http://www.ted.com Games like World of Warcraft give players the means to save worlds, and incentive to learn the habits of heroes. What if we could harness ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/dE1DuBesGYM/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/dE1DuBesGYM/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/dE1DuBesGYM/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/vdg5fpr9C5hqkhJy9-N6-q-oTZg\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/8OghHPXgmsik1Au9a3EGqJcvma8\"",
+                            "id": "dE1DuBesGYM",
+                            "statistics": {
+                                "viewCount": "1123487",
+                                "likeCount": "18827",
+                                "dislikeCount": "758",
+                                "favoriteCount": "0",
+                                "commentCount": "3087"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/lNi_YQHXfCTGhUMri9q1FR1W9fM\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "oSkA9BDWN-U"
+                },
+                "snippet": {
+                    "publishedAt": "2012-03-18T18:57:30.000Z",
+                    "channelId": "UCAVijt5birm_0CCO_izC-3Q",
+                    "title": "Jane McGonigal: WARCRAFT:GAMING can make a better world:WOW: TED TALKS: documentary,lecture,talk",
+                    "description": "http://www.healthandsuperfoods.com/ Jane McGonigal: WARCRAFT:Gaming can make a better world: TED TALKS: documentary,lecture,talk Games like World ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/oSkA9BDWN-U/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/oSkA9BDWN-U/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/oSkA9BDWN-U/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TalkDocumentary",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/WA3vp9w11cPLSsKXsn-XeFNXWFc\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/yj2UYws02iqdyE0UNGeU8yt2oH0\"",
+                            "id": "oSkA9BDWN-U",
+                            "statistics": {
+                                "viewCount": "20940",
+                                "likeCount": "161",
+                                "dislikeCount": "15",
+                                "favoriteCount": "0",
+                                "commentCount": "35"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/rxUONHvNytZzLSGj85pRnl2-4Y0\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "D4FBd8F00rg"
+                },
+                "snippet": {
+                    "publishedAt": "2017-02-06T01:31:51.000Z",
+                    "channelId": "UCY78SNHvyKVQzIt2z6eLv2A",
+                    "title": "Gaming can make a better world | Jane McGonigal",
+                    "description": "",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/D4FBd8F00rg/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/D4FBd8F00rg/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/D4FBd8F00rg/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Mohamad Zaher Abd Ulmaula",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Jj7Mejq-oMXq30Tnv9pAalGAwac\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/gElC4Myn-FjKOeNcG3j6VhjGKLk\"",
+                            "id": "D4FBd8F00rg",
+                            "statistics": {
+                                "viewCount": "868",
+                                "likeCount": "3",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Jane McGonigal: Gaming can make a better world"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/y8dH8jVxFMyyZw5_LC8BHsBH8zc\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 604,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/oEXk6NNxKxVv0_Fdr_IP_ERflP0\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "bSidnKdH5_4"
+                },
+                "snippet": {
+                    "publishedAt": "2010-03-18T14:56:10.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Ken Kamler: Medical miracle on Everest",
+                    "description": "http://www.ted.com When the worst disaster in the history of Mount Everest climbs occurred, Ken Kamler was the only doctor on the mountain. At TEDMED, he ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/bSidnKdH5_4/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/bSidnKdH5_4/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/bSidnKdH5_4/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/xhj4EfsgIkIthMbEORJbTcMpks8\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/OIvr4cCetMrcTPfbOZdXUVgD7AA\"",
+                            "id": "bSidnKdH5_4",
+                            "statistics": {
+                                "viewCount": "83628",
+                                "likeCount": "516",
+                                "dislikeCount": "64",
+                                "favoriteCount": "0",
+                                "commentCount": "94"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/b7tElf8u7kKA9V0vgfGFIF0jkdM\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "fbtY-Y7qdKA"
+                },
+                "snippet": {
+                    "publishedAt": "2015-04-08T21:47:59.000Z",
+                    "channelId": "UCIXoZgWKsE87iMg6wEXjtrA",
+                    "title": "Ken Kamler  Medical miracle on Everest",
+                    "description": "",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/fbtY-Y7qdKA/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/fbtY-Y7qdKA/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/fbtY-Y7qdKA/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Video Chat-one",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/gGyzeR-iUyGRcyP6m9fThkdXbUY\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/OYyPLdi_SjSv9Q7dML6CPB0wdcc\"",
+                            "id": "fbtY-Y7qdKA",
+                            "statistics": {
+                                "viewCount": "70",
+                                "likeCount": "2",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "1"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/eSrXbmNSm0iDPuH2kSizASCrgNg\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "Bgqc2m7aBzs"
+                },
+                "snippet": {
+                    "publishedAt": "2009-01-10T00:21:58.000Z",
+                    "channelId": "UCnzItcpd7WGVn80TRRb8RcQ",
+                    "title": "Inside the 1996 Everest Disaster - Ken Kamler",
+                    "description": "Watch full video at: http://fora.tv/2008/12/12/Dr_Ken_Kamler_Remembers_1996_Everest_Disaster Dr. Kenneth Kamler recalls his harrowing experience on a ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/Bgqc2m7aBzs/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/Bgqc2m7aBzs/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/Bgqc2m7aBzs/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "FORA.tv",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/8uko6nE0rW43WTWMgtukTk8mVPY\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/xsUL6MBo90KMyutA1rIOtlRGpIE\"",
+                            "id": "Bgqc2m7aBzs",
+                            "statistics": {
+                                "viewCount": "2500962",
+                                "likeCount": "6114",
+                                "dislikeCount": "568",
+                                "favoriteCount": "0",
+                                "commentCount": "1894"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Ken Kamler: Medical miracle on Everest"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/DjeBl5OkYBMiW_dOQ2jWlwfE2k4\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 879,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/dr1dsjzmB2d3LDN-pdj-ECUbj0Q\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "jZxLsDkvkVQ"
+                },
+                "snippet": {
+                    "publishedAt": "2010-04-01T16:25:29.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Shekhar Kapur: We are the stories we tell ourselves",
+                    "description": "http://www.ted.com Where does creative inspiration spring from? At TEDIndia, Hollywood/Bollywood director Shekhar Kapur (\"Elizabeth,\" \"Mr. India\") pinpoints ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/jZxLsDkvkVQ/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/jZxLsDkvkVQ/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/jZxLsDkvkVQ/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/CEb7O1GqTGfGgNh8RdMPwAGr33g\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/XBYCu5qXZfYQ1yyusK5BuZJJyKE\"",
+                            "id": "jZxLsDkvkVQ",
+                            "statistics": {
+                                "viewCount": "122389",
+                                "likeCount": "775",
+                                "dislikeCount": "124",
+                                "favoriteCount": "0",
+                                "commentCount": "52"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/yNSeMHFOsh8aegZA3xcgCz1i00I\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "0L4Omgo70Rk"
+                },
+                "snippet": {
+                    "publishedAt": "2016-05-13T19:06:57.000Z",
+                    "channelId": "UCsT0YIqwnpJCM-mx7-gSA4Q",
+                    "title": "Re-Scripting The Stories We Tell Ourselves | Colleen Georges | TEDxRutgers",
+                    "description": "Does the voice inside our head dictate the kind of life we'll lead? In her fascinating talk on positive psychology research, personal experiences and critical ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/0L4Omgo70Rk/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/0L4Omgo70Rk/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/0L4Omgo70Rk/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TEDx Talks",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/bpWtP4q_t3FJgo4KOykl0Y4BORM\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/1RKSa7zKykkGKAayG6ywYJcHzf0\"",
+                            "id": "0L4Omgo70Rk",
+                            "statistics": {
+                                "viewCount": "11874",
+                                "likeCount": "162",
+                                "dislikeCount": "5",
+                                "favoriteCount": "0",
+                                "commentCount": "17"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/tynWwJ-mcm4b0G0VG2rWP-bHPUw\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "5XcZfsgAR0c"
+                },
+                "snippet": {
+                    "publishedAt": "2015-01-21T11:36:27.000Z",
+                    "channelId": "UCxyH0GWnCJIsH8YpdxTh8oQ",
+                    "title": "Interactive Session with Shekhar Kapur on “We are the Stories We Tell Ourselves”: Part 4",
+                    "description": "",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/5XcZfsgAR0c/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/5XcZfsgAR0c/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/5XcZfsgAR0c/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "FICCI Ladies Organisation",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/mCzEFWptNKBNy_BvuZXsEu2Vt14\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/GH00IuBxQwPmMEmp7FH_t58RuIw\"",
+                            "id": "5XcZfsgAR0c",
+                            "statistics": {
+                                "viewCount": "17",
+                                "likeCount": "0",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Shekhar Kapur: We are the stories we tell ourselves"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/V1QFSzNz-xpTgARHZoeN7e1nSYM\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 78568,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/QTBV-Rf3zeH75bTVjha2c5_AM5Q\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "Hj9oB4zpHww"
+                },
+                "snippet": {
+                    "publishedAt": "2010-03-22T16:04:00.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Science can answer moral questions | Sam Harris",
+                    "description": "http://www.ted.com Questions of good and evil, right and wrong are commonly thought unanswerable by science. But Sam Harris argues that science can -- and ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/Hj9oB4zpHww/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/Hj9oB4zpHww/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/Hj9oB4zpHww/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/kSuHSZ1hnHT6gcWVRWsFxbFwtXo\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/9DFFkVtf1Bkz7WiQ8PtbrfIcVQ8\"",
+                            "id": "Hj9oB4zpHww",
+                            "statistics": {
+                                "viewCount": "1889233",
+                                "likeCount": "36534",
+                                "dislikeCount": "2378",
+                                "favoriteCount": "0",
+                                "commentCount": "9369"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/flbBbaPe8ZRdR2SNU8YbSo_ooF4\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "ZUtXmT_sIxI"
+                },
+                "snippet": {
+                    "publishedAt": "2018-07-09T18:23:14.000Z",
+                    "channelId": "UC7kIy8fZavEni8Gzl8NLjOQ",
+                    "title": "Sam Harris is Wrong About Morality (It Can&#39;t Be Objective)",
+                    "description": "To support me on Patreon (thank you): http://www.patreon.com/cosmicskeptic To donate to my PayPal (thank you): http://www.paypal.me/cosmicskeptic To ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/ZUtXmT_sIxI/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/ZUtXmT_sIxI/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/ZUtXmT_sIxI/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "CosmicSkeptic",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/hjOYWRAknKY9kZ6mngyap4JAX_k\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/JkFkO8LuJRs18VTySCCXOkXGK4A\"",
+                            "id": "ZUtXmT_sIxI",
+                            "statistics": {
+                                "viewCount": "105246",
+                                "likeCount": "4880",
+                                "dislikeCount": "284",
+                                "favoriteCount": "0",
+                                "commentCount": "3497"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/O4fs97qnCmHvdoPRpLyy1t2IX-4\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "Mm2Jrr0tRXk"
+                },
+                "snippet": {
+                    "publishedAt": "2011-05-04T20:21:55.000Z",
+                    "channelId": "UCH_zYYXkJpULueOVZTkY4Bw",
+                    "title": "Who Says Science has Nothing to Say About Morality?",
+                    "description": "Sam Harris and Richard Dawkins discuss Who Says Science has Nothing to Say About Morality? Taped at The Sheldonian Theatre University of Oxford April ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/Mm2Jrr0tRXk/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/Mm2Jrr0tRXk/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/Mm2Jrr0tRXk/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Richard Dawkins Foundation for Reason & Science",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/IWKSpvyf2OyxaNzy18iqG2S4_Zg\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/sTYo2rlA5KbsBH8P2m-xDqO7jA0\"",
+                            "id": "Mm2Jrr0tRXk",
+                            "statistics": {
+                                "viewCount": "921022",
+                                "likeCount": "13562",
+                                "dislikeCount": "550",
+                                "favoriteCount": "0",
+                                "commentCount": "5905"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Sam Harris: Science can answer moral questions"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/VGcrQcj03i6Buu-Tfbqj0t4tl_Y\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 134,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/D33N1x0pFEyn5jL5jBy2c35qxPQ\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "zDcaoTVy4fA"
+                },
+                "snippet": {
+                    "publishedAt": "2010-03-23T18:10:41.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Juliana Machado Ferreira: The fight to end rare-animal trafficking in Brazil",
+                    "description": "http://www.ted.com Biologist Juliana Machado Ferreira, a TED Senior Fellow, talks about her work helping to save birds and other animals stolen from the wild in ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/zDcaoTVy4fA/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/zDcaoTVy4fA/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/zDcaoTVy4fA/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/XMCgNBhgKDQ9QPvbU9vkw4WHH5w\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/3LEzggQNUn1W1M97AtNgtlCSqWo\"",
+                            "id": "zDcaoTVy4fA",
+                            "statistics": {
+                                "viewCount": "20293",
+                                "likeCount": "185",
+                                "dislikeCount": "23",
+                                "favoriteCount": "0",
+                                "commentCount": "56"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/s97Ie1h_MrXG7srJdOsDhz6AtMc\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "VoYHGO4GPls"
+                },
+                "snippet": {
+                    "publishedAt": "2014-08-21T15:29:00.000Z",
+                    "channelId": "UCpVm7bg6pXKo1Pr6k5kxG9A",
+                    "title": "Juliana Machado Ferreira: The Stolen Birds of Brazil | Nat Geo Live",
+                    "description": "Every year, poachers remove 38 million animals from natural habitats in Brazil to supply the illegal wildlife trade. Conservation biologist and National ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/VoYHGO4GPls/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/VoYHGO4GPls/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/VoYHGO4GPls/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "National Geographic",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/HNiEUCiC_HS6y-qGrE73ugYU0XI\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/hBvm4xrejS5BJAZYzURCoUaC8C4\"",
+                            "id": "VoYHGO4GPls",
+                            "statistics": {
+                                "viewCount": "13262",
+                                "likeCount": "83",
+                                "dislikeCount": "11",
+                                "favoriteCount": "0",
+                                "commentCount": "4"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/vhxE0xgHYn2jLYP4UFCJxq-JBIA\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "AnwlBViS9jY"
+                },
+                "snippet": {
+                    "publishedAt": "2015-01-01T13:00:07.000Z",
+                    "channelId": "UCpVm7bg6pXKo1Pr6k5kxG9A",
+                    "title": "Fighting for Brazil&#39;s Stolen Species | National Geographic",
+                    "description": "National Geographic 2014 Emerging Explorer and conservation biologist Juliana Machado Ferreira is on the front line of Brazil's fight against a thriving illegal ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/AnwlBViS9jY/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/AnwlBViS9jY/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/AnwlBViS9jY/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "National Geographic",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/EocN8QZf6ZgqW86PvSh7eG_sdqc\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/7q8uuwURqOSt-rmObQf_t9pKyG0\"",
+                            "id": "AnwlBViS9jY",
+                            "statistics": {
+                                "viewCount": "14171",
+                                "likeCount": "188",
+                                "dislikeCount": "8",
+                                "favoriteCount": "0",
+                                "commentCount": "16"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Juliana Machado Ferreira: The fight to end rare animal trafficking in Brazil"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/5BoekbXvqbAEkPt_3Gxztrk_D4A\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 605,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/ngjmT7l672uPeb4f1aKztnjqAgo\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "yyemG7V5ynQ"
+                },
+                "snippet": {
+                    "publishedAt": "2010-03-24T15:03:44.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Alan Siegel: Let&#39;s simplify legal jargon!",
+                    "description": "http://www.ted.com Tax forms, credit agreements, healthcare legislation: They're crammed with gobbledygook, says Alan Siegel, and incomprehensibly long.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/yyemG7V5ynQ/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/yyemG7V5ynQ/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/yyemG7V5ynQ/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/bjAWyZ8SvmXxTZo6hdlsQocQf30\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/z1NXoZhx2v1HSzWaqh-z3Tke3qc\"",
+                            "id": "yyemG7V5ynQ",
+                            "statistics": {
+                                "viewCount": "45201",
+                                "likeCount": "699",
+                                "dislikeCount": "19",
+                                "favoriteCount": "0",
+                                "commentCount": "85"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/WWng8FIxRX-quj5xRDhUCc8wp0U\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "GbEeMolAUsM"
+                },
+                "snippet": {
+                    "publishedAt": "2013-02-18T14:29:35.000Z",
+                    "channelId": "UCsooa4yRKGN_zEE8iknghZA",
+                    "title": "Let&#39;s simplify legal jargon - Alan Siegel",
+                    "description": "View full lesson: http://ed.ted.com/lessons/let-s-simplify-legal-jargon-alan-siegel Tax forms, credit agreements, healthcare legislation: They're crammed with ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/GbEeMolAUsM/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/GbEeMolAUsM/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/GbEeMolAUsM/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED-Ed",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Xp4zpMduPYsesY6Q4QVRFV5Fuds\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/RDQbZ_d9C0jQFSAzVTJ-XB2jeg4\"",
+                            "id": "GbEeMolAUsM",
+                            "statistics": {
+                                "viewCount": "12879",
+                                "likeCount": "167",
+                                "dislikeCount": "1",
+                                "favoriteCount": "0",
+                                "commentCount": "6"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Y6q59RX-pqt7bEQoGI1rht-IVJU\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "pSoWaQLpxmw"
+                },
+                "snippet": {
+                    "publishedAt": "2010-03-30T14:36:53.000Z",
+                    "channelId": "UC0oFUhXfEfsaenS_qq-VJKg",
+                    "title": "TED 2010: Alan Siegel - &quot;Let&#39;s Simplify Legal Jargon!&quot;",
+                    "description": "Read the blog: http://bit.ly/1ggI78U ABOUT THIS TALK Tax forms, credit agreements, healthcare legislation: They're crammed with gobbledygook, says Alan ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/pSoWaQLpxmw/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/pSoWaQLpxmw/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/pSoWaQLpxmw/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Siegel Gale",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/ZdgK808LzJbj3qr2FSztN_fqdI4\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/MBxQc0R54-H29Sbw-hz8cL3OUTQ\"",
+                            "id": "pSoWaQLpxmw",
+                            "statistics": {
+                                "viewCount": "324",
+                                "likeCount": "1",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Alan Siegel: Let's simplify legal jargon!"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/tCocLJflAi3TV59XDlNN2owPKhE\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 1592,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/_BtDwHd6grHrB8UpnapGLoonAs0\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "7a8Y605PEc8"
+                },
+                "snippet": {
+                    "publishedAt": "2013-08-01T22:20:26.000Z",
+                    "channelId": "UCsooa4yRKGN_zEE8iknghZA",
+                    "title": "Why we need to go back to Mars - Joel Levine",
+                    "description": "In this talk, planetary scientist Joel Levine shows some intriguing -- and puzzling -- new discoveries about Mars: craters full of ice, traces of ancient oceans, and ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/7a8Y605PEc8/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/7a8Y605PEc8/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/7a8Y605PEc8/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED-Ed",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/4mg8XM7Sh6osg53Ei0Nz4fu8dgA\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/tLjq25WPKfwFjirBIxk98Sa8Lss\"",
+                            "id": "7a8Y605PEc8",
+                            "statistics": {
+                                "viewCount": "23232",
+                                "likeCount": "230",
+                                "dislikeCount": "8",
+                                "favoriteCount": "0",
+                                "commentCount": "50"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/WHIz6Bv49GIig6c0LqUWy43nGTI\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "YzhSmnGcSkE"
+                },
+                "snippet": {
+                    "publishedAt": "2015-07-31T20:23:05.000Z",
+                    "channelId": "UCsT0YIqwnpJCM-mx7-gSA4Q",
+                    "title": "The Exploration and Colonization of Mars: Why Mars? Why Humans? | Dr. Joel Levine | TEDxRVA",
+                    "description": "This talk was given at a local TEDx event, produced independently of the TED Conferences. It was filmed and edited by Tijo Media at the Carpenter Theatre at ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/YzhSmnGcSkE/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/YzhSmnGcSkE/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/YzhSmnGcSkE/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TEDx Talks",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/ya5vzcANzSc_7DKuCu7wXgJ1Xdo\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/v9yEu_Pg8YYwfvFW2TLF6jnzOkQ\"",
+                            "id": "YzhSmnGcSkE",
+                            "statistics": {
+                                "viewCount": "584211",
+                                "likeCount": "4983",
+                                "dislikeCount": "422",
+                                "favoriteCount": "0",
+                                "commentCount": "1033"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/cCyN7ocEwRBstL3Us9NFnXXt2Mw\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "4yQZtMGSs7A"
+                },
+                "snippet": {
+                    "publishedAt": "2017-03-01T15:56:53.000Z",
+                    "channelId": "UC3z04L2fvihUjsSD1MKJSBQ",
+                    "title": "Talking &quot;Hidden Figures&quot; With Former NASA Employee Joel Levine",
+                    "description": "Former NASA employee Joel Levine was kind enough to take some time to talk to About The Burg about the film \"Hidden Figures\" from the perspective of ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/4yQZtMGSs7A/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/4yQZtMGSs7A/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/4yQZtMGSs7A/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "About the Burg",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/EpQdWyPa35lfTNyiOcVB64_x_Iw\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/7w5m7YG685sG8lRJ6wNtHGP_RNk\"",
+                            "id": "4yQZtMGSs7A",
+                            "statistics": {
+                                "viewCount": "101",
+                                "likeCount": "2",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Joel Levine: Why we need to go back to Mars"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/BrrTnIYzuxH6_T1g0IDlORY2g0Q\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 359,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/vC-su8ZV1r-8NsYl7rsIbHoiQKA\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "C_SBGTJgBGo"
+                },
+                "snippet": {
+                    "publishedAt": "2010-03-26T16:07:14.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Robert Gupta: Music is medicine, music is sanity",
+                    "description": "http://www.ted.com Robert Gupta, violinist with the LA Philharmonic, talks about a violin lesson he once gave to a brilliant, schizophrenic musician -- and what he ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/C_SBGTJgBGo/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/C_SBGTJgBGo/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/C_SBGTJgBGo/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/mYPGmFnbA0TcWqktvv8kyRE4d0M\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/VgLrnjv6IwQ0XHB919RhL6w2g6Q\"",
+                            "id": "C_SBGTJgBGo",
+                            "statistics": {
+                                "viewCount": "77987",
+                                "likeCount": "826",
+                                "dislikeCount": "72",
+                                "favoriteCount": "0",
+                                "commentCount": "114"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/XeajCvR5FziCWKDgb2aYItTF8iw\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "qx6KK-eT4qw"
+                },
+                "snippet": {
+                    "publishedAt": "2012-10-02T17:49:17.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Robert Gupta: Between music and medicine",
+                    "description": "When Robert Gupta was caught between a career as a doctor and as a violinist, he realized his place was in the middle, with a bow in his hand and a sense of ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/qx6KK-eT4qw/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/qx6KK-eT4qw/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/qx6KK-eT4qw/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/X8s4Nkb9H8dQsbxJexbVlXKyfVc\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/NF7QjRlwvBnTl--61_9-cE4hE6k\"",
+                            "id": "qx6KK-eT4qw",
+                            "statistics": {
+                                "viewCount": "91206",
+                                "likeCount": "1450",
+                                "dislikeCount": "53",
+                                "favoriteCount": "0",
+                                "commentCount": "127"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/2Jk-WbeFStfbP5aRVdnDjLeOfIg\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "C2DtOWrJ7lM"
+                },
+                "snippet": {
+                    "publishedAt": "2010-09-17T22:39:57.000Z",
+                    "channelId": "UCBjBZmguQzn6WCYR7DQykLw",
+                    "title": "Robert Gupta: Music is medicine, music is sanity",
+                    "description": "Robert Gupta, violinist with the LA Philharmonic, talks about a violin lesson he once gave to a brilliant, schizophrenic musician -- and what he learned. Called ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/C2DtOWrJ7lM/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/C2DtOWrJ7lM/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/C2DtOWrJ7lM/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED Fellow",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/dwTjxghjPabuqM_ktH6vVAfPmYc\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/_vrKMXc79MUbPdCRSCJgdATRw_M\"",
+                            "id": "C2DtOWrJ7lM",
+                            "statistics": {
+                                "viewCount": "10423",
+                                "likeCount": "126",
+                                "dislikeCount": "3",
+                                "favoriteCount": "0",
+                                "commentCount": "6"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Robert Gupta: Music is medicine, music is sanity"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/DIO0lCEKuX7ARuIT87x8BZ61sEE\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 903,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Tv5mJ4yIYGPFvWxJD-546oket9A\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "L9jjhGq8pMM"
+                },
+                "snippet": {
+                    "publishedAt": "2008-10-09T14:34:04.000Z",
+                    "channelId": "UCQ-WH1QgKYK8xKtQSfqyoxw",
+                    "title": "Patsy Rodenburg - Why I do Theatre",
+                    "description": "Patsy Rodenburg speaking at Michael Howard Studios in NYC. For more information on Patsy's classes, visit www.michaelhowardstudios.com.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/L9jjhGq8pMM/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/L9jjhGq8pMM/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/L9jjhGq8pMM/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Michael Howard",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/AWjARV8cPgL1cQ-lUTRyb4GfCFE\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/yddgf5ILlSdR8S6fN4p2D26AKxI\"",
+                            "id": "L9jjhGq8pMM",
+                            "statistics": {
+                                "viewCount": "199778",
+                                "likeCount": "1359",
+                                "dislikeCount": "17",
+                                "favoriteCount": "0",
+                                "commentCount": "69"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/ZB2LzjMWlulVVy4pqwMp9R8uHIk\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "Ub27yeXKUTY"
+                },
+                "snippet": {
+                    "publishedAt": "2008-10-09T17:46:45.000Z",
+                    "channelId": "UCQ-WH1QgKYK8xKtQSfqyoxw",
+                    "title": "Patsy Rodenburg - The Second Circle",
+                    "description": "Patsy Rodenburg speaks about \"The Second Circle\" at Michael Howard Studios in NYC. For more information about Patsy's classes, visit ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/Ub27yeXKUTY/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/Ub27yeXKUTY/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/Ub27yeXKUTY/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Michael Howard",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/ENeJrlJ2vl1LE4a6lvHYpL1noLA\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/9EmePd31wl3A9v2UH_6PkY7UdbM\"",
+                            "id": "Ub27yeXKUTY",
+                            "statistics": {
+                                "viewCount": "194092",
+                                "likeCount": "1534",
+                                "dislikeCount": "24",
+                                "favoriteCount": "0",
+                                "commentCount": "49"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/7mi5fHlu3RM0X1ahjsY2tCDCD8M\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "IBsIHZRA2ho"
+                },
+                "snippet": {
+                    "publishedAt": "2017-02-09T18:28:33.000Z",
+                    "channelId": "UCsT0YIqwnpJCM-mx7-gSA4Q",
+                    "title": "Lessons In Theatre That Have Nothing to Do With Acting | Marianne Adams | TEDxHelena",
+                    "description": "Why talent doesn't mean anything if you're a jerk and other lessons in theatre! Marianne received her BFA in Theatre Arts from the University of Nebraska at ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/IBsIHZRA2ho/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/IBsIHZRA2ho/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/IBsIHZRA2ho/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TEDx Talks",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/MzdU274NnpBMdtPcLrcFEFnVxhw\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/EYoLQPvasHbhGGqjBeRAKUpU-VA\"",
+                            "id": "IBsIHZRA2ho",
+                            "statistics": {
+                                "viewCount": "40411",
+                                "likeCount": "931",
+                                "dislikeCount": "21",
+                                "favoriteCount": "0",
+                                "commentCount": "14"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Patsy Rodenburg: Why I do theater"
+    }
+]

@@ -1,0 +1,1779 @@
+[
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/-wABr2rGeT6MP_cSMY-kMO9L7WU\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 240,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/YpMyXP71ts93ns2A5k48T8H8-WE\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "vNDhu2uqfdo"
+                },
+                "snippet": {
+                    "publishedAt": "2014-03-03T17:07:16.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Mary Lou Jepsen: Could future devices read images from our brains?",
+                    "description": "As an expert on cutting-edge digital displays, Mary Lou Jepsen studies how to show our most creative ideas on screens. And as a brain surgery patient herself, ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/vNDhu2uqfdo/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/vNDhu2uqfdo/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/vNDhu2uqfdo/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/zcCcK78l6cdGYVhMescTfz5-E0o\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/5elOJj_50ldK-aJ06FFx62ldZYs\"",
+                            "id": "vNDhu2uqfdo",
+                            "statistics": {
+                                "viewCount": "70976",
+                                "likeCount": "1108",
+                                "dislikeCount": "36",
+                                "favoriteCount": "0",
+                                "commentCount": "152"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/e7BYqbRCOGY3bYeY6-AP3NSNen4\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "FMiOIqysm_k"
+                },
+                "snippet": {
+                    "publishedAt": "2019-04-10T12:24:42.000Z",
+                    "channelId": "UCWrXlzhIENTJrAuKVuPgdEA",
+                    "title": "Mary Lou Jepsen: How We Can Use Light to See Deep Inside Our Bodies and Brains",
+                    "description": "75% of humanity lacks access to medical imaging, with each scan costing thousands of dollars. Yet, medical imaging is key in diagnosing cancer and other ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/FMiOIqysm_k/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/FMiOIqysm_k/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/FMiOIqysm_k/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "WIRED UK",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/qGtVLoj9qoarA3GHZvfF8JxCcww\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/BKYfUTfM3KzDmDLm7HqSjYmt0-s\"",
+                            "id": "FMiOIqysm_k",
+                            "statistics": {
+                                "viewCount": "2743",
+                                "likeCount": "85",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "11"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/N7D0GQlOMwVtE56vh4Gp3152wBI\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "awADEuv5vWY"
+                },
+                "snippet": {
+                    "publishedAt": "2018-08-24T15:31:53.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "How we can use light to see deep inside our bodies and brains | Mary Lou Jepsen",
+                    "description": "In a series of mind-bending demos, inventor Mary Lou Jepsen shows how we can use red light to see and stimulate what's inside our bodies and brains. Taking ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/awADEuv5vWY/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/awADEuv5vWY/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/awADEuv5vWY/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/nCXsVJALZAFy8k5NZz8UaxDqihs\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/u_00E-NfbiOTUP2dODtgO-yw3OY\"",
+                            "id": "awADEuv5vWY",
+                            "statistics": {
+                                "viewCount": "267282",
+                                "likeCount": "8674",
+                                "dislikeCount": "248",
+                                "favoriteCount": "0",
+                                "commentCount": "844"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Mary Lou Jepsen: Could future devices read images from our brains?"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/fZbAb1KOG4yXD3aITPi7OWBfoYA\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 6622,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/dDxWMx8p__h8JhIBgm-OEo-hGRs\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "EHTmxmuhZ10"
+                },
+                "snippet": {
+                    "publishedAt": "2014-04-18T14:28:00.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Philip Evans: How data will transform business",
+                    "description": "What does the future of business look like? In an informative talk, Philip Evans gives a quick primer on two long-standing theories in strategy — and explains ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/EHTmxmuhZ10/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/EHTmxmuhZ10/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/EHTmxmuhZ10/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Om_U7pfIvI4o8ogShwmf7WWAjbo\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/rxXJSOa_uh4bY_lWQcp7CD0EGk0\"",
+                            "id": "EHTmxmuhZ10",
+                            "statistics": {
+                                "viewCount": "257078",
+                                "likeCount": "2445",
+                                "dislikeCount": "112",
+                                "favoriteCount": "0",
+                                "commentCount": "104"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/hr7hXW4YwlQHKGttG9cLeBQOrYM\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "rTIyv-sNtYw"
+                },
+                "snippet": {
+                    "publishedAt": "2017-06-08T07:52:07.000Z",
+                    "channelId": "UCA6AG33Zac0xi6f9VMTxkFQ",
+                    "title": "AI &amp; the Future of Social Media - Philip Evans , The Boston Consulting Group at #EngagePrague",
+                    "description": "Philip Evans from The Boston Consulting Group, discusses the importance of data in mapping the future of AI, at #EngagePrague.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/rTIyv-sNtYw/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/rTIyv-sNtYw/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/rTIyv-sNtYw/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Socialbakers",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/aITHHGYGPihoor_9G1eDOd_uAJ0\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/RuqXCJVxPuOnFu7M2larjoFgje0\"",
+                            "id": "rTIyv-sNtYw",
+                            "statistics": {
+                                "viewCount": "1407",
+                                "likeCount": "17",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/EmJ18V1hVejZcIey5K1AYRULtX8\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "S85K7D88qtA"
+                },
+                "snippet": {
+                    "publishedAt": "2019-03-14T11:54:46.000Z",
+                    "channelId": "UClfyB64mJWee0LTGlIssvTw",
+                    "title": "BCG Academy 2019: Philip Evans on the Disruptive Forces of Technology",
+                    "description": "Phillip Evans is a Senior Advisor at BCG. At BCG Academy 2019 he talked about a fundamentally new world created by four forces, a place where the virtual ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/S85K7D88qtA/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/S85K7D88qtA/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/S85K7D88qtA/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "BCG in the Nordics",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/jbp-Gfo_kngTz3EoclpMdEY9--o\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/5pgPcq90Bl-FIwdP6uDCe76FFcQ\"",
+                            "id": "S85K7D88qtA",
+                            "statistics": {
+                                "viewCount": "365",
+                                "likeCount": "4",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Philip Evans: How data will transform business"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/6HNTpwN6LDixIWr8EhtkPPZ3XU8\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 1911,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/7rHtrfzWdY2YNIB_rABYFDVKZx0\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "FrxDrpi1XNU"
+                },
+                "snippet": {
+                    "publishedAt": "2014-03-05T19:45:22.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Christopher Soghoian: Government surveillance — this is just the beginning",
+                    "description": "Privacy researcher Christopher Soghoian sees the landscape of government surveillance shifting beneath our feet, as an industry grows to support monitoring ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/FrxDrpi1XNU/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/FrxDrpi1XNU/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/FrxDrpi1XNU/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/SPQrFlJbhiiv4C8es9HDVTYBO2w\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/txZn2dYLbeynm5B5yUlTVvzOx7s\"",
+                            "id": "FrxDrpi1XNU",
+                            "statistics": {
+                                "viewCount": "115314",
+                                "likeCount": "2216",
+                                "dislikeCount": "39",
+                                "favoriteCount": "0",
+                                "commentCount": "202"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/x-EKwZ9x6q9KaEoFrTWMlEsDjaM\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "ni4FV5zL6lM"
+                },
+                "snippet": {
+                    "publishedAt": "2015-09-14T15:15:52.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "How to Avoid Surveillance...With Your Phone | Christopher Soghoian | TED Talks",
+                    "description": "Who is listening in on your phone calls? On a landline, it could be anyone, says privacy activist Christopher Soghoian, because surveillance backdoors are built ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/ni4FV5zL6lM/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/ni4FV5zL6lM/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/ni4FV5zL6lM/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Qg7cdoTMnfrYpNL5QobQcR5d5G8\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/IHnrQVW9jTluU6wU3F5UTkMVf-Q\"",
+                            "id": "ni4FV5zL6lM",
+                            "statistics": {
+                                "viewCount": "824628",
+                                "likeCount": "10260",
+                                "dislikeCount": "2170",
+                                "favoriteCount": "0",
+                                "commentCount": "1930"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/YGCnJAhJnnYuhhDX7zb0ELJ34VY\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "_ZW-8-NCKMw"
+                },
+                "snippet": {
+                    "publishedAt": "2016-11-23T16:30:01.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Your smartphone is a civil rights issue | Christopher Soghoian",
+                    "description": "The smartphone you use reflects more than just personal taste ... it could determine how closely you can be tracked, too. Privacy expert Christopher Soghoian ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/_ZW-8-NCKMw/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/_ZW-8-NCKMw/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/_ZW-8-NCKMw/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/ZVDYdJEEDB84TTA-bjAaVmou7r0\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/blR0MFmxtr0yLsd51I4bygOrv_o\"",
+                            "id": "_ZW-8-NCKMw",
+                            "statistics": {
+                                "viewCount": "158837",
+                                "likeCount": "2165",
+                                "dislikeCount": "2188",
+                                "favoriteCount": "0",
+                                "commentCount": "691"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Christopher Soghoian: Government surveillance — this is just the beginning"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/LbI1c2HHIRcSEziQwT1-sgtTZ30\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 163,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/bTN_HOqN96DczfINaeq1BuGEpcQ\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "13rqtiAPISY"
+                },
+                "snippet": {
+                    "publishedAt": "2014-03-06T16:48:10.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Gabriel Barcia-Colombo: My DNA vending machine",
+                    "description": "Vending machines generally offer up sodas, candy bars and chips. Not so for the one created by TED Fellow Gabe Barcia-Colombo. This artist has dreamed up ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/13rqtiAPISY/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/13rqtiAPISY/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/13rqtiAPISY/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/sah8uRg1rR8PeJQ96G2t-Vt8PRo\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/TspIIGr4wCA72cSbsl3eh0CxulQ\"",
+                            "id": "13rqtiAPISY",
+                            "statistics": {
+                                "viewCount": "63018",
+                                "likeCount": "444",
+                                "dislikeCount": "358",
+                                "favoriteCount": "0",
+                                "commentCount": "121"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/O6HJcoJB8RwWPSOckK69rKsMYQ0\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "OxJZF_HjoYI"
+                },
+                "snippet": {
+                    "publishedAt": "2014-12-24T22:39:28.000Z",
+                    "channelId": "UCsT0YIqwnpJCM-mx7-gSA4Q",
+                    "title": "Slow Down | Gabriel Barcia-Colombo | TEDxCapeMay",
+                    "description": "This talk was given at a local TEDx event, produced independently of the TED Conferences. Gabriel Barcia-Colombo asks us to consider slowing down in the ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/OxJZF_HjoYI/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/OxJZF_HjoYI/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/OxJZF_HjoYI/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TEDx Talks",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/oSTi3coqs3Y4bjGQOZNLuwL6Trc\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/XXJCPKp8EL33QeJnSlAPSWS4GrQ\"",
+                            "id": "OxJZF_HjoYI",
+                            "statistics": {
+                                "viewCount": "5199",
+                                "likeCount": "42",
+                                "dislikeCount": "4",
+                                "favoriteCount": "0",
+                                "commentCount": "4"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/1KBvjYtSJ7w2JlRvqvkKcKTwpqs\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "2jC4qMleHCw"
+                },
+                "snippet": {
+                    "publishedAt": "2016-04-16T04:28:06.000Z",
+                    "channelId": "UC9h0GjinxF5AgZN_u4Z2kzg",
+                    "title": "TED  Gabriel Barcia Colombo  Capturi mpeg4",
+                    "description": "",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/2jC4qMleHCw/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/2jC4qMleHCw/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/2jC4qMleHCw/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "ဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪဪ",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/G1xEnywLtB8a5DhI3y00ogyfFVE\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/je8g8c-vIflWRr5D9KwcKSgI5W0\"",
+                            "id": "2jC4qMleHCw",
+                            "statistics": {
+                                "viewCount": "2",
+                                "likeCount": "0",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Gabe Barcia Colombo: My DNA vending machine"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/uKyOsBmRrzR2EIgXiZxMbA4DdkU\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 1057,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/DIL6IXD-WdF6EprVaQybga5zZww\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "h8cF5QPPmWU"
+                },
+                "snippet": {
+                    "publishedAt": "2014-03-07T17:51:59.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Manu Prakash: A 50-cent microscope that folds like origami",
+                    "description": "Perhaps you've punched out a paper doll or folded an origami swan? TED Fellow Manu Prakash and his team have created a microscope made of paper that's ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/h8cF5QPPmWU/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/h8cF5QPPmWU/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/h8cF5QPPmWU/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/x0WsuNnHOoEElPmnTsdY_dGBdPA\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/T7OveQO-juzRov92h8dSk58BLAo\"",
+                            "id": "h8cF5QPPmWU",
+                            "statistics": {
+                                "viewCount": "518157",
+                                "likeCount": "11942",
+                                "dislikeCount": "94",
+                                "favoriteCount": "0",
+                                "commentCount": "639"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/gKnu9phi-EZXtq_f48UHmxIr0w8\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "xUzZ_01N0eE"
+                },
+                "snippet": {
+                    "publishedAt": "2014-04-02T22:27:15.000Z",
+                    "channelId": "UCIWTT30C_MXMgz1A_S81t2g",
+                    "title": "Manu Prakash (Stanford): Foldscope: Origami Based Paper Microscopes",
+                    "description": "https://www.ibiology.org/techniques/foldscope/ Talk Overview: What if every person in the world could carry a microscope around in their pocket? That is the idea ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/xUzZ_01N0eE/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/xUzZ_01N0eE/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/xUzZ_01N0eE/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "iBiology Science Stories",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/3puQNPywJxJRUHYdh9aC-LuBcYA\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/dKRuhcVGoX5JVhIFa3DN7TPRmJo\"",
+                            "id": "xUzZ_01N0eE",
+                            "statistics": {
+                                "viewCount": "69200",
+                                "likeCount": "777",
+                                "dislikeCount": "21",
+                                "favoriteCount": "0",
+                                "commentCount": "56"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/O_-s0N8RBL54g6_UDif_Skb4gv0\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "ULNPLFrTirQ"
+                },
+                "snippet": {
+                    "publishedAt": "2017-07-24T20:36:58.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Lifesaving scientific tools made of paper | Manu Prakash",
+                    "description": "Inventor Manu Prakash turns everyday materials into powerful scientific devices, from paper microscopes to a clever new mosquito tracker. From the TED ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/ULNPLFrTirQ/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/ULNPLFrTirQ/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/ULNPLFrTirQ/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/raW0ZlGKyVva6zE6-QGkBFSCVFo\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/r0A-uHEKXn_9N18DpqVa_hCqKEc\"",
+                            "id": "ULNPLFrTirQ",
+                            "statistics": {
+                                "viewCount": "98248",
+                                "likeCount": "3390",
+                                "dislikeCount": "39",
+                                "favoriteCount": "0",
+                                "commentCount": "136"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Manu Prakash: A 50 cent microscope that folds like origami"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/QlUScDJ3V-P6IAQ_hlSRpEh2IIg\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 388,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/GN4DHyfxHkoN4Ogiwzggy4AO6kc\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "-Z-ul0GzzM4"
+                },
+                "snippet": {
+                    "publishedAt": "2014-03-10T15:40:21.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Ajit Narayanan: A word game to communicate in any language",
+                    "description": "While working with kids who have trouble speaking, Ajit Narayanan sketched out a way to think about language in pictures, to relate words and concepts in ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/-Z-ul0GzzM4/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/-Z-ul0GzzM4/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/-Z-ul0GzzM4/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/wCJtHzJoRXuHhlCvaUlOzXfCGeI\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Wqh-qcA9mDB_aSkSTSw5aabPko4\"",
+                            "id": "-Z-ul0GzzM4",
+                            "statistics": {
+                                "viewCount": "103464",
+                                "likeCount": "2116",
+                                "dislikeCount": "56",
+                                "favoriteCount": "0",
+                                "commentCount": "136"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Z_YGBXjWhATsBlZCcIWbpgW2upY\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "Hq9jAFf-1zo"
+                },
+                "snippet": {
+                    "publishedAt": "2012-06-25T18:56:09.000Z",
+                    "channelId": "UCo3GQkLFmo1_DhrY-q-8wqg",
+                    "title": "Ajit Narayanan: A grammar engine based on visual language",
+                    "description": "Ajit Narayanan, listed this year on Tech Review's list of 35 Innovators under 30, created Awaz, an affordable, tablet-based communication device for those who ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/Hq9jAFf-1zo/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/Hq9jAFf-1zo/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/Hq9jAFf-1zo/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TEDTalentSearch",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/NyXSjjEtKWiDywElEd2rfaus_tg\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/tHiXbi7mVHtGS-CH6Kw28oNxsQI\"",
+                            "id": "Hq9jAFf-1zo",
+                            "statistics": {
+                                "viewCount": "4253",
+                                "favoriteCount": "0"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/1o7TsNbOdkTpN5uL1j6JLHqfPTE\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "LHbqgsi4NJI"
+                },
+                "snippet": {
+                    "publishedAt": "2015-05-05T13:48:37.000Z",
+                    "channelId": "UCSEPYmZm3S5EOig-pMu0EQg",
+                    "title": "AXSChat with Ajit Narayanan, CEO of Avaz Inc, and inventor of Avaz, AAC App for children with Autism",
+                    "description": "Ajit Narayanan is the CEO of Avaz Inc, and inventor of Avaz, an affordable, AAC App for children with Autism and complex communication needs. In 2010, Avaz ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/LHbqgsi4NJI/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/LHbqgsi4NJI/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/LHbqgsi4NJI/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Antonio Vieira",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/6AgrkconU7bJGScvjgwGijw1vzw\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/IwMrfUEKg8BpCKi-fzur3jebLsc\"",
+                            "id": "LHbqgsi4NJI",
+                            "statistics": {
+                                "viewCount": "162",
+                                "likeCount": "1",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Ajit Narayanan: A word game to communicate in any language"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/RlOVWordyyrjzNjHaWsaDX583Jg\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 1622,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/4Dqeh7O7sQpICAN7TVunrSloSoA\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "tH5iEf9oxaI"
+                },
+                "snippet": {
+                    "publishedAt": "2014-03-12T15:50:21.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Anne-Marie Slaughter: Can we all &quot;have it all&quot;?",
+                    "description": "Public policy expert Anne-Marie Slaughter made waves with her 2012 article, \"Why women still can't have it all.\" But really, is this only a question for women?",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/tH5iEf9oxaI/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/tH5iEf9oxaI/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/tH5iEf9oxaI/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/XQXAu-kK0enSgLhZYNC128MWC7k\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/xl9KOs4aTFCQUWR6PN7ni6WoDmc\"",
+                            "id": "tH5iEf9oxaI",
+                            "statistics": {
+                                "viewCount": "140086",
+                                "likeCount": "1512",
+                                "dislikeCount": "303",
+                                "favoriteCount": "0",
+                                "commentCount": "232"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/kMBb_XoDBvEtIkbUi8TNuVBEKeQ\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "fLra-JwSYxQ"
+                },
+                "snippet": {
+                    "publishedAt": "2012-10-25T21:17:11.000Z",
+                    "channelId": "UCozQyPGVN5d6LjhaXqKg_Lw",
+                    "title": "Anne-Marie Slaughter: Why Women Still Can&#39;t Have it All",
+                    "description": "Shehtaz Huq '14 interviews Anne-Marie Slaughter about the issues she raised in her widely read and discussed article in The Atlantic magazine, \"Why Women ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/fLra-JwSYxQ/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/fLra-JwSYxQ/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/fLra-JwSYxQ/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Lafayette College",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/OLWm2GZBxsuBtDZN2HJeIU42B6w\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/8-PdsZjBTgereGNiKkYFe73XCBY\"",
+                            "id": "fLra-JwSYxQ",
+                            "statistics": {
+                                "viewCount": "3094",
+                                "likeCount": "7",
+                                "dislikeCount": "3",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/fl4iutZgMbAdyO1hrpAYoosiefA\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "_7WiE6JGUnE"
+                },
+                "snippet": {
+                    "publishedAt": "2015-10-02T22:49:17.000Z",
+                    "channelId": "UCTrQ7HXWRRxr7OsOtodr2_w",
+                    "title": "Anne-Marie Slaughter on &#39;having it all&#39; and Hillary Clinton",
+                    "description": "Two years after landing her dream job working for Hillary Clinton, Anne-Marie Slaughter quit, unable to reconcile the round-the-clock routine with her ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/_7WiE6JGUnE/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/_7WiE6JGUnE/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/_7WiE6JGUnE/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Channel 4 News",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/APIlZUSbKG_4pzXbkhjYDcuhMzQ\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/X9vo1fC9aNVQDtCaZqd3wAQspnI\"",
+                            "id": "_7WiE6JGUnE",
+                            "statistics": {
+                                "viewCount": "8174",
+                                "likeCount": "72",
+                                "dislikeCount": "28",
+                                "favoriteCount": "0",
+                                "commentCount": "29"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Anne Marie Slaughter: Can we all \"have it all\"?"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/eRI7umBTaOHElImZL_X0TN4PiOU\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 463,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/WgEbiYe3qx2XfMjxvepr205q8OU\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "aT6vIq6_1OE"
+                },
+                "snippet": {
+                    "publishedAt": "2014-03-13T15:12:13.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Toby Shapshak: You don&#39;t need an app for that",
+                    "description": "Are the simplest phones the smartest? While the rest of the world is updating statuses and playing games on smartphones, Africa is developing useful ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/aT6vIq6_1OE/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/aT6vIq6_1OE/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/aT6vIq6_1OE/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/kUuLdd_tqz5fwin_YPjl5oe_IlI\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/LbLNK3UPqGEykFd1tMIS7QwpvWQ\"",
+                            "id": "aT6vIq6_1OE",
+                            "statistics": {
+                                "viewCount": "129520",
+                                "likeCount": "1993",
+                                "dislikeCount": "179",
+                                "favoriteCount": "0",
+                                "commentCount": "188"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/m_ErpUCoF1kMqq5Cjedzq-yHXn0\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "E2vknknI73M"
+                },
+                "snippet": {
+                    "publishedAt": "2015-03-16T15:18:38.000Z",
+                    "channelId": "UCsT0YIqwnpJCM-mx7-gSA4Q",
+                    "title": "What Africa can teach you about innovation that business school can&#39;t | Toby Shapshak | TEDxGateway",
+                    "description": "In his talk, Toby Shapshak talks about innovation, telecommunications and the internet and the impact they have on peoples lives. Toby Shapshak writes and ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/E2vknknI73M/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/E2vknknI73M/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/E2vknknI73M/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TEDx Talks",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/XOfhrjvQjyM-kQat3-CKTiUWjfo\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/SUH6xFgLKvnJZFUZtOlzo3ZosXg\"",
+                            "id": "E2vknknI73M",
+                            "statistics": {
+                                "viewCount": "1352",
+                                "likeCount": "18",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/O7C2eFVg7BPgVOfHPt86cUOmGTw\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "5Xd4S6qWhoY"
+                },
+                "snippet": {
+                    "publishedAt": "2015-02-26T00:38:31.000Z",
+                    "channelId": "UCJowOS1R0FnhipXVqEnYU1A",
+                    "title": "Do You Really Need an App for That?",
+                    "description": "Having a mobile application seems all the rage these days, but is it right for your business? In this presentation Paul Boag explores the pros and cons of building ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/5Xd4S6qWhoY/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/5Xd4S6qWhoY/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/5Xd4S6qWhoY/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "SitePoint",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/GwLa3KC22iBb-qcc55bsiAk984Q\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/naO5Sn84XECg2aE83kFmDsDqY8w\"",
+                            "id": "5Xd4S6qWhoY",
+                            "statistics": {
+                                "viewCount": "1469",
+                                "likeCount": "20",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "3"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Toby Shapshak: You don't need an app for that"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/UuONwsm9dWyK4HJTFUJ0cixLBJc\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 588,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/_nYN1qYZvGTuVQZaCQYWbpeM1mY\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "N39x_WTPix0"
+                },
+                "snippet": {
+                    "publishedAt": "2014-03-14T16:33:36.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "The birds and the bees are just the beginning | Carin Bondar",
+                    "description": "Think you know a thing or two about sex? Think again. In this fascinating talk, biologist Carin Bondar lays out the surprising science behind how animals get it on ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/N39x_WTPix0/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/N39x_WTPix0/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/N39x_WTPix0/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/o2VwohJ2reSaWRr40q_k4G2_ab4\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Sp3arej73FsPF9YvVcZMXCUc3j4\"",
+                            "id": "N39x_WTPix0",
+                            "statistics": {
+                                "viewCount": "166933",
+                                "likeCount": "1666",
+                                "dislikeCount": "165",
+                                "favoriteCount": "0",
+                                "commentCount": "164"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/9NvTaHlPcFIe4AHZUva2uD7xUII\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "DxOfynxV98M"
+                },
+                "snippet": {
+                    "publishedAt": "2014-09-10T02:03:01.000Z",
+                    "channelId": "UCKt0KV0N9_jH8rVhwql247w",
+                    "title": "The Birds And The Bees Are Just The Beginning… with Carin Bondar",
+                    "description": "Dr Carin Bondar, biologist and TV host explores the science of Biology, Sex and Life.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/DxOfynxV98M/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/DxOfynxV98M/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/DxOfynxV98M/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Australia's Science Channel",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Wlx4PVNEmHGNb3ovmRJTJQbfcP0\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/myiGk9_5uy-Y1ewzKX8EDolzH6k\"",
+                            "id": "DxOfynxV98M",
+                            "statistics": {
+                                "viewCount": "1083",
+                                "likeCount": "10",
+                                "dislikeCount": "1",
+                                "favoriteCount": "0",
+                                "commentCount": "1"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/ZjSvYsQJws7HCF37ndneQMP1uh0\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "99i906I-kOs"
+                },
+                "snippet": {
+                    "publishedAt": "2014-09-10T02:03:01.000Z",
+                    "channelId": "UCKt0KV0N9_jH8rVhwql247w",
+                    "title": "The Birds And The Bees Are Just The Beginning… A Q&amp;A session with Carin Bondar",
+                    "description": "Dr Carin Bondar talks with Dr Tania Meyer about how she became a TV presenter, YouTube and social media start and answers questions from students.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/99i906I-kOs/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/99i906I-kOs/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/99i906I-kOs/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Australia's Science Channel",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/BOKstw7QrLzceeoqgSKFbTwEkNk\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/5-MO19OQ4klSuvJiaC31RAtbB90\"",
+                            "id": "99i906I-kOs",
+                            "statistics": {
+                                "viewCount": "1697",
+                                "likeCount": "4",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Carin Bondar: The birds and the bees are just the beginning"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/X3gdendhUaGeHJLOuxZI1DnrFAo\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 491,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/lwEnIqKVYVtWeIyUfjHtvmpUECM\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "uk7gKixqVNU"
+                },
+                "snippet": {
+                    "publishedAt": "2014-03-17T18:47:35.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Steven Pinker and Rebecca Newberger Goldstein: The long reach of reason",
+                    "description": "Here's a TED first: an animated Socratic dialog! In a time when irrationality seems to rule both politics and culture, has reasoned thinking finally lost its power?",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/uk7gKixqVNU/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/uk7gKixqVNU/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/uk7gKixqVNU/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Bv4fZpfoM-WnpRI3Xj-Em__-UC8\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Gc2xA4nwgtDi1yH6oGyLQRzxatQ\"",
+                            "id": "uk7gKixqVNU",
+                            "statistics": {
+                                "viewCount": "126818",
+                                "likeCount": "2845",
+                                "dislikeCount": "189",
+                                "favoriteCount": "0",
+                                "commentCount": "462"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/nOw9g-t26PCgpHPPqqtSxpmx0sQ\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "tpllPVAXBrA"
+                },
+                "snippet": {
+                    "publishedAt": "2010-03-08T21:25:37.000Z",
+                    "channelId": "UCvhsiQGy_zcNCiSbeXEjhLg",
+                    "title": "Steven Pinker and Rebecca Goldstein - Reason, Fiction and Faith",
+                    "description": "Philosophical novelist Rebecca Goldstein and cognitive theorist Steven Pinker in conversation on literature, science and religion.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/tpllPVAXBrA/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/tpllPVAXBrA/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/tpllPVAXBrA/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "The RSA",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/nvp_-U86QVxfo3yUwEk40kAW_rk\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/M_tjwPMiqS4hMGA_zBZRLkDt-C8\"",
+                            "id": "tpllPVAXBrA",
+                            "statistics": {
+                                "viewCount": "25200",
+                                "likeCount": "197",
+                                "dislikeCount": "14",
+                                "favoriteCount": "0",
+                                "commentCount": "38"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/PHVYVf_7USMSC-MuWyRKfVaX75M\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "H2nnsIN7_pY"
+                },
+                "snippet": {
+                    "publishedAt": "2019-03-01T17:30:00.000Z",
+                    "channelId": "UCl9StMQ79LtEvlrskzjoYbQ",
+                    "title": "Rebecca Newberger Goldstein - Metaphysics vs Materialism? (Part 2)",
+                    "description": "Metaphysics asks the most profound questions, then uses sophisticated philosophical analysis to seek the deepest truths. What happens when metaphysics ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/H2nnsIN7_pY/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/H2nnsIN7_pY/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/H2nnsIN7_pY/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Closer To Truth",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/FSo1rIdSIVCFutnqm4dfNYVv0vk\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Fb7h4TaR0QJtkRodghBOALQrLis\"",
+                            "id": "H2nnsIN7_pY",
+                            "statistics": {
+                                "viewCount": "5093",
+                                "likeCount": "93",
+                                "dislikeCount": "16",
+                                "favoriteCount": "0",
+                                "commentCount": "133"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Steven Pinker and Rebecca Newberger Goldstein: The long reach of reason"
+    }
+]

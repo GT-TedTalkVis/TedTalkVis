@@ -1,0 +1,1780 @@
+[
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/XoQGctOe3XA6rMV4Ye9ny_n2sls\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 1056,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/737fGuhlQNV73DTRXa5-k96b2zc\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "Urk3xn7l3AM"
+                },
+                "snippet": {
+                    "publishedAt": "2017-09-09T17:09:34.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "What would happen if we upload our brains to computers? | Robin Hanson",
+                    "description": "Meet the \"ems\" -- machines that emulate human brains and can think, feel and work just like the brains they're copied from. Economist and social scientist Robin ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/Urk3xn7l3AM/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/Urk3xn7l3AM/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/Urk3xn7l3AM/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/XhU69v8wl66m88ODKOyyyZ0Vsj4\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/zuplSBBUikqis9Cord-E9S90DRs\"",
+                            "id": "Urk3xn7l3AM",
+                            "statistics": {
+                                "viewCount": "122525",
+                                "likeCount": "2537",
+                                "dislikeCount": "354",
+                                "favoriteCount": "0",
+                                "commentCount": "513"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/qF5UZKPV9tjkEtkyilpZLVjlYzY\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "MZ3Q638aMlA"
+                },
+                "snippet": {
+                    "publishedAt": "2018-01-10T18:31:58.000Z",
+                    "channelId": "UCsT0YIqwnpJCM-mx7-gSA4Q",
+                    "title": "Why You Shouldn’t Upload Your Brain To A Computer | Polina Anikeeva | TEDxCambridgeSalon",
+                    "description": "Machines outperform humans in calculations. So why is a robot startled by a task of folding a wrinkled sock? Neural engineer Polina Anikeeva, Associate ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/MZ3Q638aMlA/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/MZ3Q638aMlA/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/MZ3Q638aMlA/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TEDx Talks",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/0YJbbPjSDWiOofupKpUBonX0b2w\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/1RTdn_IIEdtgUG5kTu8elIO1kF8\"",
+                            "id": "MZ3Q638aMlA",
+                            "statistics": {
+                                "viewCount": "15232",
+                                "likeCount": "333",
+                                "dislikeCount": "19",
+                                "favoriteCount": "0",
+                                "commentCount": "53"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/fjeDu8vJtNQIq3M5peaOugU9UIg\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "Gd9GOoITfXY"
+                },
+                "snippet": {
+                    "publishedAt": "2017-03-21T14:48:04.000Z",
+                    "channelId": "UCsT0YIqwnpJCM-mx7-gSA4Q",
+                    "title": "What If Everything Changed? | Robin Hanson | TEDxNorrköping",
+                    "description": "Whar may happen when the first truly smart robots appear, based on brain emulations or ems. Scan a human brain, then run a model with the same connections ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/Gd9GOoITfXY/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/Gd9GOoITfXY/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/Gd9GOoITfXY/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TEDx Talks",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/7cemQj3fFzhNGR39GKbfql30gBY\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/tKdtVVIkdIf-E00dpxDpyVhQBbQ\"",
+                            "id": "Gd9GOoITfXY",
+                            "statistics": {
+                                "viewCount": "6099",
+                                "likeCount": "85",
+                                "dislikeCount": "4",
+                                "favoriteCount": "0",
+                                "commentCount": "10"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Robin Hanson: What would happen if we upload our brains to computers?"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/DqMh_-OVayC8PUqxFF6WgCFhW-8\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 446,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/VocmA9JckvAl2fBqZND0RhusJy0\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "BPeFy4iyzn0"
+                },
+                "snippet": {
+                    "publishedAt": "2017-09-10T15:24:11.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "What the sugar coating on your cells is trying to tell you | Carolyn Bertozzi",
+                    "description": "Your cells are coated with sugars that store information and speak a secret language. What are they trying to tell us? Your blood type, for one -- and, potentially, ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/BPeFy4iyzn0/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/BPeFy4iyzn0/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/BPeFy4iyzn0/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/hmCuD7zV8-zLkkY-pPEc_3zPeSk\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/CvN4NJYwSJqMpDVnAvJH1wbXsog\"",
+                            "id": "BPeFy4iyzn0",
+                            "statistics": {
+                                "viewCount": "192753",
+                                "likeCount": "3546",
+                                "dislikeCount": "107",
+                                "favoriteCount": "0",
+                                "commentCount": "176"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/SLMUGLxO6hrKAMQHR-hR8OZqptc\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "5HeZaYtfDf8"
+                },
+                "snippet": {
+                    "publishedAt": "2016-05-23T03:14:01.000Z",
+                    "channelId": "UCsT0YIqwnpJCM-mx7-gSA4Q",
+                    "title": "The sugar coating on your cells is trying to tell you something | Carolyn Bertozzi | TEDxStanford",
+                    "description": "In her talk about sugar and cancer, Stanford Chemistry Professor Carolyn Bertozzi tells us why the sugar coating on our cells is crucial to our health and ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/5HeZaYtfDf8/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/5HeZaYtfDf8/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/5HeZaYtfDf8/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TEDx Talks",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/NpFTf46T-InUzhMrjbUgNUJ7Upo\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/CEs7-jIZJuF5LO0fpJbo6FUAvCg\"",
+                            "id": "5HeZaYtfDf8",
+                            "statistics": {
+                                "viewCount": "198876",
+                                "likeCount": "3087",
+                                "dislikeCount": "122",
+                                "favoriteCount": "0",
+                                "commentCount": "206"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/fudlTjaiKOyQZDfCe7Qsag8d9Vc\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "WCbg-kOY_8E"
+                },
+                "snippet": {
+                    "publishedAt": "2010-03-24T03:56:05.000Z",
+                    "channelId": "UCsvqEZBO-kNmwuDBbKbfL6A",
+                    "title": "Carolyn Bertozzi (UC Berkeley) Part 1: Chemical Glycobiology",
+                    "description": "http://www.ibiology.org/ibioseminars/biophysics-chemical-biology/carolyn-bertozzi-part-1.html Part 1 A large part of an organism's complexity is not encoded by ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/WCbg-kOY_8E/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/WCbg-kOY_8E/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/WCbg-kOY_8E/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "iBiology",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Gis0fd5YaQH1al6wsx4NZsweiis\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/TFuKqx6Rh2PqFZ1irkTBHEtFRX0\"",
+                            "id": "WCbg-kOY_8E",
+                            "statistics": {
+                                "viewCount": "35095",
+                                "likeCount": "287",
+                                "dislikeCount": "3",
+                                "favoriteCount": "0",
+                                "commentCount": "29"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Carolyn Bertozzi: What the sugar coating on your cells is trying to tell you"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/sOVCRvn4Z0wsUZNs6DeWwi-aR_Q\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 159,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/37nQGFBMOZTGJGiCVsBv9YNRx28\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "Iv3Ud7_hv9g"
+                },
+                "snippet": {
+                    "publishedAt": "2017-09-11T15:15:27.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "&quot;The Sacred Art of the Ori&quot; | Laolu Senbanjo",
+                    "description": "The TED Talks channel features the best talks and performances from the TED Conference, where the world's leading thinkers and doers give the talk of their ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/Iv3Ud7_hv9g/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/Iv3Ud7_hv9g/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/Iv3Ud7_hv9g/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Dn16vhxfCJCY90FXmrDHW5-OTHU\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/w-t2rHSVqtWEiOgEt258jPSogwU\"",
+                            "id": "Iv3Ud7_hv9g",
+                            "statistics": {
+                                "viewCount": "37992",
+                                "likeCount": "1152",
+                                "dislikeCount": "97",
+                                "favoriteCount": "0",
+                                "commentCount": "79"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/fKyAGK-nWCeiFQvbZ-E4biIsAP4\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "WBsiUA_dxrc"
+                },
+                "snippet": {
+                    "publishedAt": "2017-01-16T23:12:14.000Z",
+                    "channelId": "UCQqhSX9E9fh-mWC0Ri1_p1Q",
+                    "title": "001 Laolu Senbanjo - The Sacred Art of The Ori",
+                    "description": "MpactJacq did an interview with Laolu for 99u goo.gl/fcXLd3 and @KampInd took that audio and made a video. Created by Color Wheel Media. An interactive ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/WBsiUA_dxrc/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/WBsiUA_dxrc/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/WBsiUA_dxrc/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Color Wheel Media",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/odZhPdeg7vE1L6cVOHhJaOMzoQk\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/ANdGK-34MqjJ0YE7nbRDMYbToAo\"",
+                            "id": "WBsiUA_dxrc",
+                            "statistics": {
+                                "viewCount": "936",
+                                "likeCount": "11",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/7ndONVXLSbQxNIDKa5ZTdKQTiSw\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "1Mrry48WuKA"
+                },
+                "snippet": {
+                    "publishedAt": "2016-01-12T20:57:13.000Z",
+                    "channelId": "UCjWo1HY4fMOo1CEbeZgpkKA",
+                    "title": "Laolu Timelapse of Sacred Art of the Ori @ Canvas by Meekaaeel DeBradley",
+                    "description": "Watch Laolu performing the Sacred Art of the Ori (Yoruba Body Art and Painting) at Canvas, in New York, NY. Timelapse by Meekael DeBradley. The Sacred Art ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/1Mrry48WuKA/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/1Mrry48WuKA/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/1Mrry48WuKA/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Laolu Senbanjo",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/v_Iv6jO_EiY3-m36z9nGDaQZYNM\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/XY7TaryUAh-L87ax4VSkgVsb7tE\"",
+                            "id": "1Mrry48WuKA",
+                            "statistics": {
+                                "viewCount": "5369",
+                                "likeCount": "58",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "4"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Laolu Senbanjo: \"The Sacred Art of the Ori\""
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/-bxbj2h9jzMOIu3hyTq26jMrAyQ\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 138,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/-8oIKRBEmZTaALBG7pZ-oH447pY\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "dkmpRQdJslI"
+                },
+                "snippet": {
+                    "publishedAt": "2017-09-11T20:07:40.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "When workers own companies, the economy is more resilient | Niki Okuk",
+                    "description": "Another economic reality is possible -- one that values community, sustainability and resiliency instead of profit by any means necessary. Niki Okuk shares her ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/dkmpRQdJslI/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/dkmpRQdJslI/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/dkmpRQdJslI/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/OIsiA9fev89NtD_vrB9wVLtPvu8\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/YSar5r9Bmt73MJOGUu-WqFYNWC0\"",
+                            "id": "dkmpRQdJslI",
+                            "statistics": {
+                                "viewCount": "48233",
+                                "likeCount": "1141",
+                                "dislikeCount": "1116",
+                                "favoriteCount": "0",
+                                "commentCount": "748"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/GZFqeljHX7_K5fg6-v9jZVzAL0k\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "Q3h9I4vcX00"
+                },
+                "snippet": {
+                    "publishedAt": "2017-01-17T22:58:15.000Z",
+                    "channelId": "UCsT0YIqwnpJCM-mx7-gSA4Q",
+                    "title": "Fire the Boss | Niki Okuk | TEDxCrenshaw",
+                    "description": "Let's get back to cooperative economics where we own, we work & we're worker owners. Member of the LA Union Cooperative Initiative (LUCI), Niki earned a ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/Q3h9I4vcX00/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/Q3h9I4vcX00/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/Q3h9I4vcX00/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TEDx Talks",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/R09g0LP_y9r1N34vUuMC3QtBHmA\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/-UIEIjo594GSeE0FQe_9fGLv9AY\"",
+                            "id": "Q3h9I4vcX00",
+                            "statistics": {
+                                "viewCount": "7522",
+                                "likeCount": "173",
+                                "dislikeCount": "8",
+                                "favoriteCount": "0",
+                                "commentCount": "17"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/hSt2Y4Yo67snnT0ZgLarOjiadog\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "GJ8pSRHlhNc"
+                },
+                "snippet": {
+                    "publishedAt": "2018-05-25T22:02:52.000Z",
+                    "channelId": "UCFLRxVeYcB1H7DbuYZQG-lg",
+                    "title": "Excerpt: Worker Cooperatives and Democratizing Tech with Kayleigh Walsh",
+                    "description": "Outlandish is a worker cooperative making the world of tech a fairer place. Kayleigh Walsh joins us on this week's LF Show to discuss alternative social ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/GJ8pSRHlhNc/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/GJ8pSRHlhNc/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/GJ8pSRHlhNc/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "The Laura Flanders Show",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/UaZ73A_oPgIo42XAy38gOB0j0rU\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/tku5mw8u9xGUe6GVVMrSN_rF8Xk\"",
+                            "id": "GJ8pSRHlhNc",
+                            "statistics": {
+                                "viewCount": "533",
+                                "likeCount": "48",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "3"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Niki Okuk: When workers own companies, the economy is more resilient"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/TG0bR6zamVo46qPw9cCt0YWlR-A\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 156,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/BjhFNWavGxd8azG2n6-i1taU1Es\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "a_avBsX60-s"
+                },
+                "snippet": {
+                    "publishedAt": "2017-09-12T12:36:24.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Fun, fierce and fantastical African art | Wanuri Kahiu",
+                    "description": "We're so used to narratives out of Africa being about war, poverty and devastation, says TED Fellow Wanuri Kahiu. Where's the fun? Introducing ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/a_avBsX60-s/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/a_avBsX60-s/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/a_avBsX60-s/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/U0rjXMUPW17lwn_LaGELk4sWWHg\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/MnRzVixVD8dmesMly5qa7OsZaPs\"",
+                            "id": "a_avBsX60-s",
+                            "statistics": {
+                                "viewCount": "31765",
+                                "likeCount": "963",
+                                "dislikeCount": "213",
+                                "favoriteCount": "0",
+                                "commentCount": "112"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/HHe4QbLfbu4L_5e23iBA-CI7JtY\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "p-7TdVHDRic"
+                },
+                "snippet": {
+                    "publishedAt": "2018-10-08T13:00:06.000Z",
+                    "channelId": "UCmUpllWyvJ2eNCbZcNBJb4Q",
+                    "title": "Wanuri Kahiu&#39;s Afrobubblegum Celebrates Black Joy Through Art | TIFF 18",
+                    "description": "The latest from Wanuri Kahiu charts a precarious love story between two young Kenyan women in a society where homosexuality is banned. \"Fun, fierce, and ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/p-7TdVHDRic/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/p-7TdVHDRic/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/p-7TdVHDRic/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TIFF Originals",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/XWEzbGRmmLpiqaWlVWb_ge9wbgI\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Am-545Lq8Hh4avEHN_awtjdlKuI\"",
+                            "id": "p-7TdVHDRic",
+                            "statistics": {
+                                "viewCount": "594",
+                                "likeCount": "32",
+                                "dislikeCount": "2",
+                                "favoriteCount": "0",
+                                "commentCount": "1"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/SkedAE9VW9Jei-E__84AZ2BblKo\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "JMODpgDU6jQ"
+                },
+                "snippet": {
+                    "publishedAt": "2018-03-15T15:00:02.000Z",
+                    "channelId": "UCw-kH-Od73XDAt7qtH9uBYA",
+                    "title": "Wanuri Kahiu: We Need A New Image of Africa",
+                    "description": "AFROBUBBLEGUM is an online platform to celebrate African art that is “fun, fierce and frivolous” – and that does not portray people in Africa as sick or dying, ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/JMODpgDU6jQ/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/JMODpgDU6jQ/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/JMODpgDU6jQ/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "World Economic Forum",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/7FGCfnDSe9zSdHO_tZ-s11fwYvw\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/v0m4CjJqTkDdeNtJsUfptKDKhMg\"",
+                            "id": "JMODpgDU6jQ",
+                            "statistics": {
+                                "viewCount": "8875",
+                                "likeCount": "222",
+                                "dislikeCount": "7",
+                                "favoriteCount": "0",
+                                "commentCount": "15"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Wanuri Kahiu: Fun, fierce and fantastical African art"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/TUm-Ihp2gMf5K0hx6ixM4UUm1gA\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 922,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/OwuMBWbaUDCP1fO1CUhbgD4h_Xk\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "nz0cAjXVepg"
+                },
+                "snippet": {
+                    "publishedAt": "2017-09-12T20:37:59.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Why we need to end the era of orphanages | Tara Winkler",
+                    "description": "Could it be wrong to help children in need by starting an orphanage? In this eye-opening talk about the bad consequences of good intentions, Tara Winkler ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/nz0cAjXVepg/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/nz0cAjXVepg/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/nz0cAjXVepg/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/dmGtw3xZFbtZ5r6Sn6_om014O0A\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/WCD2qfF-AszobFXvOLF_Z0TVIK0\"",
+                            "id": "nz0cAjXVepg",
+                            "statistics": {
+                                "viewCount": "93614",
+                                "likeCount": "3105",
+                                "dislikeCount": "97",
+                                "favoriteCount": "0",
+                                "commentCount": "203"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/_bxDeYXet6AowCjISbWIwH0wU08\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "L3nPMWkhbMI"
+                },
+                "snippet": {
+                    "publishedAt": "2016-06-15T23:14:15.000Z",
+                    "channelId": "UCsT0YIqwnpJCM-mx7-gSA4Q",
+                    "title": "Why We Need to End the Era of Orphanages | Tara Winkler | TEDxSydney",
+                    "description": "Tara Winkler speaks out against the spread of orphanages in developing countries, caused by the good intentions of foreign donors, and of harm that comes to ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/L3nPMWkhbMI/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/L3nPMWkhbMI/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/L3nPMWkhbMI/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TEDx Talks",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Q9bLJJjEaq2DND2KALtGrOTrvfY\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/lrDZCpxKX9ID7FJt-ihUGrJex18\"",
+                            "id": "L3nPMWkhbMI",
+                            "statistics": {
+                                "viewCount": "45051",
+                                "likeCount": "810",
+                                "dislikeCount": "21",
+                                "favoriteCount": "0",
+                                "commentCount": "57"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/eQduxvwTrYFIEEcNhh1SJT3BrSc\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "EwCD1KLM9Jg"
+                },
+                "snippet": {
+                    "publishedAt": "2017-09-01T16:39:36.000Z",
+                    "channelId": "UCVCebWlra6i3vQPMjBq5O-A",
+                    "title": "Tara Winkler on Orphanage Issues | TED Talk Video Intro Maker",
+                    "description": "See the issues behind orphanages and donations. TED Talk | Why we need to end the era of orphanages Could it be wrong to help children in need by starting ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/EwCD1KLM9Jg/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/EwCD1KLM9Jg/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/EwCD1KLM9Jg/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Video Intro Maker",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/dH3Vxr0BjFYc6-kU1P-EvRK90BM\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/oY4wcdAcolpt8hTA3vtyrShyFq8\"",
+                            "id": "EwCD1KLM9Jg",
+                            "statistics": {
+                                "viewCount": "451",
+                                "likeCount": "8",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Tara Winkler: Why we need to end the era of orphanages"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/uXKaSAuckGMcQcX6gu7wDuI1OkM\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 470,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/nAMOQ2iNqol6O6zVvb4Uj1IayC8\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "BXcFEhl7ynM"
+                },
+                "snippet": {
+                    "publishedAt": "2017-09-13T16:03:58.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Can a robot pass a university entrance exam? | Noriko Arai",
+                    "description": "Meet Todai Robot, an AI project that performed in the top 20 percent of students on the entrance exam for the University of Tokyo -- without actually ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/BXcFEhl7ynM/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/BXcFEhl7ynM/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/BXcFEhl7ynM/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/L8GXu-FWrSPfUglL2Hx89cYliCs\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/G3nqym4b_sKm-yk6V5UFkXMPpNA\"",
+                            "id": "BXcFEhl7ynM",
+                            "statistics": {
+                                "viewCount": "151381",
+                                "likeCount": "3060",
+                                "dislikeCount": "103",
+                                "favoriteCount": "0",
+                                "commentCount": "296"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/I3hTcLaO9RmoOZVTEE7SiprlxPQ\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "VH_870OgAGY"
+                },
+                "snippet": {
+                    "publishedAt": "2018-02-02T22:17:20.000Z",
+                    "channelId": "UCX5vmc6wEGaEgc-tqSqcwjw",
+                    "title": "Can a robot pass a university entrance exam? | Noriko Arai",
+                    "description": "2017 (Explicit language) The funniest game console ever sony, Nintendo take notes. Bad Baby Annabelle Make Up Fail Vs Victoria Toy Freaks Family Bad Baby ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/VH_870OgAGY/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/VH_870OgAGY/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/VH_870OgAGY/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Gene Mullen",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/QH4GIi0G0UHLrbWnPwv9xaR6GJQ\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/k39t-8bNNcqh9S1Rx1oB9YkoUHs\"",
+                            "id": "VH_870OgAGY",
+                            "statistics": {
+                                "viewCount": "68",
+                                "likeCount": "1",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/u_hZn8_8L5tJ40fafI2RefcISRY\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "wMUDfSkWsTU"
+                },
+                "snippet": {
+                    "publishedAt": "2016-12-07T12:02:33.000Z",
+                    "channelId": "UCo_QfGG3FlWVh3Z0AoxuwBA",
+                    "title": "Interview with Noriko Arai, Todai Robot Project Director",
+                    "description": "Artificial intelligence researcher Noriko Arai explains why her group's robot couldn't pass the entrance exam at University of Tokyo, how the group's mission is ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/wMUDfSkWsTU/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/wMUDfSkWsTU/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/wMUDfSkWsTU/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "The Japan Times",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/xWB0ihHptZlrkX3YzaNijOit4cM\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/5gNU1hwUiSSqIIpUtiULBwutajM\"",
+                            "id": "wMUDfSkWsTU",
+                            "statistics": {
+                                "viewCount": "3392",
+                                "likeCount": "27",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "1"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Noriko Arai: Can a robot pass a university entrance exam?"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/UVONvKe-nNoXCYda6DhB34C4UEU\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 362,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/rf0au-qiWq0LHEMOWyfdrfO3vkg\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "kdqUhTnAgJU"
+                },
+                "snippet": {
+                    "publishedAt": "2017-09-14T15:16:39.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "How the US government spies on people who protest -- including you | Jennifer Granick",
+                    "description": "What's stopping the American government from recording your phone calls, reading your emails and monitoring your location? Very little, says surveillance and ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/kdqUhTnAgJU/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/kdqUhTnAgJU/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/kdqUhTnAgJU/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/HH-QvgHO36iAO-K1ciks_Qd4Uik\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/WupV96THkupX4C_BJ2lqSVonQWM\"",
+                            "id": "kdqUhTnAgJU",
+                            "statistics": {
+                                "viewCount": "92709",
+                                "likeCount": "2063",
+                                "dislikeCount": "288",
+                                "favoriteCount": "0",
+                                "commentCount": "313"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/s62DsWqGVrBel77xm4IDGxz_dug\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "nbJy210s8II"
+                },
+                "snippet": {
+                    "publishedAt": "2017-05-19T21:15:42.000Z",
+                    "channelId": "UCsT0YIqwnpJCM-mx7-gSA4Q",
+                    "title": "American Spies | Jennifer Granick | TEDxStanford",
+                    "description": "If you attended a recent march to protest, wrote a check to the ACLU, or recently visited a politically leaning website, consider yourself an activist, says Stanford ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/nbJy210s8II/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/nbJy210s8II/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/nbJy210s8II/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TEDx Talks",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/wuUl3L2TVyNmi86iZb9ch3txc30\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Jyc9oah_hcA4lZ8bRndFgjMPnAU\"",
+                            "id": "nbJy210s8II",
+                            "statistics": {
+                                "viewCount": "4857",
+                                "likeCount": "51",
+                                "dislikeCount": "2",
+                                "favoriteCount": "0",
+                                "commentCount": "8"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/x8EVinhYPM_Pc6-iBFgNak23ahc\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "PsMbeg50nzM"
+                },
+                "snippet": {
+                    "publishedAt": "2018-02-05T22:51:39.000Z",
+                    "channelId": "UCltqjpqVd-IowlC-iLp91eg",
+                    "title": "American Spies: Modern Surveillance and What We Can Do Speaker: Jennifer Granick",
+                    "description": "Intelligence agencies in the U.S. (aka the American Spies) are exceedingly aggressive, pushing and sometimes bursting through the technological, legal and ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/PsMbeg50nzM/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/PsMbeg50nzM/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/PsMbeg50nzM/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Mozilla",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/uKKt1ZJw0YcJbGmoeiQ4gemxUJ4\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/MPaGddhVmHGcpDB0KuHUpC8oTc0\"",
+                            "id": "PsMbeg50nzM",
+                            "statistics": {
+                                "viewCount": "169",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Jennifer Granick: How the US government spies on people who protest    including you"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/99lI3bj7fsUEXhAFKNYIAIP00KI\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 58,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/7w47raWsWur4f4dyyZm7YRLHkiM\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "0ZfSOArXbGQ"
+                },
+                "snippet": {
+                    "publishedAt": "2017-09-14T20:27:27.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "How your pictures can help reclaim lost history | Chance Coughenour",
+                    "description": "Digital archaeologist Chance Coughenour is using pictures -- your pictures -- to reclaim antiquities that have been lost to conflict and disaster.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/0ZfSOArXbGQ/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/0ZfSOArXbGQ/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/0ZfSOArXbGQ/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/meU3C5JmGhnWGQRQAv4Kf6U23ho\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/VEnHJfGIHRkyWE6SfCuR0nSEoWg\"",
+                            "id": "0ZfSOArXbGQ",
+                            "statistics": {
+                                "viewCount": "58578",
+                                "likeCount": "1293",
+                                "dislikeCount": "42",
+                                "favoriteCount": "0",
+                                "commentCount": "105"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/aSVwLGs6uWgYWqGECRfLArimmA8\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "2sdj0cjq7T4"
+                },
+                "snippet": {
+                    "publishedAt": "2013-12-21T04:28:15.000Z",
+                    "channelId": "UCADaBeM0qiKEZIw9_OuYmuA",
+                    "title": "Family holds vigil for Rebecca Coughenour",
+                    "description": "The family of a murdered Baltimore woman remembers her one year later.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/2sdj0cjq7T4/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/2sdj0cjq7T4/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/2sdj0cjq7T4/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "WMAR-2 News",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/KZlqBaWs87kY2MBQW-y1tAauE1o\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/tPU-KucX8N9-p6G-xQdCsezexsU\"",
+                            "id": "2sdj0cjq7T4",
+                            "statistics": {
+                                "viewCount": "189",
+                                "likeCount": "2",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/8r8aMVEeyXFfKHpsHALCTCOkKRQ\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "xjqwMUC0jzI"
+                },
+                "snippet": {
+                    "publishedAt": "2018-12-01T19:30:45.000Z",
+                    "channelId": "UCp00Ai21kKo1IJCVkn_6iBQ",
+                    "title": "A Lost History (Preview)",
+                    "description": "This is a segment of a longer video by Chris Rice called \"Cannabis - A Lost History\" reposted with permission from www.youtube.com/chrisricema . The full video ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/xjqwMUC0jzI/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/xjqwMUC0jzI/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/xjqwMUC0jzI/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Truth Documentaries",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/NrK6vqOkmVZwakTTsZ8ZIf1bMbA\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/icB57NCliI86PMavp9u9y1HDOlc\"",
+                            "id": "xjqwMUC0jzI",
+                            "statistics": {
+                                "viewCount": "748",
+                                "likeCount": "20",
+                                "dislikeCount": "3",
+                                "favoriteCount": "0",
+                                "commentCount": "2"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Chance Coughenour: How your pictures can help reclaim lost history"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/i2EBfieB1a9v0j8tl2-BkXyoVv0\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 106,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/6S96h7LZx--P4BnU5K_-a7CDC9g\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "hz2ONnzRANs"
+                },
+                "snippet": {
+                    "publishedAt": "2017-09-15T15:18:42.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Dare to refuse the origin myths that claim who you are | Chetan Bhatt",
+                    "description": "We all have origin stories and identity myths, our tribal narratives that give us a sense of security and belonging. But sometimes our small-group identities can ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/hz2ONnzRANs/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/hz2ONnzRANs/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/hz2ONnzRANs/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/gQvhDEVJU5GaGTh5op_EHKcszVQ\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/j5UdsOrhqbHhwA3QxplOZ5Qpd78\"",
+                            "id": "hz2ONnzRANs",
+                            "statistics": {
+                                "viewCount": "111394",
+                                "likeCount": "2272",
+                                "dislikeCount": "200",
+                                "favoriteCount": "0",
+                                "commentCount": "298"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/_efnHEuSmRWu6XnhQAADxy4aBdM\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "8oHvknJfklE"
+                },
+                "snippet": {
+                    "publishedAt": "2015-06-09T16:03:21.000Z",
+                    "channelId": "UCsT0YIqwnpJCM-mx7-gSA4Q",
+                    "title": "Visions of a future without origin stories and identity myths | Chetan Bhatt | TEDxExeter",
+                    "description": "Some say origin stories give people a sense of belonging, but Chetan dares us to refuse them. Instead we should develop a deeper sense of personhood, ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/8oHvknJfklE/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/8oHvknJfklE/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/8oHvknJfklE/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TEDx Talks",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/rk31fbA6Wk6EN59kA7RpOsHu_m0\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/8FTnQ2pg4UlvaacUxwzBUwizI_I\"",
+                            "id": "8oHvknJfklE",
+                            "statistics": {
+                                "viewCount": "37147",
+                                "likeCount": "285",
+                                "dislikeCount": "23",
+                                "favoriteCount": "0",
+                                "commentCount": "14"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/vVXZn9Yw2o1NHyTUNW_N7IkH1qo\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "SnTVaU6ojXY"
+                },
+                "snippet": {
+                    "publishedAt": "2019-09-17T14:35:55.000Z",
+                    "channelId": "UCsT0YIqwnpJCM-mx7-gSA4Q",
+                    "title": "You Are NOT On Clearance! | Judy Torres | TEDxYouth@Wrigleyville",
+                    "description": "This is a different type of retail therapy - not for your closet - but for your soul! Judy Torres has graced the airways on NY's WKTU for 20 years, performed her hits ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/SnTVaU6ojXY/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/SnTVaU6ojXY/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/SnTVaU6ojXY/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TEDx Talks",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/hwX-8d_vvJ5KBVIi7gJH4Y6x6s8\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/qvUw-EUIdwZs9rA0WL7hM2iTg6Q\"",
+                            "id": "SnTVaU6ojXY",
+                            "statistics": {
+                                "viewCount": "910",
+                                "likeCount": "45",
+                                "dislikeCount": "1",
+                                "favoriteCount": "0",
+                                "commentCount": "3"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Chetan Bhatt: Dare to refuse the origin myths that claim who you are"
+    }
+]
