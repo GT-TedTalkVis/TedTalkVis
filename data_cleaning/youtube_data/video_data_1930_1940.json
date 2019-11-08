@@ -1,0 +1,1782 @@
+[
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/n3BiwPO_LliZzdcbYODhzWB-4Nc\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 31,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/6g12nqHEIR57mXsd6SS3LM-FenA\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "sYy-LEdYr8A"
+                },
+                "snippet": {
+                    "publishedAt": "2015-03-06T16:19:23.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Ilona Szabó de Carvalho: 4 lessons I learned from taking a stand against drugs and gun violence",
+                    "description": "Throughout her career in banking Ilona Szabó de Carvalho never imagined she'd someday start a social movement. But living in her native Brazil, which leads ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/sYy-LEdYr8A/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/sYy-LEdYr8A/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/sYy-LEdYr8A/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/ZGQZdBKWmsb385PPoE9Onf9d8zI\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/zWUIxeFuo549RdTr1UP1gu9dxzU\"",
+                            "id": "sYy-LEdYr8A",
+                            "statistics": {
+                                "viewCount": "34371",
+                                "likeCount": "397",
+                                "dislikeCount": "235",
+                                "favoriteCount": "0",
+                                "commentCount": "186"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/neJK8ODCv5DGyAXFTIsHPIDkzsk\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "jFI6crSXOYY"
+                },
+                "snippet": {
+                    "publishedAt": "2017-03-28T18:45:43.000Z",
+                    "channelId": "UCIfZOHqfNoSUlWVqzVw5jkA",
+                    "title": "Drogas: as histórias que não te contaram",
+                    "description": "Um retrato amplo e esclarecedor de um tema complexo e ainda tabu que precisamos mais do que nunca encarar Escrito pela diretora executiva do Instituto ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/jFI6crSXOYY/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/jFI6crSXOYY/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/jFI6crSXOYY/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Instituto Igarapé",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/B0i4kel4hzcdIAukNxdvXzABIkY\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Mz-nBq0Dq2rMMUDKmU90xz51-LI\"",
+                            "id": "jFI6crSXOYY",
+                            "statistics": {
+                                "viewCount": "1207",
+                                "likeCount": "19",
+                                "dislikeCount": "5",
+                                "favoriteCount": "0",
+                                "commentCount": "2"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Ie_6CYxq66k9skoZW1EYlhQrXRI\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "i6Q9ZYNzo74"
+                },
+                "snippet": {
+                    "publishedAt": "2017-01-10T20:08:51.000Z",
+                    "channelId": "UCIfZOHqfNoSUlWVqzVw5jkA",
+                    "title": "Ilona Szabó: “Questão da saúde mental [dos policiais] é um tabu muitas vezes”",
+                    "description": "Em nova entrevista ao Estúdio i da Globo News, a diretora executiva do Instituto Igarapé, Ilona Szabo De Carvalho, falou sobre o alto índice de mortes de ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/i6Q9ZYNzo74/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/i6Q9ZYNzo74/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/i6Q9ZYNzo74/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Instituto Igarapé",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/mhakqPt777p0ItNKqEnI8ZB8Nd0\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Mhn08hv-s0EXenR8wVfdAAQDnHQ\"",
+                            "id": "i6Q9ZYNzo74",
+                            "statistics": {
+                                "viewCount": "424",
+                                "likeCount": "6",
+                                "dislikeCount": "2",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Ilona Szabó de Carvalho: 4 lessons I learned from taking a stand against drugs and gun violence"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/jZTYuKjfWYRhHlZIEK18VO6FyKc\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 237,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/iJo2RkrMNPYI00dgNzANdEWbLKA\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "tAReayFqUEY"
+                },
+                "snippet": {
+                    "publishedAt": "2015-03-09T16:22:46.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Sangu Delle: In praise of macro -- yes, macro -- finance in Africa",
+                    "description": "In this short, provocative talk, financier Sangu Delle questions whether microfinance — small loans to small entrepreneurs — is the best way to drive growth in ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/tAReayFqUEY/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/tAReayFqUEY/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/tAReayFqUEY/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/2bWwxRQRpDuO8B3Y4H1KyR6D4jc\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/xO_dFgORrRdvPI69_glBQLn7X4s\"",
+                            "id": "tAReayFqUEY",
+                            "statistics": {
+                                "viewCount": "32870",
+                                "likeCount": "558",
+                                "dislikeCount": "29",
+                                "favoriteCount": "0",
+                                "commentCount": "79"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/NZdBy9fKRDfoUXZF5tsFdpFOY_I\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "IvPoApi4e9Y"
+                },
+                "snippet": {
+                    "publishedAt": "2016-04-20T16:30:01.000Z",
+                    "channelId": "UCsT0YIqwnpJCM-mx7-gSA4Q",
+                    "title": "Finding Economic Freedom | Sangu Delle | TEDxOxford",
+                    "description": "Africa's rising is complicated by the reality of persistent poverty and income inequality. While 6 of the 10 fastest growing economies are in Africa, it's alarming that ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/IvPoApi4e9Y/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/IvPoApi4e9Y/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/IvPoApi4e9Y/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TEDx Talks",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/7bQj_kCwNBbuSpBn1m3CQ4bsRiU\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/tzUz_gZJBrGqvwwvPvHs4fBXCTk\"",
+                            "id": "IvPoApi4e9Y",
+                            "statistics": {
+                                "viewCount": "8640",
+                                "likeCount": "137",
+                                "dislikeCount": "2",
+                                "favoriteCount": "0",
+                                "commentCount": "14"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/KjvINtZbQA8bLi-2PSgw5h3UIWQ\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "tGxyKLsZIGU"
+                },
+                "snippet": {
+                    "publishedAt": "2012-04-24T01:31:26.000Z",
+                    "channelId": "UCvQECJukTDE2i6aCoMnS-Vg",
+                    "title": "Michael Landau Wants More Microfinance in Africa",
+                    "description": "Give yourself the gift of knowledge — subscribe to Big Think Edge: http://bit.ly/bigthinkedge If you're interested in licensing this or any other Big Think clip for ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/tGxyKLsZIGU/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/tGxyKLsZIGU/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/tGxyKLsZIGU/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Big Think",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/K1PtragznJaEERv4-pegn07wKQw\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/lg7DSrqwCthHtLdejPtPz1VmkEA\"",
+                            "id": "tGxyKLsZIGU",
+                            "statistics": {
+                                "viewCount": "151",
+                                "likeCount": "1",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Sangu Delle: In praise of macro    yes, macro    finance in Africa"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/llWKwN74pY2lLUzuKg4fnskJJ9g\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 45585,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/ZUu4yjp-Er_4jMumhBM6JuicxAY\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "hha0NsYXS5c"
+                },
+                "snippet": {
+                    "publishedAt": "2015-03-10T15:55:11.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Why the buildings of the future will be shaped by ... you | Marc Kushner",
+                    "description": "\"Architecture is not about math or zoning — it's about visceral emotions,\" says Marc Kushner. In a sweeping — often funny — talk, he zooms through the past ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/hha0NsYXS5c/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/hha0NsYXS5c/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/hha0NsYXS5c/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/kD3bKh3RP3Qwac06F8__9ZriWE8\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/04HNKTjumfaPtiEV1ZR_R5A2oWU\"",
+                            "id": "hha0NsYXS5c",
+                            "statistics": {
+                                "viewCount": "1666855",
+                                "likeCount": "30908",
+                                "dislikeCount": "1712",
+                                "favoriteCount": "0",
+                                "commentCount": "1335"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/liPLKOhXETrZvPLq-VVnVS5rDn0\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "wyJ8OMIM49E"
+                },
+                "snippet": {
+                    "publishedAt": "2014-05-06T19:57:32.000Z",
+                    "channelId": "UClzDXT5UQSVf6zt1anagd_A",
+                    "title": "Marc Kushner: How We Make Architecture [PSFK 2014]",
+                    "description": "Marc Kushner, Co-Founder and CEO of architectural social network Architizer and a partner at firm HWKN spoke at the PSFK CONFERENCE 2014 about how ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/wyJ8OMIM49E/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/wyJ8OMIM49E/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/wyJ8OMIM49E/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "PSFK Originals",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/qGyfrTTAXAuskBfqQfZ23Vqusag\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/dDohGdDTvENt1d5Zi4d2_UUtW4o\"",
+                            "id": "wyJ8OMIM49E",
+                            "statistics": {
+                                "viewCount": "5575",
+                                "likeCount": "71",
+                                "dislikeCount": "3",
+                                "favoriteCount": "0",
+                                "commentCount": "2"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/x-VpM1JtIncT7JIs5NLjdjX82Qw\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "rB2AUtuRyfo"
+                },
+                "snippet": {
+                    "publishedAt": "2018-02-02T20:25:50.000Z",
+                    "channelId": "UCnN3Sn5RX8cYiKClYjrjGiA",
+                    "title": "Ted Talk Buildings of the Future",
+                    "description": "See the full video here https://youtu.be/hha0NsYXS5c Architecture is not about math or zoning — it's about visceral emotions,\" says Marc Kushner. In a sweeping ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/rB2AUtuRyfo/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/rB2AUtuRyfo/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/rB2AUtuRyfo/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Affiniti Architects",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/7UsYeJea-G86MolOJdKe6WxCBYk\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/7IHnJZ8ZjgOK6ziddUopOrY8EJA\"",
+                            "id": "rB2AUtuRyfo",
+                            "statistics": {
+                                "viewCount": "68",
+                                "likeCount": "0",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Marc Kushner: Why the buildings of the future will be shaped by ... you"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/wUVZrnd82MsPiUHyrpOdJkzTMNw\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 963,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/dnt4UP49HXhYxpdxhA4oiEWbj8c\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "oGlsUYGMYks"
+                },
+                "snippet": {
+                    "publishedAt": "2015-03-11T15:56:47.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Ismael Nazario: What I learned as a kid in jail",
+                    "description": "As a teenager, Ismael Nazario was sent to New York's Rikers Island jail, where he spent 300 days in solitary confinement — all before he was ever convicted of ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/oGlsUYGMYks/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/oGlsUYGMYks/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/oGlsUYGMYks/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/o1mmK9bFjoizJdkpZNKk28EYY5w\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/qMx8ZGFt1zbs1TWqmIlcLOJ7vLE\"",
+                            "id": "oGlsUYGMYks",
+                            "statistics": {
+                                "viewCount": "161350",
+                                "likeCount": "3125",
+                                "dislikeCount": "73",
+                                "favoriteCount": "0",
+                                "commentCount": "299"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/0pszJ-VaDmnKaU8mLPKtiDCRo_8\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "Ykh5NdoDNlE"
+                },
+                "snippet": {
+                    "publishedAt": "2015-04-13T02:57:36.000Z",
+                    "channelId": "UCSXsT39Xla0ZGpPQRLXYjlw",
+                    "title": "Ismael Nazario-What I learned as a kid in jail",
+                    "description": "",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/Ykh5NdoDNlE/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/Ykh5NdoDNlE/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/Ykh5NdoDNlE/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "張綺綺",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/1DbfT0c61T8EA1nkbzfIr630yjM\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/cyhFGj3J-xxgXLOpwdy02GOK-4Y\"",
+                            "id": "Ykh5NdoDNlE",
+                            "statistics": {
+                                "viewCount": "104",
+                                "likeCount": "0",
+                                "dislikeCount": "1",
+                                "favoriteCount": "0",
+                                "commentCount": "2"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/cmXniktyMgLR3SNdxBD07Cudr5I\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "khTsWgXxnrI"
+                },
+                "snippet": {
+                    "publishedAt": "2015-10-22T10:46:17.000Z",
+                    "channelId": "UCnrplwgkPG9AYBllzSZ64qg",
+                    "title": "Ismael Nazario- What I learned as a kid in jail",
+                    "description": "NCUE Freshman English SNL.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/khTsWgXxnrI/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/khTsWgXxnrI/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/khTsWgXxnrI/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "何昱欣",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/oq9sH_GRFKBlGaHW8xSMrpZX8gA\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/yYu4l2rS33ZyjuGmJUOKIb0qm1c\"",
+                            "id": "khTsWgXxnrI",
+                            "statistics": {
+                                "viewCount": "52",
+                                "likeCount": "0",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Ismael Nazario: What I learned as a kid in jail"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/kxHXjjkrs15-yFftSrxwIYdmFPg\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 66,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/3PzcCaLwfEUL5MXWNaOfFDnZAj4\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "RovaUZY3e8k"
+                },
+                "snippet": {
+                    "publishedAt": "2015-03-12T16:00:47.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Shimpei Takahashi: Play this game to come up with original ideas",
+                    "description": "Shimpei Takahashi always dreamed of designing toys. But when he started work as a toy developer, he found that the pressure to use data as a starting point for ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/RovaUZY3e8k/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/RovaUZY3e8k/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/RovaUZY3e8k/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Jsj6HspR_cD_e0oOa5jDeGrJqtQ\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/m_WUwf6CcyYHzrnkD2D2Gn876hI\"",
+                            "id": "RovaUZY3e8k",
+                            "statistics": {
+                                "viewCount": "144347",
+                                "likeCount": "1535",
+                                "dislikeCount": "676",
+                                "favoriteCount": "0",
+                                "commentCount": "258"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/iZrcxyXGgF-h4Xrp9MhxRTNAofo\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "mtn31hh6kU4"
+                },
+                "snippet": {
+                    "publishedAt": "2016-11-01T16:06:30.000Z",
+                    "channelId": "UCQSrdt0-Iu8qVEiJyzhrfdQ",
+                    "title": "4 simple ways to have a great idea | Richard St. John",
+                    "description": "In this short, entertaining talk, writer and researcher Richard St. John makes the case that great ideas can come from surprisingly humble beginnings.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/mtn31hh6kU4/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/mtn31hh6kU4/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/mtn31hh6kU4/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED Archive",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/HYecYwUYwbnDmLLKH2N2pLn8UGI\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/IDLyRyARL1uG0c5Pf1Hgn1XORoc\"",
+                            "id": "mtn31hh6kU4",
+                            "statistics": {
+                                "viewCount": "51754",
+                                "likeCount": "1252",
+                                "dislikeCount": "14",
+                                "favoriteCount": "0",
+                                "commentCount": "16"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/akmb6sAb994EVYvTIlV2W5doYv8\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "xDY-iUGQ9fc"
+                },
+                "snippet": {
+                    "publishedAt": "2017-04-20T22:15:39.000Z",
+                    "channelId": "UCSl5Uxu2LyaoAoMMGp6oTJA",
+                    "title": "How To Generate Creative &amp; Original Ideas 💡 (200th Upload)",
+                    "description": "This is my 200th upload to YouTube, so I thought I'd do something a bit different. This video contains 12 tips and techniques for generating creative and original ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/xDY-iUGQ9fc/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/xDY-iUGQ9fc/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/xDY-iUGQ9fc/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Atomic Shrimp",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/sunGwtjXCLFc3mCXmQZHzOiPPDk\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/bWZSfMnGr3tqP_EtYI0Vaim7Uo8\"",
+                            "id": "xDY-iUGQ9fc",
+                            "statistics": {
+                                "viewCount": "501",
+                                "likeCount": "45",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "10"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Shimpei Takahashi: Play this word game to come up with original ideas"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/0Wqx1VG7welBmUcPxl3Q-UYZJYg\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 1961,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/O2IITYq1BJFUSTzFhT2YyktkTgA\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "ImmtTHYU5GQ"
+                },
+                "snippet": {
+                    "publishedAt": "2014-10-28T15:38:19.000Z",
+                    "channelId": "UCsT0YIqwnpJCM-mx7-gSA4Q",
+                    "title": "How to manage for collective creativity | Linda Hill | TEDxCambridge",
+                    "description": "This talk was given at a local TEDx event, produced independently of the TED Conferences. At the heart of innovation is a paradox: you have to unleash the ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/ImmtTHYU5GQ/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/ImmtTHYU5GQ/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/ImmtTHYU5GQ/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TEDx Talks",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/NAsHxzc_IOGhMqIyb50granIcOA\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/SC6UNmYm8Z8NSW7V-6OJc-tib-E\"",
+                            "id": "ImmtTHYU5GQ",
+                            "statistics": {
+                                "viewCount": "90597",
+                                "likeCount": "891",
+                                "dislikeCount": "44",
+                                "favoriteCount": "0",
+                                "commentCount": "31"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/H-ENW1iV0nsPtUl9bHHQAcrU5c8\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "n-KDjm1T45k"
+                },
+                "snippet": {
+                    "publishedAt": "2015-06-19T16:45:15.000Z",
+                    "channelId": "UCnk-dvYlGfnCwsmPZEPb8Iw",
+                    "title": "What makes a great leader? by Linda Hill, Author of Collective Genius",
+                    "description": "Linda A. Hill is the Wallace Brett Donham Professor of Business Administration at the Harvard Business School. She is the faculty chair of the Leadership ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/n-KDjm1T45k/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/n-KDjm1T45k/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/n-KDjm1T45k/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Russell Sarder",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/YAE9WYPE6RwZfq_6OplGwGvzUgg\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/5hR9bFSnpoOOzJqPwlQP3StBzFY\"",
+                            "id": "n-KDjm1T45k",
+                            "statistics": {
+                                "viewCount": "3576",
+                                "likeCount": "21",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/s6491yp1ZrWN75xYt_lcvZzNPSs\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "hDKJTOhtYiQ"
+                },
+                "snippet": {
+                    "publishedAt": "2016-03-03T17:01:29.000Z",
+                    "channelId": "UCn64F4fPKU4qvgIBbnPpdeg",
+                    "title": "Harvard Business School’s Linda Hill: Why diversity and conflict are key to leading innovation",
+                    "description": "Organizations thrive on 'creative abrasion', argues Harvard Business School's Linda Hill, with different ideas and perspectives battling constructively for success.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/hDKJTOhtYiQ/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/hDKJTOhtYiQ/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/hDKJTOhtYiQ/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Editor I – CIO",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/JDM7nBqsI6JG5FBowZ-UXaiGe9E\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/gLiKuTiIsUDSrE_WsE8Xf-p_4Dw\"",
+                            "id": "hDKJTOhtYiQ",
+                            "statistics": {
+                                "viewCount": "6240",
+                                "likeCount": "38",
+                                "dislikeCount": "5",
+                                "favoriteCount": "0",
+                                "commentCount": "1"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Linda Hill: How to manage for collective creativity"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/PxdBub0U_1zzEPFaLf8UJ3AqzKk\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 59,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/xy3yNlwkFzOZht_5EYg9E210Avc\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "AE0gO5w-aok"
+                },
+                "snippet": {
+                    "publishedAt": "2015-03-16T16:14:48.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Vincent Cochetel: I was held hostage for 317 days. Here&#39;s what I thought about…",
+                    "description": "Vincent Cochetel was held hostage for 317 days in 1998, while working for the UN High Commissioner on Refugees in Chechnya. For the first time, he recounts ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/AE0gO5w-aok/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/AE0gO5w-aok/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/AE0gO5w-aok/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/iDKmiqp6HGDMHyANzK37f7TzbsU\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/lC14vyb_YmGqXg1HlaxC5dRllRk\"",
+                            "id": "AE0gO5w-aok",
+                            "statistics": {
+                                "viewCount": "93045",
+                                "likeCount": "2237",
+                                "dislikeCount": "25",
+                                "favoriteCount": "0",
+                                "commentCount": "133"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/FQFU8EfQP5YIWicehx-3oMj2DxY\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "1F5CsD2ekSA"
+                },
+                "snippet": {
+                    "publishedAt": "2015-01-08T17:05:34.000Z",
+                    "channelId": "UCsT0YIqwnpJCM-mx7-gSA4Q",
+                    "title": "Attacks on humanitarians are attacks on humanity | Vincent Cochetel | TEDxPlaceDesNations",
+                    "description": "This talk was given at a local TEDx event, produced independently of the TED Conferences. Why do we carry on with humanitarian work after living through a ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/1F5CsD2ekSA/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/1F5CsD2ekSA/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/1F5CsD2ekSA/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TEDx Talks",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/CNtc7hoMr7KlZPb_FZrfocui1q0\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Bo8Z5DZBr5nKLC16sL0Z80yeaY4\"",
+                            "id": "1F5CsD2ekSA",
+                            "statistics": {
+                                "viewCount": "8820",
+                                "likeCount": "117",
+                                "dislikeCount": "3",
+                                "favoriteCount": "0",
+                                "commentCount": "6"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/qam-y-lBYn3WhZg2Ud86sLckDs4\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "oDuQzn3Uso8"
+                },
+                "snippet": {
+                    "publishedAt": "2017-03-31T04:55:38.000Z",
+                    "channelId": "UCnmE-krEIM-hlL-eD2RDIvQ",
+                    "title": "[Wikipedia] Vincent Cochetel",
+                    "description": "Vincent Cochetel is a French official for the United Nations High Commissioner for Refugees (UNHCR) since 1986. As of 2016 he heads the European office of ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/oDuQzn3Uso8/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/oDuQzn3Uso8/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/oDuQzn3Uso8/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "WikiTubia",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/1Cssu1KKfOrKXXjM-WMv0TP2Nt0\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Uvvkw5Z-knJ1-hnDDwbsEcprDXQ\"",
+                            "id": "oDuQzn3Uso8",
+                            "statistics": {
+                                "viewCount": "34",
+                                "likeCount": "0",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Vincent Cochetel: I was held hostage for 317 days. Here's what I thought about…"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/xsNOrM9-P7BMv8g67smeNPvyzpQ\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 989,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/ifT3mbyBadyS_whL8RCTlB2-nxg\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "aI8KiPiVLyY"
+                },
+                "snippet": {
+                    "publishedAt": "2015-03-17T17:13:09.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Robyn Stein DeLuca: The good news about PMS",
+                    "description": "Everybody knows that most women go a little crazy right before they get their period, that their reproductive hormones cause their emotions to fluctuate wildly.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/aI8KiPiVLyY/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/aI8KiPiVLyY/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/aI8KiPiVLyY/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/VLEk4xeE0d6HUAc2Q9n2jdHWv4A\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/56louKTg7GbRGWn49ObOf8-wEJY\"",
+                            "id": "aI8KiPiVLyY",
+                            "statistics": {
+                                "viewCount": "319649",
+                                "likeCount": "2032",
+                                "dislikeCount": "586",
+                                "favoriteCount": "0",
+                                "commentCount": "375"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/WTJot6qFC5OosbGZwShC0yyjcC8\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "X7PoKR7jnpY"
+                },
+                "snippet": {
+                    "publishedAt": "2016-05-09T08:30:20.000Z",
+                    "channelId": "UCETjVynIKVaS0SHfbYK8t9g",
+                    "title": "How to Keep PMS Under Control | Nuffield Health",
+                    "description": "PMS affects women in different ways. For some, the symptoms can be severe. Women's Health Specialist Dr Annie Evans explains four strategies to keep PMS ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/X7PoKR7jnpY/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/X7PoKR7jnpY/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/X7PoKR7jnpY/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Nuffield Health",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/L5cd__yOZUGP52bjLCiRzwIAoFY\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/A-oRED8zMMJZIngIF_9_nFrimAk\"",
+                            "id": "X7PoKR7jnpY",
+                            "statistics": {
+                                "viewCount": "5557",
+                                "likeCount": "69",
+                                "dislikeCount": "6",
+                                "favoriteCount": "0",
+                                "commentCount": "7"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/-30gRmM_ubsH-a1wEDkr1MCA9WU\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "1Yz7_nu6pnI"
+                },
+                "snippet": {
+                    "publishedAt": "2014-12-17T17:50:47.000Z",
+                    "channelId": "UCsT0YIqwnpJCM-mx7-gSA4Q",
+                    "title": "The good news about PMS | Robyn Stein DeLuca | TEDxSBU",
+                    "description": "This talk was given at a local TEDx event, produced independently of the TED Conferences. Are all women ruled by their hormones? Get the real scoop on PMS.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/1Yz7_nu6pnI/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/1Yz7_nu6pnI/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/1Yz7_nu6pnI/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TEDx Talks",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/M7yJisnImH4XAzJo8ef5eKYPkXY\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/CEKHrBCHooBOqlmtO0GHfkdAkRI\"",
+                            "id": "1Yz7_nu6pnI",
+                            "statistics": {
+                                "viewCount": "1826",
+                                "likeCount": "30",
+                                "dislikeCount": "3",
+                                "favoriteCount": "0",
+                                "commentCount": "1"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Robyn Stein DeLuca: The good news about PMS"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/ttW0_rzPn_jDbK8wQ_itJ5-kydQ\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 2618,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/6xZ-Pp_9mlAlDgDBdFccNUUwKqM\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "4c1lqFXHvqI"
+                },
+                "snippet": {
+                    "publishedAt": "2015-03-18T17:00:01.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Can we create new senses for humans? | David Eagleman",
+                    "description": "As humans, we can perceive less than a ten-trillionth of all light waves. “Our experience of reality,” says neuroscientist David Eagleman, “is constrained by our ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/4c1lqFXHvqI/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/4c1lqFXHvqI/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/4c1lqFXHvqI/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/bf307NdWgiY1Dy-LtpMu1naX9BE\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/SdWQAsOAhwYqGPkWFQvqfyPyJ9U\"",
+                            "id": "4c1lqFXHvqI",
+                            "statistics": {
+                                "viewCount": "1032441",
+                                "likeCount": "39604",
+                                "dislikeCount": "489",
+                                "favoriteCount": "0",
+                                "commentCount": "2124"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/sjt6rpNe8uzQPKbFSa-GbaG30Oc\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "3epJuzVfvgc"
+                },
+                "snippet": {
+                    "publishedAt": "2018-07-06T16:07:56.000Z",
+                    "channelId": "UCbmNph6atAoGfqLoCL_duAg",
+                    "title": "David Eagleman: &quot;Can We Create New Senses for Humans?&quot; | Talks at Google",
+                    "description": "As the creator of stacks of compelling research, books and now the 6-part PBS series The Brain, grey matter expert David Eagleman is our most visible ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/3epJuzVfvgc/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/3epJuzVfvgc/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/3epJuzVfvgc/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Talks at Google",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/eQtytUXzW-JZgovFcWIhQpkQRFw\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/umMtMruPUtO80xEJ2Jh1ECpNy48\"",
+                            "id": "3epJuzVfvgc",
+                            "statistics": {
+                                "viewCount": "25979",
+                                "likeCount": "694",
+                                "dislikeCount": "10",
+                                "favoriteCount": "0",
+                                "commentCount": "73"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Nvlbe_meCTpF0NP5vTuHPVwHp38\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "J3xFAb0p8x8"
+                },
+                "snippet": {
+                    "publishedAt": "2016-07-11T14:26:16.000Z",
+                    "channelId": "UC-qkPmf_BY0daRGYPY3Hh7w",
+                    "title": "David Eagleman Wants to Create a New Human Sense | History NOW",
+                    "description": "David Eagleman's high-tech vest passes messages to the brain through vibrations in the skin. It is already being used to help deaf people to \"feel\" sounds.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/J3xFAb0p8x8/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/J3xFAb0p8x8/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/J3xFAb0p8x8/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "History NOW",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/sTXr09hUAbHojdbAcI0IRuvTw68\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/G_BVNsMD3T-E1nm3gynhduC1qo4\"",
+                            "id": "J3xFAb0p8x8",
+                            "statistics": {
+                                "viewCount": "2133",
+                                "likeCount": "36",
+                                "dislikeCount": "2",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "David Eagleman: Can we create new senses for humans?"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/90EMIlOnBhrCBRfE_jYFSmJri3w\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 21956,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/-PdULtYlJ8ltaukd5KIGtf9HGzs\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "ihR9SX7dgRo"
+                },
+                "snippet": {
+                    "publishedAt": "2015-03-19T21:32:32.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "What if 3D printing was 100x faster? | Joseph DeSimone",
+                    "description": "What we think of as 3D printing, says Joseph DeSimone, is really just 2D printing over and over ... slowly. Onstage at TED2015, he unveils a bold new technique ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/ihR9SX7dgRo/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/ihR9SX7dgRo/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/ihR9SX7dgRo/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/LWWKkLOioU5RJD_FqGGSRS_VWYk\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/LeY8ckMpR-Y59AFG_JX7X3zspSU\"",
+                            "id": "ihR9SX7dgRo",
+                            "statistics": {
+                                "viewCount": "1847449",
+                                "likeCount": "29767",
+                                "dislikeCount": "620",
+                                "favoriteCount": "0",
+                                "commentCount": "1542"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/dte2VZfmcoAA-YMO5lIbj5TFltw\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "hFzra_Vyy7U"
+                },
+                "snippet": {
+                    "publishedAt": "2016-05-19T14:00:01.000Z",
+                    "channelId": "UCdJ9oJ2GUF8Vmb-G63ldGWg",
+                    "title": "How Joe DeSimone is Changing 3-D Printing—Speaking of Chemistry Road Trip",
+                    "description": "We're hitting the road in California. Check out our first stop at Carbon, a 3-D printing startup in Silicon Valley. Don't forget to subscribe! http://bit.ly/ACSReactions ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/hFzra_Vyy7U/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/hFzra_Vyy7U/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/hFzra_Vyy7U/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Reactions",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/bZEDlaLogCuQEzJRURdNkiTJfBQ\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/3qlF7YQ5k0_K2p_UZFaJ5BcU9mM\"",
+                            "id": "hFzra_Vyy7U",
+                            "statistics": {
+                                "viewCount": "57004",
+                                "likeCount": "668",
+                                "dislikeCount": "12",
+                                "favoriteCount": "0",
+                                "commentCount": "47"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/bwDJOOrQi-ldPfbgq8-6SUtnrWk\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "SlmSX-ieZ0g"
+                },
+                "snippet": {
+                    "publishedAt": "2016-11-29T17:47:40.000Z",
+                    "channelId": "UC19_yR_HR-6IGI81p0sPHgQ",
+                    "title": "Joseph DeSimone - What if 3D printing was 100x faster?(Русская озвучка )",
+                    "description": "",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/SlmSX-ieZ0g/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/SlmSX-ieZ0g/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/SlmSX-ieZ0g/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Vladislav Altukhov",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/-u3XusAFNy4IDFMwYkNMO9t9uQc\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/bjfnhOPD3iullsXf2vVOM54XEN4\"",
+                            "id": "SlmSX-ieZ0g",
+                            "statistics": {
+                                "viewCount": "52",
+                                "likeCount": "0",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Joseph DeSimone: What if 3D printing was 100x faster?"
+    }
+]
