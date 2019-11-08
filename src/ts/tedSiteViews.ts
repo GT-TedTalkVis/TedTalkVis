@@ -28,29 +28,33 @@ export default function(svg: d3.Selection<BaseType, unknown, HTMLElement, unknow
   g.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
   // Get min and max year
-  const dateRange = d3.extent(data, d => +d["film_date"]);
-  console.log(dateRange);
+  const parseTime = d3.timeParse("%s");
+  const dateRange = d3.extent(data, d => parseTime(d["film_date"]));
+  //console.log("Date Range: " + dateRange);
 
-  // X axis
+  // X axis scale
   const x = d3
-    .scaleLinear()
+    .scaleTime()
     .domain(dateRange)
     .range([0, width]);
 
+  // X axis
+  const xAxis = d3.axisBottom(x).tickFormat(d3.timeFormat("%Y"));
+
   g.append("g")
     .attr("transform", "translate(0," + height + ")")
-    .call(d3.axisBottom(x).tickFormat(d3.format("d")));
+    .call(xAxis);
 
   // Compute y axis
   const yExtent = d3.extent(data, d => {
     return +d["views"];
-  })
+  });
 
   const y = d3
     .scaleLinear()
     .domain(yExtent)
     .range([height, 0]);
-  g.append("g").call(d3.axisLeft(y));
+  g.append("g").call(d3.axisLeft(y).tickFormat(d3.format("~s")));
 
   // Append rectangles
   g.selectAll("circle")
@@ -58,7 +62,7 @@ export default function(svg: d3.Selection<BaseType, unknown, HTMLElement, unknow
     .enter()
     .append("circle")
     .attr("transform", function(d) {
-      return "translate(" + x(parseInt(d["film_date"], 10)) + "," + y(+d["views"]) + ")";
+      return "translate(" + x(parseTime(d["film_date"])) + "," + y(+d["views"]) + ")";
     })
     .attr("r", 2)
     .style("opacity", "0.75")
@@ -66,7 +70,7 @@ export default function(svg: d3.Selection<BaseType, unknown, HTMLElement, unknow
 
   // Append axis labels
   g.append("text")
-    .attr("transform", "translate(-70, 250) rotate(-90)")
+    .attr("transform", "translate(-50, 250) rotate(-90)")
     .attr("fill", COLORS.TITLE_WHITE)
     .text("Number of Views");
   g.append("text")

@@ -19,7 +19,7 @@ function dataCleaner(data: d3.DSVRowArray<string>): void {
 }
 
 // Load data
-d3.csv("./data/ted_main.csv").then(data => {
+d3.csv("./data/ted_main_grouped_professions.csv").then(data => {
   // Pass data through dataCleaner()
   dataCleaner(data);
 
@@ -28,6 +28,6 @@ d3.csv("./data/ted_main.csv").then(data => {
 });
 
 d3.csv("./data/fk_scores.csv").then(data => {
-  console.log(data);
+  //console.log(data);
   readingLevel(svg3, data);
 });

@@ -29,7 +29,7 @@ export default function(svg: d3.Selection<BaseType, unknown, HTMLElement, unknow
 
   // Get min and max year
   const yearRange = d3.extent(data, d => parseInt(d["year"], 10));
-  console.log(yearRange);
+  //console.log(yearRange);
 
   // X axis
   const x = d3
