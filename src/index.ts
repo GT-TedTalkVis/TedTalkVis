@@ -3,11 +3,13 @@ import * as d3 from "d3";
 import talkDate from "./ts/talkDate";
 import tedSiteViews from "./ts/tedSiteViews";
 import readingLevel from "./ts/readingLevel";
+import professions from "./ts/professions";
 
 // Give each svg a variable name
 const svg1 = d3.select("svg.figure1");
 const svg2 = d3.select("svg.figure2");
 const svg3 = d3.select("svg.figure3");
+const svg4 = d3.select("svg.figure4");
 
 // Define data cleaner function
 function dataCleaner(data: d3.DSVRowArray<string>): void {
@@ -30,4 +32,8 @@ d3.csv("./data/ted_main_grouped_professions.csv").then(data => {
 d3.csv("./data/fk_scores.csv").then(data => {
   //console.log(data);
   readingLevel(svg3, data);
+});
+
+d3.json("./data/profession_counts.json").then(data => {
+  professions(svg4, data);
 });
