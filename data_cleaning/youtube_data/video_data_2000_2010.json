@@ -1,0 +1,1778 @@
+[
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/fY7mGglmK-M_0874gUq4gGmAXso\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 7892,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/tz_nYD0HZtnqi_UalVPCCGE2lT0\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "yXZqYFDFgT8"
+                },
+                "snippet": {
+                    "publishedAt": "2015-06-19T17:05:35.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "An 11-year-old prodigy performs old-school jazz | Joey Alexander",
+                    "description": "Raised listening to his dad's old records, Joey Alexander plays a brand of sharp, modern piano jazz that you likely wouldn't expect to hear from a pre-teenager.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/yXZqYFDFgT8/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/yXZqYFDFgT8/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/yXZqYFDFgT8/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/uCQuCq_iehs70XMhiHbr8YO3Zfc\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/hXn_9ew3IxVviFZhioK7OnmZ3aA\"",
+                            "id": "yXZqYFDFgT8",
+                            "statistics": {
+                                "viewCount": "659125",
+                                "likeCount": "7280",
+                                "dislikeCount": "257",
+                                "favoriteCount": "0",
+                                "commentCount": "826"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/awkL3sli1auyA-U750zQ0t6W_4I\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "Au6-EK7jCGM"
+                },
+                "snippet": {
+                    "publishedAt": "2016-02-16T08:03:36.000Z",
+                    "channelId": "UCq4isO8ZYOZfmvGJ-_1UdIA",
+                    "title": "Joey Alexander - 12 Year Old Prodigy | 58th GRAMMYs",
+                    "description": "Subscribe NOW to GRAMMYs on YouTube: http://grm.my/1dTBF8H About GRAMMYs: The recording industry's most prestigious award, the GRAMMY, ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/Au6-EK7jCGM/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/Au6-EK7jCGM/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/Au6-EK7jCGM/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Recording Academy / GRAMMYs",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/0iY6_CJ93ScOiNE7LK14A3GRCjY\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/fuJhfczH9qYOa4YWiNmXi3bcQc0\"",
+                            "id": "Au6-EK7jCGM",
+                            "statistics": {
+                                "viewCount": "994616",
+                                "likeCount": "12429",
+                                "dislikeCount": "137",
+                                "favoriteCount": "0",
+                                "commentCount": "1438"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Xm0dL79L6wkry1ILqD4m0jTsnYM\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "1-wglNPGzrQ"
+                },
+                "snippet": {
+                    "publishedAt": "2015-08-20T10:17:51.000Z",
+                    "channelId": "UCia2to5XmtvyU4yg3PbOJgQ",
+                    "title": "Joey Alexander - Giant Steps (In-Studio Performance)",
+                    "description": "Joey Alexander performs \"Giant Steps\" in studio, from his debut album \"My Favorite Things\"! Get \"My Favorite Things\" on iTunes ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/1-wglNPGzrQ/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/1-wglNPGzrQ/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/1-wglNPGzrQ/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "JoeyAlexanderVEVO",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/RMpr4HwMeRavCFRSWmw85TJmghw\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/mEUnopgvEeltYsvlV3oKmBNeWcI\"",
+                            "id": "1-wglNPGzrQ",
+                            "statistics": {
+                                "viewCount": "278668",
+                                "likeCount": "3933",
+                                "dislikeCount": "77",
+                                "favoriteCount": "0",
+                                "commentCount": "261"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Joey Alexander: An 11 year old prodigy performs old school jazz"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/xYT1LiWAYP7zjC2TezCkOohd0RE\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 1009,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/mjjrw_Yg2weS7xVXjnqbjaUHvEM\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "Fxt_MZKMdes"
+                },
+                "snippet": {
+                    "publishedAt": "2015-06-22T17:25:19.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Roxane Gay: Confessions of a bad feminist",
+                    "description": "When writer Roxane Gay dubbed herself a \"bad feminist,\" she was making a joke, acknowledging that she couldn't possibly live up to the demands for perfection ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/Fxt_MZKMdes/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/Fxt_MZKMdes/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/Fxt_MZKMdes/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/uUevGiiMaBqW64V3x-VlRsT4yGE\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/qNh1CcAErIms32pDHQjksabwyaU\"",
+                            "id": "Fxt_MZKMdes",
+                            "statistics": {
+                                "viewCount": "269898",
+                                "likeCount": "6605",
+                                "dislikeCount": "2560",
+                                "favoriteCount": "0",
+                                "commentCount": "1355"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Bi2xnKSLnlU6qiy-KcRG1tdxAOY\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "ShRKQItVkrY"
+                },
+                "snippet": {
+                    "publishedAt": "2015-03-09T12:38:53.000Z",
+                    "channelId": "UCVgO39Bk5sMo66-6o6Spn6Q",
+                    "title": "Q&amp;A: What does it mean to be a feminist?",
+                    "description": "Holly Kramer, Yassmin Abdel-Magied, Roxane Gay and Julie Bishop give their takes on what it means to be a feminist, bad feminist, or to choose your own label.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/ShRKQItVkrY/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/ShRKQItVkrY/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/ShRKQItVkrY/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "ABC News (Australia)",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/-sBqYimSHeEI0D9uKSifaV9Tfwk\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/sqTlWx0-F0T1wX7KSckRZLXiHFc\"",
+                            "id": "ShRKQItVkrY",
+                            "statistics": {
+                                "viewCount": "11083",
+                                "likeCount": "72",
+                                "dislikeCount": "182",
+                                "favoriteCount": "0"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/r5W-zf-IScKJC1BKnR8Jbhy-1Qo\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "UGrve97yDBw"
+                },
+                "snippet": {
+                    "publishedAt": "2018-12-05T21:28:05.000Z",
+                    "channelId": "UCJ_s4mjdf0ZWxdX21H5I2Bw",
+                    "title": "Roxane Gay on Pretty Woman",
+                    "description": "Following a screening of her favourite film of all time, iconic author, essayist, and self-proclaimed \"bad feminist\" Roxane Gay joins us for an extended onstage ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/UGrve97yDBw/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/UGrve97yDBw/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/UGrve97yDBw/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TIFF Talks",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/j1xQW0HHkAMgrPqt4PGUGAzkWTA\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/bF81siep0IidWyzzaH8PgUK1gpg\"",
+                            "id": "UGrve97yDBw",
+                            "statistics": {
+                                "viewCount": "10185",
+                                "likeCount": "125",
+                                "dislikeCount": "33",
+                                "favoriteCount": "0",
+                                "commentCount": "28"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Roxane Gay: Confessions of a bad feminist"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/ICjcYADHsRsNQGxPyZl236mfrqA\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 1077,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/5VReZWpocGfUgCgtXA4pLnJK6LA\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "0nI65jgHG9o"
+                },
+                "snippet": {
+                    "publishedAt": "2015-06-23T15:39:49.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Chip Kidd: The art of first impressions — in design and life",
+                    "description": "Book designer Chip Kidd knows all too well how often we judge things by first appearances. In this hilarious, fast-paced talk, he explains the two techniques ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/0nI65jgHG9o/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/0nI65jgHG9o/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/0nI65jgHG9o/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/X_BalWcu3LLxHAX_sa-4srcxons\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/z7IunyRJ5R4EZ5bZG_uovLXM8h4\"",
+                            "id": "0nI65jgHG9o",
+                            "statistics": {
+                                "viewCount": "333995",
+                                "likeCount": "8550",
+                                "dislikeCount": "200",
+                                "favoriteCount": "0",
+                                "commentCount": "204"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/3YCdtZVWxqwypp9cuBuO570IVYc\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "cC0KxNeLp1E"
+                },
+                "snippet": {
+                    "publishedAt": "2012-04-04T16:23:29.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "The hilarious art of book design | Chip Kidd",
+                    "description": "http://www.ted.com Chip Kidd doesn't judge books by their cover, he creates covers that embody the book -- and he does it with a wicked sense of humor. In one ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/cC0KxNeLp1E/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/cC0KxNeLp1E/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/cC0KxNeLp1E/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/v4bM-FqyLl-22Q1uMPqLDxre7hQ\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/hGsQFfXklUewQyxjP3LQALwkYGw\"",
+                            "id": "cC0KxNeLp1E",
+                            "statistics": {
+                                "viewCount": "881848",
+                                "likeCount": "26441",
+                                "dislikeCount": "1129",
+                                "favoriteCount": "0",
+                                "commentCount": "1099"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/PaXWympxvaconrTVmu7K4B-Wfuk\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "HGunvu4T5kU"
+                },
+                "snippet": {
+                    "publishedAt": "2014-03-06T20:42:41.000Z",
+                    "channelId": "UCFcEBreAYxXJn6D_JMWxp_A",
+                    "title": "Chip Kidd Explains his Process",
+                    "description": "Graphic Designer and Author Chip Kidd describes the process of designing a sinister cover for a collection of Christmas essays during a talk at MacEwan ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/HGunvu4T5kU/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/HGunvu4T5kU/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/HGunvu4T5kU/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "MacEwan University",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/WINGNpg9XZ6ndw4eLeloMNCKzpg\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/MYqmzcKN9Jrt61wI-VIgG5SAGYA\"",
+                            "id": "HGunvu4T5kU",
+                            "statistics": {
+                                "viewCount": "38739",
+                                "likeCount": "584",
+                                "dislikeCount": "3",
+                                "favoriteCount": "0",
+                                "commentCount": "12"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Chip Kidd: The art of first impressions    in design and life"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/sbcNlUpRbzQYIGbmaY2k3k8777o\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 3270,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/K-QodXF-N3HKpB7-o_wdy6Koncs\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "o3oDpCb7VqI"
+                },
+                "snippet": {
+                    "publishedAt": "2015-06-25T15:54:01.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Maryn McKenna: What do we do when antibiotics don’t work any more?",
+                    "description": "Penicillin changed everything. Infections that had previously killed were suddenly quickly curable. Yet as Maryn McKenna shares in this sobering talk, we've ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/o3oDpCb7VqI/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/o3oDpCb7VqI/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/o3oDpCb7VqI/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/_AUyWTtMcIXwOF0OIYxnhYySyhc\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/LwJIRw0lWkve-Awdv-nwEJ2XlUk\"",
+                            "id": "o3oDpCb7VqI",
+                            "statistics": {
+                                "viewCount": "205418",
+                                "likeCount": "3356",
+                                "dislikeCount": "192",
+                                "favoriteCount": "0",
+                                "commentCount": "674"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/TMiHTcaFdfNh6aa2PMjgz_k9oFM\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "C9GSIz78aDQ"
+                },
+                "snippet": {
+                    "publishedAt": "2018-11-13T12:46:16.000Z",
+                    "channelId": "UCiMg06DjcUk5FRiM3g5sqoQ",
+                    "title": "Combating Antibiotic Resistance: Antibiotic Use",
+                    "description": "Antibiotics are valuable tools for treating infections, but any antibiotic use—for people, animals, or crops—can lead to resistance. Some parts of the world cannot ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/C9GSIz78aDQ/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/C9GSIz78aDQ/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/C9GSIz78aDQ/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Centers for Disease Control and Prevention (CDC)",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/0h1sVObuIz3eRSSiDBCAXHu-A-k\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/kW40ztCpz2WzYPv_lIhuUGtYP80\"",
+                            "id": "C9GSIz78aDQ",
+                            "statistics": {
+                                "viewCount": "15724",
+                                "likeCount": "109",
+                                "dislikeCount": "6",
+                                "favoriteCount": "0",
+                                "commentCount": "2"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/6WSKyYgA8ZaMt86oS3YO4_F45Pw\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "LzqbDi41yfg"
+                },
+                "snippet": {
+                    "publishedAt": "2019-01-11T18:00:04.000Z",
+                    "channelId": "UCsT0YIqwnpJCM-mx7-gSA4Q",
+                    "title": "How Antibiotics Changed Our Food--And How We’ll Change it Back | Maryn McKenna | TEDxYouth@CEHS",
+                    "description": "Maryn McKenna is an independent journalist who specializes in public health, global health and food policy. Her 2015 TED Talk, \"What do we do when ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/LzqbDi41yfg/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/LzqbDi41yfg/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/LzqbDi41yfg/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TEDx Talks",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/7kNqD-h-MAoMSOaBEG0K_Hj72_M\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/UBO9cs9Fmqn2N5tHh-bPa2hOiKw\"",
+                            "id": "LzqbDi41yfg",
+                            "statistics": {
+                                "viewCount": "61018",
+                                "likeCount": "1835",
+                                "dislikeCount": "59",
+                                "favoriteCount": "0",
+                                "commentCount": "149"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Maryn McKenna: What do we do when antibiotics don't work any more?"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/I1OPUkI0KztzSfkwFO3Pp3a7s2w\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 32489,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/sW8WDqNQkL7MfKtpoN0uzrLC7BQ\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "tiwVMrTLUWg"
+                },
+                "snippet": {
+                    "publishedAt": "2015-06-26T15:57:50.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Chris Urmson: How a driverless car sees the road",
+                    "description": "Statistically, the least reliable part of the car is ... the driver. Chris Urmson heads up Google's driverless car program, one of several efforts to remove humans ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/tiwVMrTLUWg/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/tiwVMrTLUWg/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/tiwVMrTLUWg/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/NodkQmJ1X7XA8DB0majphRKmP3M\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/rXgmpJ5pf3VngN_OuC3A-mhJXGg\"",
+                            "id": "tiwVMrTLUWg",
+                            "statistics": {
+                                "viewCount": "714364",
+                                "likeCount": "8962",
+                                "dislikeCount": "261",
+                                "favoriteCount": "0",
+                                "commentCount": "842"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/SI6psetX5eNkLPlT60SM-3T3dh8\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "Tj6NOfdfa4o"
+                },
+                "snippet": {
+                    "publishedAt": "2019-07-22T14:19:07.000Z",
+                    "channelId": "UCSHZKyawb77ixDdsGog4iWA",
+                    "title": "Chris Urmson: Self-Driving Cars at Aurora, Google, CMU, and DARPA | Artificial Intelligence Podcast",
+                    "description": "Chris Urmson was the CTO of the Google Self-Driving Car team, a key engineer and leader behind the Carnegie Mellon autonomous vehicle entries in the ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/Tj6NOfdfa4o/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/Tj6NOfdfa4o/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/Tj6NOfdfa4o/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Lex Fridman",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/pIZe105TzxRryUGnxj-m5NRg3EE\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Jz3jMroqu-SiltC-odo-GPNnr3w\"",
+                            "id": "Tj6NOfdfa4o",
+                            "statistics": {
+                                "viewCount": "22302",
+                                "likeCount": "621",
+                                "dislikeCount": "18",
+                                "favoriteCount": "0",
+                                "commentCount": "65"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/E8X7n3pRAhMPOj1Mi5tuVpDYh_A\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "bp9KBrH8H04"
+                },
+                "snippet": {
+                    "publishedAt": "2011-03-31T17:48:58.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Google&#39;s driverless car | Sebastian Thrun",
+                    "description": "http://www.ted.com Sebastian Thrun helped build Google's amazing driverless car, powered by a very personal quest to save lives and reduce traffic accidents.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/bp9KBrH8H04/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/bp9KBrH8H04/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/bp9KBrH8H04/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/BwwcXJSbVWoaNqsbnPRijn0psBc\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/hP9Y3SL7I3h96RANNPWIBsfuQeY\"",
+                            "id": "bp9KBrH8H04",
+                            "statistics": {
+                                "viewCount": "638473",
+                                "likeCount": "3054",
+                                "dislikeCount": "98",
+                                "favoriteCount": "0",
+                                "commentCount": "720"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Chris Urmson: How a driverless car sees the road"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/6mR1tgYs8r6eeY_es9Xz1mU-ZNM\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 1561,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/SbVvkG8YyDgfOu71H3NL6Nk2LHE\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "ooIxHVXgLbc"
+                },
+                "snippet": {
+                    "publishedAt": "2015-06-29T15:40:34.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "The surprising thing I learned sailing solo around the world | Dame Ellen MacArthur",
+                    "description": "What do you learn when you sail around the world on your own? When solo sailor Ellen MacArthur circled the globe – carrying everything she needed with her ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/ooIxHVXgLbc/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/ooIxHVXgLbc/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/ooIxHVXgLbc/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Pfssm7IRd9-AIEPJs9R37yfd7OA\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/hsOTufGohpmXcUoKZvcJgiScEOw\"",
+                            "id": "ooIxHVXgLbc",
+                            "statistics": {
+                                "viewCount": "277997",
+                                "likeCount": "4027",
+                                "dislikeCount": "241",
+                                "favoriteCount": "0",
+                                "commentCount": "357"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/YPKgqW4zruUVwAZMdrGZqtv7mVQ\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "irUiflWhusw"
+                },
+                "snippet": {
+                    "publishedAt": "2019-04-17T18:10:39.000Z",
+                    "channelId": "UCyz6-taovlaOkPsPtK4KNEg",
+                    "title": "Dame Ellen MacArthur: World Record-Breaking Sailor",
+                    "description": "In this episode of Talks at GS, Dame Ellen MacArthur discusses her world record-breaking sailing career and her current efforts to create a more “circular” ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/irUiflWhusw/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/irUiflWhusw/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/irUiflWhusw/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Goldman Sachs",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/vWBOEURZCsIq8o8BH99O7THGZHQ\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/8nvU_y0SBC8-E5EQ3qFYL-Tjbiw\"",
+                            "id": "irUiflWhusw",
+                            "statistics": {
+                                "viewCount": "95030",
+                                "favoriteCount": "0"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/OIXsV2kSNEQyeaoQqLiZB_F1jrI\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "5v4RYcfIaxo"
+                },
+                "snippet": {
+                    "publishedAt": "2010-08-06T11:35:46.000Z",
+                    "channelId": "UCXjvdXhq5u7rfmk-UTwNtyw",
+                    "title": "Ellen MacArthur",
+                    "description": "",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/5v4RYcfIaxo/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/5v4RYcfIaxo/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/5v4RYcfIaxo/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "icaninthenortheast",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/aKj6RZLtZNh4LZqcWETU-Kiyl1k\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/cEy8fkIj4667BGJboT0Pd9WWNPU\"",
+                            "id": "5v4RYcfIaxo",
+                            "statistics": {
+                                "viewCount": "47990",
+                                "likeCount": "138",
+                                "dislikeCount": "6",
+                                "favoriteCount": "0",
+                                "commentCount": "7"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Dame Ellen MacArthur: The surprising thing I learned sailing solo around the world"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/kmLrTY14a4Vj0hHyG-hgH3bJGa0\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 1315,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/TgYsyRySf6x_LZJxA5bkUvcWKTk\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "wfW3aZCFfLA"
+                },
+                "snippet": {
+                    "publishedAt": "2015-06-30T15:31:00.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Jimmy Carter: Why I believe the mistreatment of women is the number one human rights abuse",
+                    "description": "With his signature resolve, former US president Jimmy Carter dives into three unexpected reasons why the mistreatment of women and girls continues in so ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/wfW3aZCFfLA/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/wfW3aZCFfLA/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/wfW3aZCFfLA/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Om5X9ZiIGKIadMbqkffJxAnFiko\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/ewR0ibdnLGjVfYUgWEMpOQfGdUo\"",
+                            "id": "wfW3aZCFfLA",
+                            "statistics": {
+                                "viewCount": "149713",
+                                "likeCount": "3657",
+                                "dislikeCount": "855",
+                                "favoriteCount": "0",
+                                "commentCount": "1108"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/LzEBShEvjjAGLYBk7Vfh2GU0HBY\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "HHzppGR5G2c"
+                },
+                "snippet": {
+                    "publishedAt": "2014-03-29T18:05:33.000Z",
+                    "channelId": "UCVSNOxehfALut52NbkfRBaA",
+                    "title": "Jimmy Carter Issues &#39;Call to Action&#39; to Stop Abuse Against Women (FULL INTERVIEW)",
+                    "description": "Former U.S. President Jimmy Carter calls abuse of women the most serious human rights issue facing the world today. In an interview with VOA's Kane ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/HHzppGR5G2c/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/HHzppGR5G2c/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/HHzppGR5G2c/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "VOA News",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/3biJyDfORXeX3DyjfKssvIu_wtg\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/OahhSowwZ9WZ2bfUMBH3V7tviRg\"",
+                            "id": "HHzppGR5G2c",
+                            "statistics": {
+                                "viewCount": "4575",
+                                "likeCount": "53",
+                                "dislikeCount": "2",
+                                "favoriteCount": "0",
+                                "commentCount": "8"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/2iMvuVDfyE_wFB8vRmVjFeUUviA\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "SH7a4lnSLcE"
+                },
+                "snippet": {
+                    "publishedAt": "2014-03-29T03:35:29.000Z",
+                    "channelId": "UCVSNOxehfALut52NbkfRBaA",
+                    "title": "Jimmy Carter Issues &#39;Call to Action&#39; to Stop Abuse Against Women",
+                    "description": "The World Health Organization reports one in three women around the world will experience physical or sexual violence in their lifetime. Former U.S. President ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/SH7a4lnSLcE/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/SH7a4lnSLcE/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/SH7a4lnSLcE/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "VOA News",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/HglHPIZQxdQuuzMOOila5jYPJag\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/y5Z9AHtHVrRfQcmxIP7J16XU40Y\"",
+                            "id": "SH7a4lnSLcE",
+                            "statistics": {
+                                "viewCount": "988",
+                                "likeCount": "7",
+                                "dislikeCount": "1",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Jimmy Carter: Why I believe the mistreatment of women is the number one human rights abuse "
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Wwz69zbKl0LRJZX_uDFxznxl11M\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 231,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/0ezyCxmBqcBjvqn0g1GI-cyG84Q\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "DokhOtMp75A"
+                },
+                "snippet": {
+                    "publishedAt": "2015-07-01T15:34:15.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Latif Nasser: The amazing story of the man who gave us modern pain relief",
+                    "description": "For the longest time, doctors basically ignored the most basic and frustrating part of being sick — pain. In this lyrical, informative talk, Latif Nasser tells the ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/DokhOtMp75A/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/DokhOtMp75A/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/DokhOtMp75A/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/gZf1DqdhP0Ii3Ah2QIt8c_A11nM\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/8fvhm6f2oFQVajMP5kn5_o-MrXA\"",
+                            "id": "DokhOtMp75A",
+                            "statistics": {
+                                "viewCount": "77774",
+                                "likeCount": "1281",
+                                "dislikeCount": "94",
+                                "favoriteCount": "0",
+                                "commentCount": "99"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/uEYfhWAUAbncd0aMAQkDpi7chXQ\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "u8MXWe_IbF8"
+                },
+                "snippet": {
+                    "publishedAt": "2016-03-22T14:00:05.000Z",
+                    "channelId": "UCgyeJxD05YnoDquRMNBfBqw",
+                    "title": "TED TALKS | Science and Wonder | Latif Nasser: Discovery in the Arctic | PBS",
+                    "description": "In this excerpt from the PBS special TED Talks: Science and Wonder, Radiolab's Latif Nasser takes us across the frozen Arctic with a paleobiologist who makes ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/u8MXWe_IbF8/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/u8MXWe_IbF8/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/u8MXWe_IbF8/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "PBS",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/AiBrYNHruKdD82zODy0AR4c6PZE\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/kd5_uQ0bImS7PW_sb9BJpzcY0nQ\"",
+                            "id": "u8MXWe_IbF8",
+                            "statistics": {
+                                "viewCount": "2493",
+                                "likeCount": "14",
+                                "dislikeCount": "1",
+                                "favoriteCount": "0",
+                                "commentCount": "1"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/poV8G1GXpGdoq95Ymg6cvErqic8\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "aO3ZEcULNco"
+                },
+                "snippet": {
+                    "publishedAt": "2017-01-04T21:53:08.000Z",
+                    "channelId": "UCsT0YIqwnpJCM-mx7-gSA4Q",
+                    "title": "Challenging Traditional Perspectives on Pain Relief | Joseph Jacobs | TEDxMissionViejo",
+                    "description": "Dr. Jacobs' life ambition is to continuously develop and research new tools, theories, and methodologies to revolutionize the medical industry, specifically in ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/aO3ZEcULNco/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/aO3ZEcULNco/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/aO3ZEcULNco/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TEDx Talks",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/cwsQLbyHVnBoULGJcvE9RsEBa2w\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/wqZxyMJrEhDMLLdp1flZqUiy_Fs\"",
+                            "id": "aO3ZEcULNco",
+                            "statistics": {
+                                "viewCount": "6458",
+                                "likeCount": "59",
+                                "dislikeCount": "5",
+                                "favoriteCount": "0",
+                                "commentCount": "8"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Latif Nasser: The amazing story of the man who gave us modern pain relief"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/LQuKy5kQSlu2LVikdQ31eh-UXeA\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 282,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/OmX09bTIT5fDTuJ5gmsbOEr0nIs\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "CXvUdCdKTJY"
+                },
+                "snippet": {
+                    "publishedAt": "2015-07-02T15:32:19.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Gayle Tzemach Lemmon: Meet the first women to fight on the front lines of an American war",
+                    "description": "In 2011, the US Armed Forces still had a ban on women in combat — but in that year, a Special Operations team of women was sent to Afghanistan to serve on ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/CXvUdCdKTJY/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/CXvUdCdKTJY/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/CXvUdCdKTJY/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/SWY6y1OGoREK5J2e2S4iKGMQuCA\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/4aN1OLYxN9hZsWdTeUsi2MtGIn4\"",
+                            "id": "CXvUdCdKTJY",
+                            "statistics": {
+                                "viewCount": "76462",
+                                "likeCount": "1055",
+                                "dislikeCount": "589",
+                                "favoriteCount": "0",
+                                "commentCount": "340"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Kbx-eSFRuEIM4_SuYyOPX1E6PuI\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "amsVrJ1EnP8"
+                },
+                "snippet": {
+                    "publishedAt": "2015-05-08T21:55:24.000Z",
+                    "channelId": "UCupvZG-5ko_eiXAupbDfxWw",
+                    "title": "Female warriors on the frontlines",
+                    "description": "CNN's Jake Tapper speaks with author Gayle Tzemach Lemmon about her book, \"Ashley's War.\"",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/amsVrJ1EnP8/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/amsVrJ1EnP8/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/amsVrJ1EnP8/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "CNN",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/d4PUJFPWKL2gZPFhRl22-wRRG_4\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/dCDpYZQYxpDJQ-06mF7K43FFFRs\"",
+                            "id": "amsVrJ1EnP8",
+                            "statistics": {
+                                "viewCount": "4181",
+                                "likeCount": "47",
+                                "dislikeCount": "24",
+                                "favoriteCount": "0",
+                                "commentCount": "29"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/hidH7rhLxy1Oself-SaRCvma1x0\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "Wt_95ho6JXs"
+                },
+                "snippet": {
+                    "publishedAt": "2015-04-28T22:50:50.000Z",
+                    "channelId": "UCL_A4jkwvKuMyToAPy3FQKQ",
+                    "title": "&#39;Ashley&#39;s War: The Untold Story of a Team of Women Soldiers on the Special Ops Battlefield&#39;",
+                    "description": "CFR Senior Fellow Gayle Tzemach Lemmon launches her new book, 'Ashley's War: The Untold Story of a Team of Women Soldiers on the Special Ops ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/Wt_95ho6JXs/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/Wt_95ho6JXs/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/Wt_95ho6JXs/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Council on Foreign Relations",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/j-4mMkj7JeK1fvbc20_70zpyT94\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/mFAcBn1SenE2EeShv3O2YO-UIFk\"",
+                            "id": "Wt_95ho6JXs",
+                            "statistics": {
+                                "viewCount": "4112",
+                                "likeCount": "32",
+                                "dislikeCount": "4",
+                                "favoriteCount": "0",
+                                "commentCount": "3"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Gayle Tzemach Lemmon: Meet the women fighting on the front lines of an American war"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/edABP1p7j_oSCGHaD91BtjLCO2E\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 7608,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/WC9g1DvrGbWqeLU5Cdw-6su3fCk\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "66ko_cWSHBU"
+                },
+                "snippet": {
+                    "publishedAt": "2015-07-06T16:07:42.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "The Math Behind Basketball&#39;s Wildest Moves | Rajiv Maheswaran | TED Talks",
+                    "description": "Basketball is a fast-moving game of improvisation, contact and, ahem, spatio-temporal pattern recognition. Rajiv Maheswaran and his colleagues are analyzing ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/66ko_cWSHBU/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/66ko_cWSHBU/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/66ko_cWSHBU/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Xp27FraGHBVIuJO-zMprHGBccVQ\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/3jQkuvstD8D87Uw3CxHB0OYQ-iY\"",
+                            "id": "66ko_cWSHBU",
+                            "statistics": {
+                                "viewCount": "972260",
+                                "likeCount": "12409",
+                                "dislikeCount": "602",
+                                "favoriteCount": "0",
+                                "commentCount": "515"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/w_IRvilKusgLduqstnQWKZ0Q2zc\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "MpLHMKTolVw"
+                },
+                "snippet": {
+                    "publishedAt": "2019-05-17T18:43:49.000Z",
+                    "channelId": "UCUMZ7gohGI9HcU9VNsr2FJQ",
+                    "title": "The NBA Data Scientist",
+                    "description": "With her PhD in math, Ivana Seric had expected to wind up with a career in academia—but thanks to the growing use of statistical analysis in the NBA, she took ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/MpLHMKTolVw/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/MpLHMKTolVw/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/MpLHMKTolVw/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Bloomberg",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/HsQuA5xCUhMCcROp6NUtEFmjhvQ\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/IFD50Km0bkwiFxkyNLMnFBeGJ24\"",
+                            "id": "MpLHMKTolVw",
+                            "statistics": {
+                                "viewCount": "338268",
+                                "likeCount": "9454",
+                                "dislikeCount": "288",
+                                "favoriteCount": "0",
+                                "commentCount": "595"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/94SoS1nI7ancuumzgagVZIFje4o\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "Vls38IvGxMM"
+                },
+                "snippet": {
+                    "publishedAt": "2015-10-08T17:34:30.000Z",
+                    "channelId": "UC3BGlwmI-Vk6PWyMt15dKGw",
+                    "title": "Machine Learning in the World of Sports - Rajiv Maheswaran",
+                    "description": "Second Spectrum CEO Rajiv Maheswaran talks at Strata+Hadoop on the beginnings of machine learning in the world of professional sports. Watch more from ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/Vls38IvGxMM/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/Vls38IvGxMM/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/Vls38IvGxMM/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "O'Reilly",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Hdrf6bIHggTuMBkAVuBugGKNYmM\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/daWlyOruYgJ8nwUqy8qgANrok04\"",
+                            "id": "Vls38IvGxMM",
+                            "statistics": {
+                                "viewCount": "3818",
+                                "likeCount": "30",
+                                "dislikeCount": "1",
+                                "favoriteCount": "0",
+                                "commentCount": "2"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Rajiv Maheswaran: The math behind basketball's wildest moves"
+    }
+]

@@ -1,0 +1,1781 @@
+[
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/SnKUCwuZVP_-0kSoK8BhTKWU16s\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 538,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/DRy2Rd_KhS10XjG2QT5BJ3xEXJQ\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "NgDGlcxYrhQ"
+                },
+                "snippet": {
+                    "publishedAt": "2015-07-22T16:17:59.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Paper towns and why learning is awesome | John Green",
+                    "description": "Some of us learn best in the classroom, and some of us ... well, we don't. But we still love to learn, to find out new things about the world and challenge our minds ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/NgDGlcxYrhQ/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/NgDGlcxYrhQ/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/NgDGlcxYrhQ/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/JEOY6Ijy3VY97btOiQFR5DxYMIo\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/9mcxccvBRc88aoPns3R4NsE5PN8\"",
+                            "id": "NgDGlcxYrhQ",
+                            "statistics": {
+                                "viewCount": "1364673",
+                                "likeCount": "48432",
+                                "dislikeCount": "473",
+                                "favoriteCount": "0",
+                                "commentCount": "1394"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/5fUFi8fC9cE3CMWHq5m_eBbiNHg\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "ov7IDNUEYsg"
+                },
+                "snippet": {
+                    "publishedAt": "2016-07-18T17:26:59.000Z",
+                    "channelId": "UCey4wWVlR0ZkN5r3knCBAJw",
+                    "title": "John Green: The nerd&#39;s guide to learning everything online",
+                    "description": "Description here: http://englishworldwide.ning.com/group/ted-talks/forum/topics/john-green-the-nerd-s-guide-to-learning-everything-online?",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/ov7IDNUEYsg/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/ov7IDNUEYsg/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/ov7IDNUEYsg/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Ivan Korjavin",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/2gp9O6rrWxZ1MIpPummebnbJBXA\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/FZc3s7OD7hiIBHTkNAee0ZPwEFY\"",
+                            "id": "ov7IDNUEYsg",
+                            "statistics": {
+                                "viewCount": "416",
+                                "likeCount": "1",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "1"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/ocXLfmvznAtrQ6Ff1T5qO9xAUwQ\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "YUS6eXhoPJs"
+                },
+                "snippet": {
+                    "publishedAt": "2009-06-22T23:48:12.000Z",
+                    "channelId": "UCMhAAqc8MnAPS5KALdaogDw",
+                    "title": "The Nerd&#39;s Guide to Dating",
+                    "description": "In this episode you will be enlightened with the knowledge of love and war. And you will also learn how to date, sort of. Also go to cAPPSlOCKrOXX channel and ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/YUS6eXhoPJs/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/YUS6eXhoPJs/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/YUS6eXhoPJs/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "thedrdocktershow",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/ERemN-n3hCdf7Qy3sjYxE46VTCA\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/AmRHIpGTBAwmV3id-VSyTGC0DDA\"",
+                            "id": "YUS6eXhoPJs",
+                            "statistics": {
+                                "viewCount": "400",
+                                "likeCount": "4",
+                                "dislikeCount": "1",
+                                "favoriteCount": "0"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "John Green: The nerd's guide to learning everything online"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/wBhxkD-87NpxGPhwX5vQrFaYifc\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 57668,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/BKz-p1Yd8P4-rtQFYB0oz6trmKc\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "E0k4IQ8fDCY"
+                },
+                "snippet": {
+                    "publishedAt": "2015-07-23T16:46:59.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Street Art for Hope and Peace | eL Seed | TED Talks",
+                    "description": "Born in France to Tunisian parents, eL Seed delights in juggling multiple cultures, languages and identities. Not least in his artwork, which sets Arabic poetry in a ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/E0k4IQ8fDCY/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/E0k4IQ8fDCY/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/E0k4IQ8fDCY/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/KLS7u9a3iSMLY1KLlU-ullnIfOY\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/kLferjaZxj-KSpSr07pHkvLCibM\"",
+                            "id": "E0k4IQ8fDCY",
+                            "statistics": {
+                                "viewCount": "99172",
+                                "likeCount": "2009",
+                                "dislikeCount": "38",
+                                "favoriteCount": "0",
+                                "commentCount": "61"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/bS1vtDqhfg7r_rPAsdOeB6b8_lk\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "g9M3HIjHuq0"
+                },
+                "snippet": {
+                    "publishedAt": "2016-08-25T15:50:35.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "A project of peace, painted across 50 buildings | eL Seed",
+                    "description": "eL Seed fuses Arabic calligraphy with graffiti to paint colorful, swirling messages of hope and peace on buildings from Tunisia to Paris. The artist and TED Fellow ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/g9M3HIjHuq0/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/g9M3HIjHuq0/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/g9M3HIjHuq0/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/a5vuXT4kKL_UytI8moxgfwDmk4E\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/NyS4eQzqhZnRG-p8MOnT4qfnOzY\"",
+                            "id": "g9M3HIjHuq0",
+                            "statistics": {
+                                "viewCount": "102149",
+                                "likeCount": "2402",
+                                "dislikeCount": "52",
+                                "favoriteCount": "0",
+                                "commentCount": "92"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/MI0SuEWg_UYE_fRRA5wqyu97v3w\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "nvG2sl8BPF0"
+                },
+                "snippet": {
+                    "publishedAt": "2015-08-08T09:06:04.000Z",
+                    "channelId": "UC2wdQMR821--8iDiIlzt5OA",
+                    "title": "eL Seed  Street art with a message of hope and peace",
+                    "description": "",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/nvG2sl8BPF0/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/nvG2sl8BPF0/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/nvG2sl8BPF0/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Maikel Akkermans",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/7bB2mg4Yfqbx5urWb2gbPi40Nvg\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/RWXkUp4raZdb-b6t8DnOS8FTHc4\"",
+                            "id": "nvG2sl8BPF0",
+                            "statistics": {
+                                "viewCount": "36",
+                                "likeCount": "0",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "eL Seed: Street art with a message of hope and peace"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/rSIXBo_DhEZw2vTpFfbv_-XxfBA\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 424,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/IuZ0bIav8_ufrG-CmKLnOoGNv4U\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "nzj7Wg4DAbs"
+                },
+                "snippet": {
+                    "publishedAt": "2015-07-24T16:18:55.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Why humans run the world | Yuval Noah Harari",
+                    "description": "Seventy thousand years ago, our human ancestors were insignificant animals, just minding their own business in a corner of Africa with all the other animals.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/nzj7Wg4DAbs/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/nzj7Wg4DAbs/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/nzj7Wg4DAbs/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/EDyHhWxcehQaHUcIWa0z-g5vjiU\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/-DGQDQMSq-I3VmpePojG98VMD2k\"",
+                            "id": "nzj7Wg4DAbs",
+                            "statistics": {
+                                "viewCount": "1487073",
+                                "likeCount": "34016",
+                                "dislikeCount": "1092",
+                                "favoriteCount": "0",
+                                "commentCount": "2118"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/tvOrnukaqLaEzj8wUZXabn4_-Pk\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "Wi0FArnWRNw"
+                },
+                "snippet": {
+                    "publishedAt": "2017-03-06T12:41:04.000Z",
+                    "channelId": "UCldnic9i4-PFV0Eg-YeUrEw",
+                    "title": "What explains the rise of humans?",
+                    "description": "Visite nosso site www.ingvip.com e acesse um enorme material gratuito para aprendizado do Inglês.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/Wi0FArnWRNw/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/Wi0FArnWRNw/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/Wi0FArnWRNw/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Inglês VIP",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/X_UOrpnuUzfIUdFb_v1Jd_8UvtM\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/uAaqhiv7onCrAwQYK-CTyb_fVzA\"",
+                            "id": "Wi0FArnWRNw",
+                            "statistics": {
+                                "viewCount": "1209",
+                                "likeCount": "10",
+                                "dislikeCount": "1",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/OJ0zw-PsANMavXKNirBKMJkk7GU\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "XOmQqBX6Dn4"
+                },
+                "snippet": {
+                    "publishedAt": "2016-09-28T08:05:26.000Z",
+                    "channelId": "UCYeF244yNGuFefuFKqxIAXw",
+                    "title": "The Future of Humanity - with Yuval Noah Harari",
+                    "description": "Dr Yuval Noah Harari explains how revolutions in technology and society will transform our bodies and minds. Watch the Q&A here: https://youtu.be/Lt7votAzI78 ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/XOmQqBX6Dn4/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/XOmQqBX6Dn4/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/XOmQqBX6Dn4/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "The Royal Institution",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/VnFQ0XhPpE68wQNkQKW--G5my40\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/X1bZBOqniwxcClTaYyqKMIDm0Rc\"",
+                            "id": "XOmQqBX6Dn4",
+                            "statistics": {
+                                "viewCount": "540210",
+                                "likeCount": "8657",
+                                "dislikeCount": "399",
+                                "favoriteCount": "0",
+                                "commentCount": "641"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Yuval Noah Harari: What explains the rise of humans?"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/hDiMXL__drXco_5T8EAKLiUzqB0\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 233,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/k58VOBb4I53jLDa6bFynHCt8toY\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "X1DlJpPqDFo"
+                },
+                "snippet": {
+                    "publishedAt": "2015-08-10T16:10:44.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "The surprising way groups like ISIS stay in power | Benedetta Berti",
+                    "description": "ISIS, Hezbollah, Hamas. These three very different groups are known for violence — but that's only a portion of what they do, says policy analyst Benedetti Berti.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/X1DlJpPqDFo/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/X1DlJpPqDFo/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/X1DlJpPqDFo/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/ECCrWK41hsogDtdomOW6N_850Ac\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Lv4lQ6_iV80iLobaQL5x4XBYFkI\"",
+                            "id": "X1DlJpPqDFo",
+                            "statistics": {
+                                "viewCount": "340232",
+                                "likeCount": "3607",
+                                "dislikeCount": "1346",
+                                "favoriteCount": "0",
+                                "commentCount": "777"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/rNP2wpWSRH1L90MPInBFqs8tlXQ\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "deG_LTcAjaM"
+                },
+                "snippet": {
+                    "publishedAt": "2018-10-02T16:57:18.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Did the global response to 9/11 make us safer? | Benedetta Berti",
+                    "description": "If we want sustainable, long-term security to be the norm in the world, it's time to radically rethink how we can achieve it, says TED Fellow and conflict researcher ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/deG_LTcAjaM/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/deG_LTcAjaM/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/deG_LTcAjaM/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/xU4GQO5rjQOujTU362-JBw6YH9Q\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/ZpGwmgkMnQId1suB20S_FPBHZX0\"",
+                            "id": "deG_LTcAjaM",
+                            "statistics": {
+                                "viewCount": "56723",
+                                "likeCount": "1325",
+                                "dislikeCount": "162",
+                                "favoriteCount": "0",
+                                "commentCount": "310"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/4wqyNNG947KI3lfV2_INRe12A10\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "WT0vlu2y9cc"
+                },
+                "snippet": {
+                    "publishedAt": "2017-04-11T18:39:09.000Z",
+                    "channelId": "UCsT0YIqwnpJCM-mx7-gSA4Q",
+                    "title": "How to Defeat ISIS using an Unexpected Resource | Alia Braley | TEDxSalem",
+                    "description": "The impact of strategic nonviolent action in the world today, from the pro-democracy protests in Hong Kong in 2014 to the anti-corruption protests of ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/WT0vlu2y9cc/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/WT0vlu2y9cc/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/WT0vlu2y9cc/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TEDx Talks",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/lLolyIQZuvk2s7n4p1MqVLjfaho\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/2Hz-mz87RZ025OxfBsi8fZM9jlQ\"",
+                            "id": "WT0vlu2y9cc",
+                            "statistics": {
+                                "viewCount": "1641",
+                                "likeCount": "34",
+                                "dislikeCount": "3",
+                                "favoriteCount": "0",
+                                "commentCount": "4"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Benedetta Berti: The surprising way groups like ISIS stay in power"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/pjxnENpCwZ7U3ZGve00xaQHqOsI\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 179,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/BHKFxDFykQW6a8Zj1WdsXIvhxjI\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "XTf9Sdrq1zg"
+                },
+                "snippet": {
+                    "publishedAt": "2015-08-11T16:44:34.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "My road trip through the whitest towns in America | Rich Benjamin",
+                    "description": "As America becomes more and more multicultural, Rich Benjamin noticed a phenomenon: Some communities were actually getting less diverse. So he got out a ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/XTf9Sdrq1zg/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/XTf9Sdrq1zg/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/XTf9Sdrq1zg/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/P8DDvQl0gTfSynq5tfPoeiLu9hA\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/YWSjgEoQKjmXnwGRb3jMUcDsjwA\"",
+                            "id": "XTf9Sdrq1zg",
+                            "statistics": {
+                                "viewCount": "606854",
+                                "likeCount": "7902",
+                                "dislikeCount": "6711",
+                                "favoriteCount": "0",
+                                "commentCount": "6332"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/5IdvdN3iSxfjttaG_smTX25YslE\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "-hR2Np1XIP0"
+                },
+                "snippet": {
+                    "publishedAt": "2018-10-04T22:46:32.000Z",
+                    "channelId": "UCz3JGNE9M27D3xqlRNDabEg",
+                    "title": "Reponse to &quot;My Road trip Through the Whitest Towns In America&quot;",
+                    "description": "I watched a TED TALK delivered by Rich Benjamin about his experience living in 3 different predominantly white communities in America and him coming to the ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/-hR2Np1XIP0/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/-hR2Np1XIP0/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/-hR2Np1XIP0/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "QUIET STORM",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/ygkXOxL84A68Owr09HZ830_eci8\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/TI9axH8YZX7IXyEMAm6Mj744h0s\"",
+                            "id": "-hR2Np1XIP0",
+                            "statistics": {
+                                "viewCount": "97",
+                                "likeCount": "1",
+                                "dislikeCount": "4",
+                                "favoriteCount": "0",
+                                "commentCount": "1"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/JRsuqcmHjCRFVaN_L8gpY-Ww2Yk\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "ArVDzt6kn3k"
+                },
+                "snippet": {
+                    "publishedAt": "2018-11-28T07:27:25.000Z",
+                    "channelId": "UC44fOjwk6mrk88SQj_EgeSQ",
+                    "title": "Review Pandangan Rich Benjamin - My Road Trip Through Whitest Town in America",
+                    "description": "Kami atas nama Bastian Andhony Toy dan Harry Putra Rumapea memberikan ulasan terkait argumen kami terhadap Pandangan Rich Benjamin - My Road Trip ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/ArVDzt6kn3k/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/ArVDzt6kn3k/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/ArVDzt6kn3k/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Harry Putra Harry",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/tfrzSD3pJ4nVl682cpikRipJN6E\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/VfQ15wv_OEL1qPaYsRbcLYxdkrs\"",
+                            "id": "ArVDzt6kn3k",
+                            "statistics": {
+                                "viewCount": "8",
+                                "likeCount": "0",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Rich Benjamin: My road trip through the whitest towns in America"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/jF-jkpl_0KmNAL-I0DbMnAHYg9Q\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 15,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/uNRAEJig3NySJxPJFlIzhHIiibc\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "Q_vZ4giLw1U"
+                },
+                "snippet": {
+                    "publishedAt": "2015-08-30T12:48:53.000Z",
+                    "channelId": "UCICJKjLMfO6cZQ7vwJ-y0Yw",
+                    "title": "Matt Kenyon A secret memorial for civilian casualties",
+                    "description": "",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/Q_vZ4giLw1U/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/Q_vZ4giLw1U/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/Q_vZ4giLw1U/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "tedstageHD",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/ujHDRBwTDeIpxBYOllRWRCbm1YA\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/cE-oEhNBZZff_N9AcpROpuDpZW4\"",
+                            "id": "Q_vZ4giLw1U",
+                            "statistics": {
+                                "viewCount": "464",
+                                "likeCount": "5",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/4upN9zkOtkhyN3OSm4k3gmOMKBk\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "F60I5gSbsEE"
+                },
+                "snippet": {
+                    "publishedAt": "2016-02-05T18:57:18.000Z",
+                    "channelId": "UCbiFt3UdxX7LxferwDmuegQ",
+                    "title": "The Pain of Empathy w/ Matt Kenyon",
+                    "description": "Matt Kenyon discusses his art project which is meant as a critique of the media's lack of coverage of U.S. soldiers killed by Improvised Explosive Devices.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/F60I5gSbsEE/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/F60I5gSbsEE/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/F60I5gSbsEE/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Watching the Hawks RT",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/WvHbemdUQ3o_sCVeQPKlubxJMEE\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/cjS0ebV9cCQJ26OtE2bs1iofWOw\"",
+                            "id": "F60I5gSbsEE",
+                            "statistics": {
+                                "viewCount": "292",
+                                "likeCount": "11",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "1"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/FQNz3K1i4POkh5s5SUD3OznhXbA\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "_tk2c-8J2Yg"
+                },
+                "snippet": {
+                    "publishedAt": "2015-08-15T18:28:45.000Z",
+                    "channelId": "UC_RNj_MmodqxTg_OMsmJDCQ",
+                    "title": "Iraqi civilian victims memorial",
+                    "description": "Matt Kenyon How I snuck a memorial for iraqi civilian victim into the USA government. March 2015 TED talks.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/_tk2c-8J2Yg/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/_tk2c-8J2Yg/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/_tk2c-8J2Yg/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Abdul Wahab",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/xoSoDV8vQe_t3rM5yCnfRb-YfIA\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/RECSbHC4xHbDfe1VW-BEu1gLHmk\"",
+                            "id": "_tk2c-8J2Yg",
+                            "statistics": {
+                                "viewCount": "289",
+                                "likeCount": "9",
+                                "dislikeCount": "1",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Matt Kenyon: A secret memorial for civilian casualties"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/IFUOuy5O_NSYt6jt0GYiP9Nydy4\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 466,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/R3qb-fpW55nTh3vOPCahFw259Yk\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "yMWlkJAqKYU"
+                },
+                "snippet": {
+                    "publishedAt": "2015-08-14T16:14:25.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Could We Cure HIV with Lasers? | Patience Mthunzi | TED Talks",
+                    "description": "Swallowing pills to get medication is a quick, painless and often not entirely effective way of treating disease. A potentially better way? Lasers. In this passionate ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/yMWlkJAqKYU/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/yMWlkJAqKYU/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/yMWlkJAqKYU/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/94bxM43iha0_nOhffKgYziFhEhA\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/46EET2NrWyr-FMZEOYyPu7zE1_Y\"",
+                            "id": "yMWlkJAqKYU",
+                            "statistics": {
+                                "viewCount": "181865",
+                                "likeCount": "1509",
+                                "dislikeCount": "89",
+                                "favoriteCount": "0",
+                                "commentCount": "259"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Hh38dnygfm2FvbD_F8TGK5zD1b0\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "Xcb3_V9wcq4"
+                },
+                "snippet": {
+                    "publishedAt": "2015-08-15T14:54:40.000Z",
+                    "channelId": "UC2wdQMR821--8iDiIlzt5OA",
+                    "title": "Patience Mthunzi  Could we cure HIV with lasers?",
+                    "description": "",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/Xcb3_V9wcq4/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/Xcb3_V9wcq4/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/Xcb3_V9wcq4/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Maikel Akkermans",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/AUBwjjAaTBdsT356axsw_nhp6a8\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/3-lxZpycQJycS4keY-Ugk8upMLM\"",
+                            "id": "Xcb3_V9wcq4",
+                            "statistics": {
+                                "viewCount": "35",
+                                "likeCount": "1",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "1"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/5xMsvAKrNm3HEv9hET6zCEb9R-E\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "bSmKS8HjP-4"
+                },
+                "snippet": {
+                    "publishedAt": "2018-02-07T11:51:22.000Z",
+                    "channelId": "UCQ7MbR2O0DyeT7uSSzJTu9w",
+                    "title": "Can HIV be cured?",
+                    "description": "Sexual health physician Dr Nneka Nwokolo explains how HIV can be effectively managed and the quality of life for a person who carries the virus. Book an ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/bSmKS8HjP-4/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/bSmKS8HjP-4/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/bSmKS8HjP-4/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Top Doctors UK",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/R9eUTI2HVaAUBqtQhb3sEEG8tx8\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/_hqOc7AYOsLvfZKQs8Oqgc1uH4I\"",
+                            "id": "bSmKS8HjP-4",
+                            "statistics": {
+                                "viewCount": "43356",
+                                "likeCount": "220",
+                                "dislikeCount": "33",
+                                "favoriteCount": "0",
+                                "commentCount": "107"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Patience Mthunzi: Could we cure HIV with lasers?"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/gusYNQbIt1ydqghB69QRP7SQwBE\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 348,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/AXGIqXiRB14siORv7uUVJLPEh5U\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "3yfFwDq4R5M"
+                },
+                "snippet": {
+                    "publishedAt": "2015-09-08T17:16:04.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "My Inner Life with Asperger&#39;s | Alix Generous | TED Talks",
+                    "description": "Alix Generous is a young woman with a million and one ideas — she's done award-winning science, helped develop new technology and tells a darn good joke ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/3yfFwDq4R5M/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/3yfFwDq4R5M/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/3yfFwDq4R5M/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/JXnEdKjLIk7uagtYRiPYW7HJNwA\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/wqLwAtXI8UNy1pIYIsoYdpOj_dU\"",
+                            "id": "3yfFwDq4R5M",
+                            "statistics": {
+                                "viewCount": "282907",
+                                "likeCount": "7113",
+                                "dislikeCount": "114",
+                                "favoriteCount": "0",
+                                "commentCount": "594"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/I1myZ3hbzmOWkfLl07Xq6UBPRac\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "tzQDewp48MU"
+                },
+                "snippet": {
+                    "publishedAt": "2013-09-28T04:33:49.000Z",
+                    "channelId": "UCsT0YIqwnpJCM-mx7-gSA4Q",
+                    "title": "Complex problems require unique minds | Alix Generous | TEDxABQ",
+                    "description": "Originally from Santa Fe, Alix Generous is a 20-year old molecular biology and neuroscience major at the College of Charleston and a neuroscience researcher ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/tzQDewp48MU/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/tzQDewp48MU/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/tzQDewp48MU/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TEDx Talks",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/dIxqv-351-6pEc-UdxP0l8YX0Vw\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/aHeKcx7h5r8sxqZiOduEEg2JKQM\"",
+                            "id": "tzQDewp48MU",
+                            "statistics": {
+                                "viewCount": "17152",
+                                "likeCount": "268",
+                                "dislikeCount": "3",
+                                "favoriteCount": "0",
+                                "commentCount": "22"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/UlS4p64Ibsfs3ssjeWcBWelbgDY\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "Gz4rfArG20g"
+                },
+                "snippet": {
+                    "publishedAt": "2016-07-27T01:35:54.000Z",
+                    "channelId": "UC1pEecEFODR1WZtH5w0ZTpw",
+                    "title": "Undiagnosed Autism: Alix&#39;s Journey",
+                    "description": "Alix Generous's childhood was hindered with undiagnosed Autism until she learned through perseverance to harness her gifts. She is now an advocate for the ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/Gz4rfArG20g/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/Gz4rfArG20g/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/Gz4rfArG20g/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Attitude",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/oSo87_QOzHUOB2mp7A-haO-HF9A\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/h9xWEXeNpoC5jEkPuZ5xBSzrcGE\"",
+                            "id": "Gz4rfArG20g",
+                            "statistics": {
+                                "viewCount": "50395",
+                                "likeCount": "848",
+                                "dislikeCount": "26",
+                                "favoriteCount": "0",
+                                "commentCount": "214"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Alix Generous: How I learned to communicate my inner life with Asperger's"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/B6h8kJ-P_CGarWhJpQOCLqMq-vo\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 1129,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/ySONclRVuwWur8b7XN4Sa734sA8\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "BQZKs75RMqM"
+                },
+                "snippet": {
+                    "publishedAt": "2015-09-10T14:30:40.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "A Visual History of Human Knowledge | Manuel Lima | TED Talks",
+                    "description": "How does knowledge grow? Sometimes it begins with one insight and grows into many branches. Infographics expert Manuel Lima explores the thousand-year ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/BQZKs75RMqM/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/BQZKs75RMqM/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/BQZKs75RMqM/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/n2wB7HrKeaRNJZnzyDdIrk0Ffg0\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/pGSga3DB8r2xirKL1THPrkSninI\"",
+                            "id": "BQZKs75RMqM",
+                            "statistics": {
+                                "viewCount": "159996",
+                                "likeCount": "2322",
+                                "dislikeCount": "134",
+                                "favoriteCount": "0",
+                                "commentCount": "145"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/V8Xh7FUcQQGL-3ueUeJjmiPT2ec\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "W7h37mtGxFs"
+                },
+                "snippet": {
+                    "publishedAt": "2015-09-14T11:36:01.000Z",
+                    "channelId": "UCNIZHTn5oy47zHn1a7ijzpg",
+                    "title": "Manuel Lima: A visual history of human knowledge",
+                    "description": "Manuel Lima: A visual history of human knowledge March 2015 at TED2015.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/W7h37mtGxFs/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/W7h37mtGxFs/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/W7h37mtGxFs/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "José Luis Lucas Saorín",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/dbW-rHL5tS3WFAKAxCz0HfB_gGw\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/urI-lemwb0zFea2porfNSItHPx8\"",
+                            "id": "W7h37mtGxFs",
+                            "statistics": {
+                                "viewCount": "424",
+                                "likeCount": "3",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/SkU0qVhbncgq03yiwguIYNDCrMU\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "yOxh5v2qCek"
+                },
+                "snippet": {
+                    "publishedAt": "2018-12-20T15:36:57.000Z",
+                    "channelId": "UCM2nSBiVH_QQkaHfOmwkdtQ",
+                    "title": "Manuel Lima: Visualizing Knowledge",
+                    "description": "Why do we organize our families into trees, our corporations into boxy, top-down reporting structures, and our learning into outlines—when we all know that ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/yOxh5v2qCek/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/yOxh5v2qCek/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/yOxh5v2qCek/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Chicago Humanities Festival",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/vZ3kMoDkxz7bjUj7205WusbhJDQ\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/XntZ5hKWB-U3dDTUmh2nAdou2Eg\"",
+                            "id": "yOxh5v2qCek",
+                            "statistics": {
+                                "viewCount": "508",
+                                "likeCount": "14",
+                                "dislikeCount": "1",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Manuel Lima: A visual history of human knowledge"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/KjM0oQAAqgNWCOek7Q9zz8pPxqo\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 799,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/MfcZFTTfupUK0Ovfc7yHg3AZR7A\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "CsECS5qsGLs"
+                },
+                "snippet": {
+                    "publishedAt": "2015-09-11T16:14:01.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "How young blood might help reverse aging. Yes, really | Tony Wyss-Coray",
+                    "description": "Tony Wyss-Coray studies the impact of aging on the human body and brain. In this eye-opening talk, he shares new research from his Stanford lab and other ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/CsECS5qsGLs/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/CsECS5qsGLs/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/CsECS5qsGLs/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/E9Ynn2M3e0GB3APe1Q1AwWUdUzw\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/CDpp0wamao8jdmJHUoGQYJojxAE\"",
+                            "id": "CsECS5qsGLs",
+                            "statistics": {
+                                "viewCount": "147350",
+                                "likeCount": "2243",
+                                "dislikeCount": "134",
+                                "favoriteCount": "0",
+                                "commentCount": "508"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/i-HVCar_FEablOb7W9Ew3o1h5a8\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "D0L9Zj_caHY"
+                },
+                "snippet": {
+                    "publishedAt": "2018-02-01T23:04:53.000Z",
+                    "channelId": "UCf8PBAJBMeowME6TJpDNQow",
+                    "title": "J. Karmazin - Young Blood to Reverse Aging",
+                    "description": "Support the Channel by making a Donation ▻ https://goo.gl/ciSpg1 Source ▻ https://goo.gl/kLAuur To Jesse Karmazin, blood is a drug. His startup, a company ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/D0L9Zj_caHY/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/D0L9Zj_caHY/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/D0L9Zj_caHY/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Aging Reversed",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Esu0AQUKNzHEx8pwsJ1Q3-uZDwg\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/oR6XVTpcINwsrCQwB4QacJ5Diww\"",
+                            "id": "D0L9Zj_caHY",
+                            "statistics": {
+                                "viewCount": "3772",
+                                "likeCount": "97",
+                                "dislikeCount": "21",
+                                "favoriteCount": "0",
+                                "commentCount": "38"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/4eGRm4YcYumsb_Xoa70yTu341KA\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "bw0N29RWNmA"
+                },
+                "snippet": {
+                    "publishedAt": "2017-09-16T19:11:55.000Z",
+                    "channelId": "UCf8PBAJBMeowME6TJpDNQow",
+                    "title": "CBS - Fountain of Youth",
+                    "description": "Support the Channel by making a Donation ▻ https://goo.gl/ciSpg1 Older people who received transfusions of young blood plasma have shown improvements ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/bw0N29RWNmA/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/bw0N29RWNmA/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/bw0N29RWNmA/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Aging Reversed",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/lr5sH4kHNOe0mLSe0kuzwT880Ok\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Ol1v3he3VmtjtSqVEVouZIFvNZs\"",
+                            "id": "bw0N29RWNmA",
+                            "statistics": {
+                                "viewCount": "3788",
+                                "likeCount": "103",
+                                "dislikeCount": "3",
+                                "favoriteCount": "0",
+                                "commentCount": "19"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Tony Wyss Coray: How young blood might help reverse aging. Yes, really"
+    }
+]
