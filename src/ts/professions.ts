@@ -1,14 +1,16 @@
 import * as d3 from "d3";
-import { BaseType, HierarchyCircularNode } from "d3";
+import { BaseType } from "d3";
 import COLORS from "../colors";
+import circlePackProfessions from "./circlePackProfessions";
+import treemapProfessions from "./treemapProfessions";
 
 type NodeData = {
   [prop: string]: string;
 };
 
 // Accepts a d3.Selection as a parameter and modifies it.
-// This function expects the d3.Selection to be an SVG.
-export default function(svg: d3.Selection<BaseType, unknown, HTMLElement, unknown>, data: d3.DSVRowArray<string>): void {
+// This function expects the d3.Selection to be a div.
+export default function(div: d3.Selection<BaseType, unknown, HTMLElement, unknown>, data: d3.DSVRowArray<string>): void {
   // Set dimensions and margins of svg + graph
   const margin = {
     top: 10,
@@ -20,6 +22,43 @@ export default function(svg: d3.Selection<BaseType, unknown, HTMLElement, unknow
   const svgHeight = 500;
   const width = svgWidth - margin.left - margin.right;
   const height = svgHeight - margin.top - margin.bottom;
+
+  // Set vis title
+  div.append("h2").text("What Do the TED Speakers Do For a Living?");
+  div.append("hr").attr("color", COLORS.LIGHT_GREY);
+
+  // Enables the dropdown menu to change the view.
+  function onProfessionViewChanged(): void {
+    const dropdown = d3.select("#viewSelect");
+
+    // eslint-disable-next-line @typescript-eslint/ban-ts-ignore
+    // @ts-ignore
+    const category = dropdown._groups[0][0].options[dropdown._groups[0][0].selectedIndex].value;
+
+    console.log(category);
+
+    if (category == "Circle Packing") {
+      d3.selectAll(".circlePackNode").style("opacity", "1");
+      d3.selectAll(".treemapNode").style("opacity", "0");
+    } else {
+      d3.selectAll(".circlePackNode").style("opacity", "0");
+      d3.selectAll(".treemapNode").style("opacity", "1");
+    }
+  }
+
+  // Add view selector
+  const viewSelector = div.append("select").attr("id", "viewSelect");
+  viewSelector
+    .append("option")
+    .text("Circle Packing")
+    .attr("value", "Circle Packing");
+  viewSelector
+    .append("option")
+    .text("Treemap")
+    .attr("value", "Treemap");
+  viewSelector.on("change", onProfessionViewChanged);
+
+  const svg = div.append("svg").attr("id", "professionsView");
 
   // Set width and height of svg
   // svg.attr("width", svgWidth);
@@ -40,42 +79,7 @@ export default function(svg: d3.Selection<BaseType, unknown, HTMLElement, unknow
     .sum(d => +(d as NodeData).count)
     .sort((a, b) => +(b.data as NodeData).count - +(a.data as NodeData).count);
 
-  // Calculate circle packing data
-  const circlePack = d3
-    .pack()
-    .size([svgWidth, svgHeight])
-    .padding(3)(root);
-
-  const nodes = svg
-    .selectAll(".profession")
-    .data(circlePack.leaves())
-    .enter()
-    .append("g")
-    .attr("transform", d => `translate(${d.x + 1},${d.y + 1})`)
-    .attr("class", "profession");
-
-  nodes
-    .append("circle")
-    .attr("r", d => d.r)
-    .attr("fill", COLORS.TED_RED)
-    .attr("stroke", COLORS.LIGHT_GREY)
-    .attr("stroke-weight", 5);
-
-  function getSize(d: any): void {
-    const bbox = this.getBBox(),
-      cbbox = this.parentNode.getBBox(),
-      scale = Math.min(cbbox.width / bbox.width, cbbox.height / bbox.height);
-    d.data["scale"] = scale;
-  }
-
-  nodes
-    .append("text")
-    .text(d => (d.data as NodeData).profession)
-    .style("font-size", "1px")
-    .each(getSize)
-    .style("font-size", function(d) {
-      return (d.data as NodeData)["scale"] + "px";
-    })
-    .attr("fill", COLORS.LIGHT_GREY)
-    .attr("class", "professionLabel");
+  // Add both the circle packing and treemap plots to the svg
+  circlePackProfessions(svg, root, svgWidth, svgHeight - margin.top * 2);
+  treemapProfessions(svg, root, width, height);
 }
