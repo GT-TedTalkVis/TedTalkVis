@@ -1,6 +1,10 @@
 import * as d3 from "d3";
-import { BaseType } from "d3";
+import { BaseType, HierarchyCircularNode } from "d3";
 import COLORS from "../colors";
+
+type NodeData = {
+  [prop: string]: string;
+};
 
 // Accepts a d3.Selection as a parameter and modifies it.
 // This function expects the d3.Selection to be an SVG.
@@ -25,34 +29,22 @@ export default function(svg: d3.Selection<BaseType, unknown, HTMLElement, unknow
   const g = svg.append("g");
   g.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-  //console.log(data);
-
+  // Convert data to hierarchical form
   const root = d3
     .stratify()
-    // eslint-disable-next-line @typescript-eslint/ban-ts-ignore
-    // @ts-ignore
-    .id(d => d.profession)
-    // eslint-disable-next-line @typescript-eslint/ban-ts-ignore
-    // @ts-ignore
+    .id(d => (d as NodeData).profession)
     .parentId(d => {
-      // eslint-disable-next-line @typescript-eslint/ban-ts-ignore
-      // @ts-ignore
-      if (d.profession != "Root") return "Root";
+      if ((d as NodeData).profession != "Root") return "Root";
       else return "";
     })(data)
-    // eslint-disable-next-line @typescript-eslint/ban-ts-ignore
-    // @ts-ignore
-    .sum(d => d.count)
-    // eslint-disable-next-line @typescript-eslint/ban-ts-ignore
-    // @ts-ignore
-    .sort((a, b) => b.count - a.count);
+    .sum(d => +(d as NodeData).count)
+    .sort((a, b) => +(b.data as NodeData).count - +(a.data as NodeData).count);
 
+  // Calculate circle packing data
   const circlePack = d3
     .pack()
     .size([svgWidth, svgHeight])
     .padding(3)(root);
-
-  //console.log(circlePack)
 
   const nodes = svg
     .selectAll(".profession")
@@ -69,12 +61,21 @@ export default function(svg: d3.Selection<BaseType, unknown, HTMLElement, unknow
     .attr("stroke", COLORS.LIGHT_GREY)
     .attr("stroke-weight", 5);
 
+  function getSize(d: any): void {
+    const bbox = this.getBBox(),
+      cbbox = this.parentNode.getBBox(),
+      scale = Math.min(cbbox.width / bbox.width, cbbox.height / bbox.height);
+    d.data["scale"] = scale;
+  }
+
   nodes
     .append("text")
-    .attr("text-align", "center")
-    .attr("vertical-align", "center")
+    .text(d => (d.data as NodeData).profession)
+    .style("font-size", "1px")
+    .each(getSize)
+    .style("font-size", function(d) {
+      return (d.data as NodeData)["scale"] + "px";
+    })
     .attr("fill", COLORS.LIGHT_GREY)
-    // eslint-disable-next-line @typescript-eslint/ban-ts-ignore
-    // @ts-ignore
-    .text(d => d.data.profession);
+    .attr("class", "professionLabel");
 }
