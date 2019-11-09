@@ -1,0 +1,1782 @@
+[
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/1sFbXfl8_T8WxIOPN1PSU2en6ic\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 54379,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/KcCjSNBDR4wC-3YEPsQFMnWr4jw\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "-vZXgApsPCQ"
+                },
+                "snippet": {
+                    "publishedAt": "2017-01-06T22:03:19.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "What I learned from 100 days of rejection | Jia Jiang",
+                    "description": "Jia Jiang adventures boldly into a territory so many of us fear: rejection. By seeking out rejection for 100 days -- from asking a stranger to borrow $100 to ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/-vZXgApsPCQ/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/-vZXgApsPCQ/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/-vZXgApsPCQ/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/YCI78Dkd_HRT7hBQ9zsah-tE9FY\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/WtlS3G09eXwsef9VsWGYr8y6Nog\"",
+                            "id": "-vZXgApsPCQ",
+                            "statistics": {
+                                "viewCount": "2420534",
+                                "likeCount": "100741",
+                                "dislikeCount": "798",
+                                "favoriteCount": "0",
+                                "commentCount": "2677"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/ssEH7Va3pZWcwxbtmvBCLjtl3GY\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "ZFWyseydTkQ"
+                },
+                "snippet": {
+                    "publishedAt": "2013-02-20T00:37:20.000Z",
+                    "channelId": "UCsT0YIqwnpJCM-mx7-gSA4Q",
+                    "title": "Surprising Lessons From 100 Days of Rejection: Jia Jiang at TEDxAustin",
+                    "description": "Chasing your dream requires you put everything out there and deal with the consequences. When aspiring entrepreneur Jia Jiang left corporate life to build his ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/ZFWyseydTkQ/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/ZFWyseydTkQ/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/ZFWyseydTkQ/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TEDx Talks",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/0rpevDIB49-Iy6gk49_C_EwFRLA\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/oP97eBnyfZHOmGGFHeqgZYdnAqY\"",
+                            "id": "ZFWyseydTkQ",
+                            "statistics": {
+                                "viewCount": "505582",
+                                "likeCount": "6916",
+                                "dislikeCount": "86",
+                                "favoriteCount": "0",
+                                "commentCount": "303"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/yVa5TlA46fx64ElskOyLq71eBck\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "iwl-Pe0FbSg"
+                },
+                "snippet": {
+                    "publishedAt": "2015-05-15T15:01:00.000Z",
+                    "channelId": "UCsT0YIqwnpJCM-mx7-gSA4Q",
+                    "title": "The hidden opportunity behind every rejection | Jia Jiang | TEDxMtHood",
+                    "description": "Jia Jiang knows first-hand how the fear of rejection can hold us back. The tendency to avoid it at all costs can be detrimental to our lives, our careers, our dreams ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/iwl-Pe0FbSg/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/iwl-Pe0FbSg/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/iwl-Pe0FbSg/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TEDx Talks",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/AbU13t150DCGt1WUlzb46jyV9fE\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/sjE8GXOw88KZnwT2XsGXHuGbv4s\"",
+                            "id": "iwl-Pe0FbSg",
+                            "statistics": {
+                                "viewCount": "341912",
+                                "likeCount": "6487",
+                                "dislikeCount": "83",
+                                "favoriteCount": "0",
+                                "commentCount": "212"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Jia Jiang: What I learned from 100 days of rejection"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/G4R-DPMcc2gh1vr94I_UJc5OxYM\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 856,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/LC6xgF74mvkbqMYUsBXZa8klVaY\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "Fcm-mAwPkxg"
+                },
+                "snippet": {
+                    "publishedAt": "2017-01-09T17:11:24.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Say your truths and seek them in others | Elizabeth Lesser",
+                    "description": "In a lyrical, unexpectedly funny talk about heavy topics such as frayed relationships and the death of a loved one, Elizabeth Lesser describes the healing ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/Fcm-mAwPkxg/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/Fcm-mAwPkxg/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/Fcm-mAwPkxg/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/T6YEeamo2Glw8xDeUN1WT2yHQUc\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/qCmP4GNfzUItHRKiMh2UfhXGjfo\"",
+                            "id": "Fcm-mAwPkxg",
+                            "statistics": {
+                                "viewCount": "105349",
+                                "likeCount": "2835",
+                                "dislikeCount": "107",
+                                "favoriteCount": "0",
+                                "commentCount": "126"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/oKSG9htebfBBYFa2y10xtvRAp5k\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "_xENrJx1ZxI"
+                },
+                "snippet": {
+                    "publishedAt": "2013-07-01T22:32:52.000Z",
+                    "channelId": "UC48GndUv1DBCyiAtI62tr-Q",
+                    "title": "Elizabeth Lesser: Believe in Change",
+                    "description": "\"Spirituality is following the deep internal desire for something grand, big and wonderful.\"",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/_xENrJx1ZxI/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/_xENrJx1ZxI/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/_xENrJx1ZxI/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "cinemacircle",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/deww58n3ihVBtv6EAna7ylZVqbw\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/g2bwTvAu8q83RQjYTYpCqT7-pFE\"",
+                            "id": "_xENrJx1ZxI",
+                            "statistics": {
+                                "viewCount": "17218",
+                                "likeCount": "101",
+                                "dislikeCount": "3",
+                                "favoriteCount": "0",
+                                "commentCount": "3"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/R1yqNjeLWzxx0ttqciALq-7rFzM\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "AsSd2nmoKNA"
+                },
+                "snippet": {
+                    "publishedAt": "2011-01-14T15:23:26.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Take &quot;the Other&quot; to lunch | Elizabeth Lesser",
+                    "description": "http://www.ted.com There's an angry divisive tension in the air that threatens to make modern politics impossible. Elizabeth Lesser explores the two sides of ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/AsSd2nmoKNA/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/AsSd2nmoKNA/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/AsSd2nmoKNA/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/-mRUyTiodoiNHsmbvai-zco7fkQ\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/463gMF8hmzs-IMBHvscF-OXTyUk\"",
+                            "id": "AsSd2nmoKNA",
+                            "statistics": {
+                                "viewCount": "194378",
+                                "likeCount": "941",
+                                "dislikeCount": "305",
+                                "favoriteCount": "0",
+                                "commentCount": "212"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Elizabeth Lesser: Say your truths and seek them in others"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/FhTVeF4Kw_R7eilVGHCNcKZ_3kI\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 396,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/fn1Ilzkt9kJNEsxvU91HszdRC2s\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "jM9Q3xP2iBo"
+                },
+                "snippet": {
+                    "publishedAt": "2017-01-10T16:46:43.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Do kids think of sperm donors as family? | Veerle Provoost",
+                    "description": "How do we define a parent -- or a family? Bioethicist Veerle Provoost explores these questions in the context of non-traditional families, ones brought together by ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/jM9Q3xP2iBo/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/jM9Q3xP2iBo/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/jM9Q3xP2iBo/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/4f78eot5zXmb-ZSGJxgK9iX2V60\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/cHCBfvBZ_ikhIqGg5w4j5rI0XHE\"",
+                            "id": "jM9Q3xP2iBo",
+                            "statistics": {
+                                "viewCount": "63128",
+                                "likeCount": "1025",
+                                "dislikeCount": "397",
+                                "favoriteCount": "0",
+                                "commentCount": "315"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/abWPDwAqT6oohKMfIfG4aPfcmTw\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "dW4CVCZTyfQ"
+                },
+                "snippet": {
+                    "publishedAt": "2017-11-29T09:29:15.000Z",
+                    "channelId": "UCMPMoLfFEwzigCaxRIqxxTA",
+                    "title": "Parenthood and sperm donation – Veerle Provoost",
+                    "description": "In this video, Veerle Provoost, Professor and Postdoctoral Researcher at the Bioethics Institute in Ghent, talks about what we can learn from studying alternative ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/dW4CVCZTyfQ/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/dW4CVCZTyfQ/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/dW4CVCZTyfQ/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Cryos – International Sperm & Egg Bank",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/sRuax5xmKCxh20BhPg2Spy2QPzA\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/_ZFq81co7lNkQ-r619b4rycYXEo\"",
+                            "id": "dW4CVCZTyfQ",
+                            "statistics": {
+                                "viewCount": "621",
+                                "likeCount": "5",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/ecWT5DtL2iChJxDxH7hkYR8baOE\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "kMZziaWBQ7U"
+                },
+                "snippet": {
+                    "publishedAt": "2019-10-22T14:21:21.000Z",
+                    "channelId": "UCFyRz1N_T-rnSkbaAH_TFAw",
+                    "title": "Anonymous Sperm Donors? Not Any More! | The Ethics Of Sperm Donation",
+                    "description": "What happens when the children of sperm donors can use technology to find their daddies? It may be time to end the illusion of anonymous sperm donation.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/kMZziaWBQ7U/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/kMZziaWBQ7U/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/kMZziaWBQ7U/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "ZDoggMD",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/8xPDufqZ6sXIg7RNR9orz-gMXbU\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/USOctl-w9S0Obwxky6jblhDShjU\"",
+                            "id": "kMZziaWBQ7U",
+                            "statistics": {
+                                "viewCount": "4675",
+                                "likeCount": "211",
+                                "dislikeCount": "5",
+                                "favoriteCount": "0",
+                                "commentCount": "36"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Veerle Provoost: Do kids think of sperm donors as family?"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/2xJsmw9w9URNg1PaFj8eu0qPoKA\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 450,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/y1ZOKXkXYP6CX24jxNm7EJ4g08E\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "wYC-HKl4RPU"
+                },
+                "snippet": {
+                    "publishedAt": "2017-01-11T16:48:35.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Why curiosity is the key to science and medicine | Kevin B. Jones",
+                    "description": "Science is a learning process that involves experimentation, failure and revision -- and the science of medicine is no exception. Cancer researcher Kevin B.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/wYC-HKl4RPU/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/wYC-HKl4RPU/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/wYC-HKl4RPU/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/jOqIYzmWc2-1o8sF5hvg2UY2e5g\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/_f-s09tZJXeZunG2KZ4bT6ZtLQI\"",
+                            "id": "wYC-HKl4RPU",
+                            "statistics": {
+                                "viewCount": "61521",
+                                "likeCount": "1413",
+                                "dislikeCount": "39",
+                                "favoriteCount": "0",
+                                "commentCount": "58"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/-xwrQoQzM0rtjr04EjPZUnt1B8E\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "J5cGkzkRiB0"
+                },
+                "snippet": {
+                    "publishedAt": "2013-06-25T18:35:58.000Z",
+                    "channelId": "UCPvXVHtfBKkILaWZlbTx-Gg",
+                    "title": "Kevin B. Jones, MD",
+                    "description": "\"A Mission to Improve Young Patients' Survival Odds -- Kevin B. Jones, MD\" To sarcoma surgeon and Huntsman Cancer Institute (HCI) investigator Kevin B.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/J5cGkzkRiB0/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/J5cGkzkRiB0/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/J5cGkzkRiB0/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Huntsman Cancer Institute",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/q4EB9xjEE4FV4TIWP-e70ZGDD5E\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/PvJe-jYk3c6Tk0O4NIlU7Yzd6Ss\"",
+                            "id": "J5cGkzkRiB0",
+                            "statistics": {
+                                "viewCount": "813",
+                                "likeCount": "9",
+                                "dislikeCount": "1",
+                                "favoriteCount": "0",
+                                "commentCount": "4"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/wC_v9JNLGPc2vRIm7cJ2kuhWr0I\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "SmaTPPB-T_s"
+                },
+                "snippet": {
+                    "publishedAt": "2015-11-20T15:33:17.000Z",
+                    "channelId": "UCsT0YIqwnpJCM-mx7-gSA4Q",
+                    "title": "This is Your Brain on Curiosity | Matthias Gruber | TEDxUCDavisSalon",
+                    "description": "Matthias Gruber speaks at a 2015 TEDx salon event at UC Davis. Matthias Gruber is a cognitive neuroscientist in the Dynamic Memory Lab at the UC Davis ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/SmaTPPB-T_s/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/SmaTPPB-T_s/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/SmaTPPB-T_s/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TEDx Talks",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/GkqyedEigcblmuzrt7SWIEV-2nk\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/vcJlACVzQS_t5wx6_FKl-NNjffg\"",
+                            "id": "SmaTPPB-T_s",
+                            "statistics": {
+                                "viewCount": "13265",
+                                "likeCount": "142",
+                                "dislikeCount": "3",
+                                "favoriteCount": "0",
+                                "commentCount": "5"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Kevin B. Jones: Why curiosity is the key to science and medicine"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/N5VEa0ZKKpY_6GdO7uaVx5UaAjg\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 3931,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/681yLJRk1tiP6_Yf0w74Iq9mdf4\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "IjbTiRbeNpM"
+                },
+                "snippet": {
+                    "publishedAt": "2017-01-12T18:23:23.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "How AI can bring on a second Industrial Revolution | Kevin Kelly",
+                    "description": "\"The actual path of a raindrop as it goes down the valley is unpredictable, but the general direction is inevitable,\" says digital visionary Kevin Kelly -- and ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/IjbTiRbeNpM/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/IjbTiRbeNpM/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/IjbTiRbeNpM/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/57k9Y8ZATXPHxq3DmmehnCaS88Q\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/0XiyAUzrbLuoVl1zGCtb9OuQZ-A\"",
+                            "id": "IjbTiRbeNpM",
+                            "statistics": {
+                                "viewCount": "284896",
+                                "likeCount": "5578",
+                                "dislikeCount": "233",
+                                "favoriteCount": "0",
+                                "commentCount": "483"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/o4jwudrwFo8FwpJptWDXyjVgpA0\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "zdqhIYew-qc"
+                },
+                "snippet": {
+                    "publishedAt": "2017-09-14T00:05:14.000Z",
+                    "channelId": "UCYZnT0B_KOvBF5-qfmJcrGg",
+                    "title": "How AI can bring on a second Industrial Revolution | Kevin Kelly",
+                    "description": "Support CaspianReport through Patreon: Nathans Twitter: WASHINGTON - Over the 20th . The actual path of a raindrop as it goes down the valley is ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/zdqhIYew-qc/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/zdqhIYew-qc/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/zdqhIYew-qc/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Vesta Shakia",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/dJL07-IM6KerBQ3iyWIq1Ggv5rI\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/AmMW2QkzQS7sb4dHiSWz9Nii7m0\"",
+                            "id": "zdqhIYew-qc",
+                            "statistics": {
+                                "viewCount": "84",
+                                "likeCount": "0",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/fZ9-1aBzwn4KXZePtqk5QYoLLFY\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "s4RcT0-boe8"
+                },
+                "snippet": {
+                    "publishedAt": "2017-02-28T15:54:55.000Z",
+                    "channelId": "UCvQECJukTDE2i6aCoMnS-Vg",
+                    "title": "Artificial Cognification: In the Future Everything Will Be Smart | Kevin Kelly",
+                    "description": "Give yourself the gift of knowledge — subscribe to Big Think Edge: http://bit.ly/bigthinkedge If you're interested in licensing this or any other Big Think clip for ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/s4RcT0-boe8/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/s4RcT0-boe8/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/s4RcT0-boe8/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Big Think",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/8_4Ub-g-vA-TMHrnj1yhqZAYkag\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/urRSQTbCVuMT3l1Gb8fIWPMRbjo\"",
+                            "id": "s4RcT0-boe8",
+                            "statistics": {
+                                "viewCount": "16073",
+                                "likeCount": "459",
+                                "dislikeCount": "29",
+                                "favoriteCount": "0",
+                                "commentCount": "82"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Kevin Kelly: How AI can bring on a second Industrial Revolution"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/ISsb3XyMw81bGkPZgYbQtQmMbXU\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 975,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/BBNHrsHHACOuReA1YrGUn9W3VdE\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "j-SqQDPGW2k"
+                },
+                "snippet": {
+                    "publishedAt": "2017-01-13T20:58:29.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Could a drug prevent depression and PTSD? | Rebecca Brachman",
+                    "description": "The path to better medicine is paved with accidental yet revolutionary discoveries. In this well-told tale of how science happens, neuroscientist Rebecca ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/j-SqQDPGW2k/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/j-SqQDPGW2k/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/j-SqQDPGW2k/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/kPUDot2DAlzwnDAAqemzp0ursCc\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/y68KZZr99tkZKpwM2sgkJCweqdM\"",
+                            "id": "j-SqQDPGW2k",
+                            "statistics": {
+                                "viewCount": "159062",
+                                "likeCount": "3203",
+                                "dislikeCount": "164",
+                                "favoriteCount": "0",
+                                "commentCount": "467"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/KJ5CgF8J6aT046mVGlTlJ2bmNLA\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "tt2xKhTHZQs"
+                },
+                "snippet": {
+                    "publishedAt": "2019-04-17T18:59:37.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "A new class of drug that could prevent depression and PTSD | Rebecca Brachman",
+                    "description": "Current treatments for depression and PTSD only suppress symptoms, if they work at all. What if we could prevent these diseases from developing altogether?",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/tt2xKhTHZQs/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/tt2xKhTHZQs/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/tt2xKhTHZQs/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/MBJzfMWN1soHo36BUMCLlCUh5t0\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/DYfzFfIX8M-rrW5TtYLIw029fIE\"",
+                            "id": "tt2xKhTHZQs",
+                            "statistics": {
+                                "viewCount": "77915",
+                                "likeCount": "2867",
+                                "dislikeCount": "243",
+                                "favoriteCount": "0",
+                                "commentCount": "547"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/z696ea9Ag9AzQnVOeYhdjHzkw6U\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "DWZsOe1j2w0"
+                },
+                "snippet": {
+                    "publishedAt": "2016-12-01T18:01:20.000Z",
+                    "channelId": "UCsT0YIqwnpJCM-mx7-gSA4Q",
+                    "title": "Could a drug prevent depression? | Rebecca Brachman | TEDxNewYork",
+                    "description": "Vaccines are known for preventing viral diseases. But what if they could prevent mental illnesses? Neuroscientist Rebecca Brachman explores the potential of a ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/DWZsOe1j2w0/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/DWZsOe1j2w0/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/DWZsOe1j2w0/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TEDx Talks",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Z3KYu3HlsDxtrpdi7tjvZWt_62o\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/q5t7sS34bzAZAfhhdZ3eUtVzH3A\"",
+                            "id": "DWZsOe1j2w0",
+                            "statistics": {
+                                "viewCount": "20934",
+                                "likeCount": "340",
+                                "dislikeCount": "16",
+                                "favoriteCount": "0",
+                                "commentCount": "24"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Rebecca Brachman: Could a drug prevent depression and PTSD?"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/FxD7LoeUslvuh74HRn60t1lQbxY\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 301,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/r3TQFhUotG7iYqYelLkKHu002Rs\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "8sQ2p89P0Us"
+                },
+                "snippet": {
+                    "publishedAt": "2017-01-17T16:23:17.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "How students of color confront impostor syndrome | Dena Simmons",
+                    "description": "As a black woman from a tough part of the Bronx who grew up to attain all the markers of academic prestige, Dena Simmons knows that for students of color, ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/8sQ2p89P0Us/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/8sQ2p89P0Us/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/8sQ2p89P0Us/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/-ycry7igFhG25RYjYCnrGoBGJ9I\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/iC80YwA4HXA7VQHpLWuedcrcgRs\"",
+                            "id": "8sQ2p89P0Us",
+                            "statistics": {
+                                "viewCount": "78266",
+                                "likeCount": "1860",
+                                "dislikeCount": "2455",
+                                "favoriteCount": "0",
+                                "commentCount": "757"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/NryogWpyFmL0TEHZwCGMwRh_KA4\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "esoB5muC_Q8"
+                },
+                "snippet": {
+                    "publishedAt": "2015-08-08T18:40:51.000Z",
+                    "channelId": "UC2l4s0SSiHggBS50b3W_tjg",
+                    "title": "Dena Simmons Testimonial",
+                    "description": "",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/esoB5muC_Q8/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/esoB5muC_Q8/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/esoB5muC_Q8/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Deborah Lindsey - Online EFT Certification",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/iZGG3ED6J2nLDSx3YDL4r-kZXuM\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Y4EI0n-YxIwQFZQ1yRFCPqfNeTs\"",
+                            "id": "esoB5muC_Q8",
+                            "statistics": {
+                                "viewCount": "159",
+                                "likeCount": "1",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/cDaeqRbdsxnJQVfdGACfpsTHdqM\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "u4dc1axRwE4"
+                },
+                "snippet": {
+                    "publishedAt": "2018-05-23T16:43:38.000Z",
+                    "channelId": "UCsT0YIqwnpJCM-mx7-gSA4Q",
+                    "title": "Why English Class is Silencing Students of Color | Jamila Lyiscott | TEDxTheBenjaminSchool",
+                    "description": "What if someone told you that the way you use language every day had the power to disrupt or uphold social injustice? Language is saturated with history and ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/u4dc1axRwE4/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/u4dc1axRwE4/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/u4dc1axRwE4/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TEDx Talks",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Bee36qRVJc45vUfId4zITvc_QoY\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/avKC7QOo7V97KUAD09vcXNR70oM\"",
+                            "id": "u4dc1axRwE4",
+                            "statistics": {
+                                "viewCount": "94022",
+                                "likeCount": "3347",
+                                "dislikeCount": "203",
+                                "favoriteCount": "0",
+                                "commentCount": "545"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Dena Simmons: How students of color confront impostor syndrome"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/QlhroruqkI-GjHS1eGdXzFG8vFc\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 260585,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/7Tmw6HW8VIguxUR7wA3jpMzrkg4\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "n3kNlFMXslo"
+                },
+                "snippet": {
+                    "publishedAt": "2017-02-07T16:21:14.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "How to gain control of your free time | Laura Vanderkam",
+                    "description": "There are 168 hours in each week. How do we find time for what matters most? Time management expert Laura Vanderkam studies how busy people spend ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/n3kNlFMXslo/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/n3kNlFMXslo/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/n3kNlFMXslo/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Owt4WOU8R9tROpm-LaAlzmdaclU\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/eMP2v3j_5did_tklfutW-4KkEDE\"",
+                            "id": "n3kNlFMXslo",
+                            "statistics": {
+                                "viewCount": "4692606",
+                                "likeCount": "104213",
+                                "dislikeCount": "2287",
+                                "favoriteCount": "0",
+                                "commentCount": "1616"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/tBmiSXZNDkD5X8E63EDNLcqMoP0\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "sqkQMVIoUeg"
+                },
+                "snippet": {
+                    "publishedAt": "2017-03-30T22:15:50.000Z",
+                    "channelId": "UC-ZE-m0gZZEn579wF5cbdCw",
+                    "title": "Laura Vanderkam: How to gain control of your free time",
+                    "description": "TEDWomen 2016 · Filmed October 2016 · 11:54 There are 168 hours in each week. How do we find time for what matters most? Time management expert Laura ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/sqkQMVIoUeg/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/sqkQMVIoUeg/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/sqkQMVIoUeg/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "MomsInBusinessNJ",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/0-zCZtr4uREpwnncUMdts31zQZg\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/pQtRERIBM4C0-OlG0KcL_U7CGXQ\"",
+                            "id": "sqkQMVIoUeg",
+                            "statistics": {
+                                "viewCount": "9346",
+                                "likeCount": "64",
+                                "dislikeCount": "3",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/rnzYq9rF1ZuHY8ugb4JDyJc7Jmo\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "-K2Wg-lpaf4"
+                },
+                "snippet": {
+                    "publishedAt": "2019-03-22T00:00:00.000Z",
+                    "channelId": "UCKmkpoEqg1sOMGEiIysP8Tw",
+                    "title": "How to Take CONTROL of Your TIME and Get MORE DONE! | Laura Vanderkam",
+                    "description": "Laura Vanderkam's Top 10 Rules for Success. She's the author of several time management and productivity books. Her TED talk on how to gain control of your ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/-K2Wg-lpaf4/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/-K2Wg-lpaf4/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/-K2Wg-lpaf4/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Evan Carmichael",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/hVR5W68F5oAbZym0rl2wIgO9trQ\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/DS7z3v1r_Vi1M8ymu8Ne66ZW7gc\"",
+                            "id": "-K2Wg-lpaf4",
+                            "statistics": {
+                                "viewCount": "15796",
+                                "likeCount": "544",
+                                "dislikeCount": "19",
+                                "favoriteCount": "0",
+                                "commentCount": "53"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Laura Vanderkam: How to gain control of your free time"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/ahi8AFgsPybmEFzM-mGYB4hrNIU\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 10299,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/EDXeJHf6glcda4X7Qjz1iDa43xU\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "th3nnEpITz0"
+                },
+                "snippet": {
+                    "publishedAt": "2017-02-06T15:56:36.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Will automation take away all our jobs? | David Autor",
+                    "description": "Here's a paradox you don't hear much about: despite a century of creating machines to do our work for us, the proportion of adults in the US with a job has ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/th3nnEpITz0/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/th3nnEpITz0/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/th3nnEpITz0/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Xz_ha3OPjUsZ_upBEN74wgfNOWo\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/TIt1eNuYj5T4PNUsK9LzSIjWZuc\"",
+                            "id": "th3nnEpITz0",
+                            "statistics": {
+                                "viewCount": "322372",
+                                "likeCount": "5375",
+                                "dislikeCount": "682",
+                                "favoriteCount": "0",
+                                "commentCount": "1123"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/jT_x94K9mYaqE1O1kvxHpBx4Le4\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "a-7Azih0D98"
+                },
+                "snippet": {
+                    "publishedAt": "2018-02-22T22:00:01.000Z",
+                    "channelId": "UCo7a6riBFJ3tkeHjvkXPn1g",
+                    "title": "Will robots take our jobs? | CNBC Explains",
+                    "description": "Elon Musk says robots will be able to do everything better than humans. So does that mean the future workforce will be entirely automated? CNBC's Elizabeth ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/a-7Azih0D98/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/a-7Azih0D98/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/a-7Azih0D98/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "CNBC International",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/3p8fuAqEBK1j4AlphfZzY1Qk_vc\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/CTLuDUA6BMcjqX2po0XWE3h5u2M\"",
+                            "id": "a-7Azih0D98",
+                            "statistics": {
+                                "viewCount": "64911",
+                                "likeCount": "941",
+                                "dislikeCount": "42",
+                                "favoriteCount": "0",
+                                "commentCount": "148"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/m2ZGhOmnCR9-P6h-QyCsZGHVAj4\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "DY1j2drdl1w"
+                },
+                "snippet": {
+                    "publishedAt": "2018-06-15T13:38:59.000Z",
+                    "channelId": "UCw-kH-Od73XDAt7qtH9uBYA",
+                    "title": "Will You Lose Your Job to Automation?",
+                    "description": "As work becomes increasingly automated, conversations are swirling about whether machines are taking over. We talk to Google Cloud AI chief scientist Fei-Fei ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/DY1j2drdl1w/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/DY1j2drdl1w/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/DY1j2drdl1w/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "World Economic Forum",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/kb_Q3XxMDDVUClfMu0-7G13cN3M\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/TFYMseNi9k2rtflWgY73hc7_-38\"",
+                            "id": "DY1j2drdl1w",
+                            "statistics": {
+                                "viewCount": "37530",
+                                "likeCount": "721",
+                                "dislikeCount": "27",
+                                "favoriteCount": "0",
+                                "commentCount": "83"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "David Autor: Will automation take away all our jobs?"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/gE--DIQ1HU1--gRiSmIy6Oc523E\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 128,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/VAtxLXO9SdIivM-msTnBX6a-Jj8\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "VSUWNy_-pLI"
+                },
+                "snippet": {
+                    "publishedAt": "2016-12-22T16:44:55.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "What will you tell your daughters about 2016? | Chinaka Hodge",
+                    "description": "With words like shards of glass, Chinaka Hodge cuts open 2016 and lets 12 months of violence, grief, fear, shame, courage and hope spill out in this original ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/VSUWNy_-pLI/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/VSUWNy_-pLI/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/VSUWNy_-pLI/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/HbPWXEDggwpf2lC2SJ8Te_SgwMU\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/b1rs5GNjUJ1deu0GAe6L9EseMM8\"",
+                            "id": "VSUWNy_-pLI",
+                            "statistics": {
+                                "viewCount": "93444",
+                                "likeCount": "2525",
+                                "dislikeCount": "3362",
+                                "favoriteCount": "0",
+                                "commentCount": "980"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/fB_3Gmd_7V9fZoqT6NXiR2FU2kg\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "M2QXuWEOkbg"
+                },
+                "snippet": {
+                    "publishedAt": "2017-01-19T00:00:00.000Z",
+                    "channelId": "UCHClq6dYIblfknQXaUz2u-w",
+                    "title": "All Power to the People: Black Panthers at 50 - Chinaka Hodge Poem​",
+                    "description": "Poem written and performed by Chinaka Hodge. This video features Black Panther Party members and young activists, artists, poets, and community advocates ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/M2QXuWEOkbg/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/M2QXuWEOkbg/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/M2QXuWEOkbg/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Oakland Museum of California",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/FDcEZvCRzZzG5sMZkzzgPeU1_SY\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/j4PrUUnw8Zrc27YnUBSbONy_7aw\"",
+                            "id": "M2QXuWEOkbg",
+                            "statistics": {
+                                "viewCount": "7122",
+                                "likeCount": "225",
+                                "dislikeCount": "3",
+                                "favoriteCount": "0",
+                                "commentCount": "6"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/zjCvz2NNf1z_fwNRev5cZygi_tg\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "a4_MrWg83Pg"
+                },
+                "snippet": {
+                    "publishedAt": "2014-05-10T13:34:56.000Z",
+                    "channelId": "UCtWi9m4WGnhI_Es-0roe_aw",
+                    "title": "Chinaka Hodge — Cousin",
+                    "description": "",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/a4_MrWg83Pg/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/a4_MrWg83Pg/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/a4_MrWg83Pg/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "S I",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/3HS1evOFA2gYcozkFIdrFVjDks8\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/tlcyU-3WfEGYPEEcNWAr4ebZ-RM\"",
+                            "id": "a4_MrWg83Pg",
+                            "statistics": {
+                                "viewCount": "346",
+                                "likeCount": "6",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Chinaka Hodge: What will you tell your daughters about 2016?"
+    }
+]

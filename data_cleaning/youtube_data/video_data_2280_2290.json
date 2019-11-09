@@ -1,0 +1,1781 @@
+[
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/5dA_-CM-kaTkt0D2edK1FaK_IkY\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 1693,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/dhBc8GS13AuiNuE28KFsyzd9D94\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "LZXUR4z2P9w"
+                },
+                "snippet": {
+                    "publishedAt": "2016-10-05T16:38:30.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "How fear of nuclear power is hurting the environment | Michael Shellenberger",
+                    "description": "\"We're not in a clean energy revolution; we're in a clean energy crisis,\" says climate policy expert Michael Shellenberger. His surprising solution: nuclear. In this ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/LZXUR4z2P9w/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/LZXUR4z2P9w/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/LZXUR4z2P9w/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/NVO1NEy53BqkNdp0D7v59zkdDwg\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/JJb7Ff6xqCJCWoRPGFR-ZtMcdgU\"",
+                            "id": "LZXUR4z2P9w",
+                            "statistics": {
+                                "viewCount": "456201",
+                                "likeCount": "18955",
+                                "dislikeCount": "1102",
+                                "favoriteCount": "0",
+                                "commentCount": "4257"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/pEBeNcu9ygrwQHIouwTqqj8tWeo\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "mI6IzPCmIW8"
+                },
+                "snippet": {
+                    "publishedAt": "2017-01-05T22:13:45.000Z",
+                    "channelId": "UCsT0YIqwnpJCM-mx7-gSA4Q",
+                    "title": "How Fear of Nuclear Ends | Michael Shellenberger | TEDxCalPoly",
+                    "description": "Michael Shellenberger shows us how the fear of nuclear power was created by people who had ideological fears or sought to exploit it for political gain, ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/mI6IzPCmIW8/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/mI6IzPCmIW8/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/mI6IzPCmIW8/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TEDx Talks",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/1sSWfT4J8nx4tfr_g8N75T8HrpU\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/WOLaZ4kd3lEfZu77-HIqZJORvbI\"",
+                            "id": "mI6IzPCmIW8",
+                            "statistics": {
+                                "viewCount": "99133",
+                                "likeCount": "1645",
+                                "dislikeCount": "87",
+                                "favoriteCount": "0",
+                                "commentCount": "380"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/BI8Ljp3NwTG8va2KWcSzL02XH0g\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "N-yALPEpV4w"
+                },
+                "snippet": {
+                    "publishedAt": "2019-01-04T15:42:08.000Z",
+                    "channelId": "UCsT0YIqwnpJCM-mx7-gSA4Q",
+                    "title": "Why renewables can’t save the planet | Michael Shellenberger | TEDxDanubia",
+                    "description": "Environmentalists have long promoted renewable energy sources like solar panels and wind farms to save the climate. But what about when those technologies ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/N-yALPEpV4w/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/N-yALPEpV4w/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/N-yALPEpV4w/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TEDx Talks",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/-LEcuwdRup-HvpdwKolxFdk5UI4\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/daRN3z3_WQKOuH6pUmlLSwJotC4\"",
+                            "id": "N-yALPEpV4w",
+                            "statistics": {
+                                "viewCount": "1495174",
+                                "likeCount": "37095",
+                                "dislikeCount": "4999",
+                                "favoriteCount": "0",
+                                "commentCount": "12193"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Michael Shellenberger: How fear of nuclear power is hurting the environment"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/LKhaTiOfOqSl9utObL05LMGGN80\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 1856,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/cbj7tB1WgCWryXxRiNFwmRjAizI\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "MvXZzKZ3JYQ"
+                },
+                "snippet": {
+                    "publishedAt": "2016-10-06T14:50:45.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Architecture that&#39;s built to heal | Michael Murphy",
+                    "description": "Architecture is more than a clever arrangement of bricks. In this eloquent talk, Michael Murphy shows how he and his team look far beyond the blueprint when ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/MvXZzKZ3JYQ/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/MvXZzKZ3JYQ/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/MvXZzKZ3JYQ/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/4wbdWLZUatwpPY0tNQCLUNXp05Y\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/P6IO3K3fYCvN8UZTi6P32mjkfpY\"",
+                            "id": "MvXZzKZ3JYQ",
+                            "statistics": {
+                                "viewCount": "154000",
+                                "likeCount": "4794",
+                                "dislikeCount": "79",
+                                "favoriteCount": "0",
+                                "commentCount": "148"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/83mb6s_lK73f77tUWdqCROKpD88\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "xyrHiUomXXg"
+                },
+                "snippet": {
+                    "publishedAt": "2011-11-14T22:56:02.000Z",
+                    "channelId": "UCOzfWnT6veqbYZqdGiuBe8w",
+                    "title": "Michael Murphy: Buildings that heal",
+                    "description": "At the hospital, you expect to heal, but some buildings are actually making us sicker. With thoughtful techniques as basic as removing hallways and creating ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/xyrHiUomXXg/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/xyrHiUomXXg/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/xyrHiUomXXg/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "poptech",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/4tK-CHhGhvUY_aBBsWjRlnq5FwE\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/0kw-SRy6gv_RzqtUBjZFAAUaoYc\"",
+                            "id": "xyrHiUomXXg",
+                            "statistics": {
+                                "viewCount": "1153",
+                                "likeCount": "17",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/XjS1ncn3-mBOxuktFgvt6tPaNgM\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "x8MRHk71BRE"
+                },
+                "snippet": {
+                    "publishedAt": "2016-09-16T20:39:57.000Z",
+                    "channelId": "UC2wdQMR821--8iDiIlzt5OA",
+                    "title": "Michael Murphy Architecture that&#39;s built to heal.",
+                    "description": "",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/x8MRHk71BRE/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/x8MRHk71BRE/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/x8MRHk71BRE/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Maikel Akkermans",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/aBKGGHyufp-8Bo2HFct07J4q9Pw\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/gIOwyPpS2Znjov0QnpCoYKQL5Us\"",
+                            "id": "x8MRHk71BRE",
+                            "statistics": {
+                                "viewCount": "303",
+                                "likeCount": "3",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Michael Murphy: Architecture that's built to heal"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/boK5wVF3dvTraNqsXoOVS6i3qv0\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 1071,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Pgk3UhvFCiz08o5K0tbfWxBIMmc\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "uq-6T6TAu74"
+                },
+                "snippet": {
+                    "publishedAt": "2016-10-07T16:22:26.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Why some people are more altruistic than others | Abigail Marsh",
+                    "description": "Why do some people do selfless things, helping other people even at risk to their own well-being? Psychology researcher Abigail Marsh studies the motivations ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/uq-6T6TAu74/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/uq-6T6TAu74/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/uq-6T6TAu74/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/i_SXD5KGvHqQEIvX80X7p37qG0k\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Vn_ouMor6LCRRptSZbBgPA5vDf0\"",
+                            "id": "uq-6T6TAu74",
+                            "statistics": {
+                                "viewCount": "212185",
+                                "likeCount": "4260",
+                                "dislikeCount": "211",
+                                "favoriteCount": "0",
+                                "commentCount": "588"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/yBM1qxR6p9SFP-OagJnzHAIC6GE\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "DBFk5PCgIKw"
+                },
+                "snippet": {
+                    "publishedAt": "2016-10-19T01:12:17.000Z",
+                    "channelId": "UCnYtcV6iXR41kRp6o-lfomg",
+                    "title": "Why some people are more altruistic than others   Abigail Marsh",
+                    "description": "Hey, Dudes Check this site out. :) http://www.poempro.com/happy-new-year-2017-quotes/ http://www.poempro.com/happy-new-year-shayari-hindi-2017/ ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/DBFk5PCgIKw/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/DBFk5PCgIKw/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/DBFk5PCgIKw/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Imran Soudagar",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/GZUpphjCZlzBEAWKwjTaH0UTxx8\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/CrjMoJpX-7QpIvFthJdstgCajos\"",
+                            "id": "DBFk5PCgIKw",
+                            "statistics": {
+                                "viewCount": "410",
+                                "likeCount": "3",
+                                "dislikeCount": "1",
+                                "favoriteCount": "0",
+                                "commentCount": "1"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/t4VvFQ4iRe764END9sUhxWRqB9A\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "GeJojsaxDXA"
+                },
+                "snippet": {
+                    "publishedAt": "2016-10-07T18:12:30.000Z",
+                    "channelId": "UClsMr1vO1yhp4zgpN0OjGzg",
+                    "title": "Why some people are more altruistic than others | Abigail Marsh",
+                    "description": "Why some people are more altruistic than others | Abigail Marsh.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/GeJojsaxDXA/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/GeJojsaxDXA/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/GeJojsaxDXA/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "VevO Tube",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/QVtIMv8WFTaJBGPHPOjbho0oYSw\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/An6Ned9mclZPoxLI3A5ajmVIaY0\"",
+                            "id": "GeJojsaxDXA",
+                            "statistics": {
+                                "viewCount": "117",
+                                "likeCount": "1",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Abigail Marsh: Why some people are more altruistic than others"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/GaYAPlA7ON_TzYbB1lD7crXS8XM\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 1083,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/lItI0lm53sJvsaqkMVFVYg-2Fos\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "NqOjj1FCcVY"
+                },
+                "snippet": {
+                    "publishedAt": "2016-10-10T16:08:01.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "There&#39;s no such thing as not voting | Eric Liu",
+                    "description": "Many people like to talk about how important voting is, how it's your civic duty and responsibility as an adult. Eric Liu agrees with all that, but he also thinks it's ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/NqOjj1FCcVY/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/NqOjj1FCcVY/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/NqOjj1FCcVY/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/s6eTOfvN1RGGvMMsKtJQBy9bBxk\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/VDbiuOI7-iVIDBfRazNnvgsacnM\"",
+                            "id": "NqOjj1FCcVY",
+                            "statistics": {
+                                "viewCount": "82774",
+                                "likeCount": "1497",
+                                "dislikeCount": "535",
+                                "favoriteCount": "0",
+                                "commentCount": "474"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Au7f-W5xo4DIBWcl_wS_90XewfA\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "ZZkkXkUReDg"
+                },
+                "snippet": {
+                    "publishedAt": "2018-11-06T00:48:28.000Z",
+                    "channelId": "UC0uVZd8N7FfIZnPu0y7o95A",
+                    "title": "Why You Don&#39;t Need To Vote",
+                    "description": "Perhaps there are more meaningful ways to spend your time. For full text, downloadable links, and more, visit ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/ZZkkXkUReDg/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/ZZkkXkUReDg/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/ZZkkXkUReDg/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "ReasonTV",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/3_DSFmFq2ikOPqsASBysRIpbgqE\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/_Jb0p5qMwsA-0x1M4WqZw5HP3XI\"",
+                            "id": "ZZkkXkUReDg",
+                            "statistics": {
+                                "viewCount": "68711",
+                                "likeCount": "2925",
+                                "dislikeCount": "1565",
+                                "favoriteCount": "0",
+                                "commentCount": "1325"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/MjH1Tfc6yvKq0TCl1kJN40PByDk\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "4y3itn3IR0g"
+                },
+                "snippet": {
+                    "publishedAt": "2016-04-02T00:53:35.000Z",
+                    "channelId": "UCIYq4OAGGX9BJy7o3WII_-A",
+                    "title": "Eric Liu Welcome at CitizenUCon16",
+                    "description": "Citizen University National Conference WHO IS US? Race, Citizenship, and America Now March 18-19, 2016 Welcome remarks from Eric Liu.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/4y3itn3IR0g/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/4y3itn3IR0g/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/4y3itn3IR0g/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Citizen University",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/5pRlNAA9ZmhJY0P89r2u-g4NAEQ\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/lzsDUtUAHV0HQkweeFbkvRiuK38\"",
+                            "id": "4y3itn3IR0g",
+                            "statistics": {
+                                "viewCount": "220",
+                                "likeCount": "0",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Eric Liu: There's no such thing as not voting"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/lwtbvWZkq4kEEMhap3LONQpxetk\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 522,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/MQTjE7FGVh7yCNIKDRV4bsfwHq8\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "TvcNw4F0Y4Y"
+                },
+                "snippet": {
+                    "publishedAt": "2016-10-11T15:44:18.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Why you should know how much your coworkers get paid | David Burkus",
+                    "description": "How much do you get paid? How does it compare to the people you work with? You should know, and so should they, says management researcher David ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/TvcNw4F0Y4Y/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/TvcNw4F0Y4Y/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/TvcNw4F0Y4Y/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/TAjTxkSVTKZsk4mY67qS6zEfVBM\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/QPmR7R-qKmB4qROzy9DitvNOFc8\"",
+                            "id": "TvcNw4F0Y4Y",
+                            "statistics": {
+                                "viewCount": "153454",
+                                "likeCount": "2236",
+                                "dislikeCount": "368",
+                                "favoriteCount": "0",
+                                "commentCount": "368"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/aSRzGtNgwkgSSQJjyBY61yUxUek\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "iNgB-j4-5HY"
+                },
+                "snippet": {
+                    "publishedAt": "2016-02-08T16:45:33.000Z",
+                    "channelId": "UCsT0YIqwnpJCM-mx7-gSA4Q",
+                    "title": "Why Do We Keep Our Salaries Secret? | David Burkus | TEDxUniversityofNevada",
+                    "description": "While sharing salaries might raise privacy concerns, some leaders have found that keeping them secret might be hurting employees, causing dissatisfaction and ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/iNgB-j4-5HY/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/iNgB-j4-5HY/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/iNgB-j4-5HY/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TEDx Talks",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/ag3WHFw-6F2Jg5Q3-dRTcEmdNDQ\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/yHQwvmbtFyLJ9KkUZuuAaBGIJeM\"",
+                            "id": "iNgB-j4-5HY",
+                            "statistics": {
+                                "viewCount": "33686",
+                                "likeCount": "333",
+                                "dislikeCount": "12",
+                                "favoriteCount": "0",
+                                "commentCount": "35"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/DdZXPMHuy4bsU6FtTMKYjAi6iTc\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "52t-vVVW2Uw"
+                },
+                "snippet": {
+                    "publishedAt": "2018-04-30T04:00:01.000Z",
+                    "channelId": "UC0BAd8tPlDqFvDYBemHcQPQ",
+                    "title": "What happens when you tell your coworkers how much you get paid?",
+                    "description": "In \"What happens when you tell your coworkers how much you get paid?\" I share an experience I had once upon a time.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/52t-vVVW2Uw/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/52t-vVVW2Uw/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/52t-vVVW2Uw/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Fredrik Christenson",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/oqXidaF3Eg0wlEAGYp1MzHvp1KU\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/M46EcAaPM9GwFR2AmGp86XlgH1k\"",
+                            "id": "52t-vVVW2Uw",
+                            "statistics": {
+                                "viewCount": "246",
+                                "likeCount": "10",
+                                "dislikeCount": "1",
+                                "favoriteCount": "0",
+                                "commentCount": "5"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "David Burkus: Why you should know how much your coworkers get paid"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/W8Fv8xOsUe6Amol2BTa8ar_BSZc\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 788,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/k4KZg0AHsOYlRlXaF0ajcnXS0jU\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "3bj-ba3P_cU"
+                },
+                "snippet": {
+                    "publishedAt": "2016-10-12T15:49:13.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Why open a school? To close a prison | Nadia Lopez",
+                    "description": "Our kids are our future, and it's crucial they believe it themselves. That's why TED Fellow Nadia Lopez opened an academic oasis in Brownsville, Brooklyn, one ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/3bj-ba3P_cU/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/3bj-ba3P_cU/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/3bj-ba3P_cU/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/1iUjIQ2YdKBOyJLgHrvoEI2Ky9I\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/EmCqs4Kad2QFJhJp7NEhR-EwhZk\"",
+                            "id": "3bj-ba3P_cU",
+                            "statistics": {
+                                "viewCount": "82404",
+                                "likeCount": "2331",
+                                "dislikeCount": "78",
+                                "favoriteCount": "0",
+                                "commentCount": "170"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/ThZ4lkxVAY1xwSNOuptTGjYN96U\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "Wj3ebr3XHRs"
+                },
+                "snippet": {
+                    "publishedAt": "2016-08-23T21:00:17.000Z",
+                    "channelId": "UC5RwNJQSINkzIazWaM-lM3Q",
+                    "title": "Dr. Nadia Lopez Talks Invigorating Brownsville’s Youth, Starting a School &amp; Her New Book",
+                    "description": "Dr. Nadia Lopez is the principal at Mott Hall Bridges Academy, an underserved public school in one of New York City's most underprivileged communities ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/Wj3ebr3XHRs/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/Wj3ebr3XHRs/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/Wj3ebr3XHRs/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "HOT 97",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/GU9Oe0zMpcW8h2MsFe1S9gM9Aio\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/WTQ9xeJQUv_f8-6cwxDMu7YP7HA\"",
+                            "id": "Wj3ebr3XHRs",
+                            "statistics": {
+                                "viewCount": "13391",
+                                "likeCount": "236",
+                                "dislikeCount": "5",
+                                "favoriteCount": "0",
+                                "commentCount": "47"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/fEIaAChvQ3BaWR68odblwqCY1Tg\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "AfK8Qb6VnFE"
+                },
+                "snippet": {
+                    "publishedAt": "2016-05-16T03:55:30.000Z",
+                    "channelId": "UC9t20Xexjtp5FbbIF3vVAZw",
+                    "title": "EdCast 107 - “The Lopez Effect”: An Interview with Nadia Lopez, Principal",
+                    "description": "Heralded on the Humans of New York blog as the person who most influenced her student's life, Nadia Lopez tells the story of her school, her students, and a ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/AfK8Qb6VnFE/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/AfK8Qb6VnFE/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/AfK8Qb6VnFE/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "CUNYMedia",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/QVViP2CvbiPbZ4_HQed2d8CCBqs\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/nVJ3tSkZJp7ZE-5qek-EUw7mX-A\"",
+                            "id": "AfK8Qb6VnFE",
+                            "statistics": {
+                                "viewCount": "639",
+                                "likeCount": "6",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "1"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Nadia Lopez: Why open a school? To close a prison"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/IK5B38tyTCmpJXMUpwXscMQ7afE\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 483,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/aNyz3PsuwKHhHzEGhlhEwlTqMDo\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "DzNN_4rcIjs"
+                },
+                "snippet": {
+                    "publishedAt": "2016-10-13T15:20:43.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "The era of personal DNA testing is here | Sebastian Kraves",
+                    "description": "From improving vaccines to modifying crops to solving crimes, DNA technology has transformed our world. Now, for the first time in history, anyone can ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/DzNN_4rcIjs/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/DzNN_4rcIjs/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/DzNN_4rcIjs/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/IgGWiw4Z7tbf_jt8og6eGzIMT1Q\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/K5gWa5bg6I0oAxgjwJ26ax8qgEY\"",
+                            "id": "DzNN_4rcIjs",
+                            "statistics": {
+                                "viewCount": "78661",
+                                "likeCount": "1419",
+                                "dislikeCount": "71",
+                                "favoriteCount": "0",
+                                "commentCount": "148"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Fm9ORXYH0er7DmYK1hWiPCwJXNk\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "Q_q_m6qlDzY"
+                },
+                "snippet": {
+                    "publishedAt": "2017-02-09T01:42:28.000Z",
+                    "channelId": "UCu_u-P3cBFO7D-sAjxd_I-w",
+                    "title": "Issues with Genetic Testing",
+                    "description": "Simple genetic tests are becoming ubiquitous. It's never been so easy to find out so much about DNA. Yet Canada is the only G7 country without legislation to ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/Q_q_m6qlDzY/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/Q_q_m6qlDzY/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/Q_q_m6qlDzY/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "The Agenda with Steve Paikin",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/qgfW9auxqQLR1gZqzL_VvG8GwsQ\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/UtXz9nduUUkCH8I1uVRE2rU8z4A\"",
+                            "id": "Q_q_m6qlDzY",
+                            "statistics": {
+                                "viewCount": "1942",
+                                "likeCount": "24",
+                                "dislikeCount": "1",
+                                "favoriteCount": "0",
+                                "commentCount": "7"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Z-03w8rNSxDvPgqDu_lvw5vFXLE\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "GPlvILKl5LE"
+                },
+                "snippet": {
+                    "publishedAt": "2018-12-14T16:44:13.000Z",
+                    "channelId": "UCsT0YIqwnpJCM-mx7-gSA4Q",
+                    "title": "The age of genetic wonder | Juan Enriquez | TEDxCERN",
+                    "description": "Gene editing tools make it possible for us to manipulate the code of life. If we slightly modify the DNA of an orange we can obtain a tangerine. The old biology ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/GPlvILKl5LE/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/GPlvILKl5LE/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/GPlvILKl5LE/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TEDx Talks",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/-o7NehmA-xtqlPAYuZmO1P7QMG0\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/IvhXuaz_OJ4DKVu6edReKV-fihE\"",
+                            "id": "GPlvILKl5LE",
+                            "statistics": {
+                                "viewCount": "6178",
+                                "likeCount": "135",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "8"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Sebastian Kraves: The era of personal DNA testing is here"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/k6MxLQgPrIp7p8dj7tPQWVb7-Zs\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 98,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/JLk_aSANDYZr3tU5GfuD-hkuO5k\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "8v_GrrQs8ow"
+                },
+                "snippet": {
+                    "publishedAt": "2016-10-14T15:07:32.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "We can fight terror without sacrificing our rights | Rebecca MacKinnon",
+                    "description": "Can we fight terror without destroying democracy? Internet freedom activist Rebecca MacKinnon thinks that we'll lose the battle against extremism and ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/8v_GrrQs8ow/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/8v_GrrQs8ow/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/8v_GrrQs8ow/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/I3wOeHsgpvvXEhBWx2CgleXxP0o\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/T1iJ9WImm5a1QU4Xob5V1dwTyxU\"",
+                            "id": "8v_GrrQs8ow",
+                            "statistics": {
+                                "viewCount": "60136",
+                                "likeCount": "1163",
+                                "dislikeCount": "113",
+                                "favoriteCount": "0",
+                                "commentCount": "184"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/z75zEPIxg6ZkZdCFLuU1R5KVeVs\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "vCAgYVoFpXs"
+                },
+                "snippet": {
+                    "publishedAt": "2016-10-19T00:25:01.000Z",
+                    "channelId": "UCnYtcV6iXR41kRp6o-lfomg",
+                    "title": "We can fight terror without sacrificing our rights   Rebecca MacKinnon",
+                    "description": "Hey, Dudes Check this site out. :) http://www.poempro.com/happy-new-year-2017-quotes/ http://www.poempro.com/happy-new-year-shayari-hindi-2017/ ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/vCAgYVoFpXs/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/vCAgYVoFpXs/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/vCAgYVoFpXs/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Imran Soudagar",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/BrDMNzU3TNh7lXV_gVOsS7gI4GM\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/YyibuNnwbecqFVVlMIdZ19TyEE8\"",
+                            "id": "vCAgYVoFpXs",
+                            "statistics": {
+                                "viewCount": "36",
+                                "likeCount": "0",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/QohWfTIfI0O0eOXZjNMzBVnnCF0\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "_uRYfnelEus"
+                },
+                "snippet": {
+                    "publishedAt": "2016-10-28T18:58:34.000Z",
+                    "channelId": "UCQlJfYWnh_HGlqFnivw_lCQ",
+                    "title": "Rebecca McKinnon",
+                    "description": "",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/_uRYfnelEus/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/_uRYfnelEus/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/_uRYfnelEus/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Alabama News Network",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/J88tOxdw4JeQ8UdfwdeZpKFrbDM\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/gKwC_feIe3FQUNBxqFgq2_Rn7t0\"",
+                            "id": "_uRYfnelEus",
+                            "statistics": {
+                                "viewCount": "136",
+                                "likeCount": "3",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Rebecca MacKinnon: We can fight terror without sacrificing our rights"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/R6kL4rW1f7StPYKJjQcFWkgIs3E\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 782,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/h35lobGChHqLz35ZA4vRD7guptg\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "iEy-xTbcr2A"
+                },
+                "snippet": {
+                    "publishedAt": "2016-10-17T15:16:06.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "America&#39;s forgotten working class | J.D. Vance",
+                    "description": "J.D. Vance grew up in a small, poor city in the Rust Belt of southern Ohio, where he had a front-row seat to many of the social ills plaguing America: a heroin ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/iEy-xTbcr2A/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/iEy-xTbcr2A/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/iEy-xTbcr2A/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/pn8VFG45n7Je_lMwG4_mYkM30XQ\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/NnxKHez_9YhfGyRXmSpcq1sGQXI\"",
+                            "id": "iEy-xTbcr2A",
+                            "statistics": {
+                                "viewCount": "164629",
+                                "likeCount": "3029",
+                                "dislikeCount": "87",
+                                "favoriteCount": "0",
+                                "commentCount": "342"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/xPhpqH5nh70hgOpEZQKbeYyp0QI\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "xJZe1RWQ2bQ"
+                },
+                "snippet": {
+                    "publishedAt": "2017-09-06T20:39:24.000Z",
+                    "channelId": "UCi7jxgIOxcRaF4Q54U7lF3g",
+                    "title": "J.D. Vance discusses outmigration for upward mobility",
+                    "description": "Brookings Senior Fellow Camille Busette asks J.D. Vance whether we should help move people to places with greater opportunities or whether we should invest ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/xJZe1RWQ2bQ/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/xJZe1RWQ2bQ/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/xJZe1RWQ2bQ/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Brookings Institution",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/iFR8h-ngJB7UGxF7OR033g004bI\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/ogbSV4NRlaDgL1WCfEAzF-fB0Gk\"",
+                            "id": "xJZe1RWQ2bQ",
+                            "statistics": {
+                                "viewCount": "914",
+                                "likeCount": "5",
+                                "dislikeCount": "2",
+                                "favoriteCount": "0",
+                                "commentCount": "1"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/wGpfPEoDoSOzYt09h_jpcONmejc\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "eljLSzocJwo"
+                },
+                "snippet": {
+                    "publishedAt": "2017-12-31T16:42:30.000Z",
+                    "channelId": "UC2x_qNZXKDxNP1j4jvHATRQ",
+                    "title": "J.D. Vance on Trump&#39;s relationship with rural America",
+                    "description": "J.D. Vance, best-selling author of Hillbilly Elegy, sits down with CBS News Chief White House Correspondent Major Garrett to reflect on President Trump's ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/eljLSzocJwo/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/eljLSzocJwo/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/eljLSzocJwo/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Face the Nation",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/kjgCSsQWAISm6QvK-EQ_3tTufJs\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/kRoXbJVaZJi_kaly4MhPqQJONpE\"",
+                            "id": "eljLSzocJwo",
+                            "statistics": {
+                                "viewCount": "27803",
+                                "likeCount": "172",
+                                "dislikeCount": "16",
+                                "favoriteCount": "0",
+                                "commentCount": "46"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "J.D. Vance: America's forgotten working class"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/xC3W03b86MMVnq1pqP1PKO8vFzg\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 245,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/4ij8pyTFwDGRSmbucQNRv_N1-Ds\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "dpCBMwAweDI"
+                },
+                "snippet": {
+                    "publishedAt": "2016-09-27T15:08:35.000Z",
+                    "channelId": "UCsooa4yRKGN_zEE8iknghZA",
+                    "title": "The history of African-American social dance - Camille A. Brown",
+                    "description": "View full lesson: http://ed.ted.com/lessons/the-history-of-african-american-social-dance-camille-a-brown Why do we dance? African-American social dances ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/dpCBMwAweDI/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/dpCBMwAweDI/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/dpCBMwAweDI/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED-Ed",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/8Ryq03XacFFl3Ijg9fxOofX2HBY\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/lFuJ8rSC5yjG9yStl75Ja4Y9G5U\"",
+                            "id": "dpCBMwAweDI",
+                            "statistics": {
+                                "viewCount": "250899",
+                                "likeCount": "7403",
+                                "dislikeCount": "548",
+                                "favoriteCount": "0",
+                                "commentCount": "679"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/c5MsKkdKbPS3q0-qf9np5qYBP8A\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "AQ3KZDHrcog"
+                },
+                "snippet": {
+                    "publishedAt": "2016-10-02T06:33:32.000Z",
+                    "channelId": "UC2wdQMR821--8iDiIlzt5OA",
+                    "title": "Camille A. Brown The history of African American social dance.",
+                    "description": "",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/AQ3KZDHrcog/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/AQ3KZDHrcog/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/AQ3KZDHrcog/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Maikel Akkermans",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/lTTAYgmSZQ4uGNxySBmhTFDQ18E\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/AztkoUN-eetp7zM2DqtWW2yB-wE\"",
+                            "id": "AQ3KZDHrcog",
+                            "statistics": {
+                                "viewCount": "3630",
+                                "likeCount": "48",
+                                "dislikeCount": "2",
+                                "favoriteCount": "0",
+                                "commentCount": "1"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/x9mCe2MF3F9n8wnqdG-adIAeYrw\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "fvhWWkGfLZY"
+                },
+                "snippet": {
+                    "publishedAt": "2017-08-21T21:06:56.000Z",
+                    "channelId": "UCD2YbSKYjhzXhjqvTF4gDtw",
+                    "title": "Meet The Dance Company: Camille A. Brown &amp; Dancers",
+                    "description": "Committed to implementing and advancing the artistic vision of Camille A. Brown, the troupe creates performances; offers engagement activities; and ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/fvhWWkGfLZY/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/fvhWWkGfLZY/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/fvhWWkGfLZY/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TDF",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/NiEGAiYGcqgQjZ-hyYBxSj7Ni18\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/HhQb4CTwiudxQM7JDz_lHzNwtKk\"",
+                            "id": "fvhWWkGfLZY",
+                            "statistics": {
+                                "viewCount": "1483",
+                                "likeCount": "9",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Camille A. Brown: A visual history of social dance in 25 moves"
+    }
+]
