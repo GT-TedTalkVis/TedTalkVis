@@ -24,7 +24,7 @@ export default function(div: d3.Selection<BaseType, unknown, HTMLElement, unknow
   const height = svgHeight - margin.top - margin.bottom;
 
   // Set vis title
-  div.append("h2").text("What Do the TED Speakers Do For a Living?");
+  div.append("h2").text("What Do TED Talkers Do For a Living?");
   div.append("hr").attr("color", COLORS.LIGHT_GREY);
 
   // Enables the dropdown menu to change the view.

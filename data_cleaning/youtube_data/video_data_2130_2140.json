@@ -1,0 +1,1780 @@
+[
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/ajGMl8mzl-KKOGOMPp-1TMCQHnk\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 551,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/qswSKGbfpZ39Y86Jfbbz3F8IHcU\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "k4N2SxUZwiU"
+                },
+                "snippet": {
+                    "publishedAt": "2016-02-24T07:52:40.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "How I found a mythical boiling river in the Amazon | Andrés Ruzo",
+                    "description": "When Andrés Ruzo was a young boy in Peru, his grandfather told him a story with an odd detail: There is a river, deep in the Amazon, which boils as if a fire ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/k4N2SxUZwiU/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/k4N2SxUZwiU/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/k4N2SxUZwiU/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/xa24eTwfODbH7WJKQ8jBe8qHgPA\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/b7-cG_ia2f_fi8Q47ukh3DELMUI\"",
+                            "id": "k4N2SxUZwiU",
+                            "statistics": {
+                                "viewCount": "384841",
+                                "likeCount": "9483",
+                                "dislikeCount": "318",
+                                "favoriteCount": "0",
+                                "commentCount": "547"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/q9M3jG4Xi-ex37Y8hLjvXvv8q3s\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "yRNwHoc7bq0"
+                },
+                "snippet": {
+                    "publishedAt": "2017-10-23T18:02:51.000Z",
+                    "channelId": "UCajXeitgFL-rb5-gXI-aG8Q",
+                    "title": "The Amazon’s Boiling River Kills Anything That Enters",
+                    "description": "When Andrés Ruzo was a boy, his grandfather would tell him tales of a mythical city of gold deep in the heart of the Peruvian jungle. Though never believing the ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/yRNwHoc7bq0/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/yRNwHoc7bq0/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/yRNwHoc7bq0/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Great Big Story",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Cphi8yrDmvguaJvGbKVFq8NQ2X4\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/UXlTr_JISvNDly-4paw6joGXX-4\"",
+                            "id": "yRNwHoc7bq0",
+                            "statistics": {
+                                "viewCount": "4615863",
+                                "likeCount": "68103",
+                                "dislikeCount": "2615",
+                                "favoriteCount": "0",
+                                "commentCount": "5498"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/K1Kqr2ATfPQ795ukiGX8aZUDzZk\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "DVIDPbNqpOg"
+                },
+                "snippet": {
+                    "publishedAt": "2016-09-01T02:06:38.000Z",
+                    "channelId": "UCNG3DByIwje7xQynm6Z1dhg",
+                    "title": "The boiling river of the Amazon - Andrés Ruzo   [TED Talk]",
+                    "description": "When Andrés Ruzo was a young boy in Peru, his grandfather told him a story with an odd detail: There is a river, deep in the Amazon, which boils as if a fire ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/DVIDPbNqpOg/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/DVIDPbNqpOg/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/DVIDPbNqpOg/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Newton Viana",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/xTN2wQbHUlutdbTX7xBb_7LvKoE\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/JykxAI77B1uTmzJWUioTgl4A_jg\"",
+                            "id": "DVIDPbNqpOg",
+                            "statistics": {
+                                "viewCount": "1548",
+                                "likeCount": "27",
+                                "dislikeCount": "1",
+                                "favoriteCount": "0",
+                                "commentCount": "1"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Andrés Ruzo: The boiling river of the Amazon"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/CIXt8tBRbMEafSdQ1h-DYKAfAE0\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 189129,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/iH8xIGUKmBXpRZRifbNd5SSrRSY\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "-moW9jvvMr4"
+                },
+                "snippet": {
+                    "publishedAt": "2016-02-24T17:53:22.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "A simple way to break a bad habit | Judson Brewer",
+                    "description": "Can we break bad habits by being more curious about them? Psychiatrist Judson Brewer studies the relationship between mindfulness and addiction — from ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/-moW9jvvMr4/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/-moW9jvvMr4/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/-moW9jvvMr4/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/MKbizRMvOe32SErWN_iRVq5HCTg\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/PKaTucQFiST_I_4mhRYFUlDdSEs\"",
+                            "id": "-moW9jvvMr4",
+                            "statistics": {
+                                "viewCount": "8285417",
+                                "likeCount": "142834",
+                                "dislikeCount": "3750",
+                                "favoriteCount": "0",
+                                "commentCount": "3410"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/F4kPML7ODC-DbY2_tDqyBB8ovfw\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "VfwPPG6fRgo"
+                },
+                "snippet": {
+                    "publishedAt": "2016-03-07T11:12:08.000Z",
+                    "channelId": "UCsfASBcWQiuHfRTTJdXABvw",
+                    "title": "A simple way to break a bad habit   Judson Brewer   Ted Talks 2016",
+                    "description": "",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/VfwPPG6fRgo/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/VfwPPG6fRgo/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/VfwPPG6fRgo/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "culturvideo tedex",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/2uYx2UkAtlNiWriaTQ910Bws2bc\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/SSC6ifv7piD2OlUn3hxy2L-KrIg\"",
+                            "id": "VfwPPG6fRgo",
+                            "statistics": {
+                                "viewCount": "4770",
+                                "likeCount": "32",
+                                "dislikeCount": "1",
+                                "favoriteCount": "0",
+                                "commentCount": "2"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Y48tG9WH92HIdTnUiE7vt1LirRA\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "ifn3MQIul4g"
+                },
+                "snippet": {
+                    "publishedAt": "2016-02-26T23:13:41.000Z",
+                    "channelId": "UC7I2tPHtve2GtBKJwvhF1Wg",
+                    "title": "Judson Brewer - Simple Way to Break Bad Habits (Condensed Talk)",
+                    "description": "Judson Brewer's TED Talk \"A simple way to break a bad habit\" edited condensed down to 3 minutes with only the key takeaways. If there are any specific talks ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/ifn3MQIul4g/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/ifn3MQIul4g/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/ifn3MQIul4g/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "QuickTalks",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/NDLMrTOSed8OVnIoLO1HLf6YQus\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/0RrxI8T7aYWtS-hRkjVcqZf8-Ao\"",
+                            "id": "ifn3MQIul4g",
+                            "statistics": {
+                                "viewCount": "36055",
+                                "likeCount": "409",
+                                "dislikeCount": "2",
+                                "favoriteCount": "0",
+                                "commentCount": "5"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Judson Brewer: A simple way to break a bad habit"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/J0NY5Jpd2NMpAqZ0YpWQ0OEcKoc\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 242,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/OujLs4qewlljOZjUiorWJNLrMIc\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "G8RxjxdUulE"
+                },
+                "snippet": {
+                    "publishedAt": "2016-02-25T16:57:03.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "How we&#39;ll fight the next deadly virus | Pardis Sabeti",
+                    "description": "When Ebola broke out in March 2014, Pardis Sabeti and her team got to work sequencing the virus's genome, learning how it mutated and spread. Sabeti ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/G8RxjxdUulE/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/G8RxjxdUulE/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/G8RxjxdUulE/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/y9j8SKjMAPPLSTKvL6EdmkWcck4\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/e9yrz53yWgIBikMP8YGJ5r7h5f8\"",
+                            "id": "G8RxjxdUulE",
+                            "statistics": {
+                                "viewCount": "58577",
+                                "likeCount": "979",
+                                "dislikeCount": "45",
+                                "favoriteCount": "0",
+                                "commentCount": "63"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/9JAlQUFol9C7ii2Pc5Hk6D_pb20\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "w_Oc3748wVk"
+                },
+                "snippet": {
+                    "publishedAt": "2016-02-05T13:09:40.000Z",
+                    "channelId": "UC2wdQMR821--8iDiIlzt5OA",
+                    "title": "Pardis Sabeti How we&#39;ll fight the next deadly virus.",
+                    "description": "",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/w_Oc3748wVk/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/w_Oc3748wVk/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/w_Oc3748wVk/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Maikel Akkermans",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/U3Pgxj1gFbnPZt-20ofrSIOmRGg\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/kkpHaG6hzOZ8scahEp_23WEUw0M\"",
+                            "id": "w_Oc3748wVk",
+                            "statistics": {
+                                "viewCount": "507",
+                                "likeCount": "4",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "1"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/NnqfLSIPz2i3l1czqHdGniZ1HGU\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "biPbDl7rRq0"
+                },
+                "snippet": {
+                    "publishedAt": "2016-08-31T15:18:19.000Z",
+                    "channelId": "UCLv7Gzc3VTO6ggFlXY0sOyw",
+                    "title": "Pardis Sabeti, &quot;Evolutionary Forces in Humans and Pathogens&quot;",
+                    "description": "The genome revolution has created unprecedented opportunities to study human biology, evolution, and disease, and is making it possible to carry out ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/biPbDl7rRq0/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/biPbDl7rRq0/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/biPbDl7rRq0/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Harvard University",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/GQPSr4kh4fopr59ccbRk0EH6Cko\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/ZCMix1a3s34i_37-iEXuRwdESxY\"",
+                            "id": "biPbDl7rRq0",
+                            "statistics": {
+                                "viewCount": "2705",
+                                "likeCount": "38",
+                                "dislikeCount": "5",
+                                "favoriteCount": "0"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Pardis Sabeti: How we'll fight the next deadly virus"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/wpjt6W6SvccK_j8h6NXd8dLe49g\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 730,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/01JQlVehRbESwb6M2J5WZwYslL8\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "zqLYcJ6Ib3c"
+                },
+                "snippet": {
+                    "publishedAt": "2016-02-26T18:47:53.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Special Olympics let me be myself — a champion | Matthew Williams",
+                    "description": "How much do you know about intellectual disabilities? Special Olympics champion and ambassador Matthew Williams is proof that athletic competition and the ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/zqLYcJ6Ib3c/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/zqLYcJ6Ib3c/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/zqLYcJ6Ib3c/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/jwVQ9rHf4UBuzt17qFF3sgjnirk\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/lBOiqCEGhwJeOomhe-Qcz73hykE\"",
+                            "id": "zqLYcJ6Ib3c",
+                            "statistics": {
+                                "viewCount": "62899",
+                                "likeCount": "1192",
+                                "dislikeCount": "66",
+                                "favoriteCount": "0",
+                                "commentCount": "155"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/R19m8FEgB31YB-P7m131nBTtkGw\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "Uw5CkgoVJNw"
+                },
+                "snippet": {
+                    "publishedAt": "2016-02-06T08:29:04.000Z",
+                    "channelId": "UC2wdQMR821--8iDiIlzt5OA",
+                    "title": "Matthew Williams Special Olympics let me be myself a champion.",
+                    "description": "",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/Uw5CkgoVJNw/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/Uw5CkgoVJNw/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/Uw5CkgoVJNw/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Maikel Akkermans",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/ydgzPYW6zUblHYEnRE_zhxVRBf4\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Jij4B-0T46D0rKHzQk8EN7LFzl4\"",
+                            "id": "Uw5CkgoVJNw",
+                            "statistics": {
+                                "viewCount": "399",
+                                "likeCount": "5",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/_Y_7j7emQcqas6CWeLTq3FWqAP4\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "BURbLmQL1BE"
+                },
+                "snippet": {
+                    "publishedAt": "2015-12-09T17:00:01.000Z",
+                    "channelId": "UCsT0YIqwnpJCM-mx7-gSA4Q",
+                    "title": "How much do you know about intellectual disabilities? | Matthew Williams | TEDxVancouver",
+                    "description": "In a talk that garnered a tearful standing ovation, Matthew Williams demands equality and respect for individuals with intellectual disabilities, told from the ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/BURbLmQL1BE/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/BURbLmQL1BE/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/BURbLmQL1BE/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TEDx Talks",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/F_aqzBCIgIfrXERFoUzdSmiSMa8\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/I9NkQFq6nZofSPazHtFFj8iKm0w\"",
+                            "id": "BURbLmQL1BE",
+                            "statistics": {
+                                "viewCount": "103148",
+                                "likeCount": "1518",
+                                "dislikeCount": "33",
+                                "favoriteCount": "0",
+                                "commentCount": "123"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Matthew Williams: Special Olympics let me be myself    a champion"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/-9Wj5VsbZtuiwV3e1igyD7DZqIk\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 380,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/uGNys-9QZMBF4kc2ZeKyAK3TMfc\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "V1ItvwxBENg"
+                },
+                "snippet": {
+                    "publishedAt": "2016-02-29T16:41:31.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Economic growth has stalled. Let&#39;s fix it | Dambisa Moyo",
+                    "description": "Economic growth is the defining challenge of our time; without it, political and social instability rises, human progress stagnates and societies grow dimmer.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/V1ItvwxBENg/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/V1ItvwxBENg/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/V1ItvwxBENg/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/6ZWs8cT74RQlchmqZq3m6UA-GEo\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/7N5vghTSYaSle3YISmHQMgzNW2E\"",
+                            "id": "V1ItvwxBENg",
+                            "statistics": {
+                                "viewCount": "75754",
+                                "likeCount": "784",
+                                "dislikeCount": "498",
+                                "favoriteCount": "0",
+                                "commentCount": "551"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/aZDyYpvnutMvLeDl4tu1K7QBo9w\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "d2B5mm7tYhU"
+                },
+                "snippet": {
+                    "publishedAt": "2016-09-15T15:09:24.000Z",
+                    "channelId": "UCnWv9WQ3dqwBUdlyP7Qo2fg",
+                    "title": "Economic growth has stalled. Let&#39;s fix it | Dambisa Moyo",
+                    "description": "",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/d2B5mm7tYhU/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/d2B5mm7tYhU/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/d2B5mm7tYhU/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Christopher Gonzales",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/xtyTdJnGeYjKsPJ3bZN7XRMfJU8\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/dseP03bjmdpCLOdyxlLRZFGfxGw\"",
+                            "id": "d2B5mm7tYhU",
+                            "statistics": {
+                                "viewCount": "16",
+                                "likeCount": "0",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/1xPk8vxBEDfpypx2iz8iS-vF18U\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "4Q2aznfmcYU"
+                },
+                "snippet": {
+                    "publishedAt": "2013-11-11T16:31:57.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Dambisa Moyo: Is China the new idol for emerging economies?",
+                    "description": "The developed world holds up the ideals of capitalism, democracy and political rights for all. Those in emerging markets often don't have that luxury. In this ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/4Q2aznfmcYU/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/4Q2aznfmcYU/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/4Q2aznfmcYU/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/obOeHlgv9deCqfs6u5nFRLM91Co\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/mS61UowlBSCv0tNmay6kYrCajkk\"",
+                            "id": "4Q2aznfmcYU",
+                            "statistics": {
+                                "viewCount": "473679",
+                                "likeCount": "6807",
+                                "dislikeCount": "592",
+                                "favoriteCount": "0",
+                                "commentCount": "2009"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Dambisa Moyo: Economic growth has stalled. Let's fix it"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/LsN3r_mpWvGhUDj5DW8mRe4Epng\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 291,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/OdqHirmF1BwN0ufTP4MpdFbinWo\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "8sheoGMsy3Q"
+                },
+                "snippet": {
+                    "publishedAt": "2016-03-01T17:27:34.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Shape-shifting tech will change work as we know it | Sean Follmer",
+                    "description": "What will the world look like when we move beyond the keyboard and mouse? Interaction designer Sean Follmer is building a future with machines that bring ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/8sheoGMsy3Q/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/8sheoGMsy3Q/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/8sheoGMsy3Q/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/WVtVCyScOrirbx1OETqPfZFRhA0\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Rzb8Uo-Tp9yFCQwi-3QJ66925uE\"",
+                            "id": "8sheoGMsy3Q",
+                            "statistics": {
+                                "viewCount": "212076",
+                                "likeCount": "4793",
+                                "dislikeCount": "183",
+                                "favoriteCount": "0",
+                                "commentCount": "373"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/xoPquLTrfVDINhFe8A1B7U--Tyw\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "uGW_oShuGzU"
+                },
+                "snippet": {
+                    "publishedAt": "2017-07-10T04:30:01.000Z",
+                    "channelId": "UC8_Y2XR4XX0zzz0M2wva8Iw",
+                    "title": "Shape-shifting tech will change work as we know it!!",
+                    "description": "BRAINS OF TECHNOLOGY,frame the future SUBSCRIBE!! https://www.youtube.com/c/brainsoftechnology1 ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/uGW_oShuGzU/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/uGW_oShuGzU/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/uGW_oShuGzU/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "brains of technology",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/6z_2yFzHhrPdxiVvWAiRCSeKqlM\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/9hkSu_KifTf4vxZcHl0_zNp7dyw\"",
+                            "id": "uGW_oShuGzU",
+                            "statistics": {
+                                "viewCount": "38",
+                                "likeCount": "14",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/TG3UueEnFFow3zoCcbcvAxn2Rlw\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "VGAJ8-4Jmqg"
+                },
+                "snippet": {
+                    "publishedAt": "2018-05-22T00:01:57.000Z",
+                    "channelId": "UCxfB6taTkA9OSXaefa2cgNQ",
+                    "title": "Section 2 Lightning Talks: Sean Follmer, Alexa Siu, Paul Bulakowski",
+                    "description": "Section 2 Lightning Talks 00:58 Refreshable 2.5-D tactile shape display - Sean Follmer, Ph.D. 12:02 shapeShift: mobile tabletop shape displays for tangible ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/VGAJ8-4Jmqg/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/VGAJ8-4Jmqg/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/VGAJ8-4Jmqg/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Smith-Kettlewell RERC",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/mQCFKun4RM1mYWPxCgHpzfpLqPo\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/mehDKjIZJ7X4gfMqByN2wtUDR9o\"",
+                            "id": "VGAJ8-4Jmqg",
+                            "statistics": {
+                                "viewCount": "46",
+                                "likeCount": "0",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Sean Follmer: Shape shifting tech will change work as we know it"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/8sQJBelF3crowG3Kl9uiUgVUxsA\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 471,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/4iBGrv-exzOV8BUmT_1o4XS2USM\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "WHjKnNbYiOs"
+                },
+                "snippet": {
+                    "publishedAt": "2016-03-02T17:53:46.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "How I&#39;m discovering the secrets of ancient texts | Gregory Heyworth",
+                    "description": "Gregory Heyworth is a textual scientist; he and his lab work on new ways to read ancient manuscripts and maps using spectral imaging technology. In this ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/WHjKnNbYiOs/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/WHjKnNbYiOs/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/WHjKnNbYiOs/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/4rDmbudOtNHyoSb0BJXUM9Q7sPo\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/yQGNhJFU3fKOXPbywwcZIzzL3eU\"",
+                            "id": "WHjKnNbYiOs",
+                            "statistics": {
+                                "viewCount": "85231",
+                                "likeCount": "2158",
+                                "dislikeCount": "42",
+                                "favoriteCount": "0",
+                                "commentCount": "160"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/N8mpM8ZHbhUXbLrOA87VIH1TY_c\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "b_c5B61dOb8"
+                },
+                "snippet": {
+                    "publishedAt": "2016-02-11T07:36:53.000Z",
+                    "channelId": "UC2wdQMR821--8iDiIlzt5OA",
+                    "title": "Gregory Heyworth How I&#39;m discovering the secrets of ancient texts.",
+                    "description": "",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/b_c5B61dOb8/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/b_c5B61dOb8/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/b_c5B61dOb8/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Maikel Akkermans",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/R8Ne16ksqsydHg2SppdPZ754AvE\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/YI4HYEY8xM-CydpRm4c20aKLLNE\"",
+                            "id": "b_c5B61dOb8",
+                            "statistics": {
+                                "viewCount": "391",
+                                "likeCount": "2",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "1"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/3iEjGKqkdTBTKz6L8dAGHwgYkNE\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "Y9DsAmzNkWk"
+                },
+                "snippet": {
+                    "publishedAt": "2015-11-30T18:56:38.000Z",
+                    "channelId": "UCsT0YIqwnpJCM-mx7-gSA4Q",
+                    "title": "How to read an invisible classic | Gregory Heyworth | TEDxUM",
+                    "description": "What if there were a technology to recover these lost and unknown texts? Imagine worldwide how a trove of hundreds of thousands of previously unreadable ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/Y9DsAmzNkWk/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/Y9DsAmzNkWk/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/Y9DsAmzNkWk/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TEDx Talks",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/SOJZmEAP_4TKlN-0o1kJ3qkTpxA\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/pR-ipZJhGAYaj3wjqBPm-EiT36w\"",
+                            "id": "Y9DsAmzNkWk",
+                            "statistics": {
+                                "viewCount": "1114",
+                                "likeCount": "18",
+                                "dislikeCount": "4",
+                                "favoriteCount": "0",
+                                "commentCount": "1"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Gregory Heyworth: How I'm discovering the secrets of ancient texts"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/DZA3Mk0f4izCXZOA7BEyGFm1Xyo\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 740,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/cBYrkjJl3rFSK2YyCgvaeswKwT0\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "a7cDt5r2pGY"
+                },
+                "snippet": {
+                    "publishedAt": "2016-03-03T16:52:38.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "The case for fish farming | Mike Velings",
+                    "description": "We're headed towards a global food crisis: Nearly 3 billion people depend on the ocean for food, and at our current rate we already take more fish from the ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/a7cDt5r2pGY/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/a7cDt5r2pGY/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/a7cDt5r2pGY/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/lujECjO5gMvYBL-Jt7kwSfxw8ug\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/zQNtwwrPA3I6rm4PBZWuCo4sVCo\"",
+                            "id": "a7cDt5r2pGY",
+                            "statistics": {
+                                "viewCount": "88818",
+                                "likeCount": "1804",
+                                "dislikeCount": "191",
+                                "favoriteCount": "0",
+                                "commentCount": "422"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/_lWjb32qSaFApSo4nX3R73_pGn4\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "oSdEQNY1mkA"
+                },
+                "snippet": {
+                    "publishedAt": "2016-05-25T14:43:45.000Z",
+                    "channelId": "UCsT0YIqwnpJCM-mx7-gSA4Q",
+                    "title": "The Importance of Sustainable Aquaculture in Our  Future | Perry Raso | TEDxProvidence",
+                    "description": "Perry examines his path to developing sustainable aquaculture in Rhode Island, and points to the global need as protein demands rise and fisheries decline.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/oSdEQNY1mkA/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/oSdEQNY1mkA/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/oSdEQNY1mkA/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TEDx Talks",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/htzeZN-RQB0GMNaLwp165Zutt0A\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/XsV5g9-ns46wNmO9ZHyKois8PVk\"",
+                            "id": "oSdEQNY1mkA",
+                            "statistics": {
+                                "viewCount": "33379",
+                                "likeCount": "442",
+                                "dislikeCount": "7",
+                                "favoriteCount": "0",
+                                "commentCount": "21"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/cupms4zkNf7P71_dBJC4kllCWPY\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "6oXtNjoqCqc"
+                },
+                "snippet": {
+                    "publishedAt": "2018-05-29T09:21:55.000Z",
+                    "channelId": "UCzL1eyWQoQVq76EUAPdUrYg",
+                    "title": "Sustainable Aquaculture",
+                    "description": "After viewing the film, please visit our survey to answer a few questions ▷ https://goo.gl/forms/8MnGqjpeJcBsZhuv2 Anders Karlsson-Drangsholt, a marine with ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/6oXtNjoqCqc/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/6oXtNjoqCqc/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/6oXtNjoqCqc/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "ResponSEAble",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/XQjfwGNMmFMs8eD9WblcjC2qlTQ\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/IPYWWsQot0YBRI8VsuFqhz5LX-Y\"",
+                            "id": "6oXtNjoqCqc",
+                            "statistics": {
+                                "viewCount": "2406",
+                                "likeCount": "31",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "2"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Mike Velings: The case for fish farming"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/pNvCnxdiXURlr9Y8DYaEuUjmFlc\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 546,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/gNOc4aSaFLJir_AV_-e3PfBejKo\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "KxLMjn4WPBY"
+                },
+                "snippet": {
+                    "publishedAt": "2016-03-04T19:27:22.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "The problem with race-based medicine | Dorothy Roberts",
+                    "description": "Social justice advocate and law scholar Dorothy Roberts has a precise and powerful message: Race-based medicine is bad medicine. Even today, many ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/KxLMjn4WPBY/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/KxLMjn4WPBY/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/KxLMjn4WPBY/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/eYUFdE4RnX62wJB9Fr0GaVf13Ok\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/yPphyzSflbouPqKWxGkomfzJiz0\"",
+                            "id": "KxLMjn4WPBY",
+                            "statistics": {
+                                "viewCount": "80327",
+                                "likeCount": "1149",
+                                "dislikeCount": "1706",
+                                "favoriteCount": "0",
+                                "commentCount": "969"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/I8xBTzFR7aQ8MNKOTXY9y1bBCI4\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "-tiSnAtpxQE"
+                },
+                "snippet": {
+                    "publishedAt": "2013-12-17T18:04:09.000Z",
+                    "channelId": "UCjnWysJh9-r9wo82zlbMT3A",
+                    "title": "Dorothy Roberts: Race Medicine",
+                    "description": "Race Medicine: Treating Health Inequities from Slavery to the Genomic Age Dorothy Roberts is the fourteenth Penn Integrates Knowledge Professor, George A.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/-tiSnAtpxQE/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/-tiSnAtpxQE/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/-tiSnAtpxQE/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Brown University",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/XcmqfpREtqVsV0M18dCvGaur3SI\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/24v5mTBRc0ai4czPaMJJf1CyvQE\"",
+                            "id": "-tiSnAtpxQE",
+                            "statistics": {
+                                "viewCount": "6253",
+                                "likeCount": "54",
+                                "dislikeCount": "5",
+                                "favoriteCount": "0",
+                                "commentCount": "4"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/R5f0HhSqawoBu9dqqWfgRm8PIEc\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "lHcjJfkVQaQ"
+                },
+                "snippet": {
+                    "publishedAt": "2017-06-05T16:00:21.000Z",
+                    "channelId": "UCSh-dNnqe1agUSzPM01LgBA",
+                    "title": "Dorothy E. Roberts, “Killing the Black Body: A Twenty-Year Retrospective”",
+                    "description": "Professor Dorothy E. Roberts delivered the Henry L. Gates Jr., Lecture, “Killing the Black Body: A Twenty-Year Retrospective,” on April 27, 2017, at the Whitney ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/lHcjJfkVQaQ/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/lHcjJfkVQaQ/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/lHcjJfkVQaQ/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "YaleUniversity",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/6IlJOQdOnNMi4St7xbqbn2j3dFY\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/a3KxbrDc_Ff4kUB26bhPdcFG7oQ\"",
+                            "id": "lHcjJfkVQaQ",
+                            "statistics": {
+                                "viewCount": "4013",
+                                "likeCount": "77",
+                                "dislikeCount": "8",
+                                "favoriteCount": "0"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Dorothy Roberts: The problem with race based medicine"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/V1kpdDoeGm3DLBMlVM9NtwPD1K0\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 3922,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/P45T1_NPSw23huastbe0c2NP6Lo\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "6d6oq0zGGmw"
+                },
+                "snippet": {
+                    "publishedAt": "2016-03-07T16:17:41.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "The brain may be able to repair itself -- with help | Jocelyne Bloch",
+                    "description": "Through treating everything from strokes to car accident traumas, neurosurgeon Jocelyne Bloch knows the brain's inability to repair itself all too well. But now ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/6d6oq0zGGmw/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/6d6oq0zGGmw/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/6d6oq0zGGmw/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/1fEM0N0cduCiH_FS_jQcpVMjGPg\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/77_JZKynRwDNbhylgrTKnDnaRnE\"",
+                            "id": "6d6oq0zGGmw",
+                            "statistics": {
+                                "viewCount": "597116",
+                                "likeCount": "12819",
+                                "dislikeCount": "320",
+                                "favoriteCount": "0",
+                                "commentCount": "896"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/DmPiQ1h2sgOGFAqtNenu0Nle2No\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "dGTMxmxeA6U"
+                },
+                "snippet": {
+                    "publishedAt": "2016-02-16T12:41:21.000Z",
+                    "channelId": "UC2wdQMR821--8iDiIlzt5OA",
+                    "title": "Jocelyne Bloch The brain may be able to repair itself with help.",
+                    "description": "",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/dGTMxmxeA6U/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/dGTMxmxeA6U/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/dGTMxmxeA6U/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Maikel Akkermans",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/NTHuMM4Uv9kx_fmMQ9oPwkLUdFA\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/zLt_0JEgfwfBhRuJgmTi2ro9DJM\"",
+                            "id": "dGTMxmxeA6U",
+                            "statistics": {
+                                "viewCount": "3291",
+                                "likeCount": "66",
+                                "dislikeCount": "2",
+                                "favoriteCount": "0",
+                                "commentCount": "3"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/lkaxcaHjUoR-IXzCiFpD_1lJY1U\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "rhSZyyo-LfE"
+                },
+                "snippet": {
+                    "publishedAt": "2016-09-08T08:41:25.000Z",
+                    "channelId": "UC4G4wiAGtvkaI-nlmt32IDQ",
+                    "title": "Jocelyne Bloch  The brain may be able to repair itself    with help   TED Talk   TED com",
+                    "description": "",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/rhSZyyo-LfE/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/rhSZyyo-LfE/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/rhSZyyo-LfE/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "duẩn ca",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/NhwtQpVchEcg3WHmcScZmZKNiGU\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/uJ3aktPGxUsK1I_7AM2k-j2jVqo\"",
+                            "id": "rhSZyyo-LfE",
+                            "statistics": {
+                                "viewCount": "159",
+                                "likeCount": "2",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Jocelyne Bloch: The brain may be able to repair itself    with help"
+    }
+]

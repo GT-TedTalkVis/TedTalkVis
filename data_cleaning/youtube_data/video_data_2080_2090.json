@@ -1,0 +1,1782 @@
+[
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/U_Y7uPY06rZGgPCVl4MHnKaCkcA\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 4269,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/FUpO3z8KYbMRnoQ91390OyMQTpM\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "iHWIZsIBj3Q"
+                },
+                "snippet": {
+                    "publishedAt": "2015-12-02T16:49:02.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Forget Wi-Fi. Meet the new Li-Fi Internet | Harald Haas",
+                    "description": "What if we could use existing technologies to provide Internet access to the more than 4 billion people living in places where the infrastructure can't support it?",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/iHWIZsIBj3Q/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/iHWIZsIBj3Q/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/iHWIZsIBj3Q/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/tiQ5LZelOREbMRpGhBUUmwtNWuQ\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/xn0ZIlYKNkFzSNOWZv06ytiB1sE\"",
+                            "id": "iHWIZsIBj3Q",
+                            "statistics": {
+                                "viewCount": "1194203",
+                                "likeCount": "23149",
+                                "dislikeCount": "655",
+                                "favoriteCount": "0",
+                                "commentCount": "1346"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/to4FZnBUSW8sRXTx3TPUu6kqr3w\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "NaoSp4NpkGg"
+                },
+                "snippet": {
+                    "publishedAt": "2011-08-02T15:53:20.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Wireless data from every light bulb | Harald Haas",
+                    "description": "http://www.ted.com What if every light bulb in the world could also transmit data? At TEDGlobal, Harald Haas demonstrates, for the first time, a device that could ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/NaoSp4NpkGg/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/NaoSp4NpkGg/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/NaoSp4NpkGg/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/GTIUu-F9ca-3OxJOfD7QiDZNbdA\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/O7mHtQZfEko3uxvokOdafhvPe-o\"",
+                            "id": "NaoSp4NpkGg",
+                            "statistics": {
+                                "viewCount": "763588",
+                                "likeCount": "5589",
+                                "dislikeCount": "106",
+                                "favoriteCount": "0",
+                                "commentCount": "704"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/279Glut3MwWF1QLnbPGmcSNQsK4\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "UulEFh8yhCg"
+                },
+                "snippet": {
+                    "publishedAt": "2016-04-14T18:12:55.000Z",
+                    "channelId": "UCsT0YIqwnpJCM-mx7-gSA4Q",
+                    "title": "LiFi to unlock the Third Industrial Revolution | Harald Haas | TEDxWHU",
+                    "description": "LiFi to unlock the Third Industrial Revolution. Have you ever heard the term “Internet of things”? It is already visible that more and more objects that we use in our ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/UulEFh8yhCg/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/UulEFh8yhCg/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/UulEFh8yhCg/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TEDx Talks",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/sncpfcltDeWje0BsrXc9dJOL960\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Jt7M3VPPDkP-3dHxuhxh361amn4\"",
+                            "id": "UulEFh8yhCg",
+                            "statistics": {
+                                "viewCount": "59485",
+                                "likeCount": "874",
+                                "dislikeCount": "19",
+                                "favoriteCount": "0",
+                                "commentCount": "114"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Harald Haas: Forget Wi Fi. Meet the new Li Fi Internet"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/okIsSNJkalQg6I4L1Glk0fB-ze0\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 1938,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/QAy8oJCsje3NVw9ah9MGxLBRHoQ\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "_7LX4FW7TEI"
+                },
+                "snippet": {
+                    "publishedAt": "2015-12-03T17:31:13.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "A Musical Escape Into a World of Light and Color | Kaki King | TED Talks",
+                    "description": "A genre unto herself, Kaki King might just be the next guitar god. She fuses the ancient tradition of working with one's hands with digital technology, ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/_7LX4FW7TEI/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/_7LX4FW7TEI/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/_7LX4FW7TEI/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/uleabc3YP0A1SbNJV1IgzpqZKH4\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/T--P-Gr6DyEhf5NocM5BIH9buEE\"",
+                            "id": "_7LX4FW7TEI",
+                            "statistics": {
+                                "viewCount": "140099",
+                                "likeCount": "2556",
+                                "dislikeCount": "219",
+                                "favoriteCount": "0",
+                                "commentCount": "225"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/AHXzTuvuouQwbllP0uETmvOrC9k\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "pqmMvohPdCE"
+                },
+                "snippet": {
+                    "publishedAt": "2013-11-21T18:24:11.000Z",
+                    "channelId": "UCsT0YIqwnpJCM-mx7-gSA4Q",
+                    "title": "Performance: Kaki King at TEDxNavesink",
+                    "description": "Composer and guitarist Kaki King performs at TEDx Navesink. In the spirit of ideas worth spreading, TEDx is a program of local, self-organized events that bring ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/pqmMvohPdCE/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/pqmMvohPdCE/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/pqmMvohPdCE/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TEDx Talks",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/lc2Ut8BkKR0Xq2qJBcqClYVLbx4\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/_Ay_8z8PO9wrB4hh2sT0nvOk_aQ\"",
+                            "id": "pqmMvohPdCE",
+                            "statistics": {
+                                "viewCount": "431401",
+                                "likeCount": "1903",
+                                "dislikeCount": "129",
+                                "favoriteCount": "0",
+                                "commentCount": "278"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/MEc8QjoSSR4q_Ppwq7f9WmB1uoM\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "hoxUMZyVGA8"
+                },
+                "snippet": {
+                    "publishedAt": "2018-11-16T20:24:51.000Z",
+                    "channelId": "UCLbXXtrOG3aIs-U3CeAG6Uw",
+                    "title": "Kaki King performs &quot;Trying to Speak II&quot; Ft Ethel",
+                    "description": "Kaki King performing at Grounds for Sculpture in Hamilton, NJ on April 13, 2018 for Articulate. Watch Kaki King's segment on Articulate here: ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/hoxUMZyVGA8/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/hoxUMZyVGA8/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/hoxUMZyVGA8/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Articulate",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/jON_GMEP221g7GZP2RxnumByoRk\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/jV-LSLJ6E4bkwZet1IXC5nQ8jyE\"",
+                            "id": "hoxUMZyVGA8",
+                            "statistics": {
+                                "viewCount": "2267",
+                                "likeCount": "10",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Kaki King: A musical escape into a world of light and color"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/-GTf6jM38P04M37mD06EWxx1mYY\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 17909,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/FaA-8HANQ_QeHRrtz3BWSZlv23A\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "ivfJJh9y1UI"
+                },
+                "snippet": {
+                    "publishedAt": "2015-12-04T16:55:40.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "This Is What LGBT Life Is Like Around the World | Jenni Chang and Lisa Dazols | TED Talks",
+                    "description": "As a gay couple in San Francisco, Jenni Chang and Lisa Dazols had a relatively easy time living the way they wanted. But outside the bubble of the Bay Area, ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/ivfJJh9y1UI/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/ivfJJh9y1UI/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/ivfJJh9y1UI/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/idTuYEFSNgjisqfjkmrut4U-v1Q\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/aGrgpkfQ3xl7KF-2O0ySSQ58EjE\"",
+                            "id": "ivfJJh9y1UI",
+                            "statistics": {
+                                "viewCount": "870515",
+                                "likeCount": "37457",
+                                "dislikeCount": "1978",
+                                "favoriteCount": "0",
+                                "commentCount": "3953"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/vyeOF0aYnFpgDybNkx5O3WTrE9g\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "KqIvtWRjBD4"
+                },
+                "snippet": {
+                    "publishedAt": "2018-02-06T08:09:52.000Z",
+                    "channelId": "UCTEJeiqRMAWEEaXuUCuUPYg",
+                    "title": "This Is What LGBT Life Is Like Around the World | Jenni Chang and Lisa Dazols | TED Talks",
+                    "description": "As a gay couple in San Francisco, Jenni Chang and Lisa Dazols had a relatively easy time living the way they wanted. But outside the bubble of the Bay Area, ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/KqIvtWRjBD4/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/KqIvtWRjBD4/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/KqIvtWRjBD4/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "MxKing33",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/6UQWL8_BA535A8MaKGjle_FbrHk\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/NNI2jgJh_pUs47Z-PMPBjP9nkkI\"",
+                            "id": "KqIvtWRjBD4",
+                            "statistics": {
+                                "viewCount": "113",
+                                "likeCount": "0",
+                                "dislikeCount": "1",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/k40HuxlHXaP1hOZMldxnXCNZle4\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "RjX-KBPmgg4"
+                },
+                "snippet": {
+                    "publishedAt": "2018-12-18T17:13:47.000Z",
+                    "channelId": "UCsT0YIqwnpJCM-mx7-gSA4Q",
+                    "title": "Why the “born this way” argument doesn&#39;t advance LGBT equality | Dr. Lisa Diamond | TEDxSaltLakeCity",
+                    "description": "\"Lady Gaga has said it. The Pope has said it. But are people really born gay? Lisa Diamond, a professor of psychology and gender studies, deconstructs the ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/RjX-KBPmgg4/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/RjX-KBPmgg4/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/RjX-KBPmgg4/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TEDx Talks",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/EXhzWtW2wtF0l9K-ELqcPtouDJM\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/3hUJPvwgt9sTl9qbsfBpfQ1UN28\"",
+                            "id": "RjX-KBPmgg4",
+                            "statistics": {
+                                "viewCount": "178793",
+                                "likeCount": "8360",
+                                "dislikeCount": "544",
+                                "favoriteCount": "0",
+                                "commentCount": "1336"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Jenni Chang and Lisa Dazols: This is what LGBT life is like around the world"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/bTrRwPqS-pXxUwKYONj350afZeE\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 507,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Be8p8Td4pIjHTCg4jBvmnbKPrss\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "_vBggxCNNno"
+                },
+                "snippet": {
+                    "publishedAt": "2015-12-07T16:42:25.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "The moral bias behind your search results | Andreas Ekström",
+                    "description": "Search engines have become our most trusted sources of information and arbiters of truth. But can we ever get an unbiased search result? Swedish author and ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/_vBggxCNNno/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/_vBggxCNNno/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/_vBggxCNNno/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/mju-zxRBLfwdqA7xEjM_PHMFz_Q\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/nzNiiM5Tu9tEjGHouBRCnEOiwtE\"",
+                            "id": "_vBggxCNNno",
+                            "statistics": {
+                                "viewCount": "109024",
+                                "likeCount": "2560",
+                                "dislikeCount": "85",
+                                "favoriteCount": "0",
+                                "commentCount": "144"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/EAb6EZ2QB_nJxrBZ75eotA2efKw\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "qbCPFVfr8lo"
+                },
+                "snippet": {
+                    "publishedAt": "2018-11-06T17:37:26.000Z",
+                    "channelId": "UCSNX50LYGXWV_e5UWZGPGbw",
+                    "title": "Gartner Guest Keynote Andreas Ekström LIVE from #GartnerSYM: Seven Ways to Own the World",
+                    "description": "Andreas Ekström, Aurthor & Journalist, discusses how to strategically position yourself to tackle the future during today's gartner Guest Keynote: Seven Ways to ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/qbCPFVfr8lo/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/qbCPFVfr8lo/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/qbCPFVfr8lo/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Gartner",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/5StOCzo66sRg5sG_4fGJRyHBAao\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/ivHH4LDTpQ4Fgv6ERlb4GKnUluo\"",
+                            "id": "qbCPFVfr8lo",
+                            "statistics": {
+                                "viewCount": "6723",
+                                "likeCount": "66",
+                                "dislikeCount": "2",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/nDbAUYoJnyOjiwy-U9MzrSQ4C58\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "p--Y8gTVXok"
+                },
+                "snippet": {
+                    "publishedAt": "2018-09-11T13:59:53.000Z",
+                    "channelId": "UCn4sPeUomNGIr26bElVdDYg",
+                    "title": "After Trump Accused Google Of Bias, Here&#39;s How Internet Search Rankings Work | NowThis",
+                    "description": "President Trump claimed Google's search results are 'rigged' — here's how search engine results actually work. » Subscribe to NowThis: ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/p--Y8gTVXok/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/p--Y8gTVXok/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/p--Y8gTVXok/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "NowThis News",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/XtJZrQwo_Cg54UwY_sOPmQVqHrU\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/i22yVzl4xhJ3yZO4ypt_tXw8Rao\"",
+                            "id": "p--Y8gTVXok",
+                            "statistics": {
+                                "viewCount": "3114",
+                                "likeCount": "61",
+                                "dislikeCount": "204",
+                                "favoriteCount": "0",
+                                "commentCount": "41"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Andreas Ekström: The moral bias behind your search results"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/EX52r_3_N1XrnYPJzRZsUEyYepw\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 504,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/YhThfIASIDFWAg68hX9WhTXN89o\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "kyaiTGmwxnU"
+                },
+                "snippet": {
+                    "publishedAt": "2015-12-08T17:04:59.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "How I&#39;m Working for Change Inside My Church | Chelsea Shields | TED Talks",
+                    "description": "How do we respect someone's religious beliefs, while also holding religion accountable for the damage those beliefs may cause? Chelsea Shields has a bold ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/kyaiTGmwxnU/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/kyaiTGmwxnU/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/kyaiTGmwxnU/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/DCEDnkNiHxjee_ohiaTgUQL1Yuc\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/9IDnr-adiLQCOLKC49yXGyiAtXU\"",
+                            "id": "kyaiTGmwxnU",
+                            "statistics": {
+                                "viewCount": "71208",
+                                "likeCount": "1140",
+                                "dislikeCount": "1200",
+                                "favoriteCount": "0",
+                                "commentCount": "754"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/17lpU1bH3PXAifu9kW4jGsmx5gk\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "psI_rBrNyG0"
+                },
+                "snippet": {
+                    "publishedAt": "2017-08-02T17:12:27.000Z",
+                    "channelId": "UCsT0YIqwnpJCM-mx7-gSA4Q",
+                    "title": "Breaking Mormon | Andie Kemmerle | TEDxYouth@AnnArbor",
+                    "description": "A talk about how it can be difficult to stop practicing your religion, but you shouldn't feel afraid to. Andie is a senior at Pioneer High School. She enjoys traveling ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/psI_rBrNyG0/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/psI_rBrNyG0/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/psI_rBrNyG0/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TEDx Talks",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/n4cKncp5WkBG4_OPlJuoEDyXnnU\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/wkgJoCM-TkxIDo-I9PHaquYWANg\"",
+                            "id": "psI_rBrNyG0",
+                            "statistics": {
+                                "viewCount": "118512",
+                                "likeCount": "1343",
+                                "dislikeCount": "373",
+                                "favoriteCount": "0",
+                                "commentCount": "661"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/oJn82PPqAkVcuNYKo_1jLfdqPLY\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "FEkFgCFSKMg"
+                },
+                "snippet": {
+                    "publishedAt": "2018-11-15T16:52:31.000Z",
+                    "channelId": "UCsT0YIqwnpJCM-mx7-gSA4Q",
+                    "title": "Unchurching: The Exodus from Institutional Forms of Church | Richard Jacobson | TEDxPaloAltoCollege",
+                    "description": "In this talk, former minister and author, Richard Jacobson, discusses a trend happening in the US - People leaving institutional forms of church in large numbers ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/FEkFgCFSKMg/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/FEkFgCFSKMg/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/FEkFgCFSKMg/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TEDx Talks",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/H0X98EeRiEKko31-0NdnqCxQNzw\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/PXyC8t6TOr2XyWmJmyUZkLvYeRM\"",
+                            "id": "FEkFgCFSKMg",
+                            "statistics": {
+                                "viewCount": "23290",
+                                "likeCount": "546",
+                                "dislikeCount": "22",
+                                "favoriteCount": "0",
+                                "commentCount": "90"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Chelsea Shields: How I'm working for change inside my church"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/zPNGkZ4vO87gxvstwKSBXtkkTn0\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 46,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/ZKy6Zn3q6hJjkyye_utlHlCfbdg\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "87ro2-kT7kQ"
+                },
+                "snippet": {
+                    "publishedAt": "2015-12-10T16:28:05.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "The Chilling Aftershock of a Brush with Death | Jean-Paul Mari | TED Talks",
+                    "description": "In April 2003, just as American troops began rolling into Baghdad, a shell smashed into the building author and war correspondent Jean-Paul Mari was reporting ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/87ro2-kT7kQ/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/87ro2-kT7kQ/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/87ro2-kT7kQ/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/wiOB2wP7R1kEuKlQQTBTRaezCtY\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/UoGr5dpmOdL2SqatAi4EWOplrSw\"",
+                            "id": "87ro2-kT7kQ",
+                            "statistics": {
+                                "viewCount": "42574",
+                                "likeCount": "523",
+                                "dislikeCount": "80",
+                                "favoriteCount": "0",
+                                "commentCount": "118"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/RvUrCtPXTQnrIZxDmv16tluDBiU\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "RBWOlYiv4DE"
+                },
+                "snippet": {
+                    "publishedAt": "2016-04-03T11:42:07.000Z",
+                    "channelId": "UC2wdQMR821--8iDiIlzt5OA",
+                    "title": "ajARqg0 460sv",
+                    "description": "",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/RBWOlYiv4DE/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/RBWOlYiv4DE/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/RBWOlYiv4DE/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Maikel Akkermans",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/ZF4ytZy9exk2pLEd5eobFNch50Q\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/gqDyH8diWPULhJryeis3oMq-u8I\"",
+                            "id": "RBWOlYiv4DE",
+                            "statistics": {
+                                "viewCount": "7",
+                                "likeCount": "0",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/3s3GkmWSDASOXiyvODVpnPDnba4\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "zg0gdqTLDAw"
+                },
+                "snippet": {
+                    "publishedAt": "2016-09-06T11:28:38.000Z",
+                    "channelId": "UCW3mewW-ZMdk3byz5F8gfHA",
+                    "title": "Interview de Jean-Paul Mari, auteur du documentaire &quot;Les migrants ne savent pas nager&quot;.",
+                    "description": "",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/zg0gdqTLDAw/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/zg0gdqTLDAw/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/zg0gdqTLDAw/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "France 3 Bretagne",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/GNH21S4n1YpnRZN9Cq2AHmbnPGU\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/cGHtF4tlNF5pqXkBCFKkPfiuRPk\"",
+                            "id": "zg0gdqTLDAw",
+                            "statistics": {
+                                "viewCount": "676",
+                                "likeCount": "4",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "1"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Jean Paul Mari: The chilling aftershock of a brush with death"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/5nvmXROFpYkwQCSvcsLvPP0ZJcU\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 187,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/dQ1YjTwKjTigjYXhyCL-5zbGpsI\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "q49LtMyXK7Q"
+                },
+                "snippet": {
+                    "publishedAt": "2015-12-11T16:41:13.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "The secret sneaker market — and why it matters | Josh Luber",
+                    "description": "Josh Luber is a \"sneakerhead,\" a collector of rare or limited sneakers. With their insatiable appetite for exclusive sneakers, these tastemakers drive marketing ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/q49LtMyXK7Q/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/q49LtMyXK7Q/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/q49LtMyXK7Q/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/SFuvRrQ8Cig0oj_-dnwsRGwSdb4\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/a0feMTfgYtl4osToSN5a6kHn1Yc\"",
+                            "id": "q49LtMyXK7Q",
+                            "statistics": {
+                                "viewCount": "325957",
+                                "likeCount": "6412",
+                                "dislikeCount": "457",
+                                "favoriteCount": "0",
+                                "commentCount": "539"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/U0b4BqJXHJoCORBtO1NppMBM71o\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "S1IRLOBslrU"
+                },
+                "snippet": {
+                    "publishedAt": "2019-05-16T16:00:05.000Z",
+                    "channelId": "UCNe161YMUykW264kFe5PWxA",
+                    "title": "StockX CEO Josh Luber Shows Off His Insane Personal Sneaker Collection",
+                    "description": "We met up with Josh Luber, the CEO and cofounder of StockX, to take a look at his insane personal collection of sneakers and grails that include Air Max BW ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/S1IRLOBslrU/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/S1IRLOBslrU/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/S1IRLOBslrU/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Highsnobiety",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/fnXMYYPr78tDKMaqUu3-qcfmXNc\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/__bD7r--mZcXUNaW1YBT_Sy9BuU\"",
+                            "id": "S1IRLOBslrU",
+                            "statistics": {
+                                "viewCount": "384147",
+                                "likeCount": "6009",
+                                "dislikeCount": "370",
+                                "favoriteCount": "0",
+                                "commentCount": "465"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/w708nhrpcBogNB6lGNidsx5bY-4\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "8qtf4VOiZ6Q"
+                },
+                "snippet": {
+                    "publishedAt": "2019-10-11T18:59:26.000Z",
+                    "channelId": "UCkkhmBWfS7pILYIk0izkc3A",
+                    "title": "E986 StockX’s Josh Luber is building a stock market for things, grew unicorn from sneaker data site",
+                    "description": "E986: StockX Co-founder Josh Luber is building a stock market for things, shares insights on the two cultural shifts that brought sneaker culture mainstream, ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/8qtf4VOiZ6Q/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/8qtf4VOiZ6Q/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/8qtf4VOiZ6Q/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "This Week In Startups",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/fi3dGKeU63rORA6z2yqcVwhszjw\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/oqVTEQcJ10PRoQAV12uzN9x1GfE\"",
+                            "id": "8qtf4VOiZ6Q",
+                            "statistics": {
+                                "viewCount": "9380",
+                                "likeCount": "42",
+                                "dislikeCount": "4",
+                                "favoriteCount": "0",
+                                "commentCount": "7"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Josh Luber: Why sneakers are a great investment"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/N0ddJOPKWH0_3Xrd3KKdmCRnf8g\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 962,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/QYav0P8cLeNqMYIk9oAGHH-Ee2g\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "zsLz0mRmEG0"
+                },
+                "snippet": {
+                    "publishedAt": "2015-12-15T15:13:26.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "The Future of News? Virtual Reality | Nonny de la Peña | TED Talks",
+                    "description": "What if you could experience a story with your entire body, not just with your mind? Nonny de la Peña is working on a new form of journalism that combines ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/zsLz0mRmEG0/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/zsLz0mRmEG0/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/zsLz0mRmEG0/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/V1bXd79MFKnPdO193E31Cdqm0Fs\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/TblT8Uot8k_frmDsWEaAuFlqFaY\"",
+                            "id": "zsLz0mRmEG0",
+                            "statistics": {
+                                "viewCount": "70162",
+                                "likeCount": "686",
+                                "dislikeCount": "169",
+                                "favoriteCount": "0",
+                                "commentCount": "98"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/MN_p5TLfhB48EIAQJH_mD9OTbA8\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "feLuqFa7Tag"
+                },
+                "snippet": {
+                    "publishedAt": "2017-02-02T07:03:25.000Z",
+                    "channelId": "UCuu-XBAWS8j3639QHQB8-bg",
+                    "title": "Nonny de la Peña: The Birth of VR Journalism | The Future of News",
+                    "description": "Nonny de la Peña's first immersive virtual reality story \"Hunger in Los Angeles\" debuted in 2012 at Sundance Film Festival. In this video interview, de la Peña ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/feLuqFa7Tag/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/feLuqFa7Tag/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/feLuqFa7Tag/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Rightside",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/RVCR8GFwdb0LrRZsmWJaOBgJ17M\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/EeeNfU9c8Fiaq0MRE96fv_XIDsE\"",
+                            "id": "feLuqFa7Tag",
+                            "statistics": {
+                                "viewCount": "1403",
+                                "likeCount": "2",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/uOyFA7nt7TFU8sZujKSjH8NvLM0\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "ByLuRCrsNlg"
+                },
+                "snippet": {
+                    "publishedAt": "2017-01-04T22:19:35.000Z",
+                    "channelId": "UCsT0YIqwnpJCM-mx7-gSA4Q",
+                    "title": "Immersive Journalism: Putting the audience in the story | Nonny de la Peña | TEDxOlympicBlvdWomen",
+                    "description": "What happens to traditional news reporting when you apply the cutting-edge technology of virtual reality? In this talk VR pioneer, Nonny De La Peña, explores ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/ByLuRCrsNlg/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/ByLuRCrsNlg/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/ByLuRCrsNlg/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TEDx Talks",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Ac_aQA71Zk7VWHVnuS39xc-c8x8\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Rqh6nuDr9x_DzoEiNcZqhUdkuY8\"",
+                            "id": "ByLuRCrsNlg",
+                            "statistics": {
+                                "viewCount": "938",
+                                "likeCount": "12",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Nonny de la Peña: The future of news? Virtual reality"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/YZBrhn4UdOmjRuihsISDZ8g7LJw\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 204,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/4tRXknmxWJFzpA5o3aHexxP9v0E\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "9KACXV-cW-4"
+                },
+                "snippet": {
+                    "publishedAt": "2015-12-16T17:43:21.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "My Country Will Be Underwater Soon -- Unless We Work Together | Anote Tong | TED Talks",
+                    "description": "For the people of Kiribati, climate change isn't something to be debated, denied or legislated against — it's an everyday reality. The low-lying Pacific island ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/9KACXV-cW-4/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/9KACXV-cW-4/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/9KACXV-cW-4/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/R8n7E15C12DwJ2C-5S9BzXaXglE\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/OxK5LUBU8lL6PnVInTtybzFQMgw\"",
+                            "id": "9KACXV-cW-4",
+                            "statistics": {
+                                "viewCount": "43320",
+                                "likeCount": "851",
+                                "dislikeCount": "96",
+                                "favoriteCount": "0",
+                                "commentCount": "222"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/frUD8NkbH79fLDed_CVZ_P4FTko\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "R2wI125xy-M"
+                },
+                "snippet": {
+                    "publishedAt": "2018-10-30T01:22:35.000Z",
+                    "channelId": "UCTILfqEQUVaVKPkny8QRE0w",
+                    "title": "Anote Tong: The former president battling climate change",
+                    "description": "Laura Murphy-Oates sits down with Anote Tong from Kiribati. The president who proposed relocating everyone in his country to Fiji to escape rising sea levels.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/R2wI125xy-M/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/R2wI125xy-M/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/R2wI125xy-M/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "The Feed",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/ORGDsBT2pCneZQmHTlPk5Q9l3SU\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/hO85-kuGs7Pww6O5Wjhy2VSLtvE\"",
+                            "id": "R2wI125xy-M",
+                            "statistics": {
+                                "viewCount": "2471",
+                                "likeCount": "76",
+                                "dislikeCount": "2",
+                                "favoriteCount": "0",
+                                "commentCount": "3"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Q6YU8hSVgygyU7VhuvFZWhMQciA\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "OrS0aUqsqBw"
+                },
+                "snippet": {
+                    "publishedAt": "2014-06-18T14:06:18.000Z",
+                    "channelId": "UCHd62-u_v4DvJ8TCFtpi4GA",
+                    "title": "This country might be under water in 30 years",
+                    "description": "The Pacific Island nation of Kiribati lies seven feet above sea level on average. But scientists say it's drowning. PostTV asked Kiribati president Anote Tong how ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/OrS0aUqsqBw/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/OrS0aUqsqBw/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/OrS0aUqsqBw/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Washington Post",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Mcn5WLNOu87fa2kvk3FvHqz4V68\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/5a0GqK7auLjE35FGT2BJ-zdv6Aw\"",
+                            "id": "OrS0aUqsqBw",
+                            "statistics": {
+                                "viewCount": "7588",
+                                "likeCount": "29",
+                                "dislikeCount": "6",
+                                "favoriteCount": "0",
+                                "commentCount": "1"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Anote Tong: My country will be underwater soon    unless we work together"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/BKxwzhUuSPJ2BnC5IuZWbOmGGKQ\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 3995,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/y37hFVcp44FzzCd425PGtL4KAJs\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "-wkdH_wluhw"
+                },
+                "snippet": {
+                    "publishedAt": "2016-07-13T18:56:41.000Z",
+                    "channelId": "UCsT0YIqwnpJCM-mx7-gSA4Q",
+                    "title": "What animals are thinking and feeling, and why it should matter | Carl Safina | TEDxMidAtlantic",
+                    "description": "Carl Safina takes us inside the lives and minds of animals around the world, witnessing their profound capacity for perception, thought and emotion, showing ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/-wkdH_wluhw/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/-wkdH_wluhw/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/-wkdH_wluhw/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TEDx Talks",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/lNWanzZan5GYwHDPq6Jb51oI0Hk\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/rzL3TGtgxw2C3ZCNbleugPnIaiU\"",
+                            "id": "-wkdH_wluhw",
+                            "statistics": {
+                                "viewCount": "743960",
+                                "likeCount": "32951",
+                                "dislikeCount": "725",
+                                "favoriteCount": "0",
+                                "commentCount": "3438"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/SevgXL5os9REJ33-9R1yNTp7XHo\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "y9KeyKVuLHU"
+                },
+                "snippet": {
+                    "publishedAt": "2015-12-17T17:19:25.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "What are animals thinking and feeling? | Carl Safina",
+                    "description": "What's going on inside the brains of animals? Can we know what, or if, they're thinking and feeling? Carl Safina thinks we can. Using discoveries and anecdotes ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/y9KeyKVuLHU/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/y9KeyKVuLHU/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/y9KeyKVuLHU/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/shCnea0s-vVyS4keRb1L7UankQE\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/9HEcq2Pk6JGLMIJz9HbDbHhLj88\"",
+                            "id": "y9KeyKVuLHU",
+                            "statistics": {
+                                "viewCount": "218359",
+                                "likeCount": "6303",
+                                "dislikeCount": "181",
+                                "favoriteCount": "0",
+                                "commentCount": "671"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/V7DCA0Pegz_khRJJM_1bp_ttxq8\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "SR4ewPdI42Q"
+                },
+                "snippet": {
+                    "publishedAt": "2015-09-18T16:11:27.000Z",
+                    "channelId": "UCbmNph6atAoGfqLoCL_duAg",
+                    "title": "Carl Safina: &quot;Beyond Words: What Animals Think and Feel&quot; | Talks at Google",
+                    "description": "Award-winning author and renowned ocean conservationist Carl Safina discusses his new book \"Beyond Words: What Animals Think and Feel.\" Hailed as \"a ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/SR4ewPdI42Q/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/SR4ewPdI42Q/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/SR4ewPdI42Q/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Talks at Google",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/72ukQpWPaydTRRRxdQkB9bV2rsM\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/BgW82VWWwzXJb2B2Ai7igVp5bAY\"",
+                            "id": "SR4ewPdI42Q",
+                            "statistics": {
+                                "viewCount": "10325",
+                                "likeCount": "214",
+                                "dislikeCount": "7",
+                                "favoriteCount": "0",
+                                "commentCount": "25"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Carl Safina: What are animals thinking and feeling?"
+    }
+]
