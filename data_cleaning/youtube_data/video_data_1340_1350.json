@@ -1,39 +1,39 @@
 [
     {
         "kind": "youtube#searchListResponse",
-        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/GSvUYRh2SIAUtzVJCBs-0_wslAU\"",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/VRv_DU2BzG6UD8pe-Rp0eEDf2Ts\"",
         "nextPageToken": "CAMQAA",
         "regionCode": "US",
         "pageInfo": {
-            "totalResults": 748,
+            "totalResults": 872,
             "resultsPerPage": 3
         },
         "items": [
             {
                 "kind": "youtube#searchResult",
-                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/IL7Viy7OgqbBcSpTOUDdR3Hm7DI\"",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/cC_XoSoxPHoG_bqohsTZgEkxckw\"",
                 "id": {
                     "kind": "youtube#video",
-                    "videoId": "NiMgOklgeos"
+                    "videoId": "CEN4XNth61o"
                 },
                 "snippet": {
-                    "publishedAt": "2016-04-19T15:53:52.000Z",
+                    "publishedAt": "2012-09-25T16:09:06.000Z",
                     "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
-                    "title": "The beauty of human skin in every color | Angélica Dass",
-                    "description": "Angélica Dass's photography challenges how we think about skin color and ethnic identity. In this personal talk, hear about the inspiration behind her portrait ...",
+                    "title": "Clay Shirky: How the Internet will (one day) transform government",
+                    "description": "The open-source world has learned to deal with a flood of new, oftentimes divergent, ideas using hosting services like GitHub -- so why can't governments?",
                     "thumbnails": {
                         "default": {
-                            "url": "https://i.ytimg.com/vi/NiMgOklgeos/default.jpg",
+                            "url": "https://i.ytimg.com/vi/CEN4XNth61o/default.jpg",
                             "width": 120,
                             "height": 90
                         },
                         "medium": {
-                            "url": "https://i.ytimg.com/vi/NiMgOklgeos/mqdefault.jpg",
+                            "url": "https://i.ytimg.com/vi/CEN4XNth61o/mqdefault.jpg",
                             "width": 320,
                             "height": 180
                         },
                         "high": {
-                            "url": "https://i.ytimg.com/vi/NiMgOklgeos/hqdefault.jpg",
+                            "url": "https://i.ytimg.com/vi/CEN4XNth61o/hqdefault.jpg",
                             "width": 480,
                             "height": 360
                         }
@@ -43,7 +43,7 @@
                 },
                 "stats": {
                     "kind": "youtube#videoListResponse",
-                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/fPP0k8okTZjREEY8h9fkGXBA2sA\"",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/iH2-40VrXOLsMJN5iNZrcxBXg20\"",
                     "pageInfo": {
                         "totalResults": 1,
                         "resultsPerPage": 1
@@ -51,14 +51,14 @@
                     "items": [
                         {
                             "kind": "youtube#video",
-                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/seru4SoLnejrSefZMJVASxbnL4A\"",
-                            "id": "NiMgOklgeos",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/2BhI-jKsRDwHY2rh0BjlnkJ1Q1Q\"",
+                            "id": "CEN4XNth61o",
                             "statistics": {
-                                "viewCount": "272811",
-                                "likeCount": "7723",
-                                "dislikeCount": "356",
+                                "viewCount": "130888",
+                                "likeCount": "3147",
+                                "dislikeCount": "50",
                                 "favoriteCount": "0",
-                                "commentCount": "560"
+                                "commentCount": "271"
                             }
                         }
                     ]
@@ -66,39 +66,39 @@
             },
             {
                 "kind": "youtube#searchResult",
-                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/KwFKST8RnPiovkeRabyCMS1LkEE\"",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/sJGd2FAQUv_j7q_Mu8x_bNl7ruI\"",
                 "id": {
                     "kind": "youtube#video",
-                    "videoId": "Bil7LZOi4qU"
+                    "videoId": "wDT1c89uazk"
                 },
                 "snippet": {
-                    "publishedAt": "2017-05-12T17:32:27.000Z",
-                    "channelId": "UCsT0YIqwnpJCM-mx7-gSA4Q",
-                    "title": "La belleza del color de la piel humana | Angélica Dass | TEDxRiodelaPlataSalon",
-                    "description": "La fotografía de Angélica Dass desafía nuestra forma de pensar sobre el color de la piel y la identidad étnica. Escuchemos esta charla personal acerca de la ...",
+                    "publishedAt": "2017-02-13T18:10:51.000Z",
+                    "channelId": "UCQSrdt0-Iu8qVEiJyzhrfdQ",
+                    "title": "How can social media impact the government? | Clay Shirky",
+                    "description": "Are we entering a world where it is harder to be an autocracy but it's also harder to be a democracy? Clay Shirky, Social Media Theorist, raises questions about ...",
                     "thumbnails": {
                         "default": {
-                            "url": "https://i.ytimg.com/vi/Bil7LZOi4qU/default.jpg",
+                            "url": "https://i.ytimg.com/vi/wDT1c89uazk/default.jpg",
                             "width": 120,
                             "height": 90
                         },
                         "medium": {
-                            "url": "https://i.ytimg.com/vi/Bil7LZOi4qU/mqdefault.jpg",
+                            "url": "https://i.ytimg.com/vi/wDT1c89uazk/mqdefault.jpg",
                             "width": 320,
                             "height": 180
                         },
                         "high": {
-                            "url": "https://i.ytimg.com/vi/Bil7LZOi4qU/hqdefault.jpg",
+                            "url": "https://i.ytimg.com/vi/wDT1c89uazk/hqdefault.jpg",
                             "width": 480,
                             "height": 360
                         }
                     },
-                    "channelTitle": "TEDx Talks",
+                    "channelTitle": "TED Archive",
                     "liveBroadcastContent": "none"
                 },
                 "stats": {
                     "kind": "youtube#videoListResponse",
-                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/4_pIXjEyXCARH5iDE1MEHJCjJtc\"",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/fFXHcO2oCtw3A-jZ2uFd32LvK2Q\"",
                     "pageInfo": {
                         "totalResults": 1,
                         "resultsPerPage": 1
@@ -106,289 +106,289 @@
                     "items": [
                         {
                             "kind": "youtube#video",
-                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/KfOHkNr1kqWlz122UbWpcd7PHhc\"",
-                            "id": "Bil7LZOi4qU",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/xR1KeCvTO7MR_YkSmWpmww44-to\"",
+                            "id": "wDT1c89uazk",
                             "statistics": {
-                                "viewCount": "11798",
-                                "likeCount": "261",
+                                "viewCount": "5767",
+                                "likeCount": "74",
                                 "dislikeCount": "5",
-                                "favoriteCount": "0",
-                                "commentCount": "15"
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "kind": "youtube#searchResult",
-                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/uJ2eLHbpxJQQ1TzdoKbUkfX6KiY\"",
-                "id": {
-                    "kind": "youtube#video",
-                    "videoId": "kcYKRNbW_iw"
-                },
-                "snippet": {
-                    "publishedAt": "2016-07-18T15:48:58.000Z",
-                    "channelId": "UCsT0YIqwnpJCM-mx7-gSA4Q",
-                    "title": "Somos todos Humanae | Angelica Dass | TEDxSaoPaulo",
-                    "description": "Todos somos humanos e todos somos Humanae. As fotografias de Angélica Dass desafiam nossa forma de pensar sobre cor da pele e identidade étnica.",
-                    "thumbnails": {
-                        "default": {
-                            "url": "https://i.ytimg.com/vi/kcYKRNbW_iw/default.jpg",
-                            "width": 120,
-                            "height": 90
-                        },
-                        "medium": {
-                            "url": "https://i.ytimg.com/vi/kcYKRNbW_iw/mqdefault.jpg",
-                            "width": 320,
-                            "height": 180
-                        },
-                        "high": {
-                            "url": "https://i.ytimg.com/vi/kcYKRNbW_iw/hqdefault.jpg",
-                            "width": 480,
-                            "height": 360
-                        }
-                    },
-                    "channelTitle": "TEDx Talks",
-                    "liveBroadcastContent": "none"
-                },
-                "stats": {
-                    "kind": "youtube#videoListResponse",
-                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/9IcUTEGaseIhpoZO4xxIrPwfrJ0\"",
-                    "pageInfo": {
-                        "totalResults": 1,
-                        "resultsPerPage": 1
-                    },
-                    "items": [
-                        {
-                            "kind": "youtube#video",
-                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/tVtpAUZQI9IJwW1Oz9-DjuzRzEQ\"",
-                            "id": "kcYKRNbW_iw",
-                            "statistics": {
-                                "viewCount": "11082",
-                                "likeCount": "469",
-                                "dislikeCount": "8",
-                                "favoriteCount": "0",
-                                "commentCount": "16"
-                            }
-                        }
-                    ]
-                }
-            }
-        ],
-        "originalQuery": "Angélica Dass: The beauty of human skin in every color"
-    },
-    {
-        "kind": "youtube#searchListResponse",
-        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/1ZmvVzuvVccLTsSLBcLD2_T9a28\"",
-        "nextPageToken": "CAMQAA",
-        "regionCode": "US",
-        "pageInfo": {
-            "totalResults": 1208,
-            "resultsPerPage": 3
-        },
-        "items": [
-            {
-                "kind": "youtube#searchResult",
-                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/10ME0KAgOuXC0SJok6yQR7du73g\"",
-                "id": {
-                    "kind": "youtube#video",
-                    "videoId": "G8gJJuCdP_A"
-                },
-                "snippet": {
-                    "publishedAt": "2016-04-20T15:48:23.000Z",
-                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
-                    "title": "Why gun violence can&#39;t be our new normal | Dan Gross",
-                    "description": "It doesn't matter whether you love or hate guns; it's obvious that the US would be a safer place if there weren't thousands of them sold every day without ...",
-                    "thumbnails": {
-                        "default": {
-                            "url": "https://i.ytimg.com/vi/G8gJJuCdP_A/default.jpg",
-                            "width": 120,
-                            "height": 90
-                        },
-                        "medium": {
-                            "url": "https://i.ytimg.com/vi/G8gJJuCdP_A/mqdefault.jpg",
-                            "width": 320,
-                            "height": 180
-                        },
-                        "high": {
-                            "url": "https://i.ytimg.com/vi/G8gJJuCdP_A/hqdefault.jpg",
-                            "width": 480,
-                            "height": 360
-                        }
-                    },
-                    "channelTitle": "TED",
-                    "liveBroadcastContent": "none"
-                },
-                "stats": {
-                    "kind": "youtube#videoListResponse",
-                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/XqVRjkgfRV9PP61hik_AM2Ip2qE\"",
-                    "pageInfo": {
-                        "totalResults": 1,
-                        "resultsPerPage": 1
-                    },
-                    "items": [
-                        {
-                            "kind": "youtube#video",
-                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/34pvrxex_xAQ-SPgTEms_PfAmCE\"",
-                            "id": "G8gJJuCdP_A",
-                            "statistics": {
-                                "viewCount": "87474",
-                                "likeCount": "2087",
-                                "dislikeCount": "1168",
-                                "favoriteCount": "0",
-                                "commentCount": "1416"
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "kind": "youtube#searchResult",
-                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/oe3Zf7W55r7Gd_QSEIziEDJBHOk\"",
-                "id": {
-                    "kind": "youtube#video",
-                    "videoId": "Kd9UKZZA_WA"
-                },
-                "snippet": {
-                    "publishedAt": "2016-03-31T20:28:22.000Z",
-                    "channelId": "UC4sM3-EjzXhYtnggSs9z7Ng",
-                    "title": "Dan Gross (English subt) Why gun violence can&#39;t be our new normal/TED Talks",
-                    "description": "It doesn't matter whether you love or hate guns; it's obvious that the US would be a safer place if there weren't thousands of them sold every day without ...",
-                    "thumbnails": {
-                        "default": {
-                            "url": "https://i.ytimg.com/vi/Kd9UKZZA_WA/default.jpg",
-                            "width": 120,
-                            "height": 90
-                        },
-                        "medium": {
-                            "url": "https://i.ytimg.com/vi/Kd9UKZZA_WA/mqdefault.jpg",
-                            "width": 320,
-                            "height": 180
-                        },
-                        "high": {
-                            "url": "https://i.ytimg.com/vi/Kd9UKZZA_WA/hqdefault.jpg",
-                            "width": 480,
-                            "height": 360
-                        }
-                    },
-                    "channelTitle": "zwwlg",
-                    "liveBroadcastContent": "none"
-                },
-                "stats": {
-                    "kind": "youtube#videoListResponse",
-                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/DOvCxSsJtVuFVlmBacx8BDqR2LM\"",
-                    "pageInfo": {
-                        "totalResults": 1,
-                        "resultsPerPage": 1
-                    },
-                    "items": [
-                        {
-                            "kind": "youtube#video",
-                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/bDQPJbNIezP89Y6K2qbezbdpzFc\"",
-                            "id": "Kd9UKZZA_WA",
-                            "statistics": {
-                                "viewCount": "194",
-                                "likeCount": "2",
-                                "dislikeCount": "1",
-                                "favoriteCount": "0",
-                                "commentCount": "0"
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "kind": "youtube#searchResult",
-                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/YJfMJMhi_8kytt6V8IAWZC8egFM\"",
-                "id": {
-                    "kind": "youtube#video",
-                    "videoId": "TFSw5Zri_o0"
-                },
-                "snippet": {
-                    "publishedAt": "2015-02-04T18:10:31.000Z",
-                    "channelId": "UCsT0YIqwnpJCM-mx7-gSA4Q",
-                    "title": "Preventing gun violence without just talking about the gun | Nicole Hockley | TEDxUniversityofNevada",
-                    "description": "After the tragic death of her son Dylan, who was one of 20 first-graders killed at Sandy Hook Elementary School, Nicole Hockley dedicated herself to working for ...",
-                    "thumbnails": {
-                        "default": {
-                            "url": "https://i.ytimg.com/vi/TFSw5Zri_o0/default.jpg",
-                            "width": 120,
-                            "height": 90
-                        },
-                        "medium": {
-                            "url": "https://i.ytimg.com/vi/TFSw5Zri_o0/mqdefault.jpg",
-                            "width": 320,
-                            "height": 180
-                        },
-                        "high": {
-                            "url": "https://i.ytimg.com/vi/TFSw5Zri_o0/hqdefault.jpg",
-                            "width": 480,
-                            "height": 360
-                        }
-                    },
-                    "channelTitle": "TEDx Talks",
-                    "liveBroadcastContent": "none"
-                },
-                "stats": {
-                    "kind": "youtube#videoListResponse",
-                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Zp-zaojeAApXH8N-owVkPErZS2Q\"",
-                    "pageInfo": {
-                        "totalResults": 1,
-                        "resultsPerPage": 1
-                    },
-                    "items": [
-                        {
-                            "kind": "youtube#video",
-                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/rO5-xyevNSdOPPzPAxQ6lDIEJjs\"",
-                            "id": "TFSw5Zri_o0",
-                            "statistics": {
-                                "viewCount": "43962",
-                                "likeCount": "497",
-                                "dislikeCount": "264",
                                 "favoriteCount": "0"
                             }
                         }
                     ]
                 }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/h0EyH18xK_lKxISymYNxkj6X7gw\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "ASZJE15E0SY"
+                },
+                "snippet": {
+                    "publishedAt": "2012-11-16T16:43:38.000Z",
+                    "channelId": "UCsooa4yRKGN_zEE8iknghZA",
+                    "title": "How social media can make history - Clay Shirky",
+                    "description": "View full lesson: http://ed.ted.com/lessons/clay-shirky-how-social-media-can-make-history While news from Iran streams to the world, Clay Shirky shows how ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/ASZJE15E0SY/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/ASZJE15E0SY/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/ASZJE15E0SY/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED-Ed",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/l6l_mxUV-isXd6uTdrbEdaPwNYw\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/ClbSOj8Ex2Ia5ec6DP9rse-qFl0\"",
+                            "id": "ASZJE15E0SY",
+                            "statistics": {
+                                "viewCount": "140360",
+                                "likeCount": "1011",
+                                "dislikeCount": "27",
+                                "favoriteCount": "0",
+                                "commentCount": "133"
+                            }
+                        }
+                    ]
+                }
             }
         ],
-        "originalQuery": "Dan Gross: Why gun violence can't be our new normal"
+        "originalQuery": "Clay Shirky: How the Internet will (one day) transform government"
     },
     {
         "kind": "youtube#searchListResponse",
-        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/g5IMI2IW3458OVsoDSLF5HoUjj8\"",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Gf7idMU-vNTE8E3Tlc5hP4FzvuI\"",
         "nextPageToken": "CAMQAA",
         "regionCode": "US",
         "pageInfo": {
-            "totalResults": 445,
+            "totalResults": 746,
             "resultsPerPage": 3
         },
         "items": [
             {
                 "kind": "youtube#searchResult",
-                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/dBTLiDxmlLQqU7tscMb-s5tpkG8\"",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/LfrqRUnGpxxByg7sFKsQ8TxPU1M\"",
                 "id": {
                     "kind": "youtube#video",
-                    "videoId": "CtvIX4s1bTU"
+                    "videoId": "8EUy_82IChY"
                 },
                 "snippet": {
-                    "publishedAt": "2016-04-21T15:16:47.000Z",
-                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
-                    "title": "How humans could evolve to survive in space | Lisa Nip",
-                    "description": "If we hope to one day leave Earth and explore the universe, our bodies are going to have to get a lot better at surviving the harsh conditions of space.",
+                    "publishedAt": "2012-09-26T15:04:06.000Z",
+                    "channelId": "UCsooa4yRKGN_zEE8iknghZA",
+                    "title": "What&#39;s invisible? More than you think - John Lloyd",
+                    "description": "View full lesson on ed.ted.com http://ed.ted.com/lessons/what-s-invisible-more-than-you-think-john-lloyd Gravity. The stars in day. Thoughts. The human genome ...",
                     "thumbnails": {
                         "default": {
-                            "url": "https://i.ytimg.com/vi/CtvIX4s1bTU/default.jpg",
+                            "url": "https://i.ytimg.com/vi/8EUy_82IChY/default.jpg",
                             "width": 120,
                             "height": 90
                         },
                         "medium": {
-                            "url": "https://i.ytimg.com/vi/CtvIX4s1bTU/mqdefault.jpg",
+                            "url": "https://i.ytimg.com/vi/8EUy_82IChY/mqdefault.jpg",
                             "width": 320,
                             "height": 180
                         },
                         "high": {
-                            "url": "https://i.ytimg.com/vi/CtvIX4s1bTU/hqdefault.jpg",
+                            "url": "https://i.ytimg.com/vi/8EUy_82IChY/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED-Ed",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Os9VVedkH589GabzlUcHeHhfEQk\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/86n3cYLDC7tS0sWud45fn25sWB4\"",
+                            "id": "8EUy_82IChY",
+                            "statistics": {
+                                "viewCount": "2609166",
+                                "likeCount": "55911",
+                                "dislikeCount": "1727",
+                                "favoriteCount": "0",
+                                "commentCount": "2282"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/k--frx1DmLg-ypEOO2EyaJqZYq0\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "w-YLJ-pHRhA"
+                },
+                "snippet": {
+                    "publishedAt": "2013-06-27T18:13:48.000Z",
+                    "channelId": "UCsooa4yRKGN_zEE8iknghZA",
+                    "title": "If superpowers were real: Invisibility - Joy Lin",
+                    "description": "View full lesson: http://ed.ted.com/lessons/if-superpowers-were-real-invisibility-joy-lin What if invisibility wasn't just the stuff of epic comic book stories?",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/w-YLJ-pHRhA/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/w-YLJ-pHRhA/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/w-YLJ-pHRhA/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED-Ed",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/pEvI-V3i1fkbQdbTkqwxOUltGQs\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/CNmcoHxLU_qW3_OjmcWXYRKjBXM\"",
+                            "id": "w-YLJ-pHRhA",
+                            "statistics": {
+                                "viewCount": "1211100",
+                                "likeCount": "14132",
+                                "dislikeCount": "1428",
+                                "favoriteCount": "0",
+                                "commentCount": "1162"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/GA921bouItNTUD6YncHFXUg1u6Q\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "N0vO5zc73qk"
+                },
+                "snippet": {
+                    "publishedAt": "2014-11-18T11:56:56.000Z",
+                    "channelId": "UCvhsiQGy_zcNCiSbeXEjhLg",
+                    "title": "John Lloyd on Knowledge",
+                    "description": "The remarkable mind that brought you QI, Blackadder and Spitting Image asks one of the world's simplest but most significant questions – what do we really ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/N0vO5zc73qk/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/N0vO5zc73qk/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/N0vO5zc73qk/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "The RSA",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/yTwU-ebMdT5UWUpqOYh0KVX0qoo\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/VkXtReCKbm8JiwMYWJBJSsOgOt8\"",
+                            "id": "N0vO5zc73qk",
+                            "statistics": {
+                                "viewCount": "86267",
+                                "likeCount": "1050",
+                                "dislikeCount": "26",
+                                "favoriteCount": "0",
+                                "commentCount": "35"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "John Lloyd: An animated tour of the invisible"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/mAT3GXVHhE4xL_q7wqpOM6jmKvI\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 9052,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/XLmIbRcFaLUUwdorRJTsf1KXppk\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "RKmxL8VYy0M"
+                },
+                "snippet": {
+                    "publishedAt": "2012-09-27T15:14:28.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "What doctors don&#39;t know about the drugs they prescribe | Ben Goldacre",
+                    "description": "When a new drug gets tested, the results of the trials should be published for the rest of the medical world -- except much of the time, negative or inconclusive ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/RKmxL8VYy0M/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/RKmxL8VYy0M/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/RKmxL8VYy0M/hqdefault.jpg",
                             "width": 480,
                             "height": 360
                         }
@@ -398,7 +398,7 @@
                 },
                 "stats": {
                     "kind": "youtube#videoListResponse",
-                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/V-wF7EhjeFnhz7rURyWjnLTeSwQ\"",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Hca1fO4AOwZNhoaWGIEXmXPPNJs\"",
                     "pageInfo": {
                         "totalResults": 1,
                         "resultsPerPage": 1
@@ -406,14 +406,14 @@
                     "items": [
                         {
                             "kind": "youtube#video",
-                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/TU7S2WEl7AjKjp7JkAulMRxCk8w\"",
-                            "id": "CtvIX4s1bTU",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/7HwvsgTJtRJPp8h4YewhJ5iGWxg\"",
+                            "id": "RKmxL8VYy0M",
                             "statistics": {
-                                "viewCount": "171842",
-                                "likeCount": "4133",
-                                "dislikeCount": "234",
+                                "viewCount": "547737",
+                                "likeCount": "7103",
+                                "dislikeCount": "115",
                                 "favoriteCount": "0",
-                                "commentCount": "562"
+                                "commentCount": "832"
                             }
                         }
                     ]
@@ -421,39 +421,39 @@
             },
             {
                 "kind": "youtube#searchResult",
-                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/2mxYCw0hGI01rhQxte6qy-wKeGs\"",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Oi9_SmTNvwvrkmzoqDbzUfyyUTM\"",
                 "id": {
                     "kind": "youtube#video",
-                    "videoId": "5-l5Kj1_a3Q"
+                    "videoId": "B8UJMZzdfGc"
                 },
                 "snippet": {
-                    "publishedAt": "2016-03-31T20:04:55.000Z",
-                    "channelId": "UC4sM3-EjzXhYtnggSs9z7Ng",
-                    "title": "Lisa Nip (English subt) How humans could evolve to survive in space/TED Talks",
-                    "description": "If we hope to one day leave Earth and explore the universe, our bodies are going to have to get a lot better at surviving the harsh conditions of space.",
+                    "publishedAt": "2016-07-07T17:38:38.000Z",
+                    "channelId": "UCsT0YIqwnpJCM-mx7-gSA4Q",
+                    "title": "Why The Drugs You Take Don’t Work &amp; What We&#39;re Doing About It | Dr. Jeffrey Balser | TEDxNashville",
+                    "description": "Modern drug therapy has transformed life on the planet and saved countless lives since the advent of antibiotics in the early 20th Century. Yet today, a huge ...",
                     "thumbnails": {
                         "default": {
-                            "url": "https://i.ytimg.com/vi/5-l5Kj1_a3Q/default.jpg",
+                            "url": "https://i.ytimg.com/vi/B8UJMZzdfGc/default.jpg",
                             "width": 120,
                             "height": 90
                         },
                         "medium": {
-                            "url": "https://i.ytimg.com/vi/5-l5Kj1_a3Q/mqdefault.jpg",
+                            "url": "https://i.ytimg.com/vi/B8UJMZzdfGc/mqdefault.jpg",
                             "width": 320,
                             "height": 180
                         },
                         "high": {
-                            "url": "https://i.ytimg.com/vi/5-l5Kj1_a3Q/hqdefault.jpg",
+                            "url": "https://i.ytimg.com/vi/B8UJMZzdfGc/hqdefault.jpg",
                             "width": 480,
                             "height": 360
                         }
                     },
-                    "channelTitle": "zwwlg",
+                    "channelTitle": "TEDx Talks",
                     "liveBroadcastContent": "none"
                 },
                 "stats": {
                     "kind": "youtube#videoListResponse",
-                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/nDboQLWiURxyI-NVuxzxwqDONrE\"",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/5Z4eP4UCXQaN5cPk6YymoAuN5FI\"",
                     "pageInfo": {
                         "totalResults": 1,
                         "resultsPerPage": 1
@@ -461,11 +461,189 @@
                     "items": [
                         {
                             "kind": "youtube#video",
-                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/_6ItDZU-9HnVS-WnxhcTk17WSQs\"",
-                            "id": "5-l5Kj1_a3Q",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/F_r7OuBoEzLGWWbwsN1DThfr14Y\"",
+                            "id": "B8UJMZzdfGc",
                             "statistics": {
-                                "viewCount": "188",
-                                "likeCount": "2",
+                                "viewCount": "7337",
+                                "likeCount": "91",
+                                "dislikeCount": "7",
+                                "favoriteCount": "0",
+                                "commentCount": "11"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/NSEFUCSBn4b80WgFRxgckcN3Xzo\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "HblCtlS2rqI"
+                },
+                "snippet": {
+                    "publishedAt": "2013-05-24T08:56:07.000Z",
+                    "channelId": "UCT3w-DaiHgEfhiQ4L0pE07g",
+                    "title": "Ben Goldacre supports OK to ask",
+                    "description": "Best-selling author Ben Goldacre supports the NIHR OK to ask about Clinical Research campaign.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/HblCtlS2rqI/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/HblCtlS2rqI/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/HblCtlS2rqI/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "NIHRtv",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/7xPh0Uyk1t-CJkb9Ech-XP3VlNk\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/PYHUW_V6ET8z2ElHC6fcBFrDYo0\"",
+                            "id": "HblCtlS2rqI",
+                            "statistics": {
+                                "viewCount": "344",
+                                "likeCount": "3",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Ben Goldacre: What doctors don't know about the drugs they prescribe"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/SqKBZ5zKitrpmYkrfgw-Bggy_PU\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 104,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/YXFbCRwgxtW-qPSRwRYJJsaVJPg\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "R_U9GUlSOC4"
+                },
+                "snippet": {
+                    "publishedAt": "2012-09-28T15:32:20.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Bahia Shehab: A thousand times no",
+                    "description": "Art historian Bahia Shehab has long been fascinated with the Arabic script for 'no.' When revolution swept through Egypt in 2011, she began spraying the image ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/R_U9GUlSOC4/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/R_U9GUlSOC4/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/R_U9GUlSOC4/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/CJgyFIZ_mBp7iGtXhTsWRd_csqU\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/0QJ7llZPM_x7q1bLufWMw4ONhKc\"",
+                            "id": "R_U9GUlSOC4",
+                            "statistics": {
+                                "viewCount": "79104",
+                                "likeCount": "1297",
+                                "dislikeCount": "64",
+                                "favoriteCount": "0",
+                                "commentCount": "178"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/uYofM9Kjm8VQqijCG8c9B2y3_-4\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "AFKldWEO-yI"
+                },
+                "snippet": {
+                    "publishedAt": "2015-05-31T18:18:30.000Z",
+                    "channelId": "UCDI7HwRS3EiQOK_qVIhghuw",
+                    "title": "Bahia Shehab A 1000 Times No",
+                    "description": "ZEMDOKU.... ein spannendes kunstprojekt......",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/AFKldWEO-yI/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/AFKldWEO-yI/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/AFKldWEO-yI/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "ZEMDOKU",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/ud9cb1m0abFgvQMMue-20VROQRw\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/fI4vDoMRxe9iqjIR1_BpDMqetL0\"",
+                            "id": "AFKldWEO-yI",
+                            "statistics": {
+                                "viewCount": "137",
+                                "likeCount": "0",
                                 "dislikeCount": "0",
                                 "favoriteCount": "0",
                                 "commentCount": "0"
@@ -476,162 +654,39 @@
             },
             {
                 "kind": "youtube#searchResult",
-                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/i4QJx6h2JhROTFuVS9L5YIK7g_U\"",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/a__uY5ODkNitxuYRQa3x3ySihLU\"",
                 "id": {
                     "kind": "youtube#video",
-                    "videoId": "9AVaPlN3X_c"
+                    "videoId": "qZ0nxdmy3r4"
                 },
                 "snippet": {
-                    "publishedAt": "2016-04-24T21:29:37.000Z",
-                    "channelId": "UCXeoOx33OzvNdZbEdI8tqRw",
-                    "title": "How humans could evolve to survive in space | Lisa Nip",
-                    "description": "How humans could evolve to survive in space | Lisa Nip.",
-                    "thumbnails": {
-                        "default": {
-                            "url": "https://i.ytimg.com/vi/9AVaPlN3X_c/default.jpg",
-                            "width": 120,
-                            "height": 90
-                        },
-                        "medium": {
-                            "url": "https://i.ytimg.com/vi/9AVaPlN3X_c/mqdefault.jpg",
-                            "width": 320,
-                            "height": 180
-                        },
-                        "high": {
-                            "url": "https://i.ytimg.com/vi/9AVaPlN3X_c/hqdefault.jpg",
-                            "width": 480,
-                            "height": 360
-                        }
-                    },
-                    "channelTitle": "SevenGymnasticsGirls11",
-                    "liveBroadcastContent": "none"
-                },
-                "stats": {
-                    "kind": "youtube#videoListResponse",
-                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/5l2AZTkEH5CS4DWv_IxAckajgpM\"",
-                    "pageInfo": {
-                        "totalResults": 1,
-                        "resultsPerPage": 1
-                    },
-                    "items": [
-                        {
-                            "kind": "youtube#video",
-                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/kp2lqAatArI3ivlH6ceFwaikD2g\"",
-                            "id": "9AVaPlN3X_c",
-                            "statistics": {
-                                "viewCount": "18",
-                                "likeCount": "0",
-                                "dislikeCount": "1",
-                                "favoriteCount": "0",
-                                "commentCount": "0"
-                            }
-                        }
-                    ]
-                }
-            }
-        ],
-        "originalQuery": "Lisa Nip: How humans could evolve to survive in space"
-    },
-    {
-        "kind": "youtube#searchListResponse",
-        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/2Goy9wXYPHOO5eY4NXQ-5pfwWeI\"",
-        "nextPageToken": "CAMQAA",
-        "regionCode": "US",
-        "pageInfo": {
-            "totalResults": 1338,
-            "resultsPerPage": 3
-        },
-        "items": [
-            {
-                "kind": "youtube#searchResult",
-                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/U1ni0S7GwfjaX4MVLJlkYvI6w9Y\"",
-                "id": {
-                    "kind": "youtube#video",
-                    "videoId": "XVXmYD0UPRQ"
-                },
-                "snippet": {
-                    "publishedAt": "2016-04-22T16:17:56.000Z",
-                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
-                    "title": "Two reasons companies fail -- and how to avoid them | Knut Haanaes",
-                    "description": "Is it possible to run a company and reinvent it at the same time? For business strategist Knut Haanaes, the ability to innovate after becoming successful is the ...",
-                    "thumbnails": {
-                        "default": {
-                            "url": "https://i.ytimg.com/vi/XVXmYD0UPRQ/default.jpg",
-                            "width": 120,
-                            "height": 90
-                        },
-                        "medium": {
-                            "url": "https://i.ytimg.com/vi/XVXmYD0UPRQ/mqdefault.jpg",
-                            "width": 320,
-                            "height": 180
-                        },
-                        "high": {
-                            "url": "https://i.ytimg.com/vi/XVXmYD0UPRQ/hqdefault.jpg",
-                            "width": 480,
-                            "height": 360
-                        }
-                    },
-                    "channelTitle": "TED",
-                    "liveBroadcastContent": "none"
-                },
-                "stats": {
-                    "kind": "youtube#videoListResponse",
-                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/h0Zn3fASGiY8qPNvx9wTQpbvYCM\"",
-                    "pageInfo": {
-                        "totalResults": 1,
-                        "resultsPerPage": 1
-                    },
-                    "items": [
-                        {
-                            "kind": "youtube#video",
-                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/mEz-ApWgkoPVjVxnLNusZrngSHA\"",
-                            "id": "XVXmYD0UPRQ",
-                            "statistics": {
-                                "viewCount": "182774",
-                                "likeCount": "2290",
-                                "dislikeCount": "89",
-                                "favoriteCount": "0",
-                                "commentCount": "115"
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "kind": "youtube#searchResult",
-                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/UOMLvwKe3fZVaTGd7Wygfjg5phM\"",
-                "id": {
-                    "kind": "youtube#video",
-                    "videoId": "ipYW5S-q2AI"
-                },
-                "snippet": {
-                    "publishedAt": "2016-04-01T16:24:50.000Z",
-                    "channelId": "UC2wdQMR821--8iDiIlzt5OA",
-                    "title": "Knut Haanaes Two reasons companies fail and how to avoid them.",
+                    "publishedAt": "2013-11-30T03:37:56.000Z",
+                    "channelId": "UCHlvMRZkKj3R8tdax_P6T7g",
+                    "title": "[B2K] A thousand times &quot;no&quot; - Bahia Shehab (vietsub)",
                     "description": "",
                     "thumbnails": {
                         "default": {
-                            "url": "https://i.ytimg.com/vi/ipYW5S-q2AI/default.jpg",
+                            "url": "https://i.ytimg.com/vi/qZ0nxdmy3r4/default.jpg",
                             "width": 120,
                             "height": 90
                         },
                         "medium": {
-                            "url": "https://i.ytimg.com/vi/ipYW5S-q2AI/mqdefault.jpg",
+                            "url": "https://i.ytimg.com/vi/qZ0nxdmy3r4/mqdefault.jpg",
                             "width": 320,
                             "height": 180
                         },
                         "high": {
-                            "url": "https://i.ytimg.com/vi/ipYW5S-q2AI/hqdefault.jpg",
+                            "url": "https://i.ytimg.com/vi/qZ0nxdmy3r4/hqdefault.jpg",
                             "width": 480,
                             "height": 360
                         }
                     },
-                    "channelTitle": "Maikel Akkermans",
+                    "channelTitle": "Dự án BridToKnow",
                     "liveBroadcastContent": "none"
                 },
                 "stats": {
                     "kind": "youtube#videoListResponse",
-                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/vtxD5DS40OU38llC7aP_aP3Ljuo\"",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/ZRCwWwP8DaEHJAXmF-KsCAJu1UI\"",
                     "pageInfo": {
                         "totalResults": 1,
                         "resultsPerPage": 1
@@ -639,65 +694,10 @@
                     "items": [
                         {
                             "kind": "youtube#video",
-                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/xcw0hZpgeCnBisRDzgE2ztcimW8\"",
-                            "id": "ipYW5S-q2AI",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/nkVDhG8FyYlwtJoGmgW12rp5z5M\"",
+                            "id": "qZ0nxdmy3r4",
                             "statistics": {
-                                "viewCount": "1710",
-                                "likeCount": "4",
-                                "dislikeCount": "0",
-                                "favoriteCount": "0",
-                                "commentCount": "0"
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "kind": "youtube#searchResult",
-                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/nCFE4jOMTHsXOcY5tcBBZw7Bo-U\"",
-                "id": {
-                    "kind": "youtube#video",
-                    "videoId": "3-AtsyV18lg"
-                },
-                "snippet": {
-                    "publishedAt": "2017-04-20T15:15:07.000Z",
-                    "channelId": "UCnzGIsOibtIsNvZw08Ufjfg",
-                    "title": "Summary Points regarding &quot;Two Reasons Companies Fail - and how to avoid them&quot;",
-                    "description": "In a recent meeting with other business owners and company presidents we discussed a Ted talk by Knut Haanaes, \"Two Reasons Companies Fail - and how to ...",
-                    "thumbnails": {
-                        "default": {
-                            "url": "https://i.ytimg.com/vi/3-AtsyV18lg/default.jpg",
-                            "width": 120,
-                            "height": 90
-                        },
-                        "medium": {
-                            "url": "https://i.ytimg.com/vi/3-AtsyV18lg/mqdefault.jpg",
-                            "width": 320,
-                            "height": 180
-                        },
-                        "high": {
-                            "url": "https://i.ytimg.com/vi/3-AtsyV18lg/hqdefault.jpg",
-                            "width": 480,
-                            "height": 360
-                        }
-                    },
-                    "channelTitle": "Universal Accounting School",
-                    "liveBroadcastContent": "none"
-                },
-                "stats": {
-                    "kind": "youtube#videoListResponse",
-                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/btbA3ENepzzTmfNG1Qa0YtusJdU\"",
-                    "pageInfo": {
-                        "totalResults": 1,
-                        "resultsPerPage": 1
-                    },
-                    "items": [
-                        {
-                            "kind": "youtube#video",
-                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/d9aXknozqCfLCV1baDFggaqRxW8\"",
-                            "id": "3-AtsyV18lg",
-                            "statistics": {
-                                "viewCount": "77",
+                                "viewCount": "24",
                                 "likeCount": "1",
                                 "dislikeCount": "0",
                                 "favoriteCount": "0",
@@ -708,43 +708,43 @@
                 }
             }
         ],
-        "originalQuery": "Knut Haanaes: Two reasons companies fail    and how to avoid them"
+        "originalQuery": "Bahia Shehab: A thousand times no"
     },
     {
         "kind": "youtube#searchListResponse",
-        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/PwlSAfkPwxC2iQ0ytnHjts1DO34\"",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/-cqvmjzdXdrAUadInJAcet7EvGE\"",
         "nextPageToken": "CAMQAA",
         "regionCode": "US",
         "pageInfo": {
-            "totalResults": 822071,
+            "totalResults": 251,
             "resultsPerPage": 3
         },
         "items": [
             {
                 "kind": "youtube#searchResult",
-                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/nkuLtU8Hq7Lvz_HsxR-4BZ14pZU\"",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/znWEWZY8ppvJHc3Ujd4gw_0FnH0\"",
                 "id": {
                     "kind": "youtube#video",
-                    "videoId": "fxbCHn6gE3U"
+                    "videoId": "KVjkFq-7Y6A"
                 },
                 "snippet": {
-                    "publishedAt": "2016-04-26T15:28:18.000Z",
+                    "publishedAt": "2012-10-01T14:55:32.000Z",
                     "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
-                    "title": "The surprising habits of original thinkers | Adam Grant",
-                    "description": "How do creative people come up with great ideas? Organizational psychologist Adam Grant studies \"originals\": thinkers who dream up new ideas and take ...",
+                    "title": "Aris Venetikidis: Making sense of maps",
+                    "description": "Map designer Aris Venetikidis is fascinated by the maps we draw in our minds as we move around a city -- less like street maps, more like schematics or wiring ...",
                     "thumbnails": {
                         "default": {
-                            "url": "https://i.ytimg.com/vi/fxbCHn6gE3U/default.jpg",
+                            "url": "https://i.ytimg.com/vi/KVjkFq-7Y6A/default.jpg",
                             "width": 120,
                             "height": 90
                         },
                         "medium": {
-                            "url": "https://i.ytimg.com/vi/fxbCHn6gE3U/mqdefault.jpg",
+                            "url": "https://i.ytimg.com/vi/KVjkFq-7Y6A/mqdefault.jpg",
                             "width": 320,
                             "height": 180
                         },
                         "high": {
-                            "url": "https://i.ytimg.com/vi/fxbCHn6gE3U/hqdefault.jpg",
+                            "url": "https://i.ytimg.com/vi/KVjkFq-7Y6A/hqdefault.jpg",
                             "width": 480,
                             "height": 360
                         }
@@ -754,7 +754,7 @@
                 },
                 "stats": {
                     "kind": "youtube#videoListResponse",
-                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/1FEo4foY6kZ9qDsgJ67QwDrKk1k\"",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/BfhFBdrom5RqHovJqioW4WQlc6g\"",
                     "pageInfo": {
                         "totalResults": 1,
                         "resultsPerPage": 1
@@ -762,14 +762,14 @@
                     "items": [
                         {
                             "kind": "youtube#video",
-                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/0vV58Quif1zBWBwIFXVqyvzePdc\"",
-                            "id": "fxbCHn6gE3U",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/5KnH5dAcSCJPVz5VXEZtuT72VaE\"",
+                            "id": "KVjkFq-7Y6A",
                             "statistics": {
-                                "viewCount": "5651023",
-                                "likeCount": "131272",
-                                "dislikeCount": "2585",
+                                "viewCount": "51069",
+                                "likeCount": "481",
+                                "dislikeCount": "40",
                                 "favoriteCount": "0",
-                                "commentCount": "3764"
+                                "commentCount": "74"
                             }
                         }
                     ]
@@ -777,39 +777,39 @@
             },
             {
                 "kind": "youtube#searchResult",
-                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/5Xa9qmiYOIgVzXjvwG0dwCDLCNc\"",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/TNtREAm4W1FUC0Re-wJONkNDx4I\"",
                 "id": {
                     "kind": "youtube#video",
-                    "videoId": "PHBMFuqJSYw"
+                    "videoId": "eNC1h5H5cJA"
                 },
                 "snippet": {
-                    "publishedAt": "2017-02-16T17:15:15.000Z",
-                    "channelId": "UCctkeBNtFIOn7Yl_9TTj_4w",
-                    "title": "Adam Grant: Six Ways to be an ‘Original’  [Entire Talk]",
-                    "description": "University of Pennsylvania Professor Adam Grant, one of today's most influential management thinkers, shares the top six takeaways from his book “Originals: ...",
+                    "publishedAt": "2012-09-20T05:37:15.000Z",
+                    "channelId": "UCsT0YIqwnpJCM-mx7-gSA4Q",
+                    "title": "Getting From A to B: Aris Venetikidis at TEDxDublin",
+                    "description": "TEDxDublin was hosted by Science Gallery at the Bord Gáis Energy Theatre on September 8th, 2012. http://www.TEDxDublin.com While studying at NCAD, Aris ...",
                     "thumbnails": {
                         "default": {
-                            "url": "https://i.ytimg.com/vi/PHBMFuqJSYw/default.jpg",
+                            "url": "https://i.ytimg.com/vi/eNC1h5H5cJA/default.jpg",
                             "width": 120,
                             "height": 90
                         },
                         "medium": {
-                            "url": "https://i.ytimg.com/vi/PHBMFuqJSYw/mqdefault.jpg",
+                            "url": "https://i.ytimg.com/vi/eNC1h5H5cJA/mqdefault.jpg",
                             "width": 320,
                             "height": 180
                         },
                         "high": {
-                            "url": "https://i.ytimg.com/vi/PHBMFuqJSYw/hqdefault.jpg",
+                            "url": "https://i.ytimg.com/vi/eNC1h5H5cJA/hqdefault.jpg",
                             "width": 480,
                             "height": 360
                         }
                     },
-                    "channelTitle": "Stanford eCorner",
+                    "channelTitle": "TEDx Talks",
                     "liveBroadcastContent": "none"
                 },
                 "stats": {
                     "kind": "youtube#videoListResponse",
-                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/c1JaWjbphklrs-i1-cdAlH8GwSY\"",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/3awdWRK-LYUI06eme9TPI0u1pgg\"",
                     "pageInfo": {
                         "totalResults": 1,
                         "resultsPerPage": 1
@@ -817,12 +817,365 @@
                     "items": [
                         {
                             "kind": "youtube#video",
-                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/OZ6w9dSyfbBdlAhncu-kPfpxPDY\"",
-                            "id": "PHBMFuqJSYw",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/VCKEiMGvGo-HlnBnOiyUcqpYMag\"",
+                            "id": "eNC1h5H5cJA",
                             "statistics": {
-                                "viewCount": "19234",
-                                "likeCount": "232",
-                                "dislikeCount": "7",
+                                "viewCount": "4937",
+                                "likeCount": "43",
+                                "dislikeCount": "2",
+                                "favoriteCount": "0",
+                                "commentCount": "5"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/WnTxzcpkAclIQEStmI7Hbw2hga0\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "Vow11HYG7HQ"
+                },
+                "snippet": {
+                    "publishedAt": "2015-05-05T15:00:20.000Z",
+                    "channelId": "UCsT0YIqwnpJCM-mx7-gSA4Q",
+                    "title": "Free the map: creative, artistic and democratic mapmaking | Henk van Houtum | TEDxYouth@Maastricht",
+                    "description": "Maps are everywhere around us, but what do they actually mean? A passionate talk about the geopolitics of borders around the globe. In this talk, he will focus ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/Vow11HYG7HQ/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/Vow11HYG7HQ/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/Vow11HYG7HQ/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TEDx Talks",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/a480snPQKglyVfq-n2vZa7rCaAM\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/zabomhwoWJDopd5OW2HNQdmIzfQ\"",
+                            "id": "Vow11HYG7HQ",
+                            "statistics": {
+                                "viewCount": "9017",
+                                "likeCount": "90",
+                                "dislikeCount": "9",
+                                "favoriteCount": "0",
+                                "commentCount": "8"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Aris Venetikidis: Making sense of maps"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/qXheX6GnFLy8gd-1955ZHJE97Vk\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 472,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/9X4ApXU66TEXhN0gcnHWFupq1Do\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "8Z24LCysq3A"
+                },
+                "snippet": {
+                    "publishedAt": "2012-10-01T18:41:35.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Vicki Arroyo: Let&#39;s prepare for our new climate",
+                    "description": "Set aside the politics: Data shows that climate change is happening, measurably, now. And as Vicki Arroyo says, it's time to prepare our homes and cities for the ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/8Z24LCysq3A/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/8Z24LCysq3A/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/8Z24LCysq3A/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/h8I5q-dflCyPVKBIfbRb1e-VDJ4\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/f-dnEf476JLbCsJEOsorjZ_SZRw\"",
+                            "id": "8Z24LCysq3A",
+                            "statistics": {
+                                "viewCount": "77611",
+                                "likeCount": "808",
+                                "dislikeCount": "153",
+                                "favoriteCount": "0",
+                                "commentCount": "357"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/TNEnkpdDm8TtbGF0GHKW5YWX0p8\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "FezydIDavW4"
+                },
+                "snippet": {
+                    "publishedAt": "2018-08-31T13:41:05.000Z",
+                    "channelId": "UCOzfWnT6veqbYZqdGiuBe8w",
+                    "title": "Vicki Arroyo on climate disasters",
+                    "description": "Vicki Arroyo is the executive director of the Georgetown Climate Center of Georgetown University Law Center. She studies preparedness and resiliency with ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/FezydIDavW4/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/FezydIDavW4/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/FezydIDavW4/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "poptech",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/rTzU42MFrfKhKyUUTR-UXRhy47w\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/rYohhjkbSGLPXkJdVo4ZHtZLU8A\"",
+                            "id": "FezydIDavW4",
+                            "statistics": {
+                                "viewCount": "107",
+                                "favoriteCount": "0"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/ulqnIT3OQ4q0r-brNSZf08pv9EY\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "va50ot0pzZU"
+                },
+                "snippet": {
+                    "publishedAt": "2016-11-10T16:16:44.000Z",
+                    "channelId": "UCzqBIeA0IUWQxGFzk2txshg",
+                    "title": "Vicki Arroyo  Preparémonos para el  nuevo clima 2012",
+                    "description": "",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/va50ot0pzZU/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/va50ot0pzZU/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/va50ot0pzZU/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "ELITE CONSULTORIA EMPRESARIAL",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/HjkjiuzW1zUYUnQlncguURBkq3o\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/hhveFBW2JOFl3k_kO_KUf_3XQM8\"",
+                            "id": "va50ot0pzZU",
+                            "statistics": {
+                                "viewCount": "16",
+                                "likeCount": "1",
+                                "dislikeCount": "0",
+                                "favoriteCount": "0",
+                                "commentCount": "0"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Vicki Arroyo: Let's prepare for our new climate"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/_XTBAS3Ur5-4UDovhWSqMtLj2z0\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 903732,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/0K0DZlR13btr8eWzDEEQn2x3-o0\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "Ks-_Mh1QhMc"
+                },
+                "snippet": {
+                    "publishedAt": "2012-10-01T15:27:35.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Your body language may shape who you are | Amy Cuddy",
+                    "description": "Body language affects how others see us, but it may also change how we see ourselves. Social psychologist Amy Cuddy argues that \"power posing\" -- standing ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/Ks-_Mh1QhMc/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/Ks-_Mh1QhMc/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/Ks-_Mh1QhMc/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/DI8pKTaOjKewm00KVQ7Ghcb9tsQ\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/YkMQoUXt48z2bfVNLG9snCCGsI0\"",
+                            "id": "Ks-_Mh1QhMc",
+                            "statistics": {
+                                "viewCount": "17216089",
+                                "likeCount": "239410",
+                                "dislikeCount": "4786",
+                                "favoriteCount": "0",
+                                "commentCount": "7811"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/s57K9mzUNz7NgCAsbtPrJieHo70\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "S3nlgbVxNfA"
+                },
+                "snippet": {
+                    "publishedAt": "2016-01-15T21:13:10.000Z",
+                    "channelId": "UCb2ppIPBpEtLUk4Q2TTWYbA",
+                    "title": "Amy Cuddy - Your Body Language Shapes Who You Are",
+                    "description": "Lichaamstaal is van invloed op hoe anderen ons zien, maar het kan ook veranderen hoe we onszelf zien. Sociaal psycholoog Amy Cuddy toont hoe ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/S3nlgbVxNfA/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/S3nlgbVxNfA/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/S3nlgbVxNfA/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "BijOeben.nl",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/AGwUTh_qQIk_ptMSJ-Beuh_vmXo\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/8BHq5B-ZBYvrLgK_je4Y3dT9sBg\"",
+                            "id": "S3nlgbVxNfA",
+                            "statistics": {
+                                "viewCount": "37447",
+                                "likeCount": "231",
+                                "dislikeCount": "8",
                                 "favoriteCount": "0",
                                 "commentCount": "3"
                             }
@@ -832,39 +1185,39 @@
             },
             {
                 "kind": "youtube#searchResult",
-                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/2Hj6qQ1n55Fuufqbk71RdMcZqBw\"",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/0uNg1PRzdYdIVf_I6nYUp7zBZ5c\"",
                 "id": {
                     "kind": "youtube#video",
-                    "videoId": "GjUEcVgiq6g"
+                    "videoId": "n-40mUaJtWs"
                 },
                 "snippet": {
-                    "publishedAt": "2016-04-19T13:08:32.000Z",
-                    "channelId": "UC7I2tPHtve2GtBKJwvhF1Wg",
-                    "title": "Adam Grant  | 3 Surprising habits of Original Thinkers (Short Summary)",
-                    "description": "In this short edited version of Adam Grant's TED talk, we focus on his three key takeaways about Original Thinkers: 1. Original thinkers are late to the game -They ...",
+                    "publishedAt": "2018-02-15T14:07:41.000Z",
+                    "channelId": "UC2Pl_U7fBVPlLS4DVKafBcw",
+                    "title": "Amy Cuddy: Your body language may shape who you are",
+                    "description": "The McGraw Show: ktrs.com.",
                     "thumbnails": {
                         "default": {
-                            "url": "https://i.ytimg.com/vi/GjUEcVgiq6g/default.jpg",
+                            "url": "https://i.ytimg.com/vi/n-40mUaJtWs/default.jpg",
                             "width": 120,
                             "height": 90
                         },
                         "medium": {
-                            "url": "https://i.ytimg.com/vi/GjUEcVgiq6g/mqdefault.jpg",
+                            "url": "https://i.ytimg.com/vi/n-40mUaJtWs/mqdefault.jpg",
                             "width": 320,
                             "height": 180
                         },
                         "high": {
-                            "url": "https://i.ytimg.com/vi/GjUEcVgiq6g/hqdefault.jpg",
+                            "url": "https://i.ytimg.com/vi/n-40mUaJtWs/hqdefault.jpg",
                             "width": 480,
                             "height": 360
                         }
                     },
-                    "channelTitle": "QuickTalks",
+                    "channelTitle": "550KTRSTV",
                     "liveBroadcastContent": "none"
                 },
                 "stats": {
                     "kind": "youtube#videoListResponse",
-                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/DcIRyjIMQmYj2UCx3zYovFc68kk\"",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/r5M2lQJVeSKGDtni7P9p_3y6C2k\"",
                     "pageInfo": {
                         "totalResults": 1,
                         "resultsPerPage": 1
@@ -872,364 +1225,11 @@
                     "items": [
                         {
                             "kind": "youtube#video",
-                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/hhGRoALOf_PWGW2x2Tp1EiOzzB0\"",
-                            "id": "GjUEcVgiq6g",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/h7qK2aJ4Dzpx2aEE8lEnR41tsI4\"",
+                            "id": "n-40mUaJtWs",
                             "statistics": {
-                                "viewCount": "6385",
-                                "likeCount": "79",
-                                "dislikeCount": "1",
-                                "favoriteCount": "0",
-                                "commentCount": "2"
-                            }
-                        }
-                    ]
-                }
-            }
-        ],
-        "originalQuery": "Adam Grant: The surprising habits of original thinkers"
-    },
-    {
-        "kind": "youtube#searchListResponse",
-        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/JdWkkQTBrvE-QV3peA2CGk5Qyf4\"",
-        "nextPageToken": "CAMQAA",
-        "regionCode": "US",
-        "pageInfo": {
-            "totalResults": 75,
-            "resultsPerPage": 3
-        },
-        "items": [
-            {
-                "kind": "youtube#searchResult",
-                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/0-kPdKVX7bUNaP1nuI2ncHa_sbg\"",
-                "id": {
-                    "kind": "youtube#video",
-                    "videoId": "3OgsRa7VDtI"
-                },
-                "snippet": {
-                    "publishedAt": "2016-04-25T14:23:37.000Z",
-                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
-                    "title": "How a start-up in the White House is changing business as usual | Haley Van Dyck",
-                    "description": "Haley Van Dyck is transforming the way America delivers critical services to everyday people. At the United States Digital Service, Van Dyck and her team are ...",
-                    "thumbnails": {
-                        "default": {
-                            "url": "https://i.ytimg.com/vi/3OgsRa7VDtI/default.jpg",
-                            "width": 120,
-                            "height": 90
-                        },
-                        "medium": {
-                            "url": "https://i.ytimg.com/vi/3OgsRa7VDtI/mqdefault.jpg",
-                            "width": 320,
-                            "height": 180
-                        },
-                        "high": {
-                            "url": "https://i.ytimg.com/vi/3OgsRa7VDtI/hqdefault.jpg",
-                            "width": 480,
-                            "height": 360
-                        }
-                    },
-                    "channelTitle": "TED",
-                    "liveBroadcastContent": "none"
-                },
-                "stats": {
-                    "kind": "youtube#videoListResponse",
-                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Hd36JJCnrgXht4uMAE8IP34rmFM\"",
-                    "pageInfo": {
-                        "totalResults": 1,
-                        "resultsPerPage": 1
-                    },
-                    "items": [
-                        {
-                            "kind": "youtube#video",
-                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/-KDmeUqkeK3uY5KJjE9NpbY75zQ\"",
-                            "id": "3OgsRa7VDtI",
-                            "statistics": {
-                                "viewCount": "68739",
-                                "likeCount": "846",
-                                "dislikeCount": "272",
-                                "favoriteCount": "0",
-                                "commentCount": "160"
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "kind": "youtube#searchResult",
-                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/w9KPnO2rJSqbKyvS7cyZOfOG7ms\"",
-                "id": {
-                    "kind": "youtube#video",
-                    "videoId": "YkGruh4wkLQ"
-                },
-                "snippet": {
-                    "publishedAt": "2015-06-08T14:15:22.000Z",
-                    "channelId": "UC0XEyA5oRIKnp7jkGrYw8ZQ",
-                    "title": "Haley Van Dyck | The U.S. Digital Service: An Improbable Public Interest Startup",
-                    "description": "Haley Van Dyck is the co-founder of the U.S. Digital Service. In her PDF 15 talk, she explores the notion that the failure of HealthCare.gov was also an ...",
-                    "thumbnails": {
-                        "default": {
-                            "url": "https://i.ytimg.com/vi/YkGruh4wkLQ/default.jpg",
-                            "width": 120,
-                            "height": 90
-                        },
-                        "medium": {
-                            "url": "https://i.ytimg.com/vi/YkGruh4wkLQ/mqdefault.jpg",
-                            "width": 320,
-                            "height": 180
-                        },
-                        "high": {
-                            "url": "https://i.ytimg.com/vi/YkGruh4wkLQ/hqdefault.jpg",
-                            "width": 480,
-                            "height": 360
-                        }
-                    },
-                    "channelTitle": "PdF YouTube",
-                    "liveBroadcastContent": "none"
-                },
-                "stats": {
-                    "kind": "youtube#videoListResponse",
-                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/WYWHZmCh1nj6u6jKbTfog2SlyTE\"",
-                    "pageInfo": {
-                        "totalResults": 1,
-                        "resultsPerPage": 1
-                    },
-                    "items": [
-                        {
-                            "kind": "youtube#video",
-                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/uumpZNJg84b5rd5XtRfBvY_2o_E\"",
-                            "id": "YkGruh4wkLQ",
-                            "statistics": {
-                                "viewCount": "3986",
-                                "likeCount": "15",
-                                "dislikeCount": "1",
-                                "favoriteCount": "0",
-                                "commentCount": "1"
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "kind": "youtube#searchResult",
-                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/7nQeoOb2gV61Vo-MnIS7gOeJZRw\"",
-                "id": {
-                    "kind": "youtube#video",
-                    "videoId": "XwZch3wi_sc"
-                },
-                "snippet": {
-                    "publishedAt": "2011-08-26T20:24:57.000Z",
-                    "channelId": "UC6H1U6DaBOZjqmunn0w0I5A",
-                    "title": "Haley Van Dyck GovLoop Insights Interview",
-                    "description": "GovLoop Insightsand Chris Dorobek sat down with USAID's Director for Digital Strategy & Engagement Haley Van Dyck to talk about the challenges facing ...",
-                    "thumbnails": {
-                        "default": {
-                            "url": "https://i.ytimg.com/vi/XwZch3wi_sc/default.jpg",
-                            "width": 120,
-                            "height": 90
-                        },
-                        "medium": {
-                            "url": "https://i.ytimg.com/vi/XwZch3wi_sc/mqdefault.jpg",
-                            "width": 320,
-                            "height": 180
-                        },
-                        "high": {
-                            "url": "https://i.ytimg.com/vi/XwZch3wi_sc/hqdefault.jpg",
-                            "width": 480,
-                            "height": 360
-                        }
-                    },
-                    "channelTitle": "Stephen Ressler",
-                    "liveBroadcastContent": "none"
-                },
-                "stats": {
-                    "kind": "youtube#videoListResponse",
-                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/eeqCXA_aEcolK5ZqhjlSIMj90N0\"",
-                    "pageInfo": {
-                        "totalResults": 1,
-                        "resultsPerPage": 1
-                    },
-                    "items": [
-                        {
-                            "kind": "youtube#video",
-                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/dsPG7LS9K3sJnJ81jPga3UkjoGM\"",
-                            "id": "XwZch3wi_sc",
-                            "statistics": {
-                                "viewCount": "1686",
-                                "likeCount": "4",
-                                "dislikeCount": "0",
-                                "favoriteCount": "0",
-                                "commentCount": "1"
-                            }
-                        }
-                    ]
-                }
-            }
-        ],
-        "originalQuery": "Haley Van Dyck: How a start up in the White House is changing business as usual"
-    },
-    {
-        "kind": "youtube#searchListResponse",
-        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/1MUbJ4aHMX5lqjLMjtFONHy7BFk\"",
-        "nextPageToken": "CAMQAA",
-        "regionCode": "US",
-        "pageInfo": {
-            "totalResults": 1025,
-            "resultsPerPage": 3
-        },
-        "items": [
-            {
-                "kind": "youtube#searchResult",
-                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/DUowmdDY7h6kM8_qIuZ_Z45oaqw\"",
-                "id": {
-                    "kind": "youtube#video",
-                    "videoId": "U7y4GlmwPLQ"
-                },
-                "snippet": {
-                    "publishedAt": "2016-04-27T13:00:14.000Z",
-                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
-                    "title": "How megacities are changing the map of the world | Parag Khanna",
-                    "description": "\"I want you to reimagine how life is organized on earth,\" says global strategist Parag Khanna. As our expanding cities grow ever more connected through ...",
-                    "thumbnails": {
-                        "default": {
-                            "url": "https://i.ytimg.com/vi/U7y4GlmwPLQ/default.jpg",
-                            "width": 120,
-                            "height": 90
-                        },
-                        "medium": {
-                            "url": "https://i.ytimg.com/vi/U7y4GlmwPLQ/mqdefault.jpg",
-                            "width": 320,
-                            "height": 180
-                        },
-                        "high": {
-                            "url": "https://i.ytimg.com/vi/U7y4GlmwPLQ/hqdefault.jpg",
-                            "width": 480,
-                            "height": 360
-                        }
-                    },
-                    "channelTitle": "TED",
-                    "liveBroadcastContent": "none"
-                },
-                "stats": {
-                    "kind": "youtube#videoListResponse",
-                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/DVEpTkegdyuBdqX2I7qVks6tqX8\"",
-                    "pageInfo": {
-                        "totalResults": 1,
-                        "resultsPerPage": 1
-                    },
-                    "items": [
-                        {
-                            "kind": "youtube#video",
-                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/dgG1tYnelrMpPOBXQ9GogL5dvY4\"",
-                            "id": "U7y4GlmwPLQ",
-                            "statistics": {
-                                "viewCount": "181427",
-                                "likeCount": "4115",
-                                "dislikeCount": "256",
-                                "favoriteCount": "0",
-                                "commentCount": "495"
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "kind": "youtube#searchResult",
-                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/OM1yS-vDX-4x0eZe4t0PjhrmdxY\"",
-                "id": {
-                    "kind": "youtube#video",
-                    "videoId": "56oQat736GY"
-                },
-                "snippet": {
-                    "publishedAt": "2016-04-20T14:06:04.000Z",
-                    "channelId": "UCEYZuV-sGimRQWtlmhe3JNg",
-                    "title": "How megacities are changing the map of the world | Parag Khanna",
-                    "description": "I want you to reimagine how life is organized on earth,\" says global strategist Parag Khanna. As our expanding cities grow ever more connected through ...",
-                    "thumbnails": {
-                        "default": {
-                            "url": "https://i.ytimg.com/vi/56oQat736GY/default.jpg",
-                            "width": 120,
-                            "height": 90
-                        },
-                        "medium": {
-                            "url": "https://i.ytimg.com/vi/56oQat736GY/mqdefault.jpg",
-                            "width": 320,
-                            "height": 180
-                        },
-                        "high": {
-                            "url": "https://i.ytimg.com/vi/56oQat736GY/hqdefault.jpg",
-                            "width": 480,
-                            "height": 360
-                        }
-                    },
-                    "channelTitle": "Dr. Parag Khanna",
-                    "liveBroadcastContent": "none"
-                },
-                "stats": {
-                    "kind": "youtube#videoListResponse",
-                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/bq4r2GVYO0_B0HZqZ9GUrzEhsCg\"",
-                    "pageInfo": {
-                        "totalResults": 1,
-                        "resultsPerPage": 1
-                    },
-                    "items": [
-                        {
-                            "kind": "youtube#video",
-                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/6Oyqv5xezR2ZPMnA_KXy-FQE8jE\"",
-                            "id": "56oQat736GY",
-                            "statistics": {
-                                "viewCount": "3482",
-                                "favoriteCount": "0"
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "kind": "youtube#searchResult",
-                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Sst0qv7PgaFKmWwjJMl7z9p1W7M\"",
-                "id": {
-                    "kind": "youtube#video",
-                    "videoId": "KodPQKfdiy4"
-                },
-                "snippet": {
-                    "publishedAt": "2016-06-25T16:54:29.000Z",
-                    "channelId": "UCC5hogwEcxC1CkXHAwHuYEg",
-                    "title": "Parag Khanna: How Megacities are Changing the Map of the World",
-                    "description": "Filmed at the 2016 ULI Asia Pacific Summit on June 16 in Shanghai, China. Geopolitical futurist Parag Khanna foresees a world in which megacities, supply ...",
-                    "thumbnails": {
-                        "default": {
-                            "url": "https://i.ytimg.com/vi/KodPQKfdiy4/default.jpg",
-                            "width": 120,
-                            "height": 90
-                        },
-                        "medium": {
-                            "url": "https://i.ytimg.com/vi/KodPQKfdiy4/mqdefault.jpg",
-                            "width": 320,
-                            "height": 180
-                        },
-                        "high": {
-                            "url": "https://i.ytimg.com/vi/KodPQKfdiy4/hqdefault.jpg",
-                            "width": 480,
-                            "height": 360
-                        }
-                    },
-                    "channelTitle": "Urban Land Institute",
-                    "liveBroadcastContent": "none"
-                },
-                "stats": {
-                    "kind": "youtube#videoListResponse",
-                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/8cQ_3jdn-aVmt8rZtt9jKeY_A74\"",
-                    "pageInfo": {
-                        "totalResults": 1,
-                        "resultsPerPage": 1
-                    },
-                    "items": [
-                        {
-                            "kind": "youtube#video",
-                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/OH-LVpBC2NxzbKTjbzNukm_A69E\"",
-                            "id": "KodPQKfdiy4",
-                            "statistics": {
-                                "viewCount": "947",
-                                "likeCount": "10",
+                                "viewCount": "48",
+                                "likeCount": "0",
                                 "dislikeCount": "0",
                                 "favoriteCount": "0",
                                 "commentCount": "0"
@@ -1239,43 +1239,43 @@
                 }
             }
         ],
-        "originalQuery": "Parag Khanna: How megacities are changing the map of the world"
+        "originalQuery": "Amy Cuddy: Your body language may shape who you are"
     },
     {
         "kind": "youtube#searchListResponse",
-        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/R92w5ToFXcEqOzRHAkYACaWcddE\"",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/SOlMRlRmHtQ066-Asl4WAMQHSFw\"",
         "nextPageToken": "CAMQAA",
         "regionCode": "US",
         "pageInfo": {
-            "totalResults": 1685,
+            "totalResults": 7275,
             "resultsPerPage": 3
         },
         "items": [
             {
                 "kind": "youtube#searchResult",
-                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/4Y8JuMe9DPL9PP6e4xRvshN3Oeg\"",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/XeajCvR5FziCWKDgb2aYItTF8iw\"",
                 "id": {
                     "kind": "youtube#video",
-                    "videoId": "Z1R1z9ipFnM"
+                    "videoId": "qx6KK-eT4qw"
                 },
                 "snippet": {
-                    "publishedAt": "2016-04-28T15:47:47.000Z",
+                    "publishedAt": "2012-10-02T17:49:17.000Z",
                     "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
-                    "title": "The magic ingredient that brings Pixar movies to life | Danielle Feinberg",
-                    "description": "Danielle Feinberg, Pixar's director of photography, creates stories with soul and wonder using math, science and code. Go behind the scenes of Finding Nemo, ...",
+                    "title": "Robert Gupta: Between music and medicine",
+                    "description": "When Robert Gupta was caught between a career as a doctor and as a violinist, he realized his place was in the middle, with a bow in his hand and a sense of ...",
                     "thumbnails": {
                         "default": {
-                            "url": "https://i.ytimg.com/vi/Z1R1z9ipFnM/default.jpg",
+                            "url": "https://i.ytimg.com/vi/qx6KK-eT4qw/default.jpg",
                             "width": 120,
                             "height": 90
                         },
                         "medium": {
-                            "url": "https://i.ytimg.com/vi/Z1R1z9ipFnM/mqdefault.jpg",
+                            "url": "https://i.ytimg.com/vi/qx6KK-eT4qw/mqdefault.jpg",
                             "width": 320,
                             "height": 180
                         },
                         "high": {
-                            "url": "https://i.ytimg.com/vi/Z1R1z9ipFnM/hqdefault.jpg",
+                            "url": "https://i.ytimg.com/vi/qx6KK-eT4qw/hqdefault.jpg",
                             "width": 480,
                             "height": 360
                         }
@@ -1285,7 +1285,7 @@
                 },
                 "stats": {
                     "kind": "youtube#videoListResponse",
-                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/TAyZUo4lac-ITGP5Yn69r5CmlbY\"",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/06VDeY_8yu3LDJk29zUvxKtVx3g\"",
                     "pageInfo": {
                         "totalResults": 1,
                         "resultsPerPage": 1
@@ -1293,14 +1293,14 @@
                     "items": [
                         {
                             "kind": "youtube#video",
-                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/8LvM_70j-U8hLbNpcx_dPT6mqHk\"",
-                            "id": "Z1R1z9ipFnM",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/khslqO-3OxnT4kAtrgl9uvYBGGw\"",
+                            "id": "qx6KK-eT4qw",
                             "statistics": {
-                                "viewCount": "634474",
-                                "likeCount": "15088",
-                                "dislikeCount": "241",
+                                "viewCount": "91324",
+                                "likeCount": "1453",
+                                "dislikeCount": "53",
                                 "favoriteCount": "0",
-                                "commentCount": "434"
+                                "commentCount": "127"
                             }
                         }
                     ]
@@ -1308,39 +1308,39 @@
             },
             {
                 "kind": "youtube#searchResult",
-                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/RPvaihURqwtmRqVMc-EUfvS2PEM\"",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/vC-su8ZV1r-8NsYl7rsIbHoiQKA\"",
                 "id": {
                     "kind": "youtube#video",
-                    "videoId": "PIo1zNUZVi4"
+                    "videoId": "C_SBGTJgBGo"
                 },
                 "snippet": {
-                    "publishedAt": "2016-04-09T09:58:04.000Z",
-                    "channelId": "UCVo4j4Q_wXicyRmBJkoIukA",
-                    "title": "The Magic Ingredient that Brings Pixar Movies to Live",
-                    "description": "Awesome TED Talks about how Pixar bring their super-reality in their movies. So many attention to each detail. Just marvelous!",
+                    "publishedAt": "2010-03-26T16:07:14.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Robert Gupta: Music is medicine, music is sanity",
+                    "description": "http://www.ted.com Robert Gupta, violinist with the LA Philharmonic, talks about a violin lesson he once gave to a brilliant, schizophrenic musician -- and what he ...",
                     "thumbnails": {
                         "default": {
-                            "url": "https://i.ytimg.com/vi/PIo1zNUZVi4/default.jpg",
+                            "url": "https://i.ytimg.com/vi/C_SBGTJgBGo/default.jpg",
                             "width": 120,
                             "height": 90
                         },
                         "medium": {
-                            "url": "https://i.ytimg.com/vi/PIo1zNUZVi4/mqdefault.jpg",
+                            "url": "https://i.ytimg.com/vi/C_SBGTJgBGo/mqdefault.jpg",
                             "width": 320,
                             "height": 180
                         },
                         "high": {
-                            "url": "https://i.ytimg.com/vi/PIo1zNUZVi4/hqdefault.jpg",
+                            "url": "https://i.ytimg.com/vi/C_SBGTJgBGo/hqdefault.jpg",
                             "width": 480,
                             "height": 360
                         }
                     },
-                    "channelTitle": "Alexander Chauzov",
+                    "channelTitle": "TED",
                     "liveBroadcastContent": "none"
                 },
                 "stats": {
                     "kind": "youtube#videoListResponse",
-                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/6nahIiDEfGrBceOAnWx3DdD1JrY\"",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/aRnGdCHmnVJPo7lJJ_E9wHoiGRQ\"",
                     "pageInfo": {
                         "totalResults": 1,
                         "resultsPerPage": 1
@@ -1348,14 +1348,192 @@
                     "items": [
                         {
                             "kind": "youtube#video",
-                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/YUl-bycBqVkySd8rfomXbIbmvvk\"",
-                            "id": "PIo1zNUZVi4",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/XPFv8xFniSQw7GlvHRjNBhSrpfg\"",
+                            "id": "C_SBGTJgBGo",
                             "statistics": {
-                                "viewCount": "4180",
-                                "likeCount": "54",
+                                "viewCount": "78028",
+                                "likeCount": "826",
+                                "dislikeCount": "72",
+                                "favoriteCount": "0",
+                                "commentCount": "114"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/2Jk-WbeFStfbP5aRVdnDjLeOfIg\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "C2DtOWrJ7lM"
+                },
+                "snippet": {
+                    "publishedAt": "2010-09-17T22:39:57.000Z",
+                    "channelId": "UCBjBZmguQzn6WCYR7DQykLw",
+                    "title": "Robert Gupta: Music is medicine, music is sanity",
+                    "description": "Robert Gupta, violinist with the LA Philharmonic, talks about a violin lesson he once gave to a brilliant, schizophrenic musician -- and what he learned. Called ...",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/C2DtOWrJ7lM/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/C2DtOWrJ7lM/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/C2DtOWrJ7lM/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED Fellow",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/galTwQUH7oOUcdDUKzzC5yJ8bxU\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/_HabS_TnJ9OzBB685QnShfEVV48\"",
+                            "id": "C2DtOWrJ7lM",
+                            "statistics": {
+                                "viewCount": "10429",
+                                "likeCount": "127",
+                                "dislikeCount": "3",
+                                "favoriteCount": "0",
+                                "commentCount": "6"
+                            }
+                        }
+                    ]
+                }
+            }
+        ],
+        "originalQuery": "Robert Gupta: Between music and medicine"
+    },
+    {
+        "kind": "youtube#searchListResponse",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/wiR6KT3HgdV0apys02OMfAYbxh0\"",
+        "nextPageToken": "CAMQAA",
+        "regionCode": "US",
+        "pageInfo": {
+            "totalResults": 89,
+            "resultsPerPage": 3
+        },
+        "items": [
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/a768MOEikf4DC_fs3OjBJhXTF50\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "3F2jACWwKdU"
+                },
+                "snippet": {
+                    "publishedAt": "2012-10-03T17:01:57.000Z",
+                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
+                    "title": "Jason McCue: Terrorism is a failed brand",
+                    "description": "In this gripping talk, lawyer Jason McCue urges for a new way to attack terrorism, to weaken its credibility with those who are buying the product -- the recruits.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/3F2jACWwKdU/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/3F2jACWwKdU/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/3F2jACWwKdU/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "TED",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/dz8wmznjwBYtmtTizxbnpkmQjhg\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/0tOjFj10vH3ukp5-QlXBHUNwc_4\"",
+                            "id": "3F2jACWwKdU",
+                            "statistics": {
+                                "viewCount": "44062",
+                                "likeCount": "659",
+                                "dislikeCount": "174",
+                                "favoriteCount": "0",
+                                "commentCount": "250"
+                            }
+                        }
+                    ]
+                }
+            },
+            {
+                "kind": "youtube#searchResult",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/iJV73Vb1jyl2lciYJ4PnSjsxR5w\"",
+                "id": {
+                    "kind": "youtube#video",
+                    "videoId": "ev7sFjfDYEI"
+                },
+                "snippet": {
+                    "publishedAt": "2014-03-04T05:19:27.000Z",
+                    "channelId": "UCVMOhrOL-Q0MLN4PmL2YhJg",
+                    "title": "Torture and the War on Terror",
+                    "description": "In this episode of Public Occurrences, I debate David Frakt, a former defense attorney at Guantanamo over which is worse, torture or indefinite detention.",
+                    "thumbnails": {
+                        "default": {
+                            "url": "https://i.ytimg.com/vi/ev7sFjfDYEI/default.jpg",
+                            "width": 120,
+                            "height": 90
+                        },
+                        "medium": {
+                            "url": "https://i.ytimg.com/vi/ev7sFjfDYEI/mqdefault.jpg",
+                            "width": 320,
+                            "height": 180
+                        },
+                        "high": {
+                            "url": "https://i.ytimg.com/vi/ev7sFjfDYEI/hqdefault.jpg",
+                            "width": 480,
+                            "height": 360
+                        }
+                    },
+                    "channelTitle": "Public Occurrences",
+                    "liveBroadcastContent": "none"
+                },
+                "stats": {
+                    "kind": "youtube#videoListResponse",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/2IY1Ge3bk32FIG97qXbbn5KQvuU\"",
+                    "pageInfo": {
+                        "totalResults": 1,
+                        "resultsPerPage": 1
+                    },
+                    "items": [
+                        {
+                            "kind": "youtube#video",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/BZKhpvyRp5n0aSVJSXQKWUrKfWM\"",
+                            "id": "ev7sFjfDYEI",
+                            "statistics": {
+                                "viewCount": "56",
+                                "likeCount": "0",
                                 "dislikeCount": "0",
                                 "favoriteCount": "0",
-                                "commentCount": "1"
+                                "commentCount": "0"
                             }
                         }
                     ]
@@ -1363,39 +1541,39 @@
             },
             {
                 "kind": "youtube#searchResult",
-                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/OAw9fSdwGmCoLEJcW54jy3wB8ng\"",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/0g1dD918MYLBgEn3ea68M80PFX8\"",
                 "id": {
                     "kind": "youtube#video",
-                    "videoId": "R24pNW60OEQ"
+                    "videoId": "lell9lE-qnY"
                 },
                 "snippet": {
-                    "publishedAt": "2016-03-17T22:06:55.000Z",
-                    "channelId": "UCgyeJxD05YnoDquRMNBfBqw",
-                    "title": "TED TALKS | Science and Wonder | Danielle Feinberg: The Science of Light | PBS",
-                    "description": "In this excerpt from the PBS special TED Talks: Science and Wonder, Pixar's Director of Photography and Lighting Danielle Feinberg looks at the science and ...",
+                    "publishedAt": "2014-04-13T05:55:17.000Z",
+                    "channelId": "UCsT0YIqwnpJCM-mx7-gSA4Q",
+                    "title": "What is a terrorist: Petra Bartosiewicz at TEDxUofM",
+                    "description": "Petra Bartosiewicz is a freelance writer living in New York City. Her forthcoming book, \"The Best Terrorists We Could Find,\" is an investigation of terrorism trials in ...",
                     "thumbnails": {
                         "default": {
-                            "url": "https://i.ytimg.com/vi/R24pNW60OEQ/default.jpg",
+                            "url": "https://i.ytimg.com/vi/lell9lE-qnY/default.jpg",
                             "width": 120,
                             "height": 90
                         },
                         "medium": {
-                            "url": "https://i.ytimg.com/vi/R24pNW60OEQ/mqdefault.jpg",
+                            "url": "https://i.ytimg.com/vi/lell9lE-qnY/mqdefault.jpg",
                             "width": 320,
                             "height": 180
                         },
                         "high": {
-                            "url": "https://i.ytimg.com/vi/R24pNW60OEQ/hqdefault.jpg",
+                            "url": "https://i.ytimg.com/vi/lell9lE-qnY/hqdefault.jpg",
                             "width": 480,
                             "height": 360
                         }
                     },
-                    "channelTitle": "PBS",
+                    "channelTitle": "TEDx Talks",
                     "liveBroadcastContent": "none"
                 },
                 "stats": {
                     "kind": "youtube#videoListResponse",
-                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/kqEdcihBFizBynPsGY_E7F3wJ2E\"",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/YATof6x6ZBkBTBKtIG5Aoy6teFM\"",
                     "pageInfo": {
                         "totalResults": 1,
                         "resultsPerPage": 1
@@ -1403,57 +1581,57 @@
                     "items": [
                         {
                             "kind": "youtube#video",
-                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/-F_8Bk7PwVRTmBvfJSIcgv-zNVk\"",
-                            "id": "R24pNW60OEQ",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/hfQFNEQFB6LHX6ni2TZL38wPXn4\"",
+                            "id": "lell9lE-qnY",
                             "statistics": {
-                                "viewCount": "11916",
-                                "likeCount": "101",
-                                "dislikeCount": "1",
+                                "viewCount": "6358",
+                                "likeCount": "43",
+                                "dislikeCount": "0",
                                 "favoriteCount": "0",
-                                "commentCount": "2"
+                                "commentCount": "4"
                             }
                         }
                     ]
                 }
             }
         ],
-        "originalQuery": "Danielle Feinberg: The magic ingredient that brings Pixar movies to life"
+        "originalQuery": "Jason McCue: Terrorism is a failed brand"
     },
     {
         "kind": "youtube#searchListResponse",
-        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/nPiL6ml5IcMWRiplZRJ6wPljfE4\"",
+        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/8Up4fMABO_SqfVd0hM34aKaLj6U\"",
         "nextPageToken": "CAMQAA",
         "regionCode": "US",
         "pageInfo": {
-            "totalResults": 5845,
+            "totalResults": 343,
             "resultsPerPage": 3
         },
         "items": [
             {
                 "kind": "youtube#searchResult",
-                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/YQXTPgLo8VWbElHD5dxks1NkfVo\"",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/I_wzkEHBx2AUA2ORm5p01-udq1s\"",
                 "id": {
                     "kind": "youtube#video",
-                    "videoId": "gypAjPp6eps"
+                    "videoId": "iE7YRHxwoDs"
                 },
                 "snippet": {
-                    "publishedAt": "2016-04-29T16:32:01.000Z",
+                    "publishedAt": "2012-10-04T16:06:40.000Z",
                     "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
-                    "title": "The most mysterious star in the universe | Tabetha Boyajian",
-                    "description": "Something massive, with roughly 1000 times the area of Earth, is blocking the light coming from a distant star known as KIC 8462852, and nobody is quite sure ...",
+                    "title": "Shimon Schocken: The self-organizing computer course",
+                    "description": "Shimon Schocken and Noam Nisan developed a curriculum for their students to build a computer, piece by piece. When they put the course online -- giving ...",
                     "thumbnails": {
                         "default": {
-                            "url": "https://i.ytimg.com/vi/gypAjPp6eps/default.jpg",
+                            "url": "https://i.ytimg.com/vi/iE7YRHxwoDs/default.jpg",
                             "width": 120,
                             "height": 90
                         },
                         "medium": {
-                            "url": "https://i.ytimg.com/vi/gypAjPp6eps/mqdefault.jpg",
+                            "url": "https://i.ytimg.com/vi/iE7YRHxwoDs/mqdefault.jpg",
                             "width": 320,
                             "height": 180
                         },
                         "high": {
-                            "url": "https://i.ytimg.com/vi/gypAjPp6eps/hqdefault.jpg",
+                            "url": "https://i.ytimg.com/vi/iE7YRHxwoDs/hqdefault.jpg",
                             "width": 480,
                             "height": 360
                         }
@@ -1463,7 +1641,7 @@
                 },
                 "stats": {
                     "kind": "youtube#videoListResponse",
-                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/vKOQi2Z2zGBZiCn1muC80MwKJ-U\"",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/LvP9Ng7xiXBiUbdjqaobBy9RcUU\"",
                     "pageInfo": {
                         "totalResults": 1,
                         "resultsPerPage": 1
@@ -1471,14 +1649,14 @@
                     "items": [
                         {
                             "kind": "youtube#video",
-                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Tkw2Z1uuCFnP-vr6bnKU2H4j-5o\"",
-                            "id": "gypAjPp6eps",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/JGPFp7lea8YqtQXOsCrqXlNML3c\"",
+                            "id": "iE7YRHxwoDs",
                             "statistics": {
-                                "viewCount": "5096881",
-                                "likeCount": "58601",
-                                "dislikeCount": "5805",
+                                "viewCount": "88890",
+                                "likeCount": "2182",
+                                "dislikeCount": "47",
                                 "favoriteCount": "0",
-                                "commentCount": "11895"
+                                "commentCount": "148"
                             }
                         }
                     ]
@@ -1486,39 +1664,39 @@
             },
             {
                 "kind": "youtube#searchResult",
-                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/ZM3H6t_JzlgARiGOT4X6L2iNs-8\"",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/scyh-xFWcb--ng3C_usght6Bbs0\"",
                 "id": {
                     "kind": "youtube#video",
-                    "videoId": "4V9GIji4pY4"
+                    "videoId": "IlPj5Rg1y2w"
                 },
                 "snippet": {
-                    "publishedAt": "2016-10-14T19:00:00.000Z",
-                    "channelId": "UCrMePiHCWG4Vwqv3t7W9EFg",
-                    "title": "Tabby&#39;s Strange Star Just Got Stranger",
-                    "description": "It's been a year since astronomer Tabetha Boyaijan found strange signals coming from a star called KIC 8462852, aka Tabby's Star. Now, new research shows ...",
+                    "publishedAt": "2012-08-22T21:12:26.000Z",
+                    "channelId": "UCt-N6BZ25OHGoWHzfvlPhOg",
+                    "title": "From Nand to Tetris in 12 steps",
+                    "description": "Google Tech Talks October 10, 2007 ABSTRACT We describe a new approach and a course that aims to demystify the integrated function of computer systems, ...",
                     "thumbnails": {
                         "default": {
-                            "url": "https://i.ytimg.com/vi/4V9GIji4pY4/default.jpg",
+                            "url": "https://i.ytimg.com/vi/IlPj5Rg1y2w/default.jpg",
                             "width": 120,
                             "height": 90
                         },
                         "medium": {
-                            "url": "https://i.ytimg.com/vi/4V9GIji4pY4/mqdefault.jpg",
+                            "url": "https://i.ytimg.com/vi/IlPj5Rg1y2w/mqdefault.jpg",
                             "width": 320,
                             "height": 180
                         },
                         "high": {
-                            "url": "https://i.ytimg.com/vi/4V9GIji4pY4/hqdefault.jpg",
+                            "url": "https://i.ytimg.com/vi/IlPj5Rg1y2w/hqdefault.jpg",
                             "width": 480,
                             "height": 360
                         }
                     },
-                    "channelTitle": "SciShow Space",
+                    "channelTitle": "GoogleTalksArchive",
                     "liveBroadcastContent": "none"
                 },
                 "stats": {
                     "kind": "youtube#videoListResponse",
-                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/fMMDa9NJDveNNUn_Mk32VUn05YU\"",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Avup1He7IJIfQaVqTnmR-LsCI4A\"",
                     "pageInfo": {
                         "totalResults": 1,
                         "resultsPerPage": 1
@@ -1526,14 +1704,14 @@
                     "items": [
                         {
                             "kind": "youtube#video",
-                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/FRiU67-mQz-QYohYhgyPIXd2X3c\"",
-                            "id": "4V9GIji4pY4",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/_ZZeQ8DkMrzBeV_o4p8Mdh4EUEA\"",
+                            "id": "IlPj5Rg1y2w",
                             "statistics": {
-                                "viewCount": "428601",
-                                "likeCount": "10232",
-                                "dislikeCount": "356",
+                                "viewCount": "48654",
+                                "likeCount": "511",
+                                "dislikeCount": "6",
                                 "favoriteCount": "0",
-                                "commentCount": "1081"
+                                "commentCount": "23"
                             }
                         }
                     ]
@@ -1541,39 +1719,39 @@
             },
             {
                 "kind": "youtube#searchResult",
-                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/ObVi8FwgyAuFe9SkmBWFQQR--kw\"",
+                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/CPgAQgtuQBJuTRK5L8LdV_LmZL4\"",
                 "id": {
                     "kind": "youtube#video",
-                    "videoId": "w-53zWPLRzE"
+                    "videoId": "I0cicacPT2w"
                 },
                 "snippet": {
-                    "publishedAt": "2018-01-15T13:30:02.000Z",
-                    "channelId": "UC-2YHgc363EdcusLIBbgxzg",
-                    "title": "Tabby&#39;s Star - A Mystery Finally Solved? | Answers With Joe",
-                    "description": "Tabby's Star, or KIC 8462852, took the internet by storm when it was speculated that it could be the home of an alien megastructure. But recent research seems ...",
+                    "publishedAt": "2013-03-08T17:13:40.000Z",
+                    "channelId": "UCUSGXxlEFIHTmVZGSg2nnLA",
+                    "title": "Shimon Schocken: Coding",
+                    "description": "",
                     "thumbnails": {
                         "default": {
-                            "url": "https://i.ytimg.com/vi/w-53zWPLRzE/default.jpg",
+                            "url": "https://i.ytimg.com/vi/I0cicacPT2w/default.jpg",
                             "width": 120,
                             "height": 90
                         },
                         "medium": {
-                            "url": "https://i.ytimg.com/vi/w-53zWPLRzE/mqdefault.jpg",
+                            "url": "https://i.ytimg.com/vi/I0cicacPT2w/mqdefault.jpg",
                             "width": 320,
                             "height": 180
                         },
                         "high": {
-                            "url": "https://i.ytimg.com/vi/w-53zWPLRzE/hqdefault.jpg",
+                            "url": "https://i.ytimg.com/vi/I0cicacPT2w/hqdefault.jpg",
                             "width": 480,
                             "height": 360
                         }
                     },
-                    "channelTitle": "Joe Scott",
+                    "channelTitle": "Barbara Mikulecky",
                     "liveBroadcastContent": "none"
                 },
                 "stats": {
                     "kind": "youtube#videoListResponse",
-                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/cJ-4kvrbYDwlvddEWGOZTItLyMY\"",
+                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/outRSHbNEq4gY7LukBfUISMvRgQ\"",
                     "pageInfo": {
                         "totalResults": 1,
                         "resultsPerPage": 1
@@ -1581,189 +1759,11 @@
                     "items": [
                         {
                             "kind": "youtube#video",
-                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/PMnaxCKAluIqjSY5mblSNrUGFSg\"",
-                            "id": "w-53zWPLRzE",
+                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/OoPIxuv-aFwO8U096z6P2SLbvYY\"",
+                            "id": "I0cicacPT2w",
                             "statistics": {
-                                "viewCount": "368910",
-                                "likeCount": "8933",
-                                "dislikeCount": "315",
-                                "favoriteCount": "0",
-                                "commentCount": "915"
-                            }
-                        }
-                    ]
-                }
-            }
-        ],
-        "originalQuery": "Tabetha Boyajian: The most mysterious star in the universe"
-    },
-    {
-        "kind": "youtube#searchListResponse",
-        "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Y0U3NUuZ8u7a92VCDjUJf7fsgdw\"",
-        "nextPageToken": "CAMQAA",
-        "regionCode": "US",
-        "pageInfo": {
-            "totalResults": 349,
-            "resultsPerPage": 3
-        },
-        "items": [
-            {
-                "kind": "youtube#searchResult",
-                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/C9ws3Ak00SVrNEZUgNkMMQyyxKg\"",
-                "id": {
-                    "kind": "youtube#video",
-                    "videoId": "10MvdLL2EpY"
-                },
-                "snippet": {
-                    "publishedAt": "2016-05-02T15:45:34.000Z",
-                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
-                    "title": "The Panama Papers exposed a huge global problem. What&#39;s next? | Robert Palmer",
-                    "description": "On April 3, 2016 we saw the largest data leak in history. The Panama Papers exposed rich and powerful people hiding vast amounts of money in offshore ...",
-                    "thumbnails": {
-                        "default": {
-                            "url": "https://i.ytimg.com/vi/10MvdLL2EpY/default.jpg",
-                            "width": 120,
-                            "height": 90
-                        },
-                        "medium": {
-                            "url": "https://i.ytimg.com/vi/10MvdLL2EpY/mqdefault.jpg",
-                            "width": 320,
-                            "height": 180
-                        },
-                        "high": {
-                            "url": "https://i.ytimg.com/vi/10MvdLL2EpY/hqdefault.jpg",
-                            "width": 480,
-                            "height": 360
-                        }
-                    },
-                    "channelTitle": "TED",
-                    "liveBroadcastContent": "none"
-                },
-                "stats": {
-                    "kind": "youtube#videoListResponse",
-                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/P-EkT0OKzcV7hC16H1a2tMtvSYQ\"",
-                    "pageInfo": {
-                        "totalResults": 1,
-                        "resultsPerPage": 1
-                    },
-                    "items": [
-                        {
-                            "kind": "youtube#video",
-                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/-0Tfmpe7-eDifv31A87d_AWg0cE\"",
-                            "id": "10MvdLL2EpY",
-                            "statistics": {
-                                "viewCount": "131933",
-                                "likeCount": "2633",
-                                "dislikeCount": "286",
-                                "favoriteCount": "0",
-                                "commentCount": "453"
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "kind": "youtube#searchResult",
-                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/Rpy9mzxMStLQkZLb8XzzEEUp9WE\"",
-                "id": {
-                    "kind": "youtube#video",
-                    "videoId": "qNvDRuGK84I"
-                },
-                "snippet": {
-                    "publishedAt": "2016-08-26T18:29:47.000Z",
-                    "channelId": "UCAuUUnT6oDeKwE6v1NGQxug",
-                    "title": "How the Panama Papers journalists broke the biggest leak in history | Gerard Ryle",
-                    "description": "Gerard Ryle led the international team that divulged the Panama Papers, the 11.5 million leaked documents from 40 years of activity of the Panamanian law firm ...",
-                    "thumbnails": {
-                        "default": {
-                            "url": "https://i.ytimg.com/vi/qNvDRuGK84I/default.jpg",
-                            "width": 120,
-                            "height": 90
-                        },
-                        "medium": {
-                            "url": "https://i.ytimg.com/vi/qNvDRuGK84I/mqdefault.jpg",
-                            "width": 320,
-                            "height": 180
-                        },
-                        "high": {
-                            "url": "https://i.ytimg.com/vi/qNvDRuGK84I/hqdefault.jpg",
-                            "width": 480,
-                            "height": 360
-                        }
-                    },
-                    "channelTitle": "TED",
-                    "liveBroadcastContent": "none"
-                },
-                "stats": {
-                    "kind": "youtube#videoListResponse",
-                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/ESLEQ26B2VrXznjg96DF1lkC9Q8\"",
-                    "pageInfo": {
-                        "totalResults": 1,
-                        "resultsPerPage": 1
-                    },
-                    "items": [
-                        {
-                            "kind": "youtube#video",
-                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/IcLfkkgD2JjKrh8Xt68rxqtbcww\"",
-                            "id": "qNvDRuGK84I",
-                            "statistics": {
-                                "viewCount": "87271",
-                                "likeCount": "1975",
-                                "dislikeCount": "64",
-                                "favoriteCount": "0",
-                                "commentCount": "188"
-                            }
-                        }
-                    ]
-                }
-            },
-            {
-                "kind": "youtube#searchResult",
-                "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/n8Y10HGpSsKDSYDjfvdmLG0Yz6A\"",
-                "id": {
-                    "kind": "youtube#video",
-                    "videoId": "Rs4BImtZ8vE"
-                },
-                "snippet": {
-                    "publishedAt": "2016-04-04T22:20:04.000Z",
-                    "channelId": "UC1_E8NeF5QHY2dtdLRBCCLA",
-                    "title": "&#39;Panama Papers&#39; tax fraud scandal: 18 Africans listed",
-                    "description": "The \"Panama Papers'' scandal, has not spared Africa. Former Sudanese President, Jacob Zuma's nephew, Kofi Annan's son, personal secretary to the King of ...",
-                    "thumbnails": {
-                        "default": {
-                            "url": "https://i.ytimg.com/vi/Rs4BImtZ8vE/default.jpg",
-                            "width": 120,
-                            "height": 90
-                        },
-                        "medium": {
-                            "url": "https://i.ytimg.com/vi/Rs4BImtZ8vE/mqdefault.jpg",
-                            "width": 320,
-                            "height": 180
-                        },
-                        "high": {
-                            "url": "https://i.ytimg.com/vi/Rs4BImtZ8vE/hqdefault.jpg",
-                            "width": 480,
-                            "height": 360
-                        }
-                    },
-                    "channelTitle": "africanews",
-                    "liveBroadcastContent": "none"
-                },
-                "stats": {
-                    "kind": "youtube#videoListResponse",
-                    "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/7TxE-ZnmAkhrSpVHlWt6dCgfS1s\"",
-                    "pageInfo": {
-                        "totalResults": 1,
-                        "resultsPerPage": 1
-                    },
-                    "items": [
-                        {
-                            "kind": "youtube#video",
-                            "etag": "\"j6xRRd8dTPVVptg711_CSPADRfg/pxhqmMotfGkAkJ_rPikXMHtKkpM\"",
-                            "id": "Rs4BImtZ8vE",
-                            "statistics": {
-                                "viewCount": "1025",
-                                "likeCount": "1",
+                                "viewCount": "18",
+                                "likeCount": "0",
                                 "dislikeCount": "0",
                                 "favoriteCount": "0",
                                 "commentCount": "0"
@@ -1773,6 +1773,6 @@
                 }
             }
         ],
-        "originalQuery": "Robert Palmer: The Panama Papers exposed a huge global problem. What's next?"
+        "originalQuery": "Shimon Schocken: The self organizing computer course"
     }
 ]
