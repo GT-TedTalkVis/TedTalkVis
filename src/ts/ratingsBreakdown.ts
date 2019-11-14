@@ -11,7 +11,6 @@ type NodeData = {
 // Returns path data for a rectangle with rounded top corners.
 // The bottom-left corner is ⟨x,y⟩.
 function topRoundedRect(x: number, y: number, width: number, height: number, radius: number): string {
-  console.log(height);
   let path = "M" + x + "," + y + "v" + (-height + radius);
   path += "a" + radius + "," + radius + " 0 0 1 " + radius + "," + -radius;
   path += "h" + (width - radius * 2);
@@ -48,8 +47,6 @@ export default function(div: d3.Selection<BaseType, unknown, HTMLElement, unknow
     // @ts-ignore
     const selectedTalkName = dropdown._groups[0][0].options[dropdown._groups[0][0].selectedIndex].value;
 
-    console.log(selectedTalkName);
-
     // Find selected row
     let selectedRow = 0;
     for (let i = 0; i < data.length; i++) {
@@ -74,7 +71,6 @@ export default function(div: d3.Selection<BaseType, unknown, HTMLElement, unknow
       .scaleLinear()
       .domain([0, ratingDomain[1]])
       .range([iconHeight / 2, height - iconHeight / 2]);
-    console.log(ratings);
 
     const tip = ToolTip()
       .attr("class", "d3-tip")
@@ -152,7 +148,7 @@ export default function(div: d3.Selection<BaseType, unknown, HTMLElement, unknow
     const pieTip = ToolTip()
       .attr("class", "d3-tip")
       .html((d: any) => {
-        return `${d.data.key.toUpperCase()}: ${(d.data.value / voteTotal).toFixed(2)}%`;
+        return `${d.data.key.toUpperCase()}: ${((+d.data.value / d.voteTotal) * 100).toFixed(1)}%`;
       });
 
     // set the color scale
@@ -167,6 +163,9 @@ export default function(div: d3.Selection<BaseType, unknown, HTMLElement, unknow
     // eslint-disable-next-line @typescript-eslint/ban-ts-ignore
     // @ts-ignore
     const pieData = pie(d3.entries(pieDataRaw));
+    pieData.forEach((d: any) => {
+      d.voteTotal = voteTotal;
+    });
 
     const pieEnter = d3
       .select(".ratingsSVG")
