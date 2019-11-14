@@ -1,6 +1,7 @@
 import * as d3 from "d3";
 import { BaseType } from "d3";
 import COLORS from "../colors";
+import ToolTip from "./ToolTip";
 
 // Accepts a d3.Selection as a parameter and modifies it.
 // This function expects the d3.Selection to be an SVG.
@@ -56,7 +57,13 @@ export default function(svg: d3.Selection<BaseType, unknown, HTMLElement, unknow
     .range([height, 0]);
   g.append("g").call(d3.axisLeft(y).tickFormat(d3.format("~s")));
 
-  // Append rectangles
+  const tip = ToolTip()
+    .attr("class", "d3-tip")
+    .html(function(d: any) {
+      return `${d.name}: ${d.views} views`;
+    });
+
+  // Append the rectangles
   g.selectAll("circle")
     .data(data)
     .enter()
@@ -66,7 +73,10 @@ export default function(svg: d3.Selection<BaseType, unknown, HTMLElement, unknow
     })
     .attr("r", 2)
     .style("opacity", "0.75")
-    .style("fill", COLORS.TEAL);
+    .style("fill", COLORS.TEAL)
+    .call(tip)
+    .on("mouseover", tip.show)
+    .on("mouseout", tip.hide);;
 
   // Append axis labels
   g.append("text")
