@@ -8,10 +8,10 @@ import ratingsBreakdown from "./ts/ratingsBreakdown";
 
 // Give each svg a variable name
 const svg1 = d3.select("svg.figure1");
-// const svg2 = d3.select("svg.figure2");
-// const svg3 = d3.select("svg.figure3");
-// const div4 = d3.select("div.figure4");
-// const ratingsDiv = d3.select("div.ratingsDiv");
+const svg2 = d3.select("svg.figure2");
+const svg3 = d3.select("svg.figure3");
+const div4 = d3.select("div.figure4");
+const ratingsDiv = d3.select("div.ratingsDiv");
 
 // Define data cleaner function
 function dataCleaner(data: d3.DSVRowArray<string>): void {
@@ -28,15 +28,15 @@ d3.csv("./data/ted_main_grouped_professions.csv").then(data => {
   dataCleaner(data);
 
   talkDate(svg1, data);
-  // tedSiteViews(svg2, data);
-  // ratingsBreakdown(ratingsDiv, data);
+  tedSiteViews(svg2, data);
+  ratingsBreakdown(ratingsDiv, data);
 });
 
-// d3.csv("./data/fk_scores.csv").then(data => {
-//   //console.log(data);
-//   readingLevel(svg3, data);
-// });
+d3.csv("./data/fk_scores.csv").then(data => {
+  //console.log(data);
+  readingLevel(svg3, data);
+});
 
-// d3.json("./data/profession_counts.json").then(data => {
-//   professions(div4, data);
-// });
+d3.json("./data/profession_counts.json").then(data => {
+  professions(div4, data);
+});
