@@ -70,7 +70,7 @@ export default function(div: d3.Selection<BaseType, unknown, HTMLElement, unknow
     const yScale = d3
       .scaleLinear()
       .domain([0, ratingDomain[1]])
-      .range([iconHeight / 2, height - iconHeight / 2]);
+      .range([0, height - iconHeight / 2]);
 
     const tip = ToolTip()
       .attr("class", "d3-tip")
