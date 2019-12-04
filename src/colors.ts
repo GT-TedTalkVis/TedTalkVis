@@ -15,7 +15,8 @@ const TED_RED = "#E62B1E"; // Used in the circle packing charts as circle fill (
 const BRIGHT_GREEN = "#13B100"; // Good ratings in the ratings breakdown
 const BRIGHT_RED = "#B10007"; // Bad ratings in the ratings breakdown
 const BRIGHT_ORANGE = "#B17D00"; // Mediocre ratings in ratings breakdown
+const HIGHLIGHT_COLOR = TEAL;
 
-const COLORS = { DARK_BG, LIGHTER_BG, LIGHT_GREY, TITLE_WHITE, TEAL, SELECTION_GREEN, TED_RED, BRIGHT_GREEN, BRIGHT_RED, BRIGHT_ORANGE };
+const COLORS = { DARK_BG, LIGHTER_BG, LIGHT_GREY, TITLE_WHITE, TEAL, SELECTION_GREEN, TED_RED, BRIGHT_GREEN, BRIGHT_RED, BRIGHT_ORANGE, HIGHLIGHT_COLOR };
 
 export default COLORS;
