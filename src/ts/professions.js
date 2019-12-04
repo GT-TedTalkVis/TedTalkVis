@@ -1,16 +1,11 @@
 import * as d3 from "d3";
-import { BaseType } from "d3";
 import COLORS from "../colors";
 import circlePackProfessions from "./circlePackProfessions";
 import treemapProfessions from "./treemapProfessions";
 
-type NodeData = {
-  [prop: string]: string;
-};
-
 // Accepts a d3.Selection as a parameter and modifies it.
 // This function expects the d3.Selection to be a div.
-export default function(div: d3.Selection<BaseType, unknown, HTMLElement, unknown>, data: d3.DSVRowArray<string>): void {
+export default function(div, data) {
   // Set dimensions and margins of svg + graph
   const margin = {
     top: 10,
@@ -28,7 +23,7 @@ export default function(div: d3.Selection<BaseType, unknown, HTMLElement, unknow
   div.append("hr").attr("color", COLORS.LIGHT_GREY);
 
   // Enables the dropdown menu to change the view.
-  function onProfessionViewChanged(): void {
+  function onProfessionViewChanged() {
     const dropdown = d3.select("#viewSelect");
 
     // eslint-disable-next-line @typescript-eslint/ban-ts-ignore
@@ -71,13 +66,13 @@ export default function(div: d3.Selection<BaseType, unknown, HTMLElement, unknow
   // Convert data to hierarchical form
   const root = d3
     .stratify()
-    .id(d => (d as NodeData).profession)
+    .id(d => d.profession)
     .parentId(d => {
-      if ((d as NodeData).profession != "Root") return "Root";
+      if (d.profession != "Root") return "Root";
       else return "";
     })(data)
-    .sum(d => +(d as NodeData).count)
-    .sort((a, b) => +(b.data as NodeData).count - +(a.data as NodeData).count);
+    .sum(d => +d.count)
+    .sort((a, b) => +b.data.count - +a.data.count);
 
   // Add both the circle packing and treemap plots to the svg
   circlePackProfessions(svg, root, svgWidth, svgHeight - margin.top * 2);

@@ -1,16 +1,12 @@
 import * as d3 from "d3";
-import { BaseType, ContainerElement } from "d3";
 import COLORS from "../colors";
 import imageSelector from "./imageSelector";
 import ToolTip from "./ToolTip";
 
-type NodeData = {
-  [prop: string]: string;
-};
 
 // Returns path data for a rectangle with rounded top corners.
 // The bottom-left corner is ⟨x,y⟩.
-function topRoundedRect(x: number, y: number, width: number, height: number, radius: number): string {
+function topRoundedRect(x, y, width, height, radius) {
   let path = "M" + x + "," + y + "v" + (-height + radius);
   path += "a" + radius + "," + radius + " 0 0 1 " + radius + "," + -radius;
   path += "h" + (width - radius * 2);
@@ -21,7 +17,7 @@ function topRoundedRect(x: number, y: number, width: number, height: number, rad
 
 // Accepts a d3.Selection as a parameter and modifies it.
 // This function expects the d3.Selection to be a div.
-export default function(div: d3.Selection<BaseType, unknown, HTMLElement, unknown>, data: d3.DSVRowArray<string>): void {
+export default function(div, data) {
   // Set dimensions and margins of svg + graph
   const margin = {
     top: 10,
@@ -40,7 +36,7 @@ export default function(div: d3.Selection<BaseType, unknown, HTMLElement, unknow
   const pieOuterRadius = height * 0.22;
   const pieInnerRadius = pieOuterRadius * 0.78;
 
-  function updateChart(): void {
+  function updateChart() {
     // Get ratings for selected talk or talks
     const dropdown = d3.select("#talkSelector");
     // eslint-disable-next-line @typescript-eslint/ban-ts-ignore
@@ -60,12 +56,12 @@ export default function(div: d3.Selection<BaseType, unknown, HTMLElement, unknow
     const rawString = data[selectedRow]["ratings"];
     const ratingsString = rawString.replace(/'/g, '"');
     const ratings = JSON.parse(ratingsString);
-    ratings.sort(function(a: { [x: string]: number }, b: { [x: string]: number }) {
+    ratings.sort(function(a, b) {
       return +b["count"] - +a["count"];
     });
     const numRatingCategories = ratings.length;
     const ratingsSpacing = (svgWidth - iconHeight * numRatingCategories) / (numRatingCategories + 1);
-    const ratingDomain = d3.extent(ratings, d => +(d as NodeData)["count"]);
+    const ratingDomain = d3.extent(ratings, d => +(d)["count"]);
     const barG = d3.select("#ratingsIconBarGroup");
     const yScale = d3
       .scaleLinear()
@@ -74,12 +70,12 @@ export default function(div: d3.Selection<BaseType, unknown, HTMLElement, unknow
 
     const tip = ToolTip()
       .attr("class", "d3-tip")
-      .html(function(d: any) {
+      .html(function(d) {
         return `${d.name}: ${d.count}`;
       });
 
     // Add bars
-    const ratingsG = barG.selectAll(".ratingsG").data(ratings, d => (d as NodeData)["name"]);
+    const ratingsG = barG.selectAll(".ratingsG").data(ratings, d => (d)["name"]);
 
     const ratingsEnter = ratingsG
       .enter()
@@ -92,8 +88,8 @@ export default function(div: d3.Selection<BaseType, unknown, HTMLElement, unknow
     ratingsEnter
       .append("path")
       .attr("class", "ratingBar")
-      .attr("fill", function(d): string {
-        switch ((d as NodeData)["name"].toLowerCase()) {
+      .attr("fill", function(d) {
+        switch ((d)["name"].toLowerCase()) {
           case "confusing":
           case "longwinded":
           case "unconvincing":
@@ -109,7 +105,7 @@ export default function(div: d3.Selection<BaseType, unknown, HTMLElement, unknow
     ratingsEnter
       .append("image")
       .attr("class", "icon-image")
-      .attr("href", d => imageSelector((d as NodeData)["name"]))
+      .attr("href", d => imageSelector((d)["name"]))
       .attr("width", iconHeight)
       .attr("height", iconHeight)
       .attr("transform", "translate(0," + iconOffset + ")");
@@ -120,8 +116,8 @@ export default function(div: d3.Selection<BaseType, unknown, HTMLElement, unknow
       .duration(750)
       .attr("transform", (d, i) => "translate(" + (ratingsSpacing * (i + 1) + iconHeight * i) + ",0)")
       .select(".ratingBar")
-      .attr("d", function(d: NodeData): string {
-        const height = yScale(+(d as NodeData)["count"]);
+      .attr("d", function(d) {
+        const height = yScale(+(d)["count"]);
         return topRoundedRect(0, 0, ratingBarWidth, height, barHeight / 6);
       });
 
@@ -129,25 +125,25 @@ export default function(div: d3.Selection<BaseType, unknown, HTMLElement, unknow
     // Consolidate data
     const pieDataRaw = { good: 0, bad: 0, ok: 0 };
     for (let i = 0; i < ratings.length; i++) {
-      switch ((ratings[i] as NodeData)["name"].toLowerCase()) {
+      switch ((ratings[i])["name"].toLowerCase()) {
         case "confusing":
         case "longwinded":
         case "unconvincing":
-          pieDataRaw.bad += +(ratings[i] as NodeData)["count"];
+          pieDataRaw.bad += +(ratings[i])["count"];
           break;
         case "obnoxious":
         case "ok":
-          pieDataRaw.ok += +(ratings[i] as NodeData)["count"];
+          pieDataRaw.ok += +(ratings[i])["count"];
           break;
         default:
-          pieDataRaw.good += +(ratings[i] as NodeData)["count"];
+          pieDataRaw.good += +(ratings[i])["count"];
       }
     }
     const voteTotal = pieDataRaw.good + pieDataRaw.bad + pieDataRaw.ok;
 
     const pieTip = ToolTip()
       .attr("class", "d3-tip")
-      .html((d: any) => {
+      .html((d) => {
         return `${d.data.key.toUpperCase()}: ${((+d.data.value / d.voteTotal) * 100).toFixed(1)}%`;
       });
 
@@ -157,27 +153,27 @@ export default function(div: d3.Selection<BaseType, unknown, HTMLElement, unknow
       .domain(["good", "bad", "ok"])
       .range([COLORS.BRIGHT_GREEN, COLORS.BRIGHT_RED, COLORS.BRIGHT_ORANGE]);
 
-    const pie = d3.pie().value(function(d: any): number {
+    const pie = d3.pie().value(function(d) {
       return d.value;
     });
     // eslint-disable-next-line @typescript-eslint/ban-ts-ignore
     // @ts-ignore
     const pieData = pie(d3.entries(pieDataRaw));
-    pieData.forEach((d: any) => {
+    pieData.forEach((d) => {
       d.voteTotal = voteTotal;
     });
 
     const pieEnter = d3
       .select(".ratingsSVG")
       .selectAll(".pieChart")
-      .data(pieData, function(d: any) {
+      .data(pieData, function(d) {
         return d.data.key;
       })
       .enter()
       .append("path")
       .attr("class", "pieChart")
-      .attr("fill", function(d: any): string {
-        return color(d.data.key) as string;
+      .attr("fill", function(d) {
+        return color(d.data.key);
       })
       .attr("transform", "translate(" + (svgWidth - margin.right - pieOuterRadius) + "," + (margin.top * 3 + pieOuterRadius) + ")")
       .call(pieTip)
@@ -187,7 +183,7 @@ export default function(div: d3.Selection<BaseType, unknown, HTMLElement, unknow
     const pieUpdate = d3
       .select(".ratingsSVG")
       .selectAll(".pieChart")
-      .data(pieData, function(d: any) {
+      .data(pieData, function(d) {
         return d.data.key;
       });
 

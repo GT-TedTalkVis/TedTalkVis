@@ -1,11 +1,15 @@
 import "bootstrap";
 import * as d3 from "d3";
+import ScrollMagic from "scrollmagic";
 import talkDate from "./ts/talkDate";
 import tedSiteViews from "./ts/tedSiteViews";
 import readingLevel from "./ts/readingLevel";
 import professions from "./ts/professions";
 import ratingsBreakdown from "./ts/ratingsBreakdown";
 import topicRelations from "./ts/topicRelations";
+
+
+console.log(ScrollMagic);
 
 // Give each svg a variable name
 const svg1 = d3.select("svg.figure1");
@@ -16,7 +20,7 @@ const ratingsDiv = d3.select("div.ratingsDiv");
 const topicsDiv = d3.select("div.topicsDiv");
 
 // Define data cleaner function
-function dataCleaner(data: d3.DSVRowArray<string>): void {
+function dataCleaner(data) {
   // Calculate year from UNIX Timestamp
   data.forEach(talk => {
     const date = new Date(parseInt(talk["film_date"], 10) * 1000);

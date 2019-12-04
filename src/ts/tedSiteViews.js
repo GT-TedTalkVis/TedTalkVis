@@ -5,7 +5,7 @@ import ToolTip from "./ToolTip";
 
 // Accepts a d3.Selection as a parameter and modifies it.
 // This function expects the d3.Selection to be an SVG.
-export default function(svg: d3.Selection<BaseType, unknown, HTMLElement, unknown>, data: d3.DSVRowArray<string>): void {
+export default function(svg, data) {
   //console.log(data);
 
   // Set dimensions and margins of svg + graph
@@ -59,7 +59,7 @@ export default function(svg: d3.Selection<BaseType, unknown, HTMLElement, unknow
 
   const tip = ToolTip()
     .attr("class", "d3-tip")
-    .html(function(d: any) {
+    .html(function(d) {
       return `${d.name}: ${d.views} views`;
     });
 

@@ -1,19 +1,9 @@
 import * as d3 from "d3";
-import { BaseType, HierarchyRectangularNode } from "d3";
 import COLORS from "../colors";
-
-type NodeData = {
-  [prop: string]: string;
-};
 
 // Accepts a d3.Selection as a parameter and modifies it.
 // This function expects the d3.Selection to be an SVG.
-export default function treemapProfessions(
-  svg: d3.Selection<BaseType, unknown, HTMLElement, unknown>,
-  root: d3.HierarchyNode<unknown>,
-  width: number,
-  height: number,
-): d3.Selection<SVGGElement, HierarchyRectangularNode<unknown>, BaseType, unknown> {
+export default function treemapProfessions(svg, root, width, height) {
   // Calculate circle packing data
   const treemap = d3
     .treemap()
@@ -38,7 +28,7 @@ export default function treemapProfessions(
     .attr("stroke-weight", 5);
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  function getSize(d: any): void {
+  function getSize(d) {
     const bbox = this.getBBox(),
       cbbox = this.parentNode.getBBox();
     d.data["scale"] = Math.min(cbbox.width / bbox.width, cbbox.height / bbox.height);
@@ -46,11 +36,11 @@ export default function treemapProfessions(
 
   nodes
     .append("text")
-    .text(d => (d.data as NodeData).profession)
+    .text(d => d.data.profession)
     .style("font-size", "1px")
     .each(getSize)
     .style("font-size", function(d) {
-      return (d.data as NodeData)["scale"] + "px";
+      return d.data["scale"] + "px";
     })
     .attr("fill", COLORS.DARK_BG)
     .attr("transform", d => "translate(" + (d.x1 - d.x0) / 2 + "," + (d.y1 - d.y0) / 2 + ")")

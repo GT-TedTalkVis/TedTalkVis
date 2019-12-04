@@ -1,17 +1,15 @@
 import * as d3 from "d3";
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-function functor(v: any): string {
+function functor(v) {
   return typeof v == "function"
     ? v
-    : function(): string {
+    : function() {
         return v;
       };
 }
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-export default function(): any {
-  function initNode(): HTMLDivElement {
+export default function() {
+  function initNode() {
     const node = d3.select(document.createElement("div"));
     node
       .style("position", "absolute")
@@ -28,20 +26,16 @@ export default function(): any {
   let html = " ";
   let node = initNode();
   let svg = null;
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  let point: { x: number; y: number; matrixTransform: (arg0: any) => any } = null;
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  let target: any = null;
+  let point = null;
+  let target = null;
 
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  function getSVGNode(el: any): any {
+  function getSVGNode(el) {
     el = el.node();
     if (el.tagName.toLowerCase() === "svg") return el;
     return el.ownerSVGElement;
   }
 
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  function tip(vis: any): void {
+  function tip(vis) {
     if (vis.node() != null) {
       svg = getSVGNode(vis);
       point = svg.createSVGPoint();
@@ -49,8 +43,7 @@ export default function(): any {
     }
   }
 
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  function getNodeEl(): any {
+  function getNodeEl() {
     if (node == null) {
       node = initNode();
       // re-add node to DOM
@@ -73,7 +66,7 @@ export default function(): any {
   //
   // Returns an Object {n, s, e, w, nw, sw, ne, se}
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  function getScreenBBox(): { nw: any; ne: any; se: any; w: any; e: any; n: any; s: any; sw: any } {
+  function getScreenBBox() {
     let targetel = target || d3.event.target;
 
     while ("undefined" === typeof targetel.getScreenCTM && "undefined" === targetel.parentNode) {
@@ -118,7 +111,7 @@ export default function(): any {
     return bbox;
   }
 
-  function directionN(): { top: number; left: number } {
+  function directionN() {
     const bbox = getScreenBBox();
     return {
       top: bbox.n.y - node.offsetHeight,
@@ -126,7 +119,7 @@ export default function(): any {
     };
   }
 
-  function directionS(): { top: number; left: number } {
+  function directionS() {
     const bbox = getScreenBBox();
     return {
       top: bbox.s.y,
@@ -134,7 +127,7 @@ export default function(): any {
     };
   }
 
-  function directionE(): { top: number; left: number } {
+  function directionE() {
     const bbox = getScreenBBox();
     return {
       top: bbox.e.y - node.offsetHeight / 2,
@@ -142,7 +135,7 @@ export default function(): any {
     };
   }
 
-  function directionW(): { top: number; left: number } {
+  function directionW() {
     const bbox = getScreenBBox();
     return {
       top: bbox.w.y - node.offsetHeight / 2,
@@ -150,7 +143,7 @@ export default function(): any {
     };
   }
 
-  function directionNW(): { top: number; left: number } {
+  function directionNW() {
     const bbox = getScreenBBox();
     return {
       top: bbox.nw.y - node.offsetHeight,
@@ -158,7 +151,7 @@ export default function(): any {
     };
   }
 
-  function directionNe(): { top: number; left: number } {
+  function directionNe() {
     const bbox = getScreenBBox();
     return {
       top: bbox.ne.y - node.offsetHeight,
@@ -166,7 +159,7 @@ export default function(): any {
     };
   }
 
-  function directionSw(): { top: number; left: number } {
+  function directionSw() {
     const bbox = getScreenBBox();
     return {
       top: bbox.sw.y,
@@ -174,7 +167,7 @@ export default function(): any {
     };
   }
 
-  function directionSe(): { top: number; left: number } {
+  function directionSe() {
     const bbox = getScreenBBox();
     return {
       top: bbox.se.y,
@@ -199,12 +192,12 @@ export default function(): any {
   //
   // Returns a tip
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  tip.show = function(): any {
+  tip.show = function() {
     // eslint-disable-next-line prefer-rest-params
     const args = Array.prototype.slice.call(arguments);
     if (args[args.length - 1] instanceof SVGElement) target = args.pop();
     //const content = html;
-    const content = (html as any).apply(this, args);
+    const content = html.apply(this, args);
     const poffset = offset;
     //const poffset = (offset as any).apply(this, args);
     const dir = direction;
@@ -259,7 +252,7 @@ export default function(): any {
   //
   // Returns a tip
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  tip.hide = function(): any {
+  tip.hide = function() {
     const nodel = getNodeEl();
     nodel.style("opacity", 0).style("pointer-events", "none");
     return tip;
@@ -271,8 +264,7 @@ export default function(): any {
   // v - value of the attribute
   //
   // Returns tip or attribute value
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any,@typescript-eslint/no-unused-vars
-  tip.attr = function(n: any, v: any): (vis: { node: () => any; tagName: string; ownerSVGElement: any }) => void {
+  tip.attr = function(n, v) {
     if (arguments.length < 2 && typeof n === "string") {
       return getNodeEl().attr(n);
     } else {
@@ -291,7 +283,7 @@ export default function(): any {
   //
   // Returns tip or style property value
   // eslint-disable-next-line @typescript-eslint/no-explicit-any,@typescript-eslint/no-unused-vars
-  tip.style = function(n: any, v: any): (vis: { node: () => any; tagName: string; ownerSVGElement: any }) => void {
+  tip.style = function(n, v) {
     // debugger;
     if (arguments.length < 2 && typeof n === "string") {
       return getNodeEl().style(n);
@@ -315,8 +307,7 @@ export default function(): any {
   //     sw(southwest), ne(northeast) or se(southeast)
   //
   // Returns tip or direction
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  tip.direction = function(v: any): any {
+  tip.direction = function(v) {
     if (!arguments.length) return direction;
     direction = v == null ? v : functor(v);
 
@@ -329,7 +320,7 @@ export default function(): any {
   //
   // Returns offset or
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  tip.offset = function(v: any): any {
+  tip.offset = function(v) {
     if (!arguments.length) return offset;
     offset = v == null ? v : functor(v);
 
@@ -342,7 +333,7 @@ export default function(): any {
   //
   // Returns html value or tip
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  tip.html = function(v: string): any {
+  tip.html = function(v) {
     if (!arguments.length) return html;
     html = v == null ? v : functor(v);
 
@@ -353,7 +344,7 @@ export default function(): any {
   //
   // Returns a tip
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  tip.destroy = function(): (vis: { node: () => any; tagName: string; ownerSVGElement: any }) => void {
+  tip.destroy = function() {
     if (node) {
       getNodeEl().remove();
       node = null;

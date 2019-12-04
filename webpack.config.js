@@ -7,7 +7,7 @@ module.exports = env => {
   console.log(env.NODE_ENV);
   return {
     mode: env.NODE_ENV,
-    entry: "./src/index.ts",
+    entry: "./src/index.js",
     devtool: "inline-source-map",
     devServer: {
       contentBase: "./src/public",
@@ -29,11 +29,6 @@ module.exports = env => {
     module: {
       rules: [
         {
-          test: /\.tsx?$/,
-          use: "ts-loader",
-          exclude: /node_modules/
-        },
-        {
           test: /\.css$/,
           use: ["style-loader", "css-loader"]
         },
@@ -42,9 +37,6 @@ module.exports = env => {
           use: ["file-loader"]
         }
       ]
-    },
-    resolve: {
-      extensions: [".tsx", ".ts", ".js"]
     },
     output: {
       filename: "main.js",

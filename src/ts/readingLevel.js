@@ -1,10 +1,9 @@
 import * as d3 from "d3";
-import { BaseType } from "d3";
 import COLORS from "../colors";
 
 // Accepts a d3.Selection as a parameter and modifies it.
 // This function expects the d3.Selection to be an SVG.
-export default function(svg: d3.Selection<BaseType, unknown, HTMLElement, unknown>, data: d3.DSVRowArray<string>): void {
+export default function(svg, data) {
   //console.log(data);
 
   // Set dimensions and margins of svg + graph
@@ -44,7 +43,7 @@ export default function(svg: d3.Selection<BaseType, unknown, HTMLElement, unknow
   // set the parameters for the histogram
   const histogram = d3
     .histogram()
-    .domain(x.domain() as [number, number]) // Type assertion. x.domain() returns number[], but d3.histogram().domain() expects [number, number]
+    .domain(x.domain()) // Type assertion. x.domain() returns number[], but d3.histogram().domain() expects [number, number]
     .thresholds(x.ticks(40));
 
   // Get histogram data in Number type.
