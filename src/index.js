@@ -7,6 +7,7 @@ import readingLevel from "./ts/readingLevel";
 import professions from "./ts/professions";
 import ratingsBreakdown from "./ts/ratingsBreakdown";
 import topicRelations from "./ts/topicRelations";
+import allTalkThumbnailGrid from "./ts/allTalkThumbnailGrid";
 
 
 console.log(ScrollMagic);
@@ -18,6 +19,7 @@ const svg3 = d3.select("svg.figure3");
 const div4 = d3.select("div.figure4");
 const ratingsDiv = d3.select("div.ratingsDiv");
 const topicsDiv = d3.select("div.topicsDiv");
+const thumbnailGrid = d3.select("div.thumbnailGrid")
 
 // Define data cleaner function
 function dataCleaner(data) {
@@ -29,10 +31,11 @@ function dataCleaner(data) {
 }
 
 // Load data
-d3.csv("./data/ted_main_grouped_professions.csv").then(data => {
+d3.csv("./data/ted_all.csv").then(data => {
   // Pass data through dataCleaner()
   dataCleaner(data);
 
+  allTalkThumbnailGrid(thumbnailGrid, data)
   talkDate(svg1, data);
   tedSiteViews(svg2, data);
   ratingsBreakdown(ratingsDiv, data);
