@@ -7,80 +7,121 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/hero.css">
+    <link rel="stylesheet" href="css/scrollytelling.css">
     <link rel="stylesheet" href="css/intro.css">
     <link rel="stylesheet" href="css/professions.css">
     <link rel="stylesheet" href="css/ratings.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
   </head>
   <body>
-    <!-- Hero Image / Page Title -->
-    <div class="container-fluid" id="hero-container">
-      <div class="image-container"></div>
-      <div class="gradient-fade"></div>
-      <div class="hero-text">
-        <h1>
-          The Rise of TED Talks<br>
-          <small>Ideas Worth Watching</small>
-        </h1>
+    <div class="scrollytelling-container">
+      <div class="scrollytelling-vis">
+        <img src="images/hero_image.png" width="85%" class="sticky-0vh">
+      </div>
+      <div class="scrollytelling-text-right">
+        <div class="spacer-40vh"></div>
+        <div class="hero-text">
+          <h1>
+            The Rise of TED Talks<br>
+            <small>Ideas Worth Watching</small>
+          </h1>
+        </div>
+        <div class="spacer-40vh"></div>
+        <h2>What are TED Talks?</h2>
+        <div>
+          <p>TED Talks are popular presentations featuring passionate people from many walks of life.
+          </p>
+        </div>
+        <div class="spacer-20vh"></div>
       </div>
     </div>
 
-    <!-- Introduction -->
-    <!-- Wrap blocks in container > row > col.-->
-    <div class="container" id="introduction">
-      <div class="row">
-        <div class="col">
-          <h2>What are TED Talks?</h2>
-          <div class="figure4"></div>
-          <div class="thumbnailGrid"></div>
-          <p>
-              TED Talks are online video presentations featuring passionate speakers
-              from many walks of life. The presentations originally focused on topics related to
-              Technology, Entertainment, and Design, but now they're also about culture, politics,
-              and everyday things.
-          </p>
-          <p>
-              For many of us, TED Talks have been widespread and culturally relevant for as long as we can remember,
-              but the TED organization itself actually comes from much humbler beginnings.
-          </p>
-          <svg class="figure1"></svg>
-          <p>
-              The first TED conference, organized by Richard Saul Wurman, took place in 1984.
-          </p>
-          <svg class="figure2"></svg>
-          <svg class="figure3"></svg>
-          <div class="ratingsDiv"></div>
-          <div class="topicsDiv"></div>
+    <div class="scrollytelling-container">
+      <div class="scrollytelling-vis">
+        <div class="spacer-20vh"></div>
+        <svg class="figure1 visible-false sticky-20vh"></svg>
+      </div>
+      <div class="scrollytelling-text-right">
+        <div class="spacer-20vh"></div>
+        <div id="showFigure1">
+          <p>These people come from many different professions.</p>
         </div>
+
+        <div class="spacer-80vh"></div>
       </div>
     </div>
 
-    <div class="container" id="scrollytelling1">
-      <div class="row">
-        <div class="col-sm-7" style="background-color:blue;">
-          <div class="row" style="background-color: purple; height: 500px; position: sticky; top: 30px;">
-            <div class="col">
-              <p>Sticky vis #1</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-5" style="background-color:red;">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio eu feugiat pretium nibh. Vitae semper quis lectus nulla at. Ornare lectus sit amet est placerat. Ullamcorper eget nulla facilisi etiam dignissim diam quis enim. Posuere sollicitudin aliquam ultrices sagittis orci a scelerisque purus. Pellentesque habitant morbi tristique senectus et. Sed egestas egestas fringilla phasellus faucibus scelerisque. Urna condimentum mattis pellentesque id nibh. Accumsan sit amet nulla facilisi morbi tempus iaculis urna. Scelerisque purus semper eget duis at tellus. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Lorem sed risus ultricies tristique nulla aliquet enim tortor. Ornare arcu odio ut sem nulla pharetra. Sapien eget mi proin sed libero enim sed. Molestie ac feugiat sed lectus vestibulum mattis ullamcorper. Eget est lorem ipsum dolor sit amet consectetur adipiscing. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio eu feugiat pretium nibh. Vitae semper quis lectus nulla at. Ornare lectus sit amet est placerat. Ullamcorper eget nulla facilisi etiam dignissim diam quis enim. Posuere sollicitudin aliquam ultrices sagittis orci a scelerisque purus. Pellentesque habitant morbi tristique senectus et. Sed egestas egestas fringilla phasellus faucibus scelerisque. Urna condimentum mattis pellentesque id nibh. Accumsan sit amet nulla facilisi morbi tempus iaculis urna. Scelerisque purus semper eget duis at tellus. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Lorem sed risus ultricies tristique nulla aliquet enim tortor. Ornare arcu odio ut sem nulla pharetra. Sapien eget mi proin sed libero enim sed. Molestie ac feugiat sed lectus vestibulum mattis ullamcorper. Eget est lorem ipsum dolor sit amet consectetur adipiscing.
+    <div class="scrollytelling-container">
+      <div class="scrollytelling-vis">
+        <div class="spacer-20vh"></div>
+        <svg class="figure2 sticky-20vh"></svg>
+      </div>
+      <div class="scrollytelling-text-right">
+        <div class="spacer-20vh"></div>
+        <div id="showFigure1">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id cursus metus aliquam eleifend mi in. Nibh praesent tristique magna sit amet purus gravida. At tellus at urna condimentum. Quisque non tellus orci ac auctor augue mauris augue. Sagittis id consectetur purus ut faucibus. A diam sollicitudin tempor id eu nisl. Proin sed libero enim sed. Egestas maecenas pharetra convallis posuere morbi leo urna molestie at. Sit amet facilisis magna etiam tempor.
+
+              Posuere urna nec tincidunt praesent semper feugiat nibh sed pulvinar. Mauris vitae ultricies leo integer. Vel pretium lectus quam id leo in vitae turpis massa. Adipiscing bibendum est ultricies integer quis auctor. Egestas erat imperdiet sed euismod nisi porta lorem. Sed turpis tincidunt id aliquet risus feugiat in. Ultrices in iaculis nunc sed augue lacus viverra vitae. Rhoncus aenean vel elit scelerisque mauris. Id venenatis a condimentum vitae sapien pellentesque habitant morbi. In egestas erat imperdiet sed euismod. Sollicitudin ac orci phasellus egestas tellus rutrum tellus. Amet cursus sit amet dictum sit amet justo donec. Nunc non blandit massa enim.</p>
         </div>
       </div>
     </div>
 
-    <div class="container" id="scrollytelling2">
-      <div class="row">
-        <div class="col-sm-7" style="background-color:blue;">
-          <div class="row" style="background-color: orange; height: 500px; position: sticky; top: 30px;">
-            <div class="col">
-              <p>Sticky vis #2</p>
-            </div>
-          </div>
+    <div class="scrollytelling-container">
+      <div class="scrollytelling-vis">
+        <div class="spacer-20vh"></div>
+        <svg class="figure3 sticky-20vh"></svg>
+      </div>
+      <div class="scrollytelling-text-right">
+        <div class="spacer-20vh"></div>
+        <div id="showFigure1">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id cursus metus aliquam eleifend mi in. Nibh praesent tristique magna sit amet purus gravida. At tellus at urna condimentum. Quisque non tellus orci ac auctor augue mauris augue. Sagittis id consectetur purus ut faucibus. A diam sollicitudin tempor id eu nisl. Proin sed libero enim sed. Egestas maecenas pharetra convallis posuere morbi leo urna molestie at. Sit amet facilisis magna etiam tempor.
+
+                Posuere urna nec tincidunt praesent semper feugiat nibh sed pulvinar. Mauris vitae ultricies leo integer. Vel pretium lectus quam id leo in vitae turpis massa. Adipiscing bibendum est ultricies integer quis auctor. Egestas erat imperdiet sed euismod nisi porta lorem. Sed turpis tincidunt id aliquet risus feugiat in. Ultrices in iaculis nunc sed augue lacus viverra vitae. Rhoncus aenean vel elit scelerisque mauris. Id venenatis a condimentum vitae sapien pellentesque habitant morbi. In egestas erat imperdiet sed euismod. Sollicitudin ac orci phasellus egestas tellus rutrum tellus. Amet cursus sit amet dictum sit amet justo donec. Nunc non blandit massa enim.
         </div>
-        <div class="col-sm-5" style="background-color:darkred;">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio eu feugiat pretium nibh. Vitae semper quis lectus nulla at. Ornare lectus sit amet est placerat. Ullamcorper eget nulla facilisi etiam dignissim diam quis enim. Posuere sollicitudin aliquam ultrices sagittis orci a scelerisque purus. Pellentesque habitant morbi tristique senectus et. Sed egestas egestas fringilla phasellus faucibus scelerisque. Urna condimentum mattis pellentesque id nibh. Accumsan sit amet nulla facilisi morbi tempus iaculis urna. Scelerisque purus semper eget duis at tellus. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Lorem sed risus ultricies tristique nulla aliquet enim tortor. Ornare arcu odio ut sem nulla pharetra. Sapien eget mi proin sed libero enim sed. Molestie ac feugiat sed lectus vestibulum mattis ullamcorper. Eget est lorem ipsum dolor sit amet consectetur adipiscing. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio eu feugiat pretium nibh. Vitae semper quis lectus nulla at. Ornare lectus sit amet est placerat. Ullamcorper eget nulla facilisi etiam dignissim diam quis enim. Posuere sollicitudin aliquam ultrices sagittis orci a scelerisque purus. Pellentesque habitant morbi tristique senectus et. Sed egestas egestas fringilla phasellus faucibus scelerisque. Urna condimentum mattis pellentesque id nibh. Accumsan sit amet nulla facilisi morbi tempus iaculis urna. Scelerisque purus semper eget duis at tellus. Lacus vestibulum sed arcu non odio euismod lacinia at quis. Lorem sed risus ultricies tristique nulla aliquet enim tortor. Ornare arcu odio ut sem nulla pharetra. Sapien eget mi proin sed libero enim sed. Molestie ac feugiat sed lectus vestibulum mattis ullamcorper. Eget est lorem ipsum dolor sit amet consectetur adipiscing.
+      </div>
+    </div>
+
+    <div class="scrollytelling-container">
+      <div class="scrollytelling-vis">
+        <div class="spacer-20vh"></div>
+        <div class="figure4 sticky-20vh"></div>
+      </div>
+      <div class="scrollytelling-text-right">
+        <div class="spacer-20vh"></div>
+        <div id="showFigure1">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id cursus metus aliquam eleifend mi in. Nibh praesent tristique magna sit amet purus gravida. At tellus at urna condimentum. Quisque non tellus orci ac auctor augue mauris augue. Sagittis id consectetur purus ut faucibus. A diam sollicitudin tempor id eu nisl. Proin sed libero enim sed. Egestas maecenas pharetra convallis posuere morbi leo urna molestie at. Sit amet facilisis magna etiam tempor.
+
+                Posuere urna nec tincidunt praesent semper feugiat nibh sed pulvinar. Mauris vitae ultricies leo integer. Vel pretium lectus quam id leo in vitae turpis massa. Adipiscing bibendum est ultricies integer quis auctor. Egestas erat imperdiet sed euismod nisi porta lorem. Sed turpis tincidunt id aliquet risus feugiat in. Ultrices in iaculis nunc sed augue lacus viverra vitae. Rhoncus aenean vel elit scelerisque mauris. Id venenatis a condimentum vitae sapien pellentesque habitant morbi. In egestas erat imperdiet sed euismod. Sollicitudin ac orci phasellus egestas tellus rutrum tellus. Amet cursus sit amet dictum sit amet justo donec. Nunc non blandit massa enim.
+        </div>
+      </div>
+    </div>
+
+    <div class="scrollytelling-container">
+      <div class="scrollytelling-vis">
+        <div class="spacer-20vh"></div>
+        <div class="ratingsDiv sticky-20vh"></div>
+      </div>
+      <div class="scrollytelling-text-right">
+        <div class="spacer-20vh"></div>
+        <div id="showFigure1">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id cursus metus aliquam eleifend mi in. Nibh praesent tristique magna sit amet purus gravida. At tellus at urna condimentum. Quisque non tellus orci ac auctor augue mauris augue. Sagittis id consectetur purus ut faucibus. A diam sollicitudin tempor id eu nisl. Proin sed libero enim sed. Egestas maecenas pharetra convallis posuere morbi leo urna molestie at. Sit amet facilisis magna etiam tempor.
+
+                Posuere urna nec tincidunt praesent semper feugiat nibh sed pulvinar. Mauris vitae ultricies leo integer. Vel pretium lectus quam id leo in vitae turpis massa. Adipiscing bibendum est ultricies integer quis auctor. Egestas erat imperdiet sed euismod nisi porta lorem. Sed turpis tincidunt id aliquet risus feugiat in. Ultrices in iaculis nunc sed augue lacus viverra vitae. Rhoncus aenean vel elit scelerisque mauris. Id venenatis a condimentum vitae sapien pellentesque habitant morbi. In egestas erat imperdiet sed euismod. Sollicitudin ac orci phasellus egestas tellus rutrum tellus. Amet cursus sit amet dictum sit amet justo donec. Nunc non blandit massa enim.
+        </div>
+      </div>
+    </div>
+
+    <div class="scrollytelling-container">
+      <div class="scrollytelling-vis">
+        <div class="spacer-20vh"></div>
+        <div class="topicsDiv sticky-20vh"></div>
+      </div>
+      <div class="scrollytelling-text-right">
+        <div class="spacer-20vh"></div>
+        <div id="showFigure1">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id cursus metus aliquam eleifend mi in. Nibh praesent tristique magna sit amet purus gravida. At tellus at urna condimentum. Quisque non tellus orci ac auctor augue mauris augue. Sagittis id consectetur purus ut faucibus. A diam sollicitudin tempor id eu nisl. Proin sed libero enim sed. Egestas maecenas pharetra convallis posuere morbi leo urna molestie at. Sit amet facilisis magna etiam tempor.
+
+                Posuere urna nec tincidunt praesent semper feugiat nibh sed pulvinar. Mauris vitae ultricies leo integer. Vel pretium lectus quam id leo in vitae turpis massa. Adipiscing bibendum est ultricies integer quis auctor. Egestas erat imperdiet sed euismod nisi porta lorem. Sed turpis tincidunt id aliquet risus feugiat in. Ultrices in iaculis nunc sed augue lacus viverra vitae. Rhoncus aenean vel elit scelerisque mauris. Id venenatis a condimentum vitae sapien pellentesque habitant morbi. In egestas erat imperdiet sed euismod. Sollicitudin ac orci phasellus egestas tellus rutrum tellus. Amet cursus sit amet dictum sit amet justo donec. Nunc non blandit massa enim.
         </div>
       </div>
     </div>
