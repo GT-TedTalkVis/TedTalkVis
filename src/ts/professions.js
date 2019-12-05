@@ -18,10 +18,6 @@ export default function(div, data) {
   const width = svgWidth - margin.left - margin.right;
   const height = svgHeight - margin.top - margin.bottom;
 
-  // Set vis title
-  div.append("h2").text("What Do TED Talkers Do For a Living?");
-  div.append("hr").attr("color", COLORS.LIGHT_GREY);
-
   // Enables the dropdown menu to change the view.
   function onProfessionViewChanged() {
     const dropdown = d3.select("#viewSelect");

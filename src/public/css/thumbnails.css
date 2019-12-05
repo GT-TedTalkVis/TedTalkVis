@@ -1,0 +1,27 @@
+.tooltip {
+    background: #333333CC;
+    border: solid 1px #5F5F5F;
+    color: #ACACAC;
+    font-family: sans-serif;
+    text-anchor: middle;
+    border-radius: 4px;
+    pointer-events: none;
+}
+
+.thumbnailGrid.container {
+    left: 500px;
+}
+
+.thumbnailSVG {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 10px;
+}
+
+.scrollText {
+    padding-top: 100px;
+    padding-bottom: 400px;
+    max-width: 300px;
+    float: right;
+}

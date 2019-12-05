@@ -1,18 +1,26 @@
 import * as d3 from "d3";
 import COLORS from "../colors";
+import ScrollMagic from "scrollmagic";
+import d3Tip from "d3-tip";
+import { controller } from "../index";
 
 export default function(div, data) {
 
     // SVG size
-    const svgWidth = 1110;
+    const svgWidth = 600;
     const svgHeight = 900;
 
     // Thumbnail aspect ratio
-    const thumbnailXRatio = 4;
+    const thumbnailXRatio = 2;
     const thumbnailYRatio = 3;
 
     // Path to thumbnail images
     const thumbnailDirectory = "./images/thumbnails/";
+
+    // Text to display at each phase
+    const phase1text1 = "The first TED talk was given by Viktor Frankl in 1972.";
+    const phase2text1 = "Over the next several years, a few more talks were given, but not many.";
+    const phase3text1 = "Finally, in the early 2000s, TED talks started becoming more and more popular.";
 
     // Set dimensions and margins of svg + graph
     const margin = {
@@ -23,15 +31,28 @@ export default function(div, data) {
     };
 
     // Rows and columns in the unit vis
-    const rows = 50;
+    const rows = 60;
     const cols = data.length / rows;
 
     // Amount of space between each item
-    const offset = 5;
+    const offset = 3;
 
     // Size of each unit
-    const unitWidth = (svgWidth - ((cols + 1) * offset)) / cols;
-    const unitHeight = unitWidth * thumbnailYRatio / thumbnailXRatio;
+    const smallUnitWidth = (svgWidth - ((cols + 1) * offset)) / cols;
+    const smallUnitHeight = smallUnitWidth * thumbnailYRatio / thumbnailXRatio;
+    const medUnitWidth = svgWidth * 0.75;
+    const medUnitHeight = medUnitWidth * thumbnailYRatio / thumbnailXRatio;
+    const largeUnitWidth = svgWidth * 0.75;
+    const largeUnitHeight = largeUnitWidth * thumbnailYRatio / thumbnailXRatio;
+
+    // Which view to display
+    const views = { first: 0, second: 1, third: 2 };
+    let currentView = views.third;
+
+    // Tooltip initialization
+    const tip = d3Tip()
+        .attr("class", "tooltip")
+        .html((d) => d.name);
 
     // Gets the row and column from the overall index
     // index is the position in the array
@@ -44,30 +65,113 @@ export default function(div, data) {
 
     // Position scaling function based on row and column
     function scaleX(col) {
-        return + offset * (col + 1) + unitWidth * col;
+        if (currentView === views.first) return offset * (col + 1) + largeUnitWidth * col;
+        else if (currentView === views.second) return offset * (col + 1) + medUnitWidth * col;
+        else return offset * (col + 1) + smallUnitWidth * col;
     }
     function scaleY(row) {
-        return svgHeight - offset * (row + 1) - unitHeight * (row + 1);
+        if (currentView === views.first) return offset * (row + 1) + largeUnitHeight * row;
+        else if (currentView === views.second) return offset * (row + 1) + medUnitHeight * row;
+        else return offset * (row + 1) + smallUnitHeight * row;
     }
 
-    const svg = div.append("svg")
+    // Call this to check which view to show and update the vis accordingly
+    function updateChart(newData) {
+        const units = svg.selectAll("image").data(newData, d => d["name"]);
+
+        const unitsEnter = units.enter()
+            .append("a")
+            .attr("href", d => d.url)
+            .attr("target", "_blank")
+            .attr("rel", "noopener noreferrer")
+            .append("image")
+            .attr("class", "thumbnail")
+            .attr("width", smallUnitWidth)
+            .attr("height", smallUnitHeight)
+            .attr("transform", (d, i) => {
+                const pos = getColRow(i);
+                const x = scaleX(pos[0]);
+                const y = scaleY(pos[1]);
+                return "translate(" + x + "," + y + ")";
+            })
+            .call(tip)
+            .on("mouseover", tip.show)
+            .on("mouseout", tip.hide);
+
+        units
+            .merge(unitsEnter)
+            .attr("xlink:href", (d) => {
+                if (currentView === views.first || currentView === views.second) {
+                    console.log(d["thumbnail_url"]);
+                    return d["thumbnail_url"];
+                }
+                else return thumbnailDirectory + d["thumbnail_path"];
+            })
+            .transition()
+            .duration(750)
+            .attr("width", function () {
+                if (currentView === views.first) return largeUnitWidth;
+                else if (currentView === views.second) return medUnitWidth;
+                else return smallUnitWidth;
+            })
+            .attr("height", function () {
+                if (currentView === views.first) return largeUnitHeight;
+                else if (currentView === views.second) return medUnitHeight;
+                else return smallUnitHeight;
+            });
+
+        units.exit().remove();
+    }
+
+    // Scollytelling
+
+    // Create divs for scrollytelling
+    const container = div.append("div").attr("class", "container");
+    const svg = container.append("div")
+        .attr("class", "thumbnailSVG")
+        .append("svg")
         .attr("width", svgWidth)
         .attr("height", svgHeight);
+    container.append("div")
+        .attr("id", "thumbnailsPhase1")
+        .append("p")
+        .attr("class", "scrollText")
+        .html(phase1text1);
+    container.append("div")
+        .attr("id", "thumbnailsPhase2")
+        .append("p")
+        .attr("class", "scrollText")
+        .html(phase2text1);
+    container.append("div")
+        .attr("id", "thumbnailsPhase3")
+        .append("p")
+        .attr("class", "scrollText")
+        .html(phase3text1);
 
-    const units = svg.selectAll("image")
-        .data(data)
-        .enter()
-        .append("image")
-        .attr("class", "thumbnail")
-        .attr("href", (d) => thumbnailDirectory + d["thumbnail_path"])
-        .attr("width", unitWidth)
-        .attr("height", unitHeight)
-        .attr("transform", (d, i) => {
-            const pos = getColRow(i);
-            const x = scaleX(pos[0]);
-            const y = scaleY(pos[1]);
-            return "translate(" + x + "," + y + ")";
-        });
+    // Add scenes to controller
+    const phase1 = document.getElementById("thumbnailsPhase1");
+    const scenePhase1 = new ScrollMagic.Scene({
+        triggerElement: "#thumbnailsPhase1"
+    }).on('start', function() {
+        currentView = views.first;
+        updateChart(data.slice(0, 1));
+        console.log("Phase 1");
+    }).addTo(controller);
 
+    const scenePhase2 = new ScrollMagic.Scene({
+        triggerElement: "#thumbnailsPhase2"
+    }).on('start', function() {
+        currentView = views.first;
+        updateChart(data.slice(0, 4));
+        console.log("Phase 1");
+    }).addTo(controller);
 
+    const phase3 = document.getElementById("thumbnailsPhase3");
+    const scenePhase3 = new ScrollMagic.Scene({
+        triggerElement: "#thumbnailsPhase3"
+    }).on('start', function() {
+        currentView = views.third;
+        updateChart(data);
+        console.log("Phase 3");
+    }).addTo(controller);
 }
