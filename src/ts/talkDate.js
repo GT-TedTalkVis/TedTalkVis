@@ -19,9 +19,9 @@ export default function(svg, data) {
   const height = svgHeight - margin.top - margin.bottom;
 
   // Set width and height of svg
-  // svg.attr("width", svgWidth);
-  // svg.attr("height", svgHeight);
-  svg.attr("viewBox", `0 0 ${svgWidth} ${svgHeight}`);
+  svg.attr("width", svgWidth);
+  svg.attr("height", svgHeight);
+  // svg.attr("viewBox", `0 0 ${svgWidth} ${svgHeight}`);
   // Inner group
   const g = svg.append("g");
   g.attr("transform", "translate(" + margin.left + "," + margin.top + ")");

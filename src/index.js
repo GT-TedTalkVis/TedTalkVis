@@ -8,11 +8,22 @@ import professions from "./ts/professions";
 import ratingsBreakdown from "./ts/ratingsBreakdown";
 import topicRelations from "./ts/topicRelations";
 import allTalkThumbnailGrid from "./ts/allTalkThumbnailGrid";
+import $ from "jquery";
 
 const controller = new ScrollMagic.Controller();
 
+const showFigure1 = document.getElementById("showFigure1");
+const sceneFigure1 = new ScrollMagic.Scene({
+  triggerElement: "#showFigure1"
+}).on('start', function() {
+  // Example. Use Animate.CSS to trigger a fade in effect.
+  $("svg.figure1").removeClass("visible-false").addClass("animated").addClass("fadeInLeft");
+  console.log('start of scene');
+})
+.addTo(controller);
+
 // Give each svg a variable name
-const svg1 = d3.select("svg.introvis");
+const svg1 = d3.select("svg.figure1");
 const svg2 = d3.select("svg.figure2");
 const svg3 = d3.select("svg.figure3");
 const div4 = d3.select("div.figure4");
