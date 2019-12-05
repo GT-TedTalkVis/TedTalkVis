@@ -7,7 +7,7 @@ import { controller } from "../index";
 export default function(div, data) {
 
     // SVG size
-    const svgWidth = 600;
+    const svgWidth = 580;
     const svgHeight = 900;
 
     // Thumbnail aspect ratio
@@ -16,11 +16,6 @@ export default function(div, data) {
 
     // Path to thumbnail images
     const thumbnailDirectory = "./images/thumbnails/";
-
-    // Text to display at each phase
-    const phase1text1 = "The first TED talk was given by Viktor Frankl in 1972.";
-    const phase2text1 = "Over the next several years, a few more talks were given, but not many.";
-    const phase3text1 = "Finally, in the early 2000s, TED talks started becoming more and more popular.";
 
     // Set dimensions and margins of svg + graph
     const margin = {
@@ -58,6 +53,10 @@ export default function(div, data) {
     // index is the position in the array
     // returns [col, row]
     function getColRow(index) {
+        if (currentView === views.first) return [0, 0];
+        if (currentView === views.second) {
+
+        }
         const row = Math.floor(index / rows);
         const col = index % rows;
         return [col, row];
@@ -126,30 +125,13 @@ export default function(div, data) {
     // Scollytelling
 
     // Create divs for scrollytelling
-    const container = div.append("div").attr("class", "container");
-    const svg = container.append("div")
+    const svg = div.append("div")
         .attr("class", "thumbnailSVG")
         .append("svg")
         .attr("width", svgWidth)
         .attr("height", svgHeight);
-    container.append("div")
-        .attr("id", "thumbnailsPhase1")
-        .append("p")
-        .attr("class", "scrollText")
-        .html(phase1text1);
-    container.append("div")
-        .attr("id", "thumbnailsPhase2")
-        .append("p")
-        .attr("class", "scrollText")
-        .html(phase2text1);
-    container.append("div")
-        .attr("id", "thumbnailsPhase3")
-        .append("p")
-        .attr("class", "scrollText")
-        .html(phase3text1);
 
     // Add scenes to controller
-    const phase1 = document.getElementById("thumbnailsPhase1");
     const scenePhase1 = new ScrollMagic.Scene({
         triggerElement: "#thumbnailsPhase1"
     }).on('start', function() {
@@ -166,7 +148,6 @@ export default function(div, data) {
         console.log("Phase 1");
     }).addTo(controller);
 
-    const phase3 = document.getElementById("thumbnailsPhase3");
     const scenePhase3 = new ScrollMagic.Scene({
         triggerElement: "#thumbnailsPhase3"
     }).on('start', function() {
