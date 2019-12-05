@@ -9,11 +9,10 @@ import ratingsBreakdown from "./ts/ratingsBreakdown";
 import topicRelations from "./ts/topicRelations";
 import allTalkThumbnailGrid from "./ts/allTalkThumbnailGrid";
 
-
-console.log(ScrollMagic);
+const controller = new ScrollMagic.Controller();
 
 // Give each svg a variable name
-const svg1 = d3.select("svg.figure1");
+const svg1 = d3.select("svg.introvis");
 const svg2 = d3.select("svg.figure2");
 const svg3 = d3.select("svg.figure3");
 const div4 = d3.select("div.figure4");
@@ -53,3 +52,5 @@ d3.json("./data/profession_counts.json").then(data => {
 d3.json("./data/topic_relationships.json").then(data => {
   topicRelations(topicsDiv, data);
 });
+
+export { controller }
