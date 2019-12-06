@@ -5,7 +5,7 @@ import talkDate from "./ts/talkDate";
 import tedSiteViews from "./ts/tedSiteViews";
 import readingLevel from "./ts/readingLevel";
 import professions from "./ts/professions";
-import topicRelations from "./ts/topicRelations";
+import tagsBump from "./ts/tagsBump";
 import allTalkThumbnailGrid from "./ts/allTalkThumbnailGrid";
 import talkExplorer from "./ts/talkExplorer";
 import $ from "jquery";
@@ -28,7 +28,7 @@ const svg2 = d3.select("svg.figure2");
 const svg3 = d3.select("svg.figure3");
 const div4 = d3.select("div.figure4");
 const explorerDiv = d3.select("div.explorerDiv");
-const topicsDiv = d3.select("div.topicsDiv");
+const bumpDiv = d3.select("div.bumpDiv");
 const thumbnailGrid = d3.select("div.thumbnailGrid")
 
 // Define data cleaner function
@@ -59,8 +59,12 @@ d3.json("./data/profession_counts.json").then(data => {
   professions(div4, data);
 });
 
-d3.json("./data/topic_relationships.json").then(data => {
-  topicRelations(topicsDiv, data);
-});
+d3.csv("./data/tags_rank_top5.csv").then(function(data) {
+    data.forEach(function(d) {
+      d.rank = +d.rank;
+      d.year = +d.year;
+    });
+    tagsBump(bumpDiv, data);
+  });
 
 export { controller }
