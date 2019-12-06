@@ -65,7 +65,6 @@ export default function() {
   //    +-+-+
   //
   // Returns an Object {n, s, e, w, nw, sw, ne, se}
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   function getScreenBBox() {
     let targetel = target || d3.event.target;
 

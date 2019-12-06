@@ -1,240 +1,153 @@
 import * as d3 from "d3";
 import COLORS from "../colors";
-import imageSelector from "./imageSelector";
-import ToolTip from "./ToolTip";
-
+import d3Tip from "d3-tip";
 
 // Returns path data for a rectangle with rounded top corners.
 // The bottom-left corner is ⟨x,y⟩.
 function topRoundedRect(x, y, width, height, radius) {
-  let path = "M" + x + "," + y + "v" + (-height + radius);
-  path += "a" + radius + "," + radius + " 0 0 1 " + radius + "," + -radius;
-  path += "h" + (width - radius * 2);
-  path += "a" + radius + "," + radius + " 0 0 1 " + radius + "," + radius;
-  path += "v" + (height - radius) + "z";
-  return path;
+    let path = "M" + x + "," + y + "v" + (-height + radius);
+    path += "a" + radius + "," + radius + " 0 0 1 " + radius + "," + -radius;
+    path += "h" + (width - radius * 2);
+    path += "a" + radius + "," + radius + " 0 0 1 " + radius + "," + radius;
+    path += "v" + (height - radius) + "z";
+    return path;
 }
 
-// Accepts a d3.Selection as a parameter and modifies it.
-// This function expects the d3.Selection to be a div.
-export default function(div, data) {
-  // Set dimensions and margins of svg + graph
-  const margin = {
-    top: 10,
-    right: 30,
-    bottom: 80,
-    left: 80,
-  };
-  const svgWidth = 800;
-  const svgHeight = 500;
-  const width = svgWidth - margin.left - margin.right;
-  const height = svgHeight - margin.top - margin.bottom;
-  const barHeight = svgWidth / 30;
-  const iconHeight = barHeight * 0.8;
-  const ratingBarWidth = iconHeight;
-  const iconOffset = (barHeight - iconHeight) / 2;
-  const pieOuterRadius = height * 0.22;
-  const pieInnerRadius = pieOuterRadius * 0.78;
+const ratingCategories = [
+    ["Beautiful", "icon_beautiful.svg"],
+    ["Courageous", "icon_courageous.svg"],
+    ["Fascinating", "icon_fascinating.svg"],
+    ["Funny", "icon_funny.svg"],
+    ["Informative", "icon_informative.svg"],
+    ["Ingenious", "icon_ingenious.svg"],
+    ["Inspiring", "icon_inspiring.svg"],
+    ["Jaw-dropping", "icon_jaw-dropping.svg"],
+    ["Persuasive", "icon_persuasive.svg"],
+    ["Confusing", "icon_confusing.svg"],
+    ["Longwinded", "icon_longwinded.svg"],
+    ["Obnoxious", "icon_obnoxious.svg"],
+    ["OK", "icon_ok.svg"],
+    ["Unconvincing", "icon_unconvincing.svg"],
+];
 
-  function updateChart() {
-    // Get ratings for selected talk or talks
-    const dropdown = d3.select("#talkSelector");
-    // eslint-disable-next-line @typescript-eslint/ban-ts-ignore
-    // @ts-ignore
-    const selectedTalkName = dropdown._groups[0][0].options[dropdown._groups[0][0].selectedIndex].value;
+// Sizes (in percentage of svg size)
+const barWidth = 75;                           // Width of the icon bar
+const barHeight = 7;                            // Height of the icon bar
+const barCorners = 0.75;                        // Radius of icon bar corners
+const iconRelativeSize = 0.8;                   // Size of the icons relative to the height of the ratings bar
+const iconSize = barHeight * iconRelativeSize;  // The width and height of the rating icons
+const iconOffset = (barWidth - (barWidth * (ratingCategories.length * (iconSize / barWidth)))) / (ratingCategories.length + 1);
+const chartBarWidth = barWidth * 0.04;           // The width of each bar in the bar chart
 
-    // Find selected row
-    let selectedRow = 0;
-    for (let i = 0; i < data.length; i++) {
-      if (data[i]["name"] == selectedTalkName) {
-        selectedRow = i;
-        break;
-      }
+// This function creates a new ratings vis, does not set any values
+export function createRatingsBaseVis(div)
+{
+    // Rating categories and their image files
+    const ratingImageLoc = "./images/icon_svgs/";
+
+    // Create SVG
+    const svg = div.append("svg").attr("class", "visSVG");
+
+    // Create blank ratings bar
+    const bar = svg
+        .append("svg")
+        .attr("y", (100 - barHeight) + "%")
+        .append("g")
+        .attr("id", "ratingsIconBarGroup");
+    bar
+        .append("rect")
+        .attr("id", "iconBar")
+        .attr("width", barWidth + "%")
+        .attr("height", barHeight + "%")
+        .attr("fill", COLORS.LIGHT_GREY)
+        .attr("rx", barCorners + "%");
+
+    // Create a group to add chart bars to
+    const chart = svg.append("svg")
+        .attr("x", "0%")
+        .attr("y", "0%")
+        .attr("width", "100%")
+        .attr("height", (100 - barHeight) + "%")
+        .attr("viewBox", "0 0 100 100")
+        .attr("preserveAspectRatio", "none");
+
+    // Create tooltip
+    const tip = d3Tip()
+        .attr("class", "d3-tip ratingsTip")
+        .html(function(d) {
+            return `${d.name}: ${d.count}`;
+        });
+
+    // Add icons and bar chart bars to ratings bar
+    for (let i = 0; i < ratingCategories.length; i++)
+    {
+        const xPos = ((i * iconSize) + ((i + 1) * iconOffset));
+        // Icons
+        bar
+            .append("svg")
+            .attr("x", xPos + "%")
+            .attr("y", (((1 - iconRelativeSize) / 2) * barHeight) + "%")
+            .append("image")
+            .attr("class", "icon-image")
+            .attr("href", ratingImageLoc + ratingCategories[i][1])
+            .attr("width", iconSize + "%")
+            .attr("height", iconSize + "%");
+
+        // Bars
+        chart
+            .append("path")
+            .attr("id", "rating-bar-" + i)
+            .attr("d", topRoundedRect(xPos + (iconSize - chartBarWidth) / 2, 100, chartBarWidth, 0.5, barCorners))
+            .attr("fill", () => {
+                if (i < 9) return COLORS.BRIGHT_GREEN;
+                else return COLORS.BRIGHT_RED;
+            });
     }
+}
 
-    // Get ratings at selected row
-    const rawString = data[selectedRow]["ratings"];
-    const ratingsString = rawString.replace(/'/g, '"');
-    const ratings = JSON.parse(ratingsString);
-    ratings.sort(function(a, b) {
-      return +b["count"] - +a["count"];
-    });
-    const numRatingCategories = ratings.length;
-    const ratingsSpacing = (svgWidth - iconHeight * numRatingCategories) / (numRatingCategories + 1);
-    const ratingDomain = d3.extent(ratings, d => +(d)["count"]);
-    const barG = d3.select("#ratingsIconBarGroup");
-    const yScale = d3
-      .scaleLinear()
-      .domain([0, ratingDomain[1]])
-      .range([0, height - iconHeight / 2]);
-
-    const tip = ToolTip()
-      .attr("class", "d3-tip")
-      .html(function(d) {
-        return `${d.name}: ${d.count}`;
-      });
-
-    // Add bars
-    const ratingsG = barG.selectAll(".ratingsG").data(ratings, d => (d)["name"]);
-
-    const ratingsEnter = ratingsG
-      .enter()
-      .append("g")
-      .attr("class", "ratingsG")
-      .call(tip)
-      .on("mouseover", tip.show)
-      .on("mouseout", tip.hide);
-
-    ratingsEnter
-      .append("path")
-      .attr("class", "ratingBar")
-      .attr("fill", function(d) {
-        switch ((d)["name"].toLowerCase()) {
-          case "confusing":
-          case "longwinded":
-          case "unconvincing":
-            return COLORS.BRIGHT_RED;
-          case "obnoxious":
-          case "ok":
-            return COLORS.BRIGHT_ORANGE;
-          default:
-            return COLORS.BRIGHT_GREEN;
+// This function updates the ratings chart based on the data provided
+export function updateRatingsVis(data)
+{
+    // Get ratings data
+    let ratings = {
+        "Beautiful": 0,
+        "Courageous": 0,
+        "Fascinating": 0,
+        "Funny": 0,
+        "Informative": 0,
+        "Ingenious": 0,
+        "Inspiring": 0,
+        "Jaw-dropping": 0,
+        "Persuasive": 0,
+        "Confusing": 0,
+        "Longwinded": 0,
+        "Obnoxious": 0,
+        "OK": 0,
+        "Unconvincing": 0,
+    };
+    for (let i = 0; i < data.length; i++)
+    {
+        const rawString = data[i]["ratings"];
+        const ratingsString = rawString.replace(/'/g, '"');
+        const ratingList = JSON.parse(ratingsString);
+        for (let j = 0; j < ratingList.length; j++) {
+            ratings[ratingList[j].name] += ratingList[j].count;
         }
-      });
-
-    ratingsEnter
-      .append("image")
-      .attr("class", "icon-image")
-      .attr("href", d => imageSelector((d)["name"]))
-      .attr("width", iconHeight)
-      .attr("height", iconHeight)
-      .attr("transform", "translate(0," + iconOffset + ")");
-
-    ratingsG
-      .merge(ratingsEnter)
-      .transition()
-      .duration(750)
-      .attr("transform", (d, i) => "translate(" + (ratingsSpacing * (i + 1) + iconHeight * i) + ",0)")
-      .select(".ratingBar")
-      .attr("d", function(d) {
-        const height = yScale(+(d)["count"]);
-        return topRoundedRect(0, 0, ratingBarWidth, height, barHeight / 6);
-      });
-
-    // Add cumulative pie chart
-    // Consolidate data
-    const pieDataRaw = { good: 0, bad: 0, ok: 0 };
-    for (let i = 0; i < ratings.length; i++) {
-      switch ((ratings[i])["name"].toLowerCase()) {
-        case "confusing":
-        case "longwinded":
-        case "unconvincing":
-          pieDataRaw.bad += +(ratings[i])["count"];
-          break;
-        case "obnoxious":
-        case "ok":
-          pieDataRaw.ok += +(ratings[i])["count"];
-          break;
-        default:
-          pieDataRaw.good += +(ratings[i])["count"];
-      }
     }
-    const voteTotal = pieDataRaw.good + pieDataRaw.bad + pieDataRaw.ok;
 
-    const pieTip = ToolTip()
-      .attr("class", "d3-tip")
-      .html((d) => {
-        return `${d.data.key.toUpperCase()}: ${((+d.data.value / d.voteTotal) * 100).toFixed(1)}%`;
-      });
+    // Calculate scaling function
+    const ratingDomain = d3.extent(Object.values(ratings));
+    const yScale = d3.scaleLinear()
+        .domain([0, ratingDomain[1]])
+        .range([0, 100]);
 
-    // set the color scale
-    const color = d3
-      .scaleOrdinal()
-      .domain(["good", "bad", "ok"])
-      .range([COLORS.BRIGHT_GREEN, COLORS.BRIGHT_RED, COLORS.BRIGHT_ORANGE]);
-
-    const pie = d3.pie().value(function(d) {
-      return d.value;
-    });
-    // eslint-disable-next-line @typescript-eslint/ban-ts-ignore
-    // @ts-ignore
-    const pieData = pie(d3.entries(pieDataRaw));
-    pieData.forEach((d) => {
-      d.voteTotal = voteTotal;
-    });
-
-    const pieEnter = d3
-      .select(".ratingsSVG")
-      .selectAll(".pieChart")
-      .data(pieData, function(d) {
-        return d.data.key;
-      })
-      .enter()
-      .append("path")
-      .attr("class", "pieChart")
-      .attr("fill", function(d) {
-        return color(d.data.key);
-      })
-      .attr("transform", "translate(" + (svgWidth - margin.right - pieOuterRadius) + "," + (margin.top * 3 + pieOuterRadius) + ")")
-      .call(pieTip)
-      .on("mouseover", pieTip.show)
-      .on("mouseout", pieTip.hide);
-
-    const pieUpdate = d3
-      .select(".ratingsSVG")
-      .selectAll(".pieChart")
-      .data(pieData, function(d) {
-        return d.data.key;
-      });
-
-    pieUpdate
-      .merge(pieEnter)
-      .transition()
-      .duration(750)
-      .attr(
-        "d",
-        d3
-          .arc()
-          .innerRadius(pieInnerRadius)
-          .outerRadius(pieOuterRadius),
-      );
-  }
-
-  // Set vis title
-  div.append("h2").text("Talk Ratings");
-  div.append("hr").attr("color", COLORS.LIGHT_GREY);
-
-  // Add talk selector
-  const talkSelector = div
-    .append("select")
-    .attr("id", "talkSelector")
-    .style("width", width + "px");
-  for (let i = 0; i < data.length; i++) {
-    talkSelector
-      .append("option")
-      .attr("value", data[i]["name"])
-      .text(data[i]["name"]);
-  }
-  talkSelector.on("change", updateChart);
-
-  // Create svg
-  const svg = div
-    .append("svg")
-    .attr("viewBox", `0 0 ${svgWidth} ${svgHeight}`)
-    .attr("class", "ratingsSVG");
-
-  // Create blank ratings bar
-  const bar = svg
-    .append("g")
-    .attr("id", "ratingsIconBarGroup")
-    .attr("transform", "translate(0," + (svgHeight - margin.bottom) + ")");
-  bar
-    .append("rect")
-    .attr("id", "iconBar")
-    .attr("width", svgWidth)
-    .attr("height", barHeight)
-    .attr("fill", COLORS.LIGHT_GREY)
-    .attr("rx", barHeight / 6);
-
-  updateChart();
+    // Scale each bar by its corresponding rating count
+    for (let i = 0; i < ratingCategories.length; i++) {
+        const xPos = ((i * iconSize) + ((i + 1) * iconOffset));
+        d3.select("#rating-bar-" + i)
+            .transition()
+            .duration(750)
+            .attr("d", topRoundedRect(xPos + (iconSize - chartBarWidth) / 2, 100, chartBarWidth,
+                yScale(Object.values(ratings)[i]), barCorners));
+    }
 }

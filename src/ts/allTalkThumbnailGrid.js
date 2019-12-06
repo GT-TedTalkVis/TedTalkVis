@@ -101,7 +101,6 @@ export default function(div, data) {
             .merge(unitsEnter)
             .attr("xlink:href", (d) => {
                 if (currentView === views.first || currentView === views.second) {
-                    console.log(d["thumbnail_url"]);
                     return d["thumbnail_url"];
                 }
                 else return thumbnailDirectory + d["thumbnail_path"];

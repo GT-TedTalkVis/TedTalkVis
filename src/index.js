@@ -5,9 +5,9 @@ import talkDate from "./ts/talkDate";
 import tedSiteViews from "./ts/tedSiteViews";
 import readingLevel from "./ts/readingLevel";
 import professions from "./ts/professions";
-import ratingsBreakdown from "./ts/ratingsBreakdown";
 import topicRelations from "./ts/topicRelations";
 import allTalkThumbnailGrid from "./ts/allTalkThumbnailGrid";
+import talkExplorer from "./ts/talkExplorer";
 import $ from "jquery";
 
 const controller = new ScrollMagic.Controller();
@@ -27,7 +27,7 @@ const svg1 = d3.select("svg.figure1");
 const svg2 = d3.select("svg.figure2");
 const svg3 = d3.select("svg.figure3");
 const div4 = d3.select("div.figure4");
-const ratingsDiv = d3.select("div.ratingsDiv");
+const explorerDiv = d3.select("div.explorerDiv");
 const topicsDiv = d3.select("div.topicsDiv");
 const thumbnailGrid = d3.select("div.thumbnailGrid")
 
@@ -48,11 +48,10 @@ d3.csv("./data/ted_all.csv").then(data => {
   allTalkThumbnailGrid(thumbnailGrid, data)
   talkDate(svg1, data);
   tedSiteViews(svg2, data);
-  ratingsBreakdown(ratingsDiv, data);
+  talkExplorer(explorerDiv, data);
 });
 
 d3.csv("./data/fk_scores.csv").then(data => {
-  //console.log(data);
   readingLevel(svg3, data);
 });
 
