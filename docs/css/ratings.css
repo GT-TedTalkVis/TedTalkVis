@@ -6,8 +6,9 @@
     border: solid 1px #5F5F5F;
     color: #ACACAC;
     font-family: sans-serif;
+    font-size: 12pt;
     text-anchor: middle;
-    border-radius: 7px;
+    border-radius: 6px;
     pointer-events: none;
 }
 
@@ -75,7 +76,7 @@
     grid-column-end: 2;
     text-align: center;
     display: grid;
-    grid-template-rows: 40% 60%;
+    grid-template-rows: 50% 50%;
 }
 
 .submenu {

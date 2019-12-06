@@ -1,4 +1,8 @@
 import { createRatingsBaseVis, updateRatingsVis } from "./ratingsBreakdown";
+import * as jquery from "jquery";
+
+const selectors = { TALK: 0, SPEAKER: 1, PROFESSION: 2 };
+let lastUpdate = selectors.TALK;
 
 function onlyUnique(value, index, self) {
     return self.indexOf(value) === index;
@@ -6,22 +10,6 @@ function onlyUnique(value, index, self) {
 
 export default function(div, data)
 {
-    const margin = {
-        top: 30,
-        right: 30,
-        bottom: 30,
-        left: 30,
-    };
-
-    // Set sizing constants
-    const svgHeight = 400;
-    const svgWidth = 900;
-    const barHeight = svgWidth / 30;
-    const iconHeight = barHeight * 0.8;
-    const iconOffset = (barHeight - iconHeight) / 2;
-    const pieOuterRadius = svgHeight * 0.22;
-    const pieInnerRadius = pieOuterRadius * 0.78;
-
     // Create menu and vis locations
     const menu = div.append("div").attr("class", "menu");
     const resultsMenu = menu.append("div").attr("class", "resultsMenu submenu");
@@ -66,16 +54,71 @@ export default function(div, data)
             .attr("value", professions[i])
             .text(professions[i]);
     }
-    talkSelector.on("change", updateCharts);
-    speakerSelector.on("change", updateCharts);
-    professionSelector.on("change", updateCharts);
-
+    talkSelector.on("change", () => {
+        updateCharts(selectors.TALK);
+    });
+    speakerSelector.on("change", () => {
+        updateCharts(selectors.SPEAKER);
+    });
+    professionSelector.on("change", () => {
+        updateCharts(selectors.PROFESSION);
+    });
 
     // Add the different visualizations
-    createRatingsBaseVis(vis);
-    updateRatingsVis(data);
+    createRatingsBaseVis(vis, data);
 
-    function updateCharts(newData) {
+    function updateCharts(changed) {
+        // Get ratings for selected talk or talks
+        const selectedTalk = talkSelector._groups[0][0].options[talkSelector._groups[0][0].selectedIndex].value;
+        const selectedSpeaker = speakerSelector._groups[0][0].options[speakerSelector._groups[0][0].selectedIndex].value;
+        const selectedProfession = professionSelector._groups[0][0].options[professionSelector._groups[0][0].selectedIndex].value;
 
+        let newData = data;
+        switch (changed) {
+            case selectors.TALK:
+                if (selectedTalk !== "All") newData = getTalkByName(selectedTalk);
+                jquery("#speakerSelector").val("All");
+                jquery("#professionSelector").val("All");
+                break;
+            case selectors.SPEAKER:
+                if (selectedSpeaker !== "All") newData = getTalksBySpeaker(selectedSpeaker);
+                jquery("#talkSelector").val("All");
+                jquery("#professionSelector").val("All");
+                break;
+            case selectors.PROFESSION:
+                if (selectedProfession !== "All") newData = getTalksByProfession(selectedProfession);
+                jquery("#speakerSelector").val("All");
+                jquery("#talkSelector").val("All");
+                break;
+        }
+
+        updateRatingsVis(newData);
+    }
+
+    // Finds and returns all talks with the given talk name
+    function getTalkByName(name) {
+        let talks = [];
+        for (let i = 0; i < data.length; i++) {
+            if (data[i]["name"] === name) talks.push(data[i]);
+        }
+        return talks;
+    }
+
+    // Finds and returns all talks by the given speaker
+    function getTalksBySpeaker(speaker) {
+        let talks = [];
+        for (let i = 0; i < data.length; i++) {
+            if (data[i]["main_speaker"] === speaker) talks.push(data[i]);
+        }
+        return talks;
+    }
+
+    // Finds and returns all talks by speakers with the given profession
+    function getTalksByProfession(profession) {
+        let talks = [];
+        for (let i = 0; i < data.length; i++) {
+            if (data[i]["grouped_occupation"] === profession) talks.push(data[i]);
+        }
+        return talks;
     }
 }
