@@ -106,23 +106,22 @@
     justify-content: center;
 }
 
-.menu select {
-    font-size: 12pt;
-    width: 90%;
-    margin: 0;
-    padding: 0;
-}
-
 .explorerDiv label {
     font-size: 12pt;
     color: #ACACAC;
-    padding: 0;
-    text-align: left;
-    display: inline-block;
-    border: 0;
+    text-align: center;
 }
 
 .visSVG {
     width: 94%;
     height: 88%;
+}
+
+.ratingSelector {
+    width: 90%;
+}
+
+.select2-dropdown {
+    font-size: 10pt;
+    color: black;
 }

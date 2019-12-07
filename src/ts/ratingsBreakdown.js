@@ -170,8 +170,6 @@ export function updateRatingsVis(data)
         .domain([0, ratingDomain[1]])
         .range([0, 100]);
 
-    console.log(ratingDomain);
-
     // Set the data for each function
     d3.selectAll(".ratingBar").data(ratings, d => d[0]);
     d3.selectAll(".ratingIcon").data(ratings, d => d[0]);
