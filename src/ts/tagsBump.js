@@ -12,10 +12,13 @@ export default function(svg, data) {
     bottom: 80,
     left: 80,
   };
-  const svgWidth = 800;
-  const svgHeight = 500;
-  const width = svgWidth - margin.left - margin.right;
-  const height = svgHeight - margin.top - margin.bottom;
+
+  const svgWidth = window.innerWidth * 0.75;
+  const svgHeight = window.innerHeight * 0.75;
+  // const svgWidth = 800;
+  // const svgHeight = 500;
+  // const width = svgWidth - margin.left - margin.right;
+  // const height = svgHeight - margin.top - margin.bottom;
 
   // Set width and height of svg
   svg.attr("viewBox", `0 0 ${svgWidth} ${svgHeight}`);

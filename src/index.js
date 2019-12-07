@@ -9,6 +9,7 @@ import professions from "./ts/professions";
 import tagsBump from "./ts/tagsBump";
 import { talkExplorer } from "./ts/talkExplorer";
 import $ from "jquery";
+import tagRank from "./ts/tagRank";
 
 const controller = new ScrollMagic.Controller();
 
@@ -20,6 +21,10 @@ const div4 = d3.select("div.figure4");
 const explorerDiv = d3.select("div.explorerDiv");
 const bumpDiv = d3.select("div.bumpDiv");
 const thumbnailGrid = d3.select("div.thumbnailGrid");
+const commentsTagsDiv = d3.select("div.commentsTagsDiv");
+const viewsTagsDiv = d3.select("div.viewsTagsDiv");
+const engagementTagsDiv = d3.select("div.engagementTagsDiv");
+const positivityTagsDiv = d3.select("div.positivityTagsDiv");
 
 // Define data cleaner function
 function dataCleaner(data) {
@@ -55,6 +60,34 @@ d3.csv("./data/tags_rank_top5.csv").then(function(data) {
     d.year = +d.year;
   });
   tagsBump(bumpDiv, data);
+});
+
+d3.csv("./data/comment_tag_rank.csv").then(function(data) {
+  data.forEach(function(d) {
+    d.value = +d.value;
+  });
+  tagRank(commentsTagsDiv, data);
+});
+
+d3.csv("./data/view_tag_rank.csv").then(function(data) {
+  data.forEach(function(d) {
+    d.value = +d.value;
+  });
+  tagRank(viewsTagsDiv, data);
+});
+
+d3.csv("./data/engagement_tag_rank.csv").then(function(data) {
+  data.forEach(function(d) {
+    d.value = +d.value;
+  });
+  tagRank(engagementTagsDiv, data);
+});
+
+d3.csv("./data/positivity_tag_rank.csv").then(function(data) {
+  data.forEach(function(d) {
+    d.value = +d.value;
+  });
+  tagRank(positivityTagsDiv, data);
 });
 
 export { controller };
