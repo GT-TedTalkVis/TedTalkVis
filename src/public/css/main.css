@@ -21,6 +21,10 @@ p {
   height: 40vh;
 }
 
+.spacer-60vh {
+  height: 60vh;
+}
+
 .spacer-80vh {
   height: 80vh;
 }
@@ -38,7 +42,7 @@ p {
 .hero-bg {
   height: 80vh;
   width: 80%;
-  background-image: url('../images/hero_image.png');
+  background-image: url("../images/hero_image.png");
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: 60% 40%;
