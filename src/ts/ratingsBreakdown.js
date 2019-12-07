@@ -31,13 +31,15 @@ const ratingCategories = [
 ];
 
 // Sizes (in percentage of svg size)
-const barWidth = 75;                           // Width of the icon bar
+const barWidth = 75;                            // Width of the icon bar
 const barHeight = 6;                            // Height of the icon bar
 const barCorners = 0.75;                        // Radius of icon bar corners
 const iconRelativeSize = 0.8;                   // Size of the icons relative to the height of the ratings bar
 const iconSize = barHeight * iconRelativeSize;  // The width and height of the rating icons
 const iconOffset = (barWidth - (barWidth * (ratingCategories.length * (iconSize / barWidth)))) / (ratingCategories.length + 1);
 const chartBarWidth = barWidth * 0.04;           // The width of each bar in the bar chart
+const pieInnerRadius = 0.75;                     // The percentage of the inner radius to outer radius
+const pieOffset = 3;                             // The space (in percentage of total size) between the pie chart and the edges
 
 // Ratings tracker
 let ratings = [
@@ -135,6 +137,49 @@ export function createRatingsBaseVis(div, data)
         .on("mouseover", tip.show)
         .on("mouseout", tip.hide);
 
+    // Pie (donut) chart
+    // set the color scale
+    const color = d3
+        .scaleOrdinal()
+        .domain(["good", "bad"])
+        .range([COLORS.BRIGHT_GREEN, COLORS.BRIGHT_RED]);
+
+    // Create pie chart tooltip
+    const pieTip = d3Tip()
+        .attr("class", "d3-tip")
+        .html((d) => {
+            return `${d.data.key.toUpperCase()}: ${((+d.data.value / d.voteTotal) * 100).toFixed(1)}%`;
+        });
+
+    // Add pie chart to vis
+
+    // Create placeholder pie chart data
+    const pie = d3.pie().value((d) => d.value);
+    const pieData = pie(d3.entries({ good: 1, bad: 1 }));
+    pieData.forEach((d) => {
+        d.voteTotal = 2;
+    });
+    svg.append("svg")
+        .attr("x", barWidth +  "%")
+        .attr("y", pieOffset + "%")
+        .attr("width", (100 - barWidth) + "%")
+        .attr("height", "100%")
+        .attr("viewBox", "0 0 100 100")
+        .selectAll(".pieChart")
+        .data(pieData, function(d) {
+            return d.data.key;
+        })
+        .enter()
+        .append("path")
+        .attr("transform", "translate(" + (50 + pieOffset) + ",0)")
+        .attr("class", "pieChart")
+        .attr("fill", function(d) {
+            return color(d.data.key);
+        })
+        .call(pieTip)
+        .on("mouseover", pieTip.show)
+        .on("mouseout", pieTip.hide);
+
     updateRatingsVis(data);
 }
 
@@ -182,4 +227,36 @@ export function updateRatingsVis(data)
             .duration(750)
             .attr("d", (d) => topRoundedRect(xPos + (iconSize - chartBarWidth) / 2, 100, chartBarWidth, yScale(d[1]), barCorners));
     }
+
+    // Update pie chart
+
+    // Consolidate data
+    const pieDataRaw = { good: 0, bad: 0 };
+    for (let i = 0; i < ratings.length; i++) {
+        switch (ratings[i][0].toLowerCase()) {
+            case "confusing":
+            case "longwinded":
+            case "unconvincing":
+            case "obnoxious":
+            case "ok":
+                pieDataRaw.bad += ratings[i][1];
+                break;
+            default:
+                pieDataRaw.good += ratings[i][1];
+        }
+    }
+    const voteTotal = pieDataRaw.good + pieDataRaw.bad;
+
+    // Create pie chart data
+    const pie = d3.pie().value((d) => d.value);
+    const pieData = pie(d3.entries(pieDataRaw));
+    pieData.forEach((d) => {
+        d.voteTotal = voteTotal;
+    });
+
+    d3.selectAll(".pieChart")
+        .data(pieData, (d) => d.data.key)
+        .transition()
+        .duration(750)
+        .attr("d", d3.arc().innerRadius(pieInnerRadius * (50- (pieOffset * 2))).outerRadius(50 - (pieOffset * 2)));
 }

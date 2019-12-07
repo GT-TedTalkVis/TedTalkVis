@@ -48,7 +48,7 @@ export default function(svg, data) {
 
   // Get histogram data in Number type.
   const yearList = data.map(talk => parseInt(talk["year"], 10));
-  //console.log(yearList);
+  //console.log(d3.extent(yearList));
 
   // Use histogram() to compute bins
   const bins = histogram(yearList);

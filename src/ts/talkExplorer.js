@@ -33,7 +33,7 @@ export default function(div, data)
     const speakerLabel = selectorMenu.append("label").attr("for", "speakerSelector").html("Select Speaker:");
     const speakerSelector =
         speakerLabel.append("select").attr("id", "speakerSelector").attr("class", "ratingSelector");
-    const professionLabel = selectorMenu.append("label").attr("for", "professionSelector").html("Select Speaker Profession:");
+    const professionLabel = selectorMenu.append("label").attr("for", "professionSelector").html("Select Profession:");
     const professionSelector =
         professionLabel.append("select").attr("id", "professionSelector").attr("class", "ratingSelector");
     talkSelector.append("option").attr("value", "All").text("All");
@@ -105,6 +105,7 @@ export default function(div, data)
         updateRatingsVis(newData);
     }
 
+    // Checks if the select2 data array contains the given value
     function includesText(array, value) {
         for (let i = 0; i < array.length; i++) {
             if (array[i].text === value) return true;

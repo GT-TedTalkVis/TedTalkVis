@@ -107,9 +107,11 @@
 }
 
 .explorerDiv label {
-    font-size: 12pt;
-    color: #ACACAC;
+    font-size: 65%;
+    color: #DCDCDC;
     text-align: center;
+    width: 90%;
+    max-width: 90%;
 }
 
 .visSVG {
@@ -118,7 +120,7 @@
 }
 
 .ratingSelector {
-    width: 90%;
+    width: 100% !important;
 }
 
 .select2-dropdown {
