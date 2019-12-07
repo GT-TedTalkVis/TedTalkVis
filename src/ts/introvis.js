@@ -56,19 +56,51 @@ export default function(svg, data) {
     .attr("x", -1 * 1280 * 0.2)
     .attr("y", (svgHeight - 720 * 0.2) / 2);
 
+  function removeImages() {
+    // Cleanup function for floating images like
+    // wurman, marks, anderson
+    [wurman, marks].forEach(im => {
+      im.transition()
+        .duration(750)
+        .attr("transform", function() {
+          const bbox = this.getBBox();
+          return `translate(${bbox.x}, ${-bbox.height})`;
+        })
+        .on('end', function() {
+          im.remove();
+        })
+    });
+
+    let anderson = svg.select("image.anderson");
+    if (!anderson.empty()) {
+      anderson
+        .transition()
+        .duration(750)
+        .attr("width", 1280 * 0.4)
+        .attr("height", 720 * 0.4)
+        .attr("x", -1 * 1280 * 0.4)
+        .attr("y", viewableHeight * 0.2)
+        .on('end', function() {
+          anderson.remove();
+        })
+    }
+  }
   function toggleDimming(state) {
     if (state === "on") {
-      const dimmer = svg
-        .append("rect")
-        .attr("class", "black-fade")
-        .attr("width", svgWidth)
-        .attr("height", svgHeight)
-        .attr("x", 0)
-        .attr("y", 0)
-        .attr("opacity", 0)
-        .transition()
-        .duration(300)
-        .attr("opacity", 0.6);
+      let dimmer = svg.select("rect.black-fade")
+      if (dimmer.empty()) {
+        dimmer = svg
+          .append("rect")
+          .attr("class", "black-fade")
+          .attr("width", svgWidth)
+          .attr("height", svgHeight)
+          .attr("x", 0)
+          .attr("y", 0)
+          .attr("opacity", 0)
+          .transition()
+          .duration(300)
+          .attr("opacity", 0.6);
+      }
     } else {
       const dimmer = svg.select("rect.black-fade");
       dimmer
@@ -181,6 +213,9 @@ export default function(svg, data) {
         });
     });
 
+    // Turn off dimmer if scrolling upwards
+    toggleDimming('off');
+
     // Images
     unitsEnter
       .append("image")
@@ -267,6 +302,7 @@ export default function(svg, data) {
 
   const introPart4 = () => {
     const duration = 750;
+    const padding = 10; // Needs to be the same as above function.
 
     toggleDimming("on");
 
@@ -290,33 +326,487 @@ export default function(svg, data) {
       .attr("x", (viewableWidth - 1280 * 0.5) / 2)
       .attr("y", (viewableHeight - 720 * 0.5) / 2)
       .attr("width", 1280 * 0.5)
-      .attr("height", 720 * 0.5);
+      .attr("height", 720 * 0.5)
   };
 
   const introPart5 = () => {
-    const duration = 750;
-
-    toggleDimming("off");
-
-    let anderson = svg.select("image.anderson");
-    if (!anderson.empty()) {
-      anderson
-        .transition()
-        .duration(duration)
-        .attr("width", 1280 * 0.4)
-        .attr("height", 720 * 0.4)
-        .attr("x", -1 * 1280 * 0.4)
-        .attr("y", viewableHeight * 0.2);
+    const dataSlice = data.slice(2, 176);
+    const years = [];
+    for (let i = 0; i < dataSlice.length; i++) {
+      years.push(dataSlice[i]["year"]);
+    }
+    const yearSet = [...(new Set(years))];
+    const numYears = yearSet.length;
+    const newYears = yearSet.slice(yearSet.indexOf("2001"));
+    const numVideosInYear = year => {
+      return dataSlice.filter(d => d["year"] === year).length; 
+    }
+    const posInYear = (year, name) => {
+      const yearSlice = dataSlice.filter(d => d["year"] === year);
+      for (let i = 0; i < yearSlice.length; i++) {
+        if (yearSlice[i]["name"] === name) {
+          return i;
+        }
+      }
+      return null;
     }
 
-    const units = svg.selectAll("g").data(data.slice(2, 176), d => d["name"]);
+    
+    const duration = 750;
+    const padding = 10;
+    const availableWidth = viewableWidth - padding * 10;
+    const oldImageWidth = availableWidth / 5;
+    const oldImageHeight = oldImageWidth * thumbnailXRatio / thumbnailYRatio;
+    const newImageWidth = (viewableWidth - padding * numYears) / numYears * 0.4;
+    const newImageHeight = newImageWidth * 0.45;
+
+    toggleDimming("off");
+    removeImages();
+
+    const units = svg.selectAll("g").data(dataSlice, d => d["name"]);
     const unitsEnter = units.enter().append("g");
 
     // Remove all text elements for now.
     units.select("text").remove();
 
-    //
+    
+    units.select("image").attr("preserveAspectRatio", "none");
+    // Have d3 enter the missing images.
+    unitsEnter
+      .append("image")
+      .attr("width", oldImageWidth)
+      .attr("height", oldImageHeight)
+      .attr("xlink:href", d => {
+        return thumbnailDirectory + d["thumbnail_path"];
+      })
+      .attr("preserveAspectRatio", "none")
+      .attr("opacity", 0)
+      .attr("transform", function(d, i) {
+        if (i < 5) {
+          const x = (i + 1) * padding + i * oldImageWidth;
+          const y = viewableHeight - oldImageHeight * 2.5;
+          return `translate(${x}, ${y})`;
+        } else if (i < 10) {
+          const x = (4 + 1) * padding + 4 * oldImageWidth;
+          const y = viewableHeight - oldImageHeight * 2.5 - oldImageHeight * (i - 5 + 1);
+          return `translate(${x}, ${y})`;
+        } else {
+          const startX = (5 + 1) * padding + 5 * oldImageWidth;
+          const startY = viewableHeight - oldImageHeight * 2.5;
+          const k = newYears.indexOf(d["year"]);
+          const l = posInYear(d["year"], d["name"]);
+
+          const x = startX + k * (padding + oldImageWidth);
+          const y = startY - oldImageHeight * l;
+          return `translate(${x}, ${y})`;
+        }
+      })
+      // Append text
+      const yearTextboxes = svg.selectAll("text.year").data(yearSet, d => d);
+      const yearTextboxesEnter = yearTextboxes.enter().append("text").attr("class", "year");
+      yearTextboxesEnter
+        .text(d => d)
+        .attr("fill", "#FFFFFF")
+        .attr("font-size", "12")
+        .attr("opacity", 0)
+        .attr("transform", function(d) {
+          const bbox = this.getBBox();
+          const startX = 10;
+          const startY = viewableHeight - newImageHeight * 1.5;
+          const l = numVideosInYear(d);
+          const k = yearSet.indexOf(d);
+
+          const x = startX + k * newImageWidth + bbox.height;
+          const y = startY - newImageHeight * l;
+          return `translate(${x}, ${y}) rotate(-90) `;
+        })
+
+
+      // Transition
+      const unitsMerged = units.merge(unitsEnter);
+      const yearTextboxesMerged = yearTextboxes.merge(yearTextboxesEnter);
+      unitsMerged
+        .transition()
+        .duration(750)
+        .select("image")
+        .attr("width", newImageWidth)
+        .attr("height", newImageHeight)
+        .attr("opacity", 1)
+        .attr("transform", function(d, i) {
+          const startX = 10;
+          const startY = viewableHeight - newImageHeight * 1.5;
+          const k = yearSet.indexOf(d["year"]);
+          const l = posInYear(d["year"], d["name"]);
+
+          const x = startX + k * newImageWidth;
+          const y = startY - newImageHeight * l;
+          return `translate(${x}, ${y})`;
+        }).on('end', () => {
+          yearTextboxesMerged
+            .transition()
+            .duration(400)
+            .delay((d, i) => 100 * i)
+            .attr("opacity", 1)
+        })
+      
   };
+
+  const introPart6 = () => {
+    const dataSlice = data.slice(2, 226);
+    const years = [];
+    for (let i = 0; i < dataSlice.length; i++) {
+      years.push(dataSlice[i]["year"]);
+    }
+    const yearSet = [...(new Set(years))];
+    const numYears = yearSet.length;
+    const newYears = yearSet.slice(yearSet.indexOf("2001"));
+    const numVideosInYear = year => {
+      return dataSlice.filter(d => d["year"] === year).length; 
+    }
+    const posInYear = (year, name) => {
+      const yearSlice = dataSlice.filter(d => d["year"] === year);
+      for (let i = 0; i < yearSlice.length; i++) {
+        if (yearSlice[i]["name"] === name) {
+          return i;
+        }
+      }
+      return null;
+    }
+
+    toggleDimming("off")
+    removeImages();
+
+    const padding = 10;
+    const oldImageWidth = (viewableWidth - padding * 10) / (numYears - 1) * 0.4;
+    const oldImageHeight = oldImageWidth * 0.45;
+    // const newImageWidth = (viewableWidth - padding * numYears) / numYears * 0.4;
+    // const newImageHeight = newImageWidth * 0.45;
+
+    const units = svg.selectAll("g").data(dataSlice, d => d["name"]);
+    units.select("image").attr("preserveAspectRatio", "none");
+    const unitsEnter = units.enter().append("g");
+
+    unitsEnter
+      .append("image")
+      .attr("width", oldImageWidth)
+      .attr("height", oldImageHeight)
+      .attr("xlink:href", d => {
+        return thumbnailDirectory + d["thumbnail_path"];
+      })
+      .attr("preserveAspectRatio", "none")
+      .attr("opacity", 0)
+      .attr("transform", function(d, i) {
+        const startX = 10;
+        const startY = viewableHeight - oldImageHeight * 1.5;
+        const k = yearSet.indexOf(d["year"]);
+        const l = posInYear(d["year"], d["name"]);
+
+        const x = startX + k * oldImageWidth;
+        const y = startY - oldImageHeight * l;
+        return `translate(${x}, ${y})`;
+      })
+
+    const yearTextboxes = svg.selectAll("text.year").data(yearSet, d => d);
+    const yearTextboxesEnter = yearTextboxes.enter().append("text").attr("class", "year");
+    yearTextboxesEnter
+      .text(d => d)
+      .attr("fill", "#FFFFFF")
+      .attr("font-size", "12")
+      .attr("opacity", 0)
+      .attr("transform", function(d) {
+        const bbox = this.getBBox();
+        const startX = 10;
+        const startY = viewableHeight - oldImageHeight * 1.5;
+        const l = numVideosInYear(d);
+        const k = yearSet.indexOf(d);
+
+        const x = startX + k * oldImageWidth + bbox.height;
+        const y = startY - oldImageHeight * l;
+        return `translate(${x}, ${y}) rotate(-90) `;
+      })
+
+    const unitsMerged = units.merge(unitsEnter);
+    const yearTextboxesMerged = yearTextboxes.merge(yearTextboxesEnter);
+    unitsMerged
+      .transition()
+      .duration(400)
+      .delay((d, i) => {
+        const l = posInYear(d["year"], d["name"]);
+        if (d["year"] != "2006") {
+          return 0;
+        } else {
+          return l * 10;
+        }
+      })
+      .select("image")
+      .attr("opacity", 1)
+      .on('end', function(d, i) {
+        if (i === dataSlice.length - 1) {
+          yearTextboxesMerged
+              .transition()
+              .duration(400)
+              .attr("opacity", 1)
+        }
+      })
+  }
+
+  const introPart7 = () => {
+    const dataSlice = data.slice(2);
+    const yearMin = parseInt(dataSlice[0]["year"], 10);
+    const yearMax = parseInt(dataSlice[dataSlice.length - 1]["year"], 10);
+    const yearSet = [];
+    for (let i = yearMin; i <= yearMax; i++) {
+      yearSet.push(i.toString());
+    }
+
+    const numVideosInYear = year => {
+      return dataSlice.filter(d => d["year"] === year).length; 
+    }
+    const posInYear = (year, name) => {
+      const yearSlice = dataSlice.filter(d => d["year"] === year);
+      for (let i = 0; i < yearSlice.length; i++) {
+        if (yearSlice[i]["name"] === name) {
+          return i;
+        }
+      }
+      return null;
+    }
+
+    toggleDimming("off")
+    removeImages();
+
+    const imageWidth = viewableWidth * 0.025;
+    const imageHeight = viewableHeight * 0.003;
+    console.log(imageWidth, imageHeight);
+
+    // Hide year textboxes for now
+    const yearTextboxes = svg
+      .selectAll("text.year")
+      .data(yearSet, d => d)
+      .attr("opacity", 0);
+
+    const units = svg.selectAll("g").data(dataSlice, d => d["name"]);
+    units.select("image").attr("preserveAspectRatio", "none");
+    units
+      .transition()
+      .duration(2000)
+      .select("image")
+      .attr("width", imageWidth)
+      .attr("height", imageHeight)
+      .attr("transform", function(d) {
+        const startX = 10;
+        const startY = viewableHeight - (viewableHeight * 0.05);
+        const k = yearSet.indexOf(d["year"]);
+        const l = posInYear(d["year"], d["name"]);
+
+        const x = startX + k * imageWidth;
+        const y = startY - imageHeight * l;
+        return `translate(${x}, ${y})`;
+      }).on('end', function(d, i) {
+        if (i === 223) {
+          const unitsEnter = units.enter().append("g");
+          unitsEnter
+            .append("image")
+            .attr("xlink:href", d => {
+              return thumbnailDirectory + d["thumbnail_path"];
+            })
+            .attr("preserveAspectRatio", "none")
+            .attr("width", imageWidth)
+            .attr("height", imageHeight)
+            .attr("opacity", 0)
+            .attr("transform", function(d) {
+              const startX = 10;
+              const startY = viewableHeight - (viewableHeight * 0.05);
+              const k = yearSet.indexOf(d["year"]);
+              const l = posInYear(d["year"], d["name"]);
+      
+              const x = startX + k * imageWidth;
+              const y = startY - imageHeight * l;
+              return `translate(${x}, ${y})`;
+            })
+
+          const unitsMerged = units.merge(unitsEnter);
+          unitsMerged
+            .transition()
+            .duration(0)
+            .delay((d, i) => i)
+            .select("image")
+            .attr("opacity", 1)
+
+          const yearTextboxesEnter = yearTextboxes.enter().append("text").attr("class", "year");
+          yearTextboxes
+            .text(d => d)
+            .attr("fill", "#FFFFFF")
+            .attr("font-size", imageWidth / 1.618)
+            .attr("opacity", 1)
+            .attr("transform", function(d) {
+              const bbox = this.getBBox();
+              const startX = 10;
+              const k = yearSet.indexOf(d);
+              
+              const x = startX + k * imageWidth + bbox.height;
+              const y = viewableHeight;
+              return `translate(${x}, ${y}) rotate(-90) `;
+            })
+          yearTextboxesEnter
+            .text(d => d)
+            .attr("fill", "#FFFFFF")
+            .attr("font-size", imageWidth / 1.618)
+            .attr("opacity", 1)
+            .attr("transform", function(d) {
+              const bbox = this.getBBox();
+              const startX = 10;
+              const k = yearSet.indexOf(d);
+              
+              const x = startX + k * imageWidth + bbox.height;
+              const y = viewableHeight;
+              return `translate(${x}, ${y}) rotate(-90) `;
+            })
+          const yearTextboxesMerged = yearTextboxes.merge(yearTextboxesEnter);
+        }
+      })
+  }
+
+  const introPart8 = () => {
+    const dataSlice = data.slice(2);
+    const yearMin = parseInt(dataSlice[0]["year"], 10);
+    const yearMax = parseInt(dataSlice[dataSlice.length - 1]["year"], 10);
+    const yearSet = [];
+    for (let i = yearMin; i <= yearMax; i++) {
+      yearSet.push(i.toString());
+    }
+
+    const posInYear = (year, name) => {
+      const yearSlice = dataSlice.filter(d => d["year"] === year);
+      for (let i = 0; i < yearSlice.length; i++) {
+        if (yearSlice[i]["name"] === name) {
+          return i;
+        }
+      }
+      return null;
+    }
+
+    const posInDuration = (duration, name) => {
+      const durationSlice = dataSlice.filter(d => {
+        return Math.floor(parseInt(d["duration"], 10) / 60) === duration
+      });
+      for (let i = 0; i < durationSlice.length; i++) {
+        if (durationSlice[i]["name"] === name) {
+          return i;
+        }
+      }
+      return null;
+    }
+
+    // Get the min and max views for each year
+    const minView = d3.min(dataSlice, d => d["views"]);
+    const maxView = d3.max(dataSlice, d => d["views"]);
+    function normalizedView(count) {
+      return (count - minView) / (maxView - minView);
+    }
+
+
+    toggleDimming("off")
+    removeImages();
+
+    const imageWidth = viewableWidth * 0.025;
+    const imageHeight = viewableHeight * 0.003;
+    const newImageHeight = viewableHeight * 0.004;
+
+    const yearTextboxes = svg
+      .selectAll("text.year")
+      .data(yearSet, d => d)
+      .attr("opacity", 0);
+
+    const units = svg.selectAll("g");
+
+    units.select("image").remove()
+    // Append a black rectangle
+    units
+      .append("rect")
+      .attr("fill", d => {
+        return d3.interpolateReds(0);
+      })
+      .attr("width", imageWidth)
+      .attr("height", imageHeight)
+      .attr("transform", function(d) {
+        const startX = 10;
+        const startY = viewableHeight - (viewableHeight * 0.05);
+        const k = yearSet.indexOf(d["year"]);
+        const l = posInYear(d["year"], d["name"]);
+
+        const x = startX + k * imageWidth;
+        const y = startY - imageHeight * l;
+        return `translate(${x}, ${y})`;
+      })
+      .transition()
+      .duration(2000)
+      .attr("fill", d => {
+        return d3.interpolateReds(normalizedView(parseInt(d["views"], 10)));
+      })
+      .transition()
+      .attr("height", newImageHeight)
+      .duration(2000)
+      .attr("transform", function(d) {
+        const startX = 10;
+        const startY = viewableHeight - (viewableHeight * 0.05);
+        const dataDuration = parseInt(d["duration"], 10);
+        const durationMinutes = Math.floor(dataDuration / 60);
+        const k = durationMinutes;
+        const l = posInDuration(durationMinutes, d["name"]);
+
+        const x = startX + k * imageWidth;
+        const y = startY - newImageHeight * l;
+        return `translate(${x}, ${y})`;
+      })
+  }
+
+  const introPart9 = () => {
+    const dataSlice = data.slice(2);
+
+    function posInFK(fkScore, name) {
+      const fkSlice = dataSlice.filter(d => {
+        return parseInt(d["fk_score"], 10) === fkScore;
+      })
+
+      for (let i = 0; i < fkSlice.length; i++) {
+        if (fkSlice[i]["name"] === name) {
+          return i;
+        }
+      }
+      return 0;
+    }
+
+    // Get the min and max views for each year
+    const minView = d3.min(dataSlice, d => d["views"]);
+    const maxView = d3.max(dataSlice, d => d["views"]);
+
+    toggleDimming("off")
+    removeImages();
+
+    const imageWidth = viewableWidth * 0.025;
+    const imageHeight = viewableHeight * 0.0015;
+
+    const units = svg.selectAll("g");
+    units.select("rect")
+      .transition()
+      .duration(2000)
+      .attr("transform", function(d) {
+        const startX = 10;
+        const startY = viewableHeight - (viewableHeight * 0.05);
+        let fkScore = parseInt(d["fk_score"], 10);
+        if (fkScore === 0) {
+          return `translate(${-100}, ${startY})`
+        }
+        const k = fkScore;
+        const l = posInFK(fkScore, d["name"], startY);
+
+        const x = startX + k * imageWidth;
+        const y = startY - imageHeight * l;
+        return `translate(${x}, ${y})`;
+      })
+
+  }
 
   const scenePart1 = new ScrollMagic.Scene({
     triggerElement: "#intro-part-1",
@@ -355,6 +845,39 @@ export default function(svg, data) {
   })
     .on("start", function() {
       introPart5("enter");
+    })
+    .addTo(controller);
+
+  const scenePart6 = new ScrollMagic.Scene({
+    triggerElement: "#intro-part-6",
+  })
+    .on("start", function() {
+      introPart6("enter");
+    })
+    .addTo(controller);
+
+  const scenePart7 = new ScrollMagic.Scene({
+    triggerElement: "#intro-part-7",
+  })
+    .on("start", function() {
+      introPart7("enter");
+    })
+    .addTo(controller);
+
+  const scenePart8 = new ScrollMagic.Scene({
+    triggerElement: "#intro-part-8",
+  })
+    .on("start", function() {
+      introPart8("enter");
+    })
+    .addTo(controller);
+
+  const scenePart9 = new ScrollMagic.Scene({
+    triggerElement: "#intro-part-9",
+  })
+    .on("start", function() {
+      console.log("Part 9");
+      introPart9();
     })
     .addTo(controller);
 }
