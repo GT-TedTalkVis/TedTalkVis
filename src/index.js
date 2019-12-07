@@ -7,7 +7,7 @@ import readingLevel from "./ts/readingLevel";
 import professions from "./ts/professions";
 import tagsBump from "./ts/tagsBump";
 import allTalkThumbnailGrid from "./ts/allTalkThumbnailGrid";
-import talkExplorer from "./ts/talkExplorer";
+import { talkExplorer } from "./ts/talkExplorer";
 import $ from "jquery";
 
 const controller = new ScrollMagic.Controller();

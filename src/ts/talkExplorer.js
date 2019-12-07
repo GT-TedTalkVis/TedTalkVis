@@ -1,20 +1,49 @@
 import { createRatingsBaseVis, updateRatingsVis } from "./ratingsBreakdown";
 import * as jq from "jquery";
+import * as d3 from "d3"
 import * as select2 from "select2";
 
 const selectors = { TALK: 0, SPEAKER: 1, PROFESSION: 2 };
+let lastChanged = selectors.TALK;
+let fullData = [];
+let numResults = 5;
 
 function onlyUnique(value, index, self) {
     return self.indexOf(value) === index;
 }
 
-export default function(div, data)
+export function talkExplorer(div, data)
 {
+    fullData = data;
+
     // Create menu and vis locations
     const menu = div.append("div").attr("class", "menu");
     const resultsMenu = menu.append("div").attr("class", "resultsMenu submenu");
     const selectorMenu = menu.append("div").attr("class", "selectMenu submenu");
-    const vis = div.append("div").attr("class", "vis");
+    const vis_section = div.append("div").attr("class", "vis-section");
+    const title = vis_section.append("div").attr("class", "vis-title-div");
+    const vis = vis_section.append("div").attr("class", "vis");
+
+    // Initialize title
+    const visTitle = title.append("a")
+        .attr("class", "vis-title")
+        .html("All Talks");
+
+    // Initialize results menu
+    resultsMenu.append("div")
+        .attr("class", "rating-result-label")
+        .append("label")
+        .attr("id", "rating-result-header");
+    for (let i = 0; i < numResults; i++) {
+        resultsMenu.append("p")
+            .attr("id", "rating-result-" + i)
+            .attr("class", "rating-menu-result clipped")
+            .on("click", (d) => {
+                console.log(d);
+                jq("#talkSelector").val(d);
+                jq("#talkSelector").trigger("change");
+            });
+    }
 
     // Create important arrays
     let speakers = [];
@@ -63,9 +92,19 @@ export default function(div, data)
             dropdownAutoWidth: true,
         });
     });
-    jq('#talkSelector').on("change", () => { updateCharts(selectors.TALK); });
-    jq('#speakerSelector').on("change", () => { updateCharts(selectors.SPEAKER); });
-    jq('#professionSelector').on("change", () => { updateCharts(selectors.PROFESSION); });
+    jq('#talkSelector').on("change", () => {
+        updateCharts(selectors.TALK);
+    });
+    jq('#speakerSelector').on("change", () => {
+        updateCharts(selectors.SPEAKER);
+        updateResults("All", true);
+        d3.select("#rating-result-header").html("Best " + jq('#speakerSelector').select2('data')[0].text + " Talks");
+    });
+    jq('#professionSelector').on("change", () => {
+        updateCharts(selectors.PROFESSION);
+        updateResults("All", true);
+        d3.select("#rating-result-header").html("Best " + jq('#professionSelector').select2('data')[0].text + " Talks");
+    });
 
 
     // Add the different visualizations
@@ -76,69 +115,165 @@ export default function(div, data)
         const selectedTalks = jq('#talkSelector').select2('data');
         const selectedSpeakers = jq('#speakerSelector').select2('data');
         const selectedProfessions = jq('#professionSelector').select2('data');
+        let titleText = "All Talks";
+        let link = null;
 
         let newData = data;
         switch (changed) {
             case selectors.TALK:
+                lastChanged = selectors.TALK;
                 jq("#speakerSelector").val("All");
                 jq("#professionSelector").val("All");
                 jq("#speakerSelector").trigger("change.select2");
                 jq("#professionSelector").trigger("change.select2");
-                if (!selectedTalks.includes("All")) newData = getTalkByName(selectedTalks);
+                if (!includesText(selectedTalks, "All")) newData = getTalkByName(selectedTalks);
+                titleText = selectedTalks[0].text;
+                link = newData[0].url;
                 break;
             case selectors.SPEAKER:
+                lastChanged = selectors.SPEAKER;
                 jq("#talkSelector").val("All");
                 jq("#professionSelector").val("All");
                 jq("#talkSelector").trigger("change.select2");
                 jq("#professionSelector").trigger("change.select2");
-                if (!selectedSpeakers.includes("All")) newData = getTalksBySpeaker(selectedSpeakers);
+                if (!includesText(selectedSpeakers, "All")) newData = getTalksBySpeaker(selectedSpeakers);
+                titleText = "Talks by " + selectedSpeakers[0].text;
                 break;
             case selectors.PROFESSION:
+                lastChanged = selectors.PROFESSION;
                 jq("#speakerSelector").val("All");
                 jq("#talkSelector").val("All");
                 jq("#speakerSelector").trigger("change.select2");
                 jq("#talkSelector").trigger("change.select2");
-                if (!selectedProfessions.includes("All")) newData = getTalksByProfession(selectedProfessions);
+                if (!includesText(selectedProfessions, "All")) newData = getTalksByProfession(selectedProfessions);
+                if (selectedProfessions[0].text === "Visionary") titleText = "Talks by Visionaries";
+                else if (selectedProfessions[0].text === "Businessman") titleText = "Talks by Businessmen";
+                else if (selectedProfessions[0].text === "Military") titleText = "Talks by the Military";
+                else if (selectedProfessions[0].text === "Miscellaneous") titleText = "Talks by Miscellaneous Professions";
+                else titleText = "Talks by " + selectedProfessions[0].text + "s";
                 break;
         }
 
+        // Update title
+        visTitle.html(titleText).attr("href", link);
+
         updateRatingsVis(newData);
+
+        console.log("updated charts");
+    }
+    updateResults("good", true);
+}
+
+// Checks if the select2 data array contains the given value
+function includesText(array, value) {
+    for (let i = 0; i < array.length; i++) {
+        if (array[i].text === value) return true;
+    }
+    return false;
+}
+
+// Finds and returns all talks with the given talk name
+function getTalkByName(names) {
+    let talks = [];
+    for (let i = 0; i < fullData.length; i++) {
+        if (includesText(names, fullData[i]["name"])) talks.push(fullData[i]);
+    }
+    return talks;
+}
+
+// Finds and returns all talks by the given speaker
+function getTalksBySpeaker(speakers) {
+    let talks = [];
+    for (let i = 0; i < fullData.length; i++) {
+        if (includesText(speakers, fullData[i]["main_speaker"])) talks.push(fullData[i]);
+    }
+    return talks;
+}
+
+// Finds and returns all talks by speakers with the given profession
+function getTalksByProfession(professions) {
+    let talks = [];
+    for (let i = 0; i < fullData.length; i++) {
+        if (includesText(professions, fullData[i]["grouped_occupation"])) talks.push(fullData[i]);
+    }
+    return talks;
+}
+
+/* Updates the results section of the vis based on the data provided
+ * Parameters:
+ *      category: string indicating the category (rating) to sort by (uppercase first letter)
+ *      fromChange: called from an on-change function.  Prevents infinite looping
+ */
+export function updateResults(category, fromChange)
+{
+    let data = fullData;
+    switch (lastChanged) {
+        case selectors.TALK:
+            jq("#talkSelector").val("All");
+            break;
+        case selectors.SPEAKER:
+            const selectedSpeakers = jq('#speakerSelector').select2('data');
+            if (!includesText(selectedSpeakers, "All")) data = getTalksBySpeaker(selectedSpeakers);
+            break;
+        case selectors.PROFESSION:
+            const selectedProfessions = jq('#professionSelector').select2('data');
+            if (!includesText(selectedProfessions, "All")) data = getTalksByProfession(selectedProfessions);
+            break;
     }
 
-    // Checks if the select2 data array contains the given value
-    function includesText(array, value) {
-        for (let i = 0; i < array.length; i++) {
-            if (array[i].text === value) return true;
+    // give each talk a percentage value for the category provided
+    for (let i = 0; i < data.length; i++)
+    {
+        // count ratings
+        const rawString = data[i]["ratings"];
+        const ratingsString = rawString.replace(/'/g, '"');
+        const ratingList = JSON.parse(ratingsString);
+        data[i].good = 0;
+        data[i].bad = 0;
+        let ratingOfInterest = 0;
+        let totalCount = 0;
+        for (let j = 0; j < ratingList.length; j++) {
+            switch (ratingList[j]["name"].toLowerCase()) {
+                case "confusing":
+                case "longwinded":
+                case "unconvincing":
+                case "obnoxious":
+                case "ok":
+                    data[i].bad += ratingList[j]["count"];
+                    break;
+                default:
+                    data[i].good += ratingList[j]["count"];
+            }
+            if (ratingList[j]["name"] === category) ratingOfInterest = ratingList[j]["count"];
+            totalCount += ratingList[j]["count"];
         }
-        return false;
+        data[i]["percentageOfInterest"] = ratingOfInterest / totalCount;
+        if (category === "good") data[i]["percentageOfInterest"] = data[i].good / totalCount;
+        if (category === "bad") data[i]["percentageOfInterest"] = data[i].bad / totalCount;
     }
 
-    // Finds and returns all talks with the given talk name
-    function getTalkByName(names) {
-        let talks = [];
-        console.log(names);
-        for (let i = 0; i < data.length; i++) {
-            if (includesText(names, data[i]["name"])) talks.push(data[i]);
+    const sorted = data.sort((a, b) => b["percentageOfInterest"] - a["percentageOfInterest"]);
+
+    d3.select("#rating-result-header")
+        .html(() => {
+            if (category === "good") return "Best Overall Talks:";
+            if (category === "bad") return "Worst Overall Talks:";
+            else return "By " + category + " Ratings:";
+        });
+    for (let i = 0; i < numResults; i++) {
+        if (i < sorted.length) {
+            d3.select("#rating-result-" + i)
+                .data([sorted[i].name])
+                .html((i + 1) + ". " + sorted[i].name);
+        } else {
+            d3.select("#rating-result-" + i)
+                .html("");
         }
-        console.log(talks);
-        return talks;
     }
 
-    // Finds and returns all talks by the given speaker
-    function getTalksBySpeaker(speakers) {
-        let talks = [];
-        for (let i = 0; i < data.length; i++) {
-            if (includesText(speakers, data[i]["main_speaker"])) talks.push(data[i]);
-        }
-        return talks;
+    if (!fromChange) {
+        jq("#talkSelector").val(sorted[0].name);
+        jq("#talkSelector").trigger("change");
     }
 
-    // Finds and returns all talks by speakers with the given profession
-    function getTalksByProfession(professions) {
-        let talks = [];
-        for (let i = 0; i < data.length; i++) {
-            if (includesText(professions, data[i]["grouped_occupation"])) talks.push(data[i]);
-        }
-        return talks;
-    }
 }

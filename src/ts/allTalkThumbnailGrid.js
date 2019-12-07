@@ -136,7 +136,6 @@ export default function(div, data) {
     }).on('start', function() {
         currentView = views.first;
         updateChart(data.slice(0, 1));
-        console.log("Phase 1");
     }).addTo(controller);
 
     const scenePhase2 = new ScrollMagic.Scene({
@@ -144,7 +143,6 @@ export default function(div, data) {
     }).on('start', function() {
         currentView = views.first;
         updateChart(data.slice(0, 4));
-        console.log("Phase 1");
     }).addTo(controller);
 
     const scenePhase3 = new ScrollMagic.Scene({
@@ -152,6 +150,5 @@ export default function(div, data) {
     }).on('start', function() {
         currentView = views.third;
         updateChart(data);
-        console.log("Phase 3");
     }).addTo(controller);
 }

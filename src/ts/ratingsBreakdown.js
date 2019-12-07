@@ -1,6 +1,7 @@
 import * as d3 from "d3";
 import COLORS from "../colors";
 import d3Tip from "d3-tip";
+import { updateResults } from "./talkExplorer";
 
 // Returns path data for a rectangle with rounded top corners.
 // The bottom-left corner is ⟨x,y⟩.
@@ -96,7 +97,10 @@ export function createRatingsBaseVis(div, data)
         .attr("class", "d3-tip ratingsTip")
         .offset([-3, 0])
         .html(function(d) {
-            return `${d[0]}: ${d[1].toLocaleString()}`;
+            let total = 0;
+            for (let i = 0; i < ratings.length; i++) total += ratings[i][1];
+            return "Rating: " + d[0] + "<br><br>" + "Count: " + d[1].toLocaleString() + "<br>" + "Percentage of Total: "
+                + ((d[1] / total) * 100).toFixed(2) + "%";
         });
 
     // Icons
@@ -115,7 +119,10 @@ export function createRatingsBaseVis(div, data)
         .attr("height", iconSize + "%")
         .call(tip)
         .on("mouseover", tip.show)
-        .on("mouseout", tip.hide);
+        .on("mouseout", tip.hide)
+        .on("click", (d) => {
+            updateResults(d[0], false);
+        });
 
     // Bars
     chart
@@ -135,7 +142,10 @@ export function createRatingsBaseVis(div, data)
         })
         .call(tip)
         .on("mouseover", tip.show)
-        .on("mouseout", tip.hide);
+        .on("mouseout", tip.hide)
+        .on("click", (d) => {
+            updateResults(d[0], false);
+        });
 
     // Pie (donut) chart
     // set the color scale
@@ -161,7 +171,7 @@ export function createRatingsBaseVis(div, data)
     });
     svg.append("svg")
         .attr("x", barWidth +  "%")
-        .attr("y", pieOffset + "%")
+        .attr("y", "0")
         .attr("width", (100 - barWidth) + "%")
         .attr("height", "100%")
         .attr("viewBox", "0 0 100 100")
@@ -171,14 +181,17 @@ export function createRatingsBaseVis(div, data)
         })
         .enter()
         .append("path")
-        .attr("transform", "translate(" + (50 + pieOffset) + ",0)")
+        .attr("transform", "translate(" + (50 + pieOffset) + ",10)")
         .attr("class", "pieChart")
         .attr("fill", function(d) {
             return color(d.data.key);
         })
         .call(pieTip)
         .on("mouseover", pieTip.show)
-        .on("mouseout", pieTip.hide);
+        .on("mouseout", pieTip.hide)
+        .on("click", (d) => {
+            updateResults(d.data.key, false);
+        });
 
     updateRatingsVis(data);
 }
@@ -256,7 +269,5 @@ export function updateRatingsVis(data)
 
     d3.selectAll(".pieChart")
         .data(pieData, (d) => d.data.key)
-        .transition()
-        .duration(750)
         .attr("d", d3.arc().innerRadius(pieInnerRadius * (50- (pieOffset * 2))).outerRadius(50 - (pieOffset * 2)));
 }
