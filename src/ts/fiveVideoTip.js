@@ -39,7 +39,7 @@ export default class FiveVideoTip {
       this.fvContainer.removeChild(this.fvContainer.firstChild);
     }
 
-    dataRows.forEach((d, i) => {
+    dataRows.reverse().forEach((d, i) => {
       const fvCard = document.createElement("div");
       fvCard.setAttribute("class", "fv-card");
 
