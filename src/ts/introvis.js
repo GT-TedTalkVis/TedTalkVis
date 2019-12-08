@@ -1265,7 +1265,7 @@ export default function(svg, data) {
       .transition()
       .duration(2000)
       .attr("fill", d => {
-        return d3.interpolateReds(0.3 + normalizedView(parseInt(d["views"], 10), minMaxPerYear[d["year"]][0], minMaxPerYear[d["year"]][1]));
+        return d3.interpolateReds(0.5 + normalizedView(parseInt(d["views"], 10), minMaxPerYear[d["year"]][0], minMaxPerYear[d["year"]][1]));
       })
       .transition()
       .attr("height", newImageHeight)
@@ -1342,7 +1342,7 @@ export default function(svg, data) {
         .append("rect")
         .attr("class", "view-legend")
         .merge(viewLegend)
-        .attr("fill", d => d3.interpolateReds(0.3 + normalizedView(d, 1, 10)))
+        .attr("fill", d => d3.interpolateReds(0.5 + normalizedView(d, 1, 10)))
         .attr("width", legendBoxWidth)
         .attr("height", legendBoxHeight)
         .attr("transform", (d, i) => {
