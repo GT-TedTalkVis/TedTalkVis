@@ -4,6 +4,9 @@ import ScrollMagic from "scrollmagic";
 import d3Tip from "d3-tip";
 import { controller } from "../index";
 import $ from "jquery";
+import InfoController from "./fixedInfoController"
+
+const infoController = new InfoController();
 
 /**
  * Introductory visualization
@@ -683,6 +686,7 @@ export default function(svg, data) {
   };
 
   const introPart7 = () => {
+    /* Gigantic colorful histogram of every video */
     const dataSlice = data.slice(2);
     const yearMin = parseInt(dataSlice[0]["year"], 10);
     const yearMax = parseInt(dataSlice[dataSlice.length - 1]["year"], 10);
@@ -757,11 +761,46 @@ export default function(svg, data) {
 
           const unitsMerged = units.merge(unitsEnter);
           unitsMerged
+            .on("mouseover", (d, i) => {
+              infoController.open();
+              infoController.setTitle(d["title"]);
+              infoController.setThumbnail(d["thumbnail_url"]);
+              infoController.setDescription(d["description"]);
+            })
             .transition()
             .duration(0)
             .delay((d, i) => i)
             .select("image")
-            .attr("opacity", 1);
+            .attr("opacity", 1)
+            .on('end', function(d, i) {
+              if (i !== dataSlice.length - 1) {
+                return;
+              }
+              // Show text
+              const figure7Title = svg.selectAll("text.figure-7-title").data(["Talks", "Per", "Year"]);
+              figure7Title
+                .enter()
+                .append("text")
+                .attr("class", "figure-7-title")
+                .attr("font-size", viewableHeight * 0.2 / 1.618)
+                .text(d => d)
+                .attr("opacity", 0)
+                .attr("transform", (d, i) => {
+                  const x = 100;
+                  const y = 200 + (viewableHeight * 0.2 / 1.618) * i;
+                  return `translate(${x}, ${y})`
+                })
+                .attr("fill", "#FFFFFF")
+                .merge(figure7Title)
+                .transition()
+                .duration(750)
+                .attr("opacity", 1)
+                .attr("transform", (d, i) => {
+                  const x = 100;
+                  const y = 300 + (viewableHeight * 0.2 / 1.618) * i;
+                  return `translate(${x}, ${y})`
+                })
+            })
 
           const yearTextboxesEnter = yearTextboxes
             .enter()
@@ -773,7 +812,7 @@ export default function(svg, data) {
             .attr("fill", "#FFFFFF")
             .attr("text-anchor", "end")
             .attr("font-size", imageWidth / 1.618)
-            .attr("opacity", 1)
+            .attr("opacity", 0)
             .attr("transform", function(d) {
               const bbox = this.getBBox();
               const startX = 10;
@@ -787,7 +826,7 @@ export default function(svg, data) {
             .text(d => d)
             .attr("fill", "#FFFFFF")
             .attr("font-size", imageWidth / 1.618)
-            .attr("opacity", 1)
+            .attr("opacity", 0)
             .attr("transform", function(d) {
               const bbox = this.getBBox();
               const startX = 10;
@@ -797,14 +836,93 @@ export default function(svg, data) {
               const y = viewableHeight - bbox.width - 5;
               return `translate(${x}, ${y}) rotate(-90) `;
             });
-          const yearTextboxesMerged = yearTextboxes.merge(yearTextboxesEnter);
+          const yearTextboxesMerged = yearTextboxes
+            .merge(yearTextboxesEnter);
+          yearTextboxesMerged
+            .transition()
+            .duration(750)
+            .delay((d, i) => i * 10)
+            .attr("opacity", 1);
+
         }
       });
   };
 
-  const part8ToPart7 = () => {};
+  const part8ToPart7 = () => {
+    const dataSlice = data.slice(2);
+    const yearMin = parseInt(dataSlice[0]["year"], 10);
+    const yearMax = parseInt(dataSlice[dataSlice.length - 1]["year"], 10);
+    const yearSet = [];
+    for (let i = yearMin; i <= yearMax; i++) {
+      yearSet.push(i.toString());
+    }
+
+    const posInYear = (year, name) => {
+      const yearSlice = dataSlice.filter(d => d["year"] === year);
+      for (let i = 0; i < yearSlice.length; i++) {
+        if (yearSlice[i]["name"] === name) {
+          return i;
+        }
+      }
+      return null;
+    };
+
+    // Get the min and max views for each year
+    const minView = d3.min(dataSlice, d => d["views"]);
+    const maxView = d3.max(dataSlice, d => d["views"]);
+
+    const imageWidth = viewableWidth * 0.025;
+    const imageHeight = viewableHeight * 0.003;
+    
+    const units = svg.selectAll("g")
+    units.select("rect").remove();
+    units
+      .append("image")
+      .attr("width", imageWidth)
+      .attr("height", imageHeight)
+      .attr("preserveAspectRatio", "none")
+      .attr("xlink:href", d => {
+        return thumbnailDirectory + d["thumbnail_path"];
+      })
+      .attr("opacity", 1)
+      .attr("transform", function(d) {
+        const startX = 10;
+        const startY = viewableHeight - viewableHeight * 0.05;
+        const k = yearSet.indexOf(d["year"]);
+        const l = posInYear(d["year"], d["name"]);
+
+        const x = startX + k * imageWidth;
+        const y = startY - imageHeight * l;
+        return `translate(${x}, ${y})`;
+      })
+
+    const yearTextboxes = svg
+      .selectAll("text.year")
+      .data(yearSet, d => d)
+    const yearTextboxesEnter = yearTextboxes
+      .enter()
+      .append("text")
+      .attr("text-anchor", "end")
+      .attr("class", "year");
+    const yearTextboxesMerged = yearTextboxes
+      .merge(yearTextboxesEnter)
+      .text(d => d)
+      .attr("fill", "#FFFFFF")
+      .attr("font-size", imageWidth / 1.618)
+      .attr("opacity", 1)
+      .attr("transform", function(d) {
+        const bbox = this.getBBox();
+        const startX = 10;
+        const k = yearSet.indexOf(d);
+
+        const x = startX + k * imageWidth + bbox.height;
+        const y = viewableHeight - bbox.width - 5;
+        return `translate(${x}, ${y}) rotate(-90) `;
+      });
+  };
 
   const introPart8 = () => {
+    /* Duration Histogram */
     const dataSlice = data.slice(2);
     const yearMin = parseInt(dataSlice[0]["year"], 10);
     const yearMax = parseInt(dataSlice[dataSlice.length - 1]["year"], 10);
@@ -836,10 +954,17 @@ export default function(svg, data) {
     };
 
     // Get the min and max views for each year
-    const minView = d3.min(dataSlice, d => d["views"]);
-    const maxView = d3.max(dataSlice, d => d["views"]);
-    function normalizedView(count) {
-      return (count - minView) / (maxView - minView);
+    const minMaxPerYear = {};
+    for (let i = 0; i < yearSet.length; i++) {
+      const yearSlice = dataSlice.filter(d => d["year"] === yearSet[i]);
+      const minViewsForYear = d3.min(yearSlice, d => +d["views"]);
+      const maxViewsForYear = d3.max(yearSlice, d => +d["views"]);
+      minMaxPerYear[yearSet[i]] = [minViewsForYear, maxViewsForYear]
+      console.log(yearSet[i], minViewsForYear, maxViewsForYear);
+    }
+    console.log(minMaxPerYear);
+    function normalizedView(count, min, max) {
+      return (count - min) / (max - min + 0.001) * 0.5;
     }
 
     const imageWidth = viewableWidth * 0.025;
@@ -853,15 +978,24 @@ export default function(svg, data) {
 
     const units = svg.selectAll("g");
 
-    // units.select("image").remove();
+    // Total vids of each duration
+    const totalVidsOfDurations = [];
+    for (let i = 0; i <= 30; i++) totalVidsOfDurations.push(0);
+
+    units.select("image").remove();
     // Append a black rectangle
     units
       .append("rect")
       .attr("fill", d => {
-        return d3.interpolateReds(0);
+        return d3.interpolateReds(1);
       })
       .attr("width", imageWidth)
       .attr("height", imageHeight)
+      .attr("opacity", d => {
+        const dataDuration = parseInt(d["duration"], 10);
+        const durationMinutes = Math.floor(dataDuration / 60);
+        return durationMinutes > 30 ? 0 : 1;
+      })
       .attr("transform", function(d) {
         const startX = 10;
         const startY = viewableHeight - viewableHeight * 0.05;
@@ -875,7 +1009,7 @@ export default function(svg, data) {
       .transition()
       .duration(2000)
       .attr("fill", d => {
-        return d3.interpolateReds(normalizedView(parseInt(d["views"], 10)));
+        return d3.interpolateReds(0.3 + normalizedView(parseInt(d["views"], 10), minMaxPerYear[d["year"]][0], minMaxPerYear[d["year"]][1]));
       })
       .transition()
       .attr("height", newImageHeight)
@@ -885,13 +1019,95 @@ export default function(svg, data) {
         const startY = viewableHeight - viewableHeight * 0.05;
         const dataDuration = parseInt(d["duration"], 10);
         const durationMinutes = Math.floor(dataDuration / 60);
+
+        totalVidsOfDurations[parseInt(durationMinutes, 10)] += 1;
+
         const k = durationMinutes;
         const l = posInDuration(durationMinutes, d["name"]);
 
         const x = startX + k * imageWidth;
         const y = startY - newImageHeight * l;
         return `translate(${x}, ${y})`;
+      })
+      .on('end', function(d, i) {
+        if (i === 0) {
+          createLegendsAndCounts();
+        }
       });
+    
+    function createLegendsAndCounts() {
+      const durations = []
+      for (let i = 0; i <= 30; i++) durations.push(i);
+      const durationAxis = svg.selectAll("text.duration-axis").data(durations);
+      durationAxis
+        .enter()
+        .append("text")
+        .attr("class", "duration-axis")
+        .merge(durationAxis)
+        .text(d => d)
+        .attr("fill", "#FFFFFF")
+        .attr("font-size", imageWidth / 1.618)
+        .attr("opacity", 1)
+        .attr("transform", function(d) {
+          const bbox = this.getBBox();
+          const startX = 10;
+          const startY = viewableHeight - viewableHeight * 0.05;
+  
+          const x = startX + d * imageWidth + imageWidth * 0.2;
+          const y = startY + bbox.height;
+          return `translate(${x}, ${y})`;
+        })
+  
+      const durationTotals = svg.selectAll("text.duration-totals").data(totalVidsOfDurations)
+      durationTotals
+        .enter()
+        .append("text")
+        .attr("class", "duration-totals")
+        .merge(durationTotals)
+        .text(d => d)
+        .attr("fill", "#FFFFFF")
+        .attr("font-size", imageWidth / 1.68)
+        .attr("opacity", 1)
+        .attr("transform", function(d, i) {
+          const startX = 10;
+          const startY = viewableHeight - viewableHeight * 0.05;
+  
+          const x = startX + i * imageWidth;
+          const y = startY - newImageHeight * d;
+          return `translate(${x}, ${y})`;
+        })
+  
+      const viewLegendPoints = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+      const viewLegend = svg.selectAll("rect.view-legend").data(viewLegendPoints)
+      const legendBoxWidth = 15;
+      const legendBoxHeight = legendBoxWidth * 2;
+      viewLegend
+        .enter()
+        .append("rect")
+        .attr("class", "view-legend")
+        .merge(viewLegend)
+        .attr("fill", d => d3.interpolateReds(0.3 + normalizedView(d, 1, 10)))
+        .attr("width", legendBoxWidth)
+        .attr("height", legendBoxHeight)
+        .attr("transform", (d, i) => {
+          const startX = viewableWidth - (legendBoxWidth * 10) - 15;
+          const startY = 30;
+          const x = startX + legendBoxWidth * i
+          return `translate(${x}, ${startY})`;
+        })
+      const legendText = svg.selectAll("text.view-legend-text").data(["Least to greatest views,", "relative to other videos", "within the same year."])
+      legendText
+        .enter()
+        .append("text")
+        .attr("class", "view-legend-text")
+        .merge(legendText)
+        .attr("fill", "#FFFFFF")
+        .attr("font-size", 12)
+        .attr("text-anchor", "end")
+        .attr("x", viewableWidth - 15)
+        .attr("y", (d, i) => 70 + (i * 12))
+        .text(d=>d)
+    }
   };
 
   const introPart9 = () => {
@@ -1041,7 +1257,9 @@ export default function(svg, data) {
       if (e.scrollDirection === "FORWARD") {
         introPart8();
       } else {
-        introPart7();
+        // introPart7();
+        console.log("Part 8 to 7");
+        part8ToPart7();
       }
     })
     .addTo(controller);
