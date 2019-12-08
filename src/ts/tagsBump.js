@@ -13,8 +13,8 @@ export default function(svg, data) {
     left: 80,
   };
 
-  const svgWidth = window.innerWidth * 0.75;
-  const svgHeight = window.innerHeight * 0.75;
+  const svgWidth = window.innerWidth * 0.6;
+  const svgHeight = window.innerHeight * 0.8;
   // const svgWidth = 800;
   // const svgHeight = 500;
   // const width = svgWidth - margin.left - margin.right;
@@ -28,6 +28,7 @@ export default function(svg, data) {
     .groupBy("tag")
     .select("#bumpViz")
     .height(svgHeight)
+    .width(svgWidth)
     .label(function(d) {
         return d.tag;
       })
