@@ -4,9 +4,11 @@ import ScrollMagic from "scrollmagic";
 import d3Tip from "d3-tip";
 import { controller } from "../index";
 import $ from "jquery";
-import InfoController from "./fixedInfoController"
+import InfoController from "./fixedInfoController";
+import FiveVideoTip from "./fiveVideoTip";
 
 const infoController = new InfoController();
+const fiveVideoTip = new FiveVideoTip();
 
 /**
  * Introductory visualization
@@ -37,6 +39,19 @@ export default function(svg, data) {
   // Path to the thumbnail images
   const thumbnailDirectory = "./images/thumbnails/";
 
+  // Disable freezing on video tip
+  let hovering = false;
+  function setTipData(dataRows, thenFreeze, click) {
+  }
+
+  svg.on("click", () => {
+    console.log("Called SVG event");
+    console.log(hovering);
+    if (hovering === false) {
+      console.log("Hovering was false...");
+      fiveVideoTip.frozen = false;
+    }
+  })
   // Initialize tooltip
   const tip = d3Tip()
     .attr("class", "tooltip")
@@ -521,11 +536,11 @@ export default function(svg, data) {
         const bbox = this.getBBox();
         const startX = viewableWidth * 0.3;
         const startY = viewableHeight * 0.8;
-        const l = numVideosInYear(d);
         const k = yearSet.indexOf(d);
 
         const x = startX + k * newImageWidth + bbox.height * 0.75;
-        const y = startY - newImageHeight * l;
+        const y = startY - newImageHeight + bbox.width * 1.5;
+        return `translate(${x}, ${y}) rotate(-90) `;
         return `translate(${x}, ${y}) rotate(-90) `;
       });
 
@@ -556,8 +571,61 @@ export default function(svg, data) {
           .transition()
           .duration(400)
           .delay((d, i) => 100 * i)
-          .attr("opacity", 1);
+          .attr("opacity", 1)
+          .on('end', function(d, i) {
+            if (i === yearSet.length - 1) {
+              const yearCounts = svg.selectAll("text.year-counts").data(yearSet, d => d)
+              yearCounts
+                .enter()
+                .append("text")
+                .attr("class", "year-counts")
+                .attr("fill", "#FFFFFF")
+                .attr("text-anchor", "end")
+                .attr("font-size", newImageWidth / 1.618)
+                .attr("opacity", 0)
+                .text(d => numVideosInYear(d))
+                .attr("transform", function(d) {
+                  const bbox = this.getBBox();
+                  const startX = viewableWidth * 0.3;
+                  const startY = viewableHeight * 0.8;
+                  const k = yearSet.indexOf(d);
+                  const l = numVideosInYear(d);
+
+                  const x = startX + k * newImageWidth + bbox.height;
+                  const y = startY - newImageHeight * l - bbox.width;
+                  return `translate(${x}, ${y}) rotate(-90) `;
+                })
+                .merge(yearCounts)
+                .transition()
+                .duration(750)
+                .attr("opacity", 1)
+            }
+          })
       });
+
+    const figure5Title = svg.selectAll("text.figure-5-title").data(["Talks", "Per", "Year"]);
+    figure5Title
+      .enter()
+      .append("text")
+      .attr("class", "figure-5-title")
+      .attr("font-size", viewableHeight * 0.2 / 1.618)
+      .text(d => d)
+      .attr("opacity", 0)
+      .attr("transform", (d, i) => {
+        const x = 100;
+        const y = 200 + (viewableHeight * 0.2 / 1.618) * i;
+        return `translate(${x}, ${y})`
+      })
+      .attr("fill", "#FFFFFF")
+      .merge(figure5Title)
+      .transition()
+      .duration(750)
+      .attr("opacity", 1)
+      .attr("transform", (d, i) => {
+        const x = 100;
+        const y = 300 + (viewableHeight * 0.2 / 1.618) * i;
+        return `translate(${x}, ${y})`
+      })
   };
 
   const introPart6 = () => {
@@ -581,6 +649,10 @@ export default function(svg, data) {
       }
       return null;
     };
+
+    (function removePart5() {
+      const yearCounts = svg.selectAll("text.year-counts").remove();
+    })();
 
     const padding = 10;
     const oldImageWidth = ((viewableWidth - padding * 10) / (numYears - 1)) * 0.4;
@@ -630,7 +702,7 @@ export default function(svg, data) {
         const k = yearSet.indexOf(d);
 
         const x = startX + k * oldImageWidth + bbox.height * 0.75;
-        const y = startY - oldImageHeight * l;
+        const y = startY - oldImageHeight + bbox.width;
         return `translate(${x}, ${y}) rotate(-90) `;
       });
 
@@ -678,15 +750,46 @@ export default function(svg, data) {
               const k = yearSet.indexOf(d);
 
               const x = startX + k * oldImageWidth + bbox.height * 0.75;
-              const y = startY - oldImageHeight * l;
+              const y = startY - oldImageHeight + bbox.width * 1.5;
               return `translate(${x}, ${y}) rotate(-90) `;
             });
         }
       });
+
+      const yearCounts = svg.selectAll("text.year-counts").data(yearSet, d => d)
+      yearCounts
+        .enter()
+        .append("text")
+        .attr("class", "year-counts")
+        .attr("fill", "#FFFFFF")
+        .attr("text-anchor", "end")
+        .attr("font-size", oldImageWidth / 1.618)
+        .attr("opacity", d => d === "2006" ? 0 : 1)
+        .text(d => numVideosInYear(d))
+        .attr("transform", function(d) {
+          const bbox = this.getBBox();
+          const startX = viewableWidth * 0.3;
+          const startY = viewableHeight * 0.8;
+          const k = yearSet.indexOf(d);
+          const l = numVideosInYear(d);
+
+          const x = startX + k * oldImageWidth + bbox.height;
+          const y = startY - oldImageHeight * l - bbox.width;
+          return `translate(${x}, ${y}) rotate(-90) `;
+        })
+        .merge(yearCounts)
+        .transition()
+        .duration(750)
+        .attr("opacity", 1);
   };
 
   const introPart7 = () => {
     /* Gigantic colorful histogram of every video */
+
+    // Modify the fiveVideoTip location
+    fiveVideoTip.x = 20;
+    fiveVideoTip.y = 10;
+
     const dataSlice = data.slice(2);
     const yearMin = parseInt(dataSlice[0]["year"], 10);
     const yearMax = parseInt(dataSlice[dataSlice.length - 1]["year"], 10);
@@ -707,6 +810,10 @@ export default function(svg, data) {
       }
       return null;
     };
+
+    (function removePart6() {
+      svg.selectAll("text.year-counts").remove();
+    })();
 
     const imageWidth = viewableWidth * 0.025;
     const imageHeight = viewableHeight * 0.003;
@@ -762,49 +869,74 @@ export default function(svg, data) {
           const unitsMerged = units.merge(unitsEnter);
           unitsMerged
             .on("mouseover", (d, i) => {
+              if (fiveVideoTip.frozen === false) {
+                infoController.open();
+                infoController.setTitle(d["title"]);
+                infoController.setThumbnail(d["thumbnail_url"]);
+                infoController.setDescription(d["description"]);
+  
+                // Subset dataSlice
+                const fiveVideoRows = dataSlice.slice(i - 2, i + 3);
+                fiveVideoTip.open();
+                fiveVideoTip.displayVideos(fiveVideoRows, false, false);
+              }
+
+              hovering = true;
+            })
+            .on("click", (d, i) => {
+              console.log("Called cell click");
               infoController.open();
               infoController.setTitle(d["title"]);
               infoController.setThumbnail(d["thumbnail_url"]);
               infoController.setDescription(d["description"]);
+
+              // Subset dataSlice
+              const fiveVideoRows = dataSlice.slice(i - 2, i + 3);
+              fiveVideoTip.open();
+              fiveVideoTip.displayVideos(fiveVideoRows, true, true);
+            })
+            .on("mouseout", () => {
+              hovering = false;
             })
             .transition()
             .duration(0)
             .delay((d, i) => i)
             .select("image")
             .attr("opacity", 1)
-            .on('end', function(d, i) {
-              if (i !== dataSlice.length - 1) {
-                return;
-              }
-              // Show text
-              const figure7Title = svg.selectAll("text.figure-7-title").data(["Talks", "Per", "Year"]);
-              figure7Title
-                .enter()
-                .append("text")
-                .attr("class", "figure-7-title")
-                .attr("font-size", viewableHeight * 0.2 / 1.618)
-                .text(d => d)
-                .attr("opacity", 0)
-                .attr("transform", (d, i) => {
-                  const x = 100;
-                  const y = 200 + (viewableHeight * 0.2 / 1.618) * i;
-                  return `translate(${x}, ${y})`
-                })
-                .attr("fill", "#FFFFFF")
-                .merge(figure7Title)
-                .transition()
-                .duration(750)
-                .attr("opacity", 1)
-                .attr("transform", (d, i) => {
-                  const x = 100;
-                  const y = 300 + (viewableHeight * 0.2 / 1.618) * i;
-                  return `translate(${x}, ${y})`
-                })
-            })
+            // .on('end', function(d, i) {
+            //   if (i !== dataSlice.length - 1) {
+            //     return;
+            //   }
+            //   // Show text
+            //   const figure7Title = svg.selectAll("text.figure-7-title").data(["Talks", "Per", "Year"]);
+            //   figure7Title
+            //     .enter()
+            //     .append("text")
+            //     .attr("class", "figure-7-title")
+            //     .attr("font-size", viewableHeight * 0.2 / 1.618)
+            //     .text(d => d)
+            //     .attr("opacity", 0)
+            //     .attr("transform", (d, i) => {
+            //       const x = 100;
+            //       const y = 200 + (viewableHeight * 0.2 / 1.618) * i;
+            //       return `translate(${x}, ${y})`
+            //     })
+            //     .attr("fill", "#FFFFFF")
+            //     .merge(figure7Title)
+            //     .transition()
+            //     .duration(750)
+            //     .attr("opacity", 1)
+            //     .attr("transform", (d, i) => {
+            //       const x = 100;
+            //       const y = 300 + (viewableHeight * 0.2 / 1.618) * i;
+            //       return `translate(${x}, ${y})`
+            //     })
+            // })
 
           const yearTextboxesEnter = yearTextboxes
             .enter()
             .append("text")
+            .attr("class", "year")
             .attr("text-anchor", "end")
             .attr("class", "year");
           yearTextboxes
@@ -844,6 +976,30 @@ export default function(svg, data) {
             .delay((d, i) => i * 10)
             .attr("opacity", 1);
 
+          const yearCounts = svg.selectAll("text.year-counts").data(yearSet, d => d)
+          yearCounts
+            .enter()
+            .append("text")
+            .attr("class", "year-counts")
+            .attr("fill", "#FFFFFF")
+            .attr("text-anchor", "end")
+            .attr("font-size", imageWidth / 1.618)
+            .attr("opacity", d => {
+              return numVideosInYear(d) > 0 ? 1 : 0;
+            })
+            .text(d => numVideosInYear(d))
+            .attr("transform", function(d) {
+              const bbox = this.getBBox();
+              const startX = 10;
+              const startY = viewableHeight - viewableHeight * 0.05;
+              const k = yearSet.indexOf(d);
+              const l = numVideosInYear(d);
+
+              const x = startX + k * imageWidth + bbox.height;
+              const y = startY - imageHeight * l - bbox.width;
+              return `translate(${x}, ${y}) rotate(-90) `;
+            })
+            .merge(yearCounts);
         }
       });
   };
@@ -853,9 +1009,17 @@ export default function(svg, data) {
     const yearMin = parseInt(dataSlice[0]["year"], 10);
     const yearMax = parseInt(dataSlice[dataSlice.length - 1]["year"], 10);
     const yearSet = [];
+    
+    fiveVideoTip.x = 20;
+    fiveVideoTip.y = 10;
+    
     for (let i = yearMin; i <= yearMax; i++) {
       yearSet.push(i.toString());
     }
+
+    const numVideosInYear = year => {
+      return dataSlice.filter(d => d["year"] === year).length;
+    };
 
     const posInYear = (year, name) => {
       const yearSlice = dataSlice.filter(d => d["year"] === year);
@@ -866,6 +1030,39 @@ export default function(svg, data) {
       }
       return null;
     };
+
+    (function removePart8() {
+      svg.selectAll("text.duration-totals").remove();
+      svg.selectAll("text.duration-axis").remove();
+      svg.selectAll("rect.view-legend").remove();
+      svg.selectAll("text.view-legend-text").remove();
+      svg.selectAll("text.figure-8-title").remove();
+      svg.selectAll("text.view-legend-")
+    })();
+
+    const figure5Title = svg.selectAll("text.figure-5-title").data(["Talks", "Per", "Year"]);
+    figure5Title
+      .enter()
+      .append("text")
+      .attr("class", "figure-5-title")
+      .attr("font-size", viewableHeight * 0.2 / 1.618)
+      .text(d => d)
+      .attr("opacity", 0)
+      .attr("transform", (d, i) => {
+        const x = 100;
+        const y = 200 + (viewableHeight * 0.2 / 1.618) * i;
+        return `translate(${x}, ${y})`
+      })
+      .attr("fill", "#FFFFFF")
+      .merge(figure5Title)
+      .transition()
+      .duration(750)
+      .attr("opacity", 1)
+      .attr("transform", (d, i) => {
+        const x = 100;
+        const y = 300 + (viewableHeight * 0.2 / 1.618) * i;
+        return `translate(${x}, ${y})`
+      })
 
     // Get the min and max views for each year
     const minView = d3.min(dataSlice, d => d["views"]);
@@ -919,6 +1116,32 @@ export default function(svg, data) {
         const y = viewableHeight - bbox.width - 5;
         return `translate(${x}, ${y}) rotate(-90) `;
       });
+
+    const yearCounts = svg.selectAll("text.year-counts").data(yearSet, d => d)
+    yearCounts
+      .enter()
+      .append("text")
+      .attr("class", "year-counts")
+      .attr("fill", "#FFFFFF")
+      .attr("text-anchor", "end")
+      .attr("font-size", imageWidth / 1.618)
+      .attr("opacity", d => {
+        return numVideosInYear(d) > 0 ? 1 : 0;
+      })
+      .text(d => numVideosInYear(d))
+      .attr("transform", function(d) {
+        const bbox = this.getBBox();
+        const startX = 10;
+        const startY = viewableHeight - viewableHeight * 0.05;
+        const k = yearSet.indexOf(d);
+        const l = numVideosInYear(d);
+
+        const x = startX + k * imageWidth + bbox.height;
+        const y = startY - imageHeight * l - bbox.width;
+        return `translate(${x}, ${y}) rotate(-90) `;
+      })
+      .merge(yearCounts);
+
   };
 
   const introPart8 = () => {
@@ -927,6 +1150,10 @@ export default function(svg, data) {
     const yearMin = parseInt(dataSlice[0]["year"], 10);
     const yearMax = parseInt(dataSlice[dataSlice.length - 1]["year"], 10);
     const yearSet = [];
+
+    fiveVideoTip.x = 35;
+    fiveVideoTip.y = 15;
+
     for (let i = yearMin; i <= yearMax; i++) {
       yearSet.push(i.toString());
     }
@@ -952,6 +1179,35 @@ export default function(svg, data) {
       }
       return null;
     };
+
+    (function removePart7() {
+      svg.selectAll("text.year-counts").remove();
+      svg.selectAll("text.figure-5-title").remove();
+    })();
+
+    const figure8Title = svg.selectAll("text.figure-8-title").data(["Talks", "by" ,"Duration"]);
+    figure8Title
+      .enter()
+      .append("text")
+      .attr("class", "figure-8-title")
+      .attr("font-size", viewableHeight * 0.12 / 1.618)
+      .text(d => d)
+      .attr("opacity", 0)
+      .attr("transform", (d, i) => {
+        const x = 10;
+        const y = (viewableHeight * 0.12 / 1.618) * i;
+        return `translate(${x}, ${y})`
+      })
+      .attr("fill", "#FFFFFF")
+      .merge(figure8Title)
+      .transition()
+      .duration(750)
+      .attr("opacity", 1)
+      .attr("transform", (d, i) => {
+        const x = 10;
+        const y = 100 + (viewableHeight * 0.12 / 1.618) * i;
+        return `translate(${x}, ${y})`
+      })
 
     // Get the min and max views for each year
     const minMaxPerYear = {};
@@ -1205,6 +1461,9 @@ export default function(svg, data) {
       } else {
         introPart3();
       }
+
+      fiveVideoTip.close();
+      infoController.close();
     })
     .addTo(controller);
 
@@ -1219,6 +1478,9 @@ export default function(svg, data) {
         changeUnits5to4();
         introPart4();
       }
+
+      fiveVideoTip.close();
+      infoController.close();
     })
     .addTo(controller);
 
@@ -1232,6 +1494,9 @@ export default function(svg, data) {
       } else {
         introPart5();
       }
+
+      fiveVideoTip.close();
+      infoController.close();
     })
     .addTo(controller);
 
@@ -1244,8 +1509,13 @@ export default function(svg, data) {
         introPart7();
       } else {
         const year = svg.selectAll("text.year").remove();
+        const yearCounts = svg.selectAll("text.year-counts").remove();
+
         introPart6();
       }
+
+      fiveVideoTip.close();
+      infoController.close();
     })
     .addTo(controller);
 
@@ -1261,19 +1531,24 @@ export default function(svg, data) {
         console.log("Part 8 to 7");
         part8ToPart7();
       }
+
+      fiveVideoTip.close();
+      infoController.close();
     })
     .addTo(controller);
 
-  // const scenePart9 = new ScrollMagic.Scene({
-  //   triggerElement: "#intro-part-9",
-  // })
-  //   .on("start", function(e) {
-  //     if (e.scrollDirection === "FORWARD") {
-  //       console.log("Part 9");
-  //       introPart9();
-  //     }
-  //   })
-  //   .addTo(controller);
+  const scenePart9 = new ScrollMagic.Scene({
+    triggerElement: "#intro-part-9",
+  })
+    .on("start", function(e) {
+      console.log(e.scrollDirection, "Part 9");
+      if (e.scrollDirection === "FORWARD") {
+        introPart9();
+      } else {
+        introPart8();
+      }
+    })
+    .addTo(controller);
 
   function removePart2() {
     let wurman = svg.selectAll("image.wurman").data(["wurman"]);
@@ -1441,3 +1716,5 @@ export default function(svg, data) {
       .attr("opacity", 1);
   }
 }
+
+export { infoController };
