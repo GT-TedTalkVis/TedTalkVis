@@ -33,6 +33,10 @@ function dataCleaner(data) {
     const date = new Date(parseInt(talk["film_date"], 10) * 1000);
     talk.year = date.getFullYear().toString();
   });
+
+  // Re-sort data to ensure that they're in the correct order,
+  // because it's loading out of order in some browsers.
+  data.sort((a, b) => parseInt(a[""], 10) - parseInt(b[""], 10));
 }
 
 // Load data

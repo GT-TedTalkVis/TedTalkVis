@@ -19,9 +19,59 @@
   grid-row-end: 1;
   grid-column-start: 2;
   grid-column-end: 2;
-  padding: 0 12 0 12;
+  padding: 0 12px 0 24px;
   background: linear-gradient(90deg, rgba(0, 0, 0, 0), #111111, #111111, #111111);
   z-index: 1;
+}
+
+#fixed-info-box {
+  position: fixed;
+  width: 40vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.92);
+  right: -40vw;
+  top: 0;
+  padding: 20px;
+  z-index: 999;
+}
+
+#fixed-info-box #thumbnail-container {
+  width: 100%;
+  height: 40vh;
+}
+
+#fixed-info-box #video-thumbnail {
+  background-color: rgba(0, 0, 0, 0);
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+#fixed-info-box h1 {
+  font-size: 32px;
+  margin-top: 1em;
+}
+
+#fixed-info-box p {
+  font-size: 20px;
+}
+
+#fixed-info-box-exit {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 3em;
+  height: 1.2em;
+  background-color: #E62B1E;
+  font-size: 0.7em;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: middle;
+  justify-content: center;
+  cursor: default;
 }
 
 /* Make your child elements in scrollytelling-vis sticky. */
@@ -48,4 +98,47 @@
   height: 100vh;
   margin: 0;
   padding: 0;
+}
+
+#five-videos-container {
+  position: fixed;
+  left: -50vw;
+  top: 20vh;
+  width: 14vw;
+  /* height: 50vh; */
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  align-content: middle;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+#five-videos-container .fv-card {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  /* height: 10vh; */
+}
+
+#five-videos-container .img-container {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#five-videos-container .title-container {
+  width: 60%;
+  font-size: 0.5em;
+  color: white;
+  padding: 4px;
+}
+
+#five-videos-container .img-container img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
