@@ -1,0 +1,65 @@
+body {
+  background-color: #111111;
+  color: white;
+  font-size: 28px;
+  overflow-x: hidden;
+}
+
+h2 {
+  font-size: 1.6em;
+  margin-bottom: 1.2rem;
+}
+
+p {
+  margin-bottom: 2rem;
+}
+
+.spacer-20vh {
+  height: 20vh;
+}
+
+.spacer-40vh {
+  height: 40vh;
+}
+
+.spacer-60vh {
+  height: 60vh;
+}
+
+.spacer-80vh {
+  height: 80vh;
+}
+
+.spacer-100vh {
+  height: 100vh;
+}
+
+.spacer-500px {
+  height: 500px;
+  padding: 0;
+  margin: 0;
+}
+
+.hero-bg {
+  height: 80vh;
+  width: 80%;
+  background-image: url("../images/hero_image.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 60% 40%;
+  padding: 0;
+  margin: 0;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+}
+
+.visible-true {
+  visibility: visible;
+}
+
+.visible-false {
+  visibility: hidden;
+}

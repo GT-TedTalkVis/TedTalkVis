@@ -1,0 +1,11 @@
+.professionLabel {
+    text-anchor: middle;
+    font-family: "Sitka Heading";
+    alignment-baseline: middle;
+}
+
+select {
+    background-color: #6F6F6F;
+    color: #222222;
+    border: 1px solid #ACACAC;
+}

@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ted Talk Visualization</title>
+    <meta name="description" content="">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.0.12/dist/css/select2.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.0.12/dist/js/select2.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/scrollytelling.css">
+    <link rel="stylesheet" href="css/intro.css">
+    <link rel="stylesheet" href="css/professions.css">
+    <link rel="stylesheet" href="css/ratings.css">
+    <link rel="stylesheet" href="css/thumbnails.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="css/bump.css">
+  </head>
+
+  <body>
+    <div class="scrollytelling-container">
+      <div class="scrollytelling-vis">
+        <img src="images/hero_image.png" width="85%" class="sticky-0vh">
+      </div>
+      <div class="scrollytelling-text-right">
+        <div class="spacer-40vh"></div>
+        <div class="hero-text">
+          <h1>
+            The Rise of TED Talks<br>
+            <small>Ideas Worth Watching</small>
+          </h1>
+        </div>
+        <div class="spacer-40vh"></div>
+        <h2>What are TED Talks?</h2>
+        <div>
+          <p>TED Talks are short, informative presentations created by people from all walks of life.
+          </p>
+          <p>In the past decade, they've become an incredible force for promoting social change and the spread of new ideas.</p>
+          <p>What makes them so influential? </p>
+          <p><strong>What makes a TED Talk worth watching?</strong></p>
+        </div>
+        <div class="spacer-20vh"></div>
+      </div>
+    </div>
+
+    <div class="scrollytelling-container">
+      <div class="scrollytelling-vis">
+        <svg class="figure1 sticky-0vh"></svg>
+      </div>
+      <div class="scrollytelling-text-right">
+        
+        <div class="spacer-40vh"></div>
+        <h2 id="intro-part-1">The History of TED</h2>
+        <p>Here's the two men that started it all: Richard Saul Wurman and Harry Marks.</p>
+        <p>In the early 80s, they found themselves inspired by the convergence of technology, entertainment, and design.
+        </p>
+
+        <div class="spacer-40vh"></div>
+        <p id="intro-part-2">This led them to hold the first TED Conference in 1984. Industry professionals from these three fields came together and gave presentations about their discoveries.</p>
+
+        <div class="spacer-40vh"></div>
+        <p id="intro-part-3">In 1990, the TED Conference became an annual event, and it expanded to include speakers from more fields. Here are some of the talks from this time that are available to watch on the TED website.</p>
+
+        <div class="spacer-40vh"></div>
+        <p id="intro-part-4">The TED conferences from this decade inspired many people, but financially, they were only a modest success.</p>
+        <p>This changed in the 2000s. When Richard Saul Wurman retired, he passed the TED Organization over to <strong>Chris Anderson</strong>, a businessman and TED enthusiast.</p>
+
+        <div class="spacer-40vh"></div>
+        <p id="intro-part-5">Under Anderson's leadership, the TED Organization expanded its operations. It became a non-profit, and it opened up tickets to conferences to the public. Anderson worked to curate more talks and speakers.</p>
+
+        <div class="spacer-40vh"></div>
+        <p id="intro-part-6">Then, in 2006, the TED organization decided to release recorded TED Talks on the web, free to view. Here are the first six that they released online.</p>
+        <p>Within just a few months, these videos gained 1 million views.</p>
+
+        <div class="spacer-40vh"></div>
+        <p id="intro-part-7">Soon, the number of TED Talks being released online skyrocketed. Here's all the videos that have been posted on TED's website up to 2017.</p>
+
+        <div class="spacer-40vh"></div>
+        <h2>Preliminary Analysis</h2>
+        <p>How else can we try to understand the TED phenomenon?  Obviously, their videos are free to watch online, but there must be more to them to explain their astonishing popularity.</p>
+        <p>What else is special about these talks that make them worth watching?</p>
+
+        <div class="spacer-20vh"></div>
+        <h3 id="intro-part-8">Talk Length</h3>
+        <p>Talks generally have a time limit of 18 minutes. They want ideas to be as concise as possible, so the most viewed videos are often the shortest ones.</p>
+
+        <div class="spacer-20vh"></div>
+        <h3 id="intro-part-9">Understandability</h3>
+        <p>Beyond simply being concise, TED talks are expected to be easily understood by the general population. Talks are meant for the whole world to listen to, after all.</p>
+        <p>Using the available audio transcripts for each talk on the TED website, we performed a <a href="https://en.wikipedia.org/wiki/Flesch%E2%80%93Kincaid_readability_tests">Flesch-Kincaid</a> readability analysis to quantify just how understandable they are.</p>
+
+        <div class="spacer-40vh"></div>
+        <p>On <a href="https://www.ted.com/participate/organize-a-local-tedx-event/tedx-organizer-guide/speakers-program/what-is-a-tedx-talk">TED's website</a>, you can find guidelines on how to organize your own TED Talk.</p>
+        <div class="spacer-40vh"></div>
+
+        <hr>
+      </div>
+    </div>
+
+    <div class="scrollytelling-container">
+      <div class="scrollytelling-vis">
+        <div class="spacer-20vh"></div>
+        <svg class="figure2 sticky-20vh"></svg>
+      </div>
+      <div class="scrollytelling-text-right">
+        <div class="spacer-20vh"></div>
+        <div id="showFigure1">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id cursus metus aliquam eleifend mi in. Nibh praesent tristique magna sit amet purus gravida. At tellus at urna condimentum. Quisque non tellus orci ac auctor augue mauris augue. Sagittis id consectetur purus ut faucibus. A diam sollicitudin tempor id eu nisl. Proin sed libero enim sed. Egestas maecenas pharetra convallis posuere morbi leo urna molestie at. Sit amet facilisis magna etiam tempor.
+
+              Posuere urna nec tincidunt praesent semper feugiat nibh sed pulvinar. Mauris vitae ultricies leo integer. Vel pretium lectus quam id leo in vitae turpis massa. Adipiscing bibendum est ultricies integer quis auctor. Egestas erat imperdiet sed euismod nisi porta lorem. Sed turpis tincidunt id aliquet risus feugiat in. Ultrices in iaculis nunc sed augue lacus viverra vitae. Rhoncus aenean vel elit scelerisque mauris. Id venenatis a condimentum vitae sapien pellentesque habitant morbi. In egestas erat imperdiet sed euismod. Sollicitudin ac orci phasellus egestas tellus rutrum tellus. Amet cursus sit amet dictum sit amet justo donec. Nunc non blandit massa enim.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="scrollytelling-container">
+      <div class="scrollytelling-vis">
+        <div class="spacer-20vh"></div>
+        <svg class="figure3 sticky-20vh"></svg>
+      </div>
+      <div class="scrollytelling-text-right">
+        <div class="spacer-20vh"></div>
+        <div id="showFigure1">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id cursus metus aliquam eleifend mi in. Nibh praesent tristique magna sit amet purus gravida. At tellus at urna condimentum. Quisque non tellus orci ac auctor augue mauris augue. Sagittis id consectetur purus ut faucibus. A diam sollicitudin tempor id eu nisl. Proin sed libero enim sed. Egestas maecenas pharetra convallis posuere morbi leo urna molestie at. Sit amet facilisis magna etiam tempor.
+
+                Posuere urna nec tincidunt praesent semper feugiat nibh sed pulvinar. Mauris vitae ultricies leo integer. Vel pretium lectus quam id leo in vitae turpis massa. Adipiscing bibendum est ultricies integer quis auctor. Egestas erat imperdiet sed euismod nisi porta lorem. Sed turpis tincidunt id aliquet risus feugiat in. Ultrices in iaculis nunc sed augue lacus viverra vitae. Rhoncus aenean vel elit scelerisque mauris. Id venenatis a condimentum vitae sapien pellentesque habitant morbi. In egestas erat imperdiet sed euismod. Sollicitudin ac orci phasellus egestas tellus rutrum tellus. Amet cursus sit amet dictum sit amet justo donec. Nunc non blandit massa enim.
+        </div>
+      </div>
+    </div>
+
+    <div class="scrollytelling-container">
+      <div class="scrollytelling-vis">
+        <div class="spacer-20vh"></div>
+        <div class="figure4 sticky-20vh"></div>
+      </div>
+      <div class="scrollytelling-text-right">
+        <div class="spacer-20vh"></div>
+        <div id="showFigure1">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id cursus metus aliquam eleifend mi in. Nibh praesent tristique magna sit amet purus gravida. At tellus at urna condimentum. Quisque non tellus orci ac auctor augue mauris augue. Sagittis id consectetur purus ut faucibus. A diam sollicitudin tempor id eu nisl. Proin sed libero enim sed. Egestas maecenas pharetra convallis posuere morbi leo urna molestie at. Sit amet facilisis magna etiam tempor.
+
+                Posuere urna nec tincidunt praesent semper feugiat nibh sed pulvinar. Mauris vitae ultricies leo integer. Vel pretium lectus quam id leo in vitae turpis massa. Adipiscing bibendum est ultricies integer quis auctor. Egestas erat imperdiet sed euismod nisi porta lorem. Sed turpis tincidunt id aliquet risus feugiat in. Ultrices in iaculis nunc sed augue lacus viverra vitae. Rhoncus aenean vel elit scelerisque mauris. Id venenatis a condimentum vitae sapien pellentesque habitant morbi. In egestas erat imperdiet sed euismod. Sollicitudin ac orci phasellus egestas tellus rutrum tellus. Amet cursus sit amet dictum sit amet justo donec. Nunc non blandit massa enim.
+        </div>
+      </div>
+    </div>
+
+    <div class="scrollytelling-container">
+      <div class="scrollytelling-vis">
+        <div class="spacer-20vh"></div>
+        <div class="bumpDiv sticky-10vh">
+          <div id="bumpViz"></div>
+        </div>
+      </div>
+      <div class="scrollytelling-text-right">
+        <div class="spacer-20vh"></div>
+        <div id="showFigure1">
+            <p>TED talks historically centered on the combination of Technology, Entertainment, and Design. With the expansion of the TED organization over years,
+              the variety of talk themes also evolved. The content was no longer
+              tied to the thematic interests of the founders, but grew to reflect
+              the impactful work of citizens across the planet.</p>
+            <p>We notice that the original themes have prominent rankings
+              during earlier years. We see a spike in Entertainment content
+              in 2008, before finally falling from the top chart after 2011.</p>
+              <p>The theme of Design trends downward before also dropping from the list after 2015.</p>
+              <p>The theme of technology appears consistently at the top of
+              the chart, indicating the enduring interest and relevancy of technology. Though, while technology does not slip from the board, we do observe a dramatic drop in the most recent year.</p>
+              <p>
+                Most recently, we observe a thematic shift towards humanity. Society, humanity, social change, and communication all appearing on the top five list in 2017.
+                All of these themes are new to the top five themes as of 2016 or later.
+              </p>
+              <p>Do any of your interests make the top five?</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="spacer-20vh"></div>
+    <div>
+      <p>The previous visualization addresses the question of theme popularity from the presenters’ perspective. We next wanted to understand popularity from the perspective of the viewer.</p>
+      <p>The publication of these videos to the internet made them accessible to billions of potential viewers. Through the TED service, these viewers had the ability to comment and submit “reactions” to presentations they watched.</p>
+      <p>From these data, we developed a set of four popularity metrics to understand which talk themes were most popular:</p>
+      <ol>
+        <li>Views</li>
+        <li>Comments</li>
+        <li>Engagement</li>
+        <li>Positivity</li>
+      </ol>
+    </div> -->
+
+    <hr>
+
+    <div class="scrollytelling-fullscreen-container rating-explanation" style="text-align: left; padding-left: 5vh;  padding-right: 5vh; padding-bottom: 5vh; height: auto">
+        <h2>Understanding Popularity</h2><br>
+        <p>
+            The previous visualization addresses the question of theme popularity from the presenters’ perspective. We next wanted to understand popularity from the perspective of the viewer.
+        </p>
+        <p>
+            The publication of these videos to the internet made them accessible to billions of potential viewers. Through the TED service, these viewers had the ability to comment and submit “reactions” to presentations they watched.
+        </p>
+        <p>
+            From these data, we developed a set of four popularity metrics to understand which talk themes were most popular:
+        </p>
+        <ol>
+            <li>Views</li>
+            <li>Comments</li>
+            <li>Engagement</li>
+            <li>Positivity</li>
+          </ol>
+        <br>
+      </div>
+
+      <hr>
+
+    <div class="scrollytelling-container">
+      <div class="scrollytelling-vis">
+        <div class="spacer-20vh"></div>
+        <div class="commentsTagsDiv sticky-20vh"></div>
+      </div>
+      <div class="scrollytelling-text-right">
+        <div class="spacer-20vh"></div>
+        <div id="showFigure1">
+          <p>The comments metric measures the number of comments submitted for videos of a particular theme.</p>
+          <p>Submitting a comment requires the commenter to first create a site account. This additional step might dissuade the casual viewer from entering into the dialogue. It was therefore determined that the use of commenting behavior would be a good measure for the audience’s determination to submit their opinion.</p>
+          <p>We notice that many of these tags are polarizing in nature. Religious themes are found throughout this top ten list, with atheism and God occupying the top two positions. Atheism particularly dominates the view, with more than twice the amount of comments than any other topic.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="scrollytelling-container">
+      <div class="scrollytelling-vis">
+        <div class="spacer-20vh"></div>
+        <div class="viewsTagsDiv sticky-20vh"></div>
+      </div>
+      <div class="scrollytelling-text-right">
+        <div class="spacer-20vh"></div>
+        <div id="showFigure1">
+          <p>The views metric represents the average number of views across all videos within a theme category. This represents a raw measure of the reach of the content. The view-counts here are in the millions, indicating the magnitude of this reach.</p>
+          <p>We notice that videos related to body language were the most viewed of all content. This makes sense given the importance of body language in the context of verbal presentation.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="scrollytelling-container">
+      <div class="scrollytelling-vis">
+        <div class="spacer-20vh"></div>
+        <div class="engagementTagsDiv sticky-20vh"></div>
+      </div>
+      <div class="scrollytelling-text-right">
+        <div class="spacer-20vh"></div>
+        <div id="showFigure1">
+          <p>Engagement represents the ratio of comments to views. While this metric is then highly correlated with the comment metric, it allows the comparison of commenting behavior without penalization for lower view count.</p>
+          <p>As in the case of the comment comparison, we observe that atheism is at the top of the list. However, the gap between this top category and others is much smaller than before. Again, we notice that polarizing topics are included in this list.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="scrollytelling-container">
+      <div class="scrollytelling-vis">
+        <div class="spacer-20vh"></div>
+        <div class="positivityTagsDiv sticky-20vh"></div>
+      </div>
+      <div class="scrollytelling-text-right">
+        <div class="spacer-20vh"></div>
+        <div id="showFigure1">
+          <p>The positivity metric represents the ratio between positive and negative reactions. This metric then represents the degree to which the viewers received them in a positive light.</p>
+          <p>Addiction is at the top of the list and dominates this metric, with more than double the positivity value of the next highest talk theme. We notice a trend for the focus on disadvantaged or disenfranchised communities. This positivity would then signal support from the TED viewing audience.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="scrollytelling-container">
+      <div class="scrollytelling-vis">
+        <div class="thumbnailGrid sticky-0vh"></div>
+      </div>
+      <div class="scrollytelling-text-right" id="thumbnail-vis-text">
+        <div class="spacer-40vh"></div>
+        <div id="thumbnailsPhase1">
+          <p>The first TED talk was given by Viktor Frankl in 1972.</p>
+        </div>
+        <div class="spacer-100vh"></div>
+        <div id="thumbnailsPhase2">
+          <p>Over the next several years, a few more talks were given, but not many.</p>
+        </div>
+        <div class="spacer-100vh"></div>
+        <div id="thumbnailsPhase3">
+          <p>Finally, in the early 2000s, TED talks started becoming more and more popular.</p>
+        </div>
+        <div class="spacer-100vh"></div>
+      </div>
+    </div> -->
+
+    <hr>
+
+    <div class="scrollytelling-fullscreen-container rating-explanation" style="text-align: center; padding-bottom: 15vh; height: auto">
+      <h2>Now it's your turn!</h2><br>
+      <p>
+        We've created a tool that let's you explore all the TED talks in our database by their ratings.
+      </p>
+      <p>
+        Simply click on any rating to sort talks by that rating.  Using the selectors on the bottom left, you can
+        search for specific talks, speakers, or speaker professions.  Select "All" in any selector to view return to the original view.
+      </p>
+      <p>
+        Whenever the title of the vis is displaying the name of a talk, you can click the title to go straight to the TED
+        website and view the talk for yourself!
+      </p><br>
+      <h1>Enjoy!</h1>
+    </div>
+
+    <hr>
+
+    <div class="scrollytelling-fullscreen-container" style="padding-bottom: 0; margin-bottom: 0">
+      <div class="scrollytelling-vis vis-container explorerDiv" style="padding-bottom: 0; margin-bottom: 0; padding-top: 6vh"></div>
+    </div>
+
+    <div id="fixed-info-box">
+      <h1 id="fixed-info-title">Title</h1>
+      <a id="video-url" href="#">
+      <div id="thumbnail-container">
+        <img id="video-thumbnail" src="">
+      </div>
+      </a>
+      <div>
+        <p id="video-description">Description</p>
+      </div>
+
+      <div id="fixed-info-box-exit">Close</div>
+    </div>
+
+    <div id="five-videos-container">
+    </div>
+  <script type="text/javascript" src="main.js"></script></body>
+</html>

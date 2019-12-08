@@ -1,3 +1,4 @@
+import * as d3 from "d3";
 export default class InfoController {
   constructor() {
     this.fixedInfoBox = document.getElementById("fixed-info-box")
@@ -9,6 +10,7 @@ export default class InfoController {
     this.isOpen = false;
 
     this.closeButton = document.getElementById("fixed-info-box-exit");
+    d3.select("#fixed-info-box-exit").style("visibility", "hidden").style("pointer-events", "none");
     this.closeButton.addEventListener('click', () => {
       console.log("Closed.");
       this.close();
