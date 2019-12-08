@@ -7,7 +7,7 @@ import * as select2 from "select2";
 const selectors = { TALK: 0, SPEAKER: 1, PROFESSION: 2 };
 let lastChanged = selectors.TALK;
 let fullData = [];
-let numResults = 5;
+let numResults = 10;
 
 function onlyUnique(value, index, self) {
     return self.indexOf(value) === index;
@@ -26,15 +26,18 @@ export function talkExplorer(div, data)
     const vis = vis_section.append("div").attr("class", "vis");
 
     div.append("div")
-        .attr("class", "d3-tip title-tip")
-        .html('Test');
+        .attr("class", "d3-tip title-tip");
+
+    div.append("div")
+        .attr("class", "d3-tip results-tip")
+        .style('visibility', "hidden");
 
     const details = div.append("div")
         .attr("class", "details-div")
-        .style("left", (d3.select(".explorerDiv").node().getBoundingClientRect().width * 0.795) + "px")
+        .style("left", (d3.select(".explorerDiv").node().getBoundingClientRect().width * 0.817) + "px")
         .style("top", (jq(".explorerDiv").offset().top + d3.select(".explorerDiv").node().getBoundingClientRect().height * 0.55) + "px")
-        .style('width', "18%")
-        .style("height", "42%")
+        .style('width', "30vh")
+        .style("height", "34vh")
         .append("ul")
         .attr("class", "details-list");
 
@@ -58,10 +61,8 @@ export function talkExplorer(div, data)
             tip.style("left", (d3.mouse(div.node())[0] - tip.node().getBoundingClientRect().width / 2) + "px");
             tip.style("top", (jq(".explorerDiv").offset().top + d3.mouse(div.node())[1] + 10) + "px");
             tip.html(() => {
-                let contents = d[0].name + "<br><br>";
-                contents += "Speaker: " + d[0].main_speaker + "<br><br>";
-                contents += "Duration: " + (d[0].duration / 60).toFixed(2) + " min" + "<br><br>";
-                contents += "Views: " + (+d[0].views).toLocaleString() + "<br><br>";
+                let contents = "<p>Title: " + d[0].title + "</p>";
+                contents += "<p>Speaker: " + d[0].main_speaker + "</p>";
                 contents += "<img src='" + d[0].thumbnail_url + "' style='max-width: 100%;'/>"
                 return contents;
             });
@@ -84,6 +85,18 @@ export function talkExplorer(div, data)
                 console.log(d);
                 jq("#talkSelector").val(d);
                 jq("#talkSelector").trigger("change");
+            })
+            .on("mouseover", (d) => {
+                const tip = d3.select(".results-tip");
+                tip
+                    .html(d)
+                    .style("left", (jq("#rating-result-" + i).offset().left +
+                        d3.select("#rating-result-" + i).node().getBoundingClientRect().width + 4) + "px")
+                    .style("top", (jq("#rating-result-" + i).offset().top) + "px")
+                    .style("visibility", "visible");
+            })
+            .on("mouseout", () => {
+                d3.select(".results-tip").style("visibility", "hidden");
             });
     }
 

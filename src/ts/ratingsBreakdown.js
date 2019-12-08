@@ -100,8 +100,9 @@ export function createRatingsBaseVis(div, data)
         .html(function(d) {
             let total = 0;
             for (let i = 0; i < ratings.length; i++) total += ratings[i][1];
-            return d[0] + ": " + ((d[1] / total) * 100).toFixed(2) + "%<br><br>" + d[1].toLocaleString() +
-                " total votes" + "<br><br>Click to Select";
+            return "<p style='font-weight: bold;'>" + d[0] + "</p><br><p>" + "Count: " + d[1].toLocaleString() +
+                "</p><p>Percent of Total: " + ((d[1] / total) * 100).toFixed(2) + "%</p><br>" +
+                "<p style='font-style: italic; font-size: 10pt;'>Click to Select</p>";
         });
 
     // Icons
@@ -159,10 +160,12 @@ export function createRatingsBaseVis(div, data)
     const pieTip = d3Tip()
         .attr("class", "d3-tip")
         .html((d) => {
-            return `${d.data.key.charAt(0).toUpperCase() + d.data.key.slice(1)}: `
-                + `${((+d.data.value / d.voteTotal) * 100).toFixed(1)}%<br><br>`
-                + `${d.data.value.toLocaleString()} total votes<br>`
-                + `<br>Click to Select`;
+            let label = "";
+            if (d.data.key === "good") label = "Positive Ratings";
+            if (d.data.key === "bad") label = "Negative Ratings";
+            return "<p style='font-weight: bold;'>" + label + "</p><br><p>" + "Count: " + d.data.value.toLocaleString() +
+            "</p><p>Percent of Total: " + ((+d.data.value / d.voteTotal) * 100).toFixed(1) + "%</p><br>" +
+            "<p style='font-style: italic; font-size: 10pt;'>Click to Select</p>";
         });
 
     // Add pie chart to vis
