@@ -254,6 +254,10 @@ export default function(svg, data) {
 
     // Create Part 2 elements
     unitsEnter
+      .append("a")
+      .attr("href", d => d.url)
+      .attr("target", "_blank")
+      .attr("rel", "noopener noreferrer")
       .append("image")
       .attr("width", 300)
       .attr("height", 400)
@@ -333,6 +337,10 @@ export default function(svg, data) {
 
     // Images
     unitsEnter
+      .append("a")
+      .attr("href", d => d.url)
+      .attr("target", "_blank")
+      .attr("rel", "noopener noreferrer")
       .append("image")
       .attr("width", largeUnitWidth)
       .attr("height", largeUnitHeight)
@@ -844,6 +852,10 @@ export default function(svg, data) {
         const y = startY - imageHeight * l;
         return `translate(${x}, ${y})`;
       })
+      /*.append("a")
+          .attr("href", d => d.url)
+          .attr("target", "_blank")
+          .attr("rel", "noopener noreferrer")*/
       .on("end", function(d, i) {
         if (i === 223) {
           const unitsEnter = units.enter().append("g");
@@ -897,6 +909,8 @@ export default function(svg, data) {
             })
             .on("mouseout", () => {
               hovering = false;
+              /*fiveVideoTip.close();
+              infoController.close();*/
             })
             .transition()
             .duration(0)
