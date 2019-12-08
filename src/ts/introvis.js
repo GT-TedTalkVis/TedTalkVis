@@ -41,8 +41,6 @@ export default function(svg, data) {
 
   // Disable freezing on video tip
   let hovering = false;
-  function setTipData(dataRows, thenFreeze, click) {
-  }
 
   svg.on("click", () => {
     console.log("Called SVG event");
@@ -52,6 +50,13 @@ export default function(svg, data) {
       fiveVideoTip.frozen = false;
     }
   })
+
+  svg.on("mousemove", () => {
+    if (hovering === false && fiveVideoTip.frozen === false) {
+      infoController.close();
+    }
+  })
+
   // Initialize tooltip
   const tip = d3Tip()
     .attr("class", "tooltip")
@@ -300,6 +305,38 @@ export default function(svg, data) {
     units.exit().remove();
 
     unitsMerged
+      .on("mouseover", (d, i) => {
+        if (fiveVideoTip.frozen === false) {
+          infoController.open();
+          infoController.setTitle(d["title"]);
+          infoController.setThumbnail(d["thumbnail_url"]);
+          infoController.setLink(d["url"]);
+          infoController.setDescription(d["description"]);
+
+          // Subset dataSlice
+          const fiveVideoRows = dataSlice.slice(i - 2, i + 3);
+          fiveVideoTip.open();
+          fiveVideoTip.displayVideos(fiveVideoRows, false, false);
+        }
+
+        hovering = true;
+      })
+      .on("click", (d, i) => {
+        console.log("Called cell click");
+        infoController.open();
+        infoController.setTitle(d["title"]);
+        infoController.setThumbnail(d["thumbnail_url"]);
+        infoController.setDescription(d["description"]);
+
+        // Subset dataSlice
+        const fiveVideoRows = dataSlice.slice(i - 2, i + 3);
+        fiveVideoTip.open();
+        fiveVideoTip.displayVideos(fiveVideoRows, true, true);
+        hovering = true;
+      })
+      .on("mouseout", () => {
+        hovering = false;
+      })
       .transition()
       .duration(duration)
       .selectAll("image")
@@ -392,6 +429,37 @@ export default function(svg, data) {
     // Transition
     const unitsMerged = units.merge(unitsEnter);
     unitsMerged
+      .on("mouseover", (d, i) => {
+        if (fiveVideoTip.frozen === false) {
+          infoController.open();
+          infoController.setTitle(d["title"]);
+          infoController.setThumbnail(d["thumbnail_url"]);
+          infoController.setLink(d["url"]);
+          infoController.setDescription(d["description"]);
+
+          // Subset dataSlice
+          const fiveVideoRows = dataSlice.slice(i - 2, i + 3);
+          fiveVideoTip.open();
+          fiveVideoTip.displayVideos(fiveVideoRows, false, false);
+        }
+
+        hovering = true;
+      })
+      .on("click", (d, i) => {
+        console.log("Called cell click");
+        infoController.open();
+        infoController.setTitle(d["title"]);
+        infoController.setThumbnail(d["thumbnail_url"]);
+        infoController.setDescription(d["description"]);
+
+        // Subset dataSlice
+        const fiveVideoRows = dataSlice.slice(i - 2, i + 3);
+        fiveVideoTip.open();
+        fiveVideoTip.displayVideos(fiveVideoRows, true, true);
+      })
+      .on("mouseout", () => {
+        hovering = false;
+      })
       .transition()
       .delay((d, i) => 50 * i)
       .duration(durations[0])
@@ -556,6 +624,37 @@ export default function(svg, data) {
     const unitsMerged = units.merge(unitsEnter);
     const yearTextboxesMerged = yearTextboxes.merge(yearTextboxesEnter);
     unitsMerged
+      .on("mouseover", (d, i) => {
+        if (fiveVideoTip.frozen === false) {
+          infoController.open();
+          infoController.setTitle(d["title"]);
+          infoController.setThumbnail(d["thumbnail_url"]);
+          infoController.setLink(d["url"]);
+          infoController.setDescription(d["description"]);
+
+          // Subset dataSlice
+          const fiveVideoRows = dataSlice.slice(i - 2, i + 3);
+          fiveVideoTip.open();
+          fiveVideoTip.displayVideos(fiveVideoRows, false, false);
+        }
+
+        hovering = true;
+      })
+      .on("click", (d, i) => {
+        console.log("Called cell click");
+        infoController.open();
+        infoController.setTitle(d["title"]);
+        infoController.setThumbnail(d["thumbnail_url"]);
+        infoController.setDescription(d["description"]);
+
+        // Subset dataSlice
+        const fiveVideoRows = dataSlice.slice(i - 2, i + 3);
+        fiveVideoTip.open();
+        fiveVideoTip.displayVideos(fiveVideoRows, true, true);
+      })
+      .on("mouseout", () => {
+        hovering = false;
+      })
       .transition()
       .duration(750)
       .select("image")
@@ -719,6 +818,37 @@ export default function(svg, data) {
     const yearTextboxesMerged = yearTextboxes.merge(yearTextboxesEnter);
     yearTextboxes.exit().remove();
     unitsMerged
+      .on("mouseover", (d, i) => {
+        if (fiveVideoTip.frozen === false) {
+          infoController.open();
+          infoController.setTitle(d["title"]);
+          infoController.setThumbnail(d["thumbnail_url"]);
+          infoController.setLink(d["url"]);
+          infoController.setDescription(d["description"]);
+
+          // Subset dataSlice
+          const fiveVideoRows = dataSlice.slice(i - 2, i + 3);
+          fiveVideoTip.open();
+          fiveVideoTip.displayVideos(fiveVideoRows, false, false);
+        }
+
+        hovering = true;
+      })
+      .on("click", (d, i) => {
+        console.log("Called cell click");
+        infoController.open();
+        infoController.setTitle(d["title"]);
+        infoController.setThumbnail(d["thumbnail_url"]);
+        infoController.setDescription(d["description"]);
+
+        // Subset dataSlice
+        const fiveVideoRows = dataSlice.slice(i - 2, i + 3);
+        fiveVideoTip.open();
+        fiveVideoTip.displayVideos(fiveVideoRows, true, true);
+      })
+      .on("mouseout", () => {
+        hovering = false;
+      })
       .transition()
       .duration(400)
       .delay((d, i) => {
@@ -885,6 +1015,7 @@ export default function(svg, data) {
                 infoController.open();
                 infoController.setTitle(d["title"]);
                 infoController.setThumbnail(d["thumbnail_url"]);
+                infoController.setLink(d["url"]);
                 infoController.setDescription(d["description"]);
   
                 // Subset dataSlice
@@ -1051,7 +1182,6 @@ export default function(svg, data) {
       svg.selectAll("rect.view-legend").remove();
       svg.selectAll("text.view-legend-text").remove();
       svg.selectAll("text.figure-8-title").remove();
-      svg.selectAll("text.view-legend-")
     })();
 
     const figure5Title = svg.selectAll("text.figure-5-title").data(["Talks", "Per", "Year"]);
@@ -1382,6 +1512,9 @@ export default function(svg, data) {
 
   const introPart9 = () => {
     const dataSlice = data.slice(2);
+    const yearMin = parseInt(dataSlice[0]["year"], 10);
+    const yearMax = parseInt(dataSlice[dataSlice.length - 1]["year"], 10);
+    const yearSet = [];
 
     function posInFK(fkScore, name) {
       const fkSlice = dataSlice.filter(d => {
@@ -1396,15 +1529,39 @@ export default function(svg, data) {
       return 0;
     }
 
+    fiveVideoTip.x = 35;
+    fiveVideoTip.y = 15;
+
+    // Get the min and max views for each year
+    const minMaxPerYear = {};
+    for (let i = 0; i < yearSet.length; i++) {
+      const yearSlice = dataSlice.filter(d => d["year"] === yearSet[i]);
+      const minViewsForYear = d3.min(yearSlice, d => +d["views"]);
+      const maxViewsForYear = d3.max(yearSlice, d => +d["views"]);
+      minMaxPerYear[yearSet[i]] = [minViewsForYear, maxViewsForYear]
+      console.log(yearSet[i], minViewsForYear, maxViewsForYear);
+    }
+    console.log(minMaxPerYear);
+    for (let i = yearMin; i <= yearMax; i++) {
+      yearSet.push(i.toString());
+    }
+
+    (function removePart8() {
+      svg.selectAll("text.duration-totals").remove();
+      svg.selectAll("text.duration-axis").remove();
+      svg.selectAll("text.figure-8-title").remove();
+    })();
+
     // Get the min and max views for each year
     const minView = d3.min(dataSlice, d => d["views"]);
     const maxView = d3.max(dataSlice, d => d["views"]);
 
-    toggleDimming("off");
-    removeImages();
-
     const imageWidth = viewableWidth * 0.025;
     const imageHeight = viewableHeight * 0.0015;
+
+    // Total vids of each duration
+    const totalVidsOfFK = [];
+    for (let i = 0; i <= 15; i++) totalVidsOfFK.push(0);
 
     const units = svg.selectAll("g");
     units
@@ -1415,16 +1572,67 @@ export default function(svg, data) {
         const startX = 10;
         const startY = viewableHeight - viewableHeight * 0.05;
         let fkScore = parseInt(d["fk_score"], 10);
+        totalVidsOfFK[fkScore] += 1;
         if (fkScore === 0) {
           return `translate(${-100}, ${startY})`;
         }
+
         const k = fkScore;
         const l = posInFK(fkScore, d["name"], startY);
 
         const x = startX + k * imageWidth;
         const y = startY - imageHeight * l;
         return `translate(${x}, ${y})`;
+      })
+      .on('end', function(d, i) {
+        if (i === 0) {
+          createLegendsAndCounts();
+        }
       });
+
+    function createLegendsAndCounts() {
+      const fkScores = [];
+      for (let i = 0; i <= 15; i++) fkScores.push(i);
+
+      const fkScoresAxis = svg.selectAll("text.fk-axis").data(fkScores)
+      fkScoresAxis
+        .enter()
+        .append("text")
+        .attr("class", "fk-axis")
+        .merge(fkScoresAxis)
+        .text(d => d)
+        .attr("fill", "#FFFFFF")
+        .attr("font-size", imageWidth / 1.618)
+        .attr("opacity", 1)
+        .attr("transform", function(d) {
+          const bbox = this.getBBox();
+          const startX = 10;
+          const startY = viewableHeight - viewableHeight * 0.05;
+  
+          const x = startX + d * imageWidth + imageWidth * 0.2;
+          const y = startY + bbox.height;
+          return `translate(${x}, ${y})`;
+        })
+
+      const fkScoresTotals = svg.selectAll("text.fk-totals").data(totalVidsOfFK)
+      fkScoresTotals
+        .enter()
+        .append("text")
+        .attr("class", "fk-totals")
+        .merge(fkScoresTotals)
+        .text(d => d)
+        .attr("fill", "#FFFFFF")
+        .attr("font-size", imageWidth / 1.68)
+        .attr("opacity", 1)
+        .attr("transform", function(d, i) {
+          const startX = 10;
+          const startY = viewableHeight - viewableHeight * 0.05;
+
+          const x = startX + i * imageWidth;
+          const y = startY - imageHeight * d;
+          return `translate(${x}, ${y})`;
+        })
+    }
   };
 
   const scenePart1 = new ScrollMagic.Scene({
@@ -1561,6 +1769,9 @@ export default function(svg, data) {
       } else {
         introPart8();
       }
+
+      fiveVideoTip.close();
+      infoController.close();
     })
     .addTo(controller);
 
@@ -1700,6 +1911,37 @@ export default function(svg, data) {
     const unitsMerged = units.merge(unitsEnter);
     units.exit().remove();
     unitsMerged
+      .on("mouseover", (d, i) => {
+        if (fiveVideoTip.frozen === false) {
+          infoController.open();
+          infoController.setTitle(d["title"]);
+          infoController.setThumbnail(d["thumbnail_url"]);
+          infoController.setLink(d["url"]);
+          infoController.setDescription(d["description"]);
+
+          // Subset dataSlice
+          const fiveVideoRows = dataSlice.slice(i - 2, i + 3);
+          fiveVideoTip.open();
+          fiveVideoTip.displayVideos(fiveVideoRows, false, false);
+        }
+
+        hovering = true;
+      })
+      .on("click", (d, i) => {
+        console.log("Called cell click");
+        infoController.open();
+        infoController.setTitle(d["title"]);
+        infoController.setThumbnail(d["thumbnail_url"]);
+        infoController.setDescription(d["description"]);
+
+        // Subset dataSlice
+        const fiveVideoRows = dataSlice.slice(i - 2, i + 3);
+        fiveVideoTip.open();
+        fiveVideoTip.displayVideos(fiveVideoRows, true, true);
+      })
+      .on("mouseout", () => {
+        hovering = false;
+      })
       .transition()
       .delay((d, i) => 50 * i)
       .duration(durations[0])
