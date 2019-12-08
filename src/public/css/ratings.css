@@ -17,6 +17,24 @@
     margin-bottom: 1%;
 }
 
+.tag-tip {
+    position: absolute;
+    z-index: 1000;
+}
+
+hr {
+    border-color: white;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    padding-bottom: 15vh;
+}
+
+.rating-explanation {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    width: 80vw;
+}
+
 .title-tip {
     position: absolute;
     z-index: 1000;

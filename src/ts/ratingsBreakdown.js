@@ -159,6 +159,7 @@ export function createRatingsBaseVis(div, data)
     // Create pie chart tooltip
     const pieTip = d3Tip()
         .attr("class", "d3-tip")
+        .direction("w")
         .html((d) => {
             let label = "";
             if (d.data.key === "good") label = "Positive Ratings";
