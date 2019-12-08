@@ -29,6 +29,23 @@ export function talkExplorer(div, data)
         .attr("class", "d3-tip title-tip")
         .html('Test');
 
+    const details = div.append("div")
+        .attr("class", "details-div")
+        .style("left", (d3.select(".explorerDiv").node().getBoundingClientRect().width * 0.795) + "px")
+        .style("top", (jq(".explorerDiv").offset().top + d3.select(".explorerDiv").node().getBoundingClientRect().height * 0.55) + "px")
+        .style('width', "18%")
+        .style("height", "42%")
+        .append("ul")
+        .attr("class", "details-list");
+
+    details.append("li").attr("class", "detail-title").html("Details");
+    details.append("br");
+    details.append("li").attr("class", "detail-views");
+    details.append("li").attr("class", "detail-comments");
+    details.append("li").attr("class", "detail-duration");
+    details.append("li").attr("class", "detail-ratings");
+    details.append("li").attr("class", "detail-positivity");
+
     // Initialize title
     const visTitle = title.append("a")
         .data([data])
@@ -190,10 +207,11 @@ export function talkExplorer(div, data)
             .attr("href", link);
 
         updateRatingsVis(newData);
-
-        console.log("updated charts");
+        updateDetails(newData);
     }
+
     updateResults("good", true);
+    updateDetails(data);
 }
 
 // Checks if the select2 data array contains the given value
@@ -229,6 +247,28 @@ function getTalksByProfession(professions) {
         if (includesText(professions, fullData[i]["grouped_occupation"])) talks.push(fullData[i]);
     }
     return talks;
+}
+
+function updateDetails(data) {
+    let views = 0,
+        comments = 0,
+        duration = 0,
+        ratings = 0,
+        good = 0,
+        positivity = 0;
+    for (let i = 0; i < data.length; i++) {
+        views += +data[i].views;
+        comments += +data[i].comments;
+        duration += +data[i].duration;
+        ratings += +data[i].good + +data[i].bad;
+        good += +data[i].good;
+    }
+    positivity += parseFloat(((good / ratings) * 100).toFixed(2));
+    d3.select(".detail-views").html(     "Views:         " + views.toLocaleString());
+    d3.select(".detail-comments").html(  "Comments:      " + comments.toLocaleString());
+    d3.select(".detail-duration").html(  "Duration:      " + (duration / 60).toFixed(2) + " min");
+    d3.select(".detail-ratings").html(   "Total Ratings: " + ratings.toLocaleString());
+    d3.select(".detail-positivity").html("Positivity:    " + positivity + "%");
 }
 
 /* Updates the results section of the vis based on the data provided

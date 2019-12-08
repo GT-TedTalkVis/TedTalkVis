@@ -12,16 +12,17 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 2;
 }
 
 .title-tip {
     position: absolute;
     z-index: 1000;
     visibility: hidden;
-    width: 60%;
+    width: 55%;
     display: grid;
     font-size: 60%;
-    grid-template-columns: 60% 40%;
+    grid-template-columns: 50% 50%;
 }
 
 /* Creates a small triangle extender for the tooltip */
@@ -189,6 +190,10 @@
     width: 100% !important;
 }
 
+.selectMenu label {
+    padding-top: 3%;
+}
+
 .select2-dropdown {
     font-size: 10pt;
     color: black;
@@ -202,4 +207,35 @@
 
 .pieSVG {
     position: absolute;
+    z-index: 1;
+}
+
+.pieSVG text {
+    font-size: 12pt;
+    fill: #4F4F4F;
+}
+
+.details-div {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+}
+
+.details-div ul {
+    font-family: "Trebuchet MS";
+    margin-top: 4%;
+    padding-left: 7%;
+    text-align: center;
+    font-size: 55%;
+    list-style: none;
+    color: #ACACAC;
+}
+
+.details-div li {
+    padding-bottom: 5%;
+}
+
+.detail-title {
+    font-weight: bold;
+    font-size: 130%
 }

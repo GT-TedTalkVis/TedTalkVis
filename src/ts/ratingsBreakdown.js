@@ -180,6 +180,7 @@ export function createRatingsBaseVis(div, data)
         .style("top", (jq(".explorerDiv").offset().top + d3.select(".explorerDiv").node().getBoundingClientRect().height * 0.13) + "px")
         .attr('width', "17%")
         .attr("viewBox", "0 0 100 100")
+        .attr("alignment-baseline", "middle")
         .attr("class", "pieSVG")
         .selectAll(".pieChart")
         .data(pieData, function(d) {
@@ -198,6 +199,11 @@ export function createRatingsBaseVis(div, data)
         .on("click", (d) => {
             updateResults(d.data.key, false);
         });
+
+    d3.select(".pieSVG")
+        .append("text")
+        .attr("transform", "translate(33.3, 54)")
+        .html("Total");
 
     updateRatingsVis(data);
 }
