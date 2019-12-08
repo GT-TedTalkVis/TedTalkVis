@@ -1,6 +1,7 @@
 import { createRatingsBaseVis, updateRatingsVis } from "./ratingsBreakdown";
 import * as jq from "jquery";
 import * as d3 from "d3"
+import d3Tip from "d3-tip"
 import * as select2 from "select2";
 
 const selectors = { TALK: 0, SPEAKER: 1, PROFESSION: 2 };
@@ -24,10 +25,34 @@ export function talkExplorer(div, data)
     const title = vis_section.append("div").attr("class", "vis-title-div");
     const vis = vis_section.append("div").attr("class", "vis");
 
+    div.append("div")
+        .attr("class", "d3-tip title-tip")
+        .html('Test');
+
     // Initialize title
     const visTitle = title.append("a")
+        .data([data])
         .attr("class", "vis-title")
-        .html("All Talks");
+        .attr("target", "_blank")
+        .attr("rel", "noopener noreferrer")
+        .html("All Talks")
+        .on("mouseover", function(d) {
+            const tip = d3.select(".title-tip");
+            tip.style("left", (d3.mouse(div.node())[0] - tip.node().getBoundingClientRect().width / 2) + "px");
+            tip.style("top", (jq(".explorerDiv").offset().top + d3.mouse(div.node())[1] + 10) + "px");
+            tip.html(() => {
+                let contents = d[0].name + "<br><br>";
+                contents += "Speaker: " + d[0].main_speaker + "<br><br>";
+                contents += "Duration: " + (d[0].duration / 60).toFixed(2) + " min" + "<br><br>";
+                contents += "Views: " + (+d[0].views).toLocaleString() + "<br><br>";
+                contents += "<img src='" + d[0].thumbnail_url + "' style='max-width: 100%;'/>"
+                return contents;
+            });
+            if (d.length === 1) tip.style("visibility", "visible");
+        })
+        .on("mouseout", function(d) {
+            if (d.length === 1) d3.select(".title-tip").style("visibility", "hidden");
+        });
 
     // Initialize results menu
     resultsMenu.append("div")
@@ -97,12 +122,12 @@ export function talkExplorer(div, data)
     });
     jq('#speakerSelector').on("change", () => {
         updateCharts(selectors.SPEAKER);
-        updateResults("All", true);
+        updateResults("good", true);
         d3.select("#rating-result-header").html("Best " + jq('#speakerSelector').select2('data')[0].text + " Talks");
     });
     jq('#professionSelector').on("change", () => {
         updateCharts(selectors.PROFESSION);
-        updateResults("All", true);
+        updateResults("good", true);
         d3.select("#rating-result-header").html("Best " + jq('#professionSelector').select2('data')[0].text + " Talks");
     });
 
@@ -155,7 +180,14 @@ export function talkExplorer(div, data)
         }
 
         // Update title
-        visTitle.html(titleText).attr("href", link);
+        if (titleText === "All" || titleText === "Talks by All" || titleText === "Talks by Alls") {
+            titleText = "All Talks";
+            link = null;
+        }
+        visTitle
+            .data([newData])
+            .html(titleText)
+            .attr("href", link);
 
         updateRatingsVis(newData);
 
@@ -252,12 +284,23 @@ export function updateResults(category, fromChange)
         if (category === "bad") data[i]["percentageOfInterest"] = data[i].bad / totalCount;
     }
 
-    const sorted = data.sort((a, b) => b["percentageOfInterest"] - a["percentageOfInterest"]);
+    const sorted_views = data.sort((a, b) => (b.good + b.bad) - (a.good + a.bad));
+    const sorted = sorted_views.sort((a, b) => b["percentageOfInterest"] - a["percentageOfInterest"]);
 
     d3.select("#rating-result-header")
         .html(() => {
-            if (category === "good") return "Best Overall Talks:";
-            if (category === "bad") return "Worst Overall Talks:";
+            if (category === "good") {
+                if (data.length < fullData.length) {
+                    if (lastChanged === selectors.SPEAKER) return "Best " + data[0]["main_speaker"] + " Talks";
+                    if (lastChanged === selectors.PROFESSION) return "Best " + data[0]["grouped_occupation"] + " Talks";
+                }
+                return "Best Overall Talks:";
+            }
+            if (category === "bad") {
+                if (lastChanged === selectors.SPEAKER) return "Worst " + data[0]["main_speaker"] + " Talks";
+                if (lastChanged === selectors.PROFESSION) return "Worst " + data[0]["grouped_occupation"] + " Talks";
+                return "Worst Overall Talks:";
+            }
             else return "By " + category + " Ratings:";
         });
     for (let i = 0; i < numResults; i++) {

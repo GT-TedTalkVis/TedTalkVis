@@ -2,6 +2,7 @@ import * as d3 from "d3";
 import COLORS from "../colors";
 import d3Tip from "d3-tip";
 import { updateResults } from "./talkExplorer";
+import * as jq from "jquery";
 
 // Returns path data for a rectangle with rounded top corners.
 // The bottom-left corner is ⟨x,y⟩.
@@ -99,8 +100,8 @@ export function createRatingsBaseVis(div, data)
         .html(function(d) {
             let total = 0;
             for (let i = 0; i < ratings.length; i++) total += ratings[i][1];
-            return "Rating: " + d[0] + "<br><br>" + "Count: " + d[1].toLocaleString() + "<br>" + "Percentage of Total: "
-                + ((d[1] / total) * 100).toFixed(2) + "%";
+            return d[0] + ": " + ((d[1] / total) * 100).toFixed(2) + "%<br><br>" + d[1].toLocaleString() +
+                " total votes" + "<br><br>Click to Select";
         });
 
     // Icons
@@ -158,7 +159,10 @@ export function createRatingsBaseVis(div, data)
     const pieTip = d3Tip()
         .attr("class", "d3-tip")
         .html((d) => {
-            return `${d.data.key.toUpperCase()}: ${((+d.data.value / d.voteTotal) * 100).toFixed(1)}%`;
+            return `${d.data.key.charAt(0).toUpperCase() + d.data.key.slice(1)}: `
+                + `${((+d.data.value / d.voteTotal) * 100).toFixed(1)}%<br><br>`
+                + `${d.data.value.toLocaleString()} total votes<br>`
+                + `<br>Click to Select`;
         });
 
     // Add pie chart to vis
@@ -169,19 +173,21 @@ export function createRatingsBaseVis(div, data)
     pieData.forEach((d) => {
         d.voteTotal = 2;
     });
-    svg.append("svg")
-        .attr("x", barWidth +  "%")
-        .attr("y", "0")
-        .attr("width", (100 - barWidth) + "%")
-        .attr("height", "100%")
+    d3.select(".vis").append("svg")
+        .style("left", () => {
+            return (d3.select(".explorerDiv").node().getBoundingClientRect().width * 0.805) + "px";
+        })
+        .style("top", (jq(".explorerDiv").offset().top + d3.select(".explorerDiv").node().getBoundingClientRect().height * 0.13) + "px")
+        .attr('width', "17%")
         .attr("viewBox", "0 0 100 100")
+        .attr("class", "pieSVG")
         .selectAll(".pieChart")
         .data(pieData, function(d) {
             return d.data.key;
         })
         .enter()
         .append("path")
-        .attr("transform", "translate(" + (50 + pieOffset) + ",10)")
+        .attr("transform", "translate(50, 50)")
         .attr("class", "pieChart")
         .attr("fill", function(d) {
             return color(d.data.key);

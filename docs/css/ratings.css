@@ -14,6 +14,16 @@
     justify-content: center;
 }
 
+.title-tip {
+    position: absolute;
+    z-index: 1000;
+    visibility: hidden;
+    width: 60%;
+    display: grid;
+    font-size: 60%;
+    grid-template-columns: 60% 40%;
+}
+
 /* Creates a small triangle extender for the tooltip */
 .d3-tip:after {
     box-sizing: border-box;
@@ -145,17 +155,21 @@
     display: flex;
     align-items: center;
     justify-content: left;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
 }
 
 .vis-title {
     margin-left: 2.5%;
-    font-family: Calibri;
+    font-family: "Trebuchet MS";
     font-weight: bold;
     font-size: 100%;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
     color: #DCDCDC;
+    max-width: 100%;
 }
 
 .explorerDiv label {
@@ -184,4 +198,8 @@
     font-size: 10pt;
     width: 5%;
     stroke-width: 0.1%;
+}
+
+.pieSVG {
+    position: absolute;
 }

@@ -1,0 +1,9 @@
+.tooltip {
+    background: #333333CC;
+    border: solid 1px #5F5F5F;
+    color: #ACACAC;
+    font-family: sans-serif;
+    text-anchor: middle;
+    border-radius: 4px;
+    pointer-events: none;
+}
