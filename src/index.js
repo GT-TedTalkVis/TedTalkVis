@@ -36,19 +36,29 @@ function dataCleaner(data) {
 
   // Re-sort data to ensure that they're in the correct order,
   // because it's loading out of order in some browsers.
-  data.sort((a, b) => parseInt(a[""], 10) - parseInt(b[""], 10));
+  const newData = [];
+  for (let i = 0; i < data.length; i++) {
+    newData.push(data.filter(d => d["rowindex"] === i.toString())[0]);
+  }
+  return newData;
 }
 
 // Load data
 d3.csv("./data/ted_all.csv").then(data => {
   // Pass data through dataCleaner()
-  dataCleaner(data);
+  const cleanedData = dataCleaner(data);
+
+  tedSiteViews(svg2, cleanedData);
+  talkExplorer(explorerDiv, cleanedData);
+});
+
+d3.csv("./data/ted_all.csv").then(data => {
+  // Pass data through dataCleaner()
+  const cleanedData = dataCleaner(data);
 
   // allTalkThumbnailGrid(thumbnailGrid, data);
-  introVis(svg1, data);
-  tedSiteViews(svg2, data);
-  talkExplorer(explorerDiv, data);
-});
+  introVis(svg1, cleanedData);
+})
 
 d3.csv("./data/fk_scores.csv").then(data => {
   readingLevel(svg3, data);
