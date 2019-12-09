@@ -9,6 +9,7 @@ import FiveVideoTip from "./fiveVideoTip";
 
 const infoController = new InfoController();
 const fiveVideoTip = new FiveVideoTip();
+let currentPhase = 0;
 
 /**
  * Introductory visualization
@@ -140,6 +141,7 @@ export default function(svg, data) {
   //   });
 
   const introPart1 = direction => {
+    currentPhase = 1;
     const duration = 750;
 
     const imageWidth = viewableWidth * 0.5;
@@ -205,6 +207,7 @@ export default function(svg, data) {
   };
 
   const introPart2 = direction => {
+    currentPhase = 2;
     const dataSlice = data.slice(2, 3);
 
     const duration = 750;
@@ -357,6 +360,7 @@ export default function(svg, data) {
   };
 
   const introPart3 = () => {
+    currentPhase = 3;
     const numImages = 10;
     const durations = [750, 750];
     const padding = 10;
@@ -484,7 +488,13 @@ export default function(svg, data) {
   };
 
   const introPart4 = () => {
+    currentPhase = 4;
     const duration = 750;
+
+    (function removePart5() {
+      const yearCounts = svg.selectAll("text.year-counts").remove();
+      svg.selectAll("text.figure-5-title").remove();
+    })();
 
     // Create dimmer
     const dimmer = svg.selectAll("rect.black-fade").data(["dimmer"]);
@@ -522,6 +532,8 @@ export default function(svg, data) {
   };
 
   const introPart5 = () => {
+
+    currentPhase = 5;
     removePart4();
 
     const dataSlice = data.slice(2, 176);
@@ -637,18 +649,6 @@ export default function(svg, data) {
 
         hovering = true;
       })
-      .on("click", (d, i) => {
-        console.log("Called cell click");
-        infoController.open();
-        infoController.setTitle(d["title"]);
-        infoController.setThumbnail(d["thumbnail_url"]);
-        infoController.setDescription(d["description"]);
-
-        // Subset dataSlice
-        const fiveVideoRows = dataSlice.slice(i - 2, i + 3);
-        fiveVideoTip.open();
-        fiveVideoTip.displayVideos(fiveVideoRows, true, true);
-      })
       .on("mouseout", () => {
         hovering = false;
       })
@@ -677,7 +677,7 @@ export default function(svg, data) {
           .delay((d, i) => 100 * i)
           .attr("opacity", 1)
           .on('end', function(d, i) {
-            if (i === yearSet.length - 1) {
+            if (i === yearSet.length - 1 && currentPhase === 5) {
               const yearCounts = svg.selectAll("text.year-counts").data(yearSet, d => d)
               yearCounts
                 .enter()
@@ -702,7 +702,7 @@ export default function(svg, data) {
                 .merge(yearCounts)
                 .transition()
                 .duration(750)
-                .attr("opacity", 1)
+                .attr("opacity", 1);
             }
           })
       });
@@ -733,6 +733,7 @@ export default function(svg, data) {
   };
 
   const introPart6 = () => {
+    currentPhase = 6;
     const dataSlice = data.slice(2, 226);
     const years = [];
     for (let i = 0; i < dataSlice.length; i++) {
@@ -923,6 +924,8 @@ export default function(svg, data) {
   };
 
   const introPart7 = () => {
+
+    currentPhase = 7;
     /* Gigantic colorful histogram of every video */
 
     // Modify the fiveVideoTip location
@@ -1291,6 +1294,8 @@ export default function(svg, data) {
   };
 
   const introPart8 = () => {
+
+    currentPhase = 8;
     /* Duration Histogram */
     const dataSlice = data.slice(2);
     const yearMin = parseInt(dataSlice[0]["year"], 10);
@@ -1541,6 +1546,7 @@ export default function(svg, data) {
   };
 
   const introPart9 = () => {
+    currentPhase = 9;
     const dataSlice = data.slice(2);
     const yearMin = parseInt(dataSlice[0]["year"], 10);
     const yearMax = parseInt(dataSlice[dataSlice.length - 1]["year"], 10);
