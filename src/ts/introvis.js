@@ -324,19 +324,6 @@ export default function(svg, data) {
 
         hovering = true;
       })
-      .on("click", (d, i) => {
-        console.log("Called cell click");
-        infoController.open();
-        infoController.setTitle(d["title"]);
-        infoController.setThumbnail(d["thumbnail_url"]);
-        infoController.setDescription(d["description"]);
-
-        // Subset dataSlice
-        const fiveVideoRows = dataSlice.slice(i - 2, i + 3);
-        fiveVideoTip.open();
-        fiveVideoTip.displayVideos(fiveVideoRows, true, true);
-        hovering = true;
-      })
       .on("mouseout", () => {
         hovering = false;
       })
@@ -460,18 +447,6 @@ export default function(svg, data) {
         infoController.setDescription(d["description"]);
 
         hovering = true;
-      })
-      .on("click", (d, i) => {
-        console.log("Called cell click");
-        infoController.open();
-        infoController.setTitle(d["title"]);
-        infoController.setThumbnail(d["thumbnail_url"]);
-        infoController.setDescription(d["description"]);
-
-        // Subset dataSlice
-        const fiveVideoRows = dataSlice.slice(i - 2, i + 3);
-        fiveVideoTip.open();
-        fiveVideoTip.displayVideos(fiveVideoRows, true, true);
       })
       .on("mouseout", () => {
         hovering = false;
@@ -2244,18 +2219,6 @@ export default function(svg, data) {
         }
 
         hovering = true;
-      })
-      .on("click", (d, i) => {
-        console.log("Called cell click");
-        infoController.open();
-        infoController.setTitle(d["title"]);
-        infoController.setThumbnail(d["thumbnail_url"]);
-        infoController.setDescription(d["description"]);
-
-        // Subset dataSlice
-        const fiveVideoRows = dataSlice.slice(i - 2, i + 3);
-        fiveVideoTip.open();
-        fiveVideoTip.displayVideos(fiveVideoRows, true, true);
       })
       .on("mouseout", () => {
         hovering = false;
