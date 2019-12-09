@@ -671,40 +671,42 @@ export default function(svg, data) {
         return `translate(${x}, ${y})`;
       })
       .on("end", () => {
-        yearTextboxesMerged
-          .transition()
-          .duration(400)
-          .delay((d, i) => 100 * i)
-          .attr("opacity", 1)
-          .on('end', function(d, i) {
-            if (i === yearSet.length - 1 && currentPhase === 5) {
-              const yearCounts = svg.selectAll("text.year-counts").data(yearSet, d => d)
-              yearCounts
-                .enter()
-                .append("text")
-                .attr("class", "year-counts")
-                .attr("fill", "#FFFFFF")
-                .attr("text-anchor", "end")
-                .attr("font-size", newImageWidth / 1.618)
-                .attr("opacity", 0)
-                .text(d => numVideosInYear(d))
-                .attr("transform", function(d) {
-                  const bbox = this.getBBox();
-                  const startX = viewableWidth * 0.3;
-                  const startY = viewableHeight * 0.8;
-                  const k = yearSet.indexOf(d);
-                  const l = numVideosInYear(d);
+        if (currentPhase === 5) {
+          yearTextboxesMerged
+              .transition()
+              .duration(400)
+              .delay((d, i) => 100 * i)
+              .attr("opacity", 1)
+              .on('end', function (d, i) {
+                if (i === yearSet.length - 1 && currentPhase === 5) {
+                  const yearCounts = svg.selectAll("text.year-counts").data(yearSet, d => d)
+                  yearCounts
+                      .enter()
+                      .append("text")
+                      .attr("class", "year-counts")
+                      .attr("fill", "#FFFFFF")
+                      .attr("text-anchor", "end")
+                      .attr("font-size", newImageWidth / 1.618)
+                      .attr("opacity", 0)
+                      .text(d => numVideosInYear(d))
+                      .attr("transform", function (d) {
+                        const bbox = this.getBBox();
+                        const startX = viewableWidth * 0.3;
+                        const startY = viewableHeight * 0.8;
+                        const k = yearSet.indexOf(d);
+                        const l = numVideosInYear(d);
 
-                  const x = startX + k * newImageWidth + bbox.height;
-                  const y = startY - newImageHeight * l - bbox.width;
-                  return `translate(${x}, ${y}) rotate(-90) `;
-                })
-                .merge(yearCounts)
-                .transition()
-                .duration(750)
-                .attr("opacity", 1);
-            }
-          })
+                        const x = startX + k * newImageWidth + bbox.height;
+                        const y = startY - newImageHeight * l - bbox.width;
+                        return `translate(${x}, ${y}) rotate(-90) `;
+                      })
+                      .merge(yearCounts)
+                      .transition()
+                      .duration(750)
+                      .attr("opacity", 1);
+                }
+              })
+        }
       });
 
     const figure5Title = svg.selectAll("text.figure-5-title").data(["Talks", "Per", "Year"]);
