@@ -430,18 +430,11 @@ export default function(svg, data) {
     const unitsMerged = units.merge(unitsEnter);
     unitsMerged
       .on("mouseover", (d, i) => {
-        if (fiveVideoTip.frozen === false) {
-          infoController.open();
-          infoController.setTitle(d["title"]);
-          infoController.setThumbnail(d["thumbnail_url"]);
-          infoController.setLink(d["url"]);
-          infoController.setDescription(d["description"]);
-
-          // Subset dataSlice
-          const fiveVideoRows = dataSlice.slice(i - 2, i + 3);
-          fiveVideoTip.open();
-          fiveVideoTip.displayVideos(fiveVideoRows, false, false);
-        }
+        infoController.open();
+        infoController.setTitle(d["title"]);
+        infoController.setThumbnail(d["thumbnail_url"]);
+        infoController.setLink(d["url"]);
+        infoController.setDescription(d["description"]);
 
         hovering = true;
       })
@@ -569,6 +562,10 @@ export default function(svg, data) {
     units.select("image").attr("preserveAspectRatio", "none");
     // Have d3 enter the missing images.
     unitsEnter
+      .append("a")
+      .attr("href", d => d.url)
+      .attr("target", "_blank")
+      .attr("rel", "noopener noreferrer")
       .append("image")
       .attr("width", oldImageWidth)
       .attr("height", oldImageHeight)
@@ -772,6 +769,10 @@ export default function(svg, data) {
     const unitsEnter = units.enter().append("g");
 
     unitsEnter
+      .append("a")
+      .attr("href", d => d.url)
+      .attr("target", "_blank")
+      .attr("rel", "noopener noreferrer")
       .append("image")
       .attr("width", oldImageWidth)
       .attr("height", oldImageHeight)
@@ -982,14 +983,14 @@ export default function(svg, data) {
         const y = startY - imageHeight * l;
         return `translate(${x}, ${y})`;
       })
-      /*.append("a")
-          .attr("href", d => d.url)
-          .attr("target", "_blank")
-          .attr("rel", "noopener noreferrer")*/
       .on("end", function(d, i) {
         if (i === 223) {
           const unitsEnter = units.enter().append("g");
           unitsEnter
+            .append("a")
+            .attr("href", d => d.url)
+            .attr("target", "_blank")
+            .attr("rel", "noopener noreferrer")
             .append("image")
             .attr("xlink:href", d => {
               return thumbnailDirectory + d["thumbnail_path"];
@@ -1027,7 +1028,7 @@ export default function(svg, data) {
               hovering = true;
             })
             .on("click", (d, i) => {
-              console.log("Called cell click");
+              /*console.log("Called cell click");
               infoController.open();
               infoController.setTitle(d["title"]);
               infoController.setThumbnail(d["thumbnail_url"]);
@@ -1036,12 +1037,12 @@ export default function(svg, data) {
               // Subset dataSlice
               const fiveVideoRows = dataSlice.slice(i - 2, i + 3);
               fiveVideoTip.open();
-              fiveVideoTip.displayVideos(fiveVideoRows, true, true);
+              fiveVideoTip.displayVideos(fiveVideoRows, true, true);*/
             })
             .on("mouseout", () => {
               hovering = false;
-              /*fiveVideoTip.close();
-              infoController.close();*/
+              fiveVideoTip.close();
+              infoController.close();
             })
             .transition()
             .duration(0)
@@ -1393,6 +1394,10 @@ export default function(svg, data) {
     units.select("image").remove();
     // Append a black rectangle
     units
+      .append("a")
+      .attr("href", d => d.url)
+      .attr("target", "_blank")
+      .attr("rel", "noopener noreferrer")
       .append("rect")
       .attr("fill", d => {
         return d3.interpolateReds(1);
