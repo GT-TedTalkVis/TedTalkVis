@@ -693,40 +693,42 @@ export default function(svg, data) {
         return `translate(${x}, ${y})`;
       })
       .on("end", () => {
-        yearTextboxesMerged
-          .transition()
-          .duration(400)
-          .delay((d, i) => 100 * i)
-          .attr("opacity", 1)
-          .on('end', function(d, i) {
-            if (i === yearSet.length - 1 && currentPhase === 5) {
-              const yearCounts = svg.selectAll("text.year-counts").data(yearSet, d => d)
-              yearCounts
-                .enter()
-                .append("text")
-                .attr("class", "year-counts")
-                .attr("fill", "#FFFFFF")
-                .attr("text-anchor", "end")
-                .attr("font-size", newImageWidth / 1.618)
-                .attr("opacity", 0)
-                .text(d => numVideosInYear(d))
-                .attr("transform", function(d) {
-                  const bbox = this.getBBox();
-                  const startX = viewableWidth * 0.3;
-                  const startY = viewableHeight * 0.8;
-                  const k = yearSet.indexOf(d);
-                  const l = numVideosInYear(d);
+        if (currentPhase === 5) {
+          yearTextboxesMerged
+              .transition()
+              .duration(400)
+              .delay((d, i) => 100 * i)
+              .attr("opacity", 1)
+              .on('end', function (d, i) {
+                if (i === yearSet.length - 1 && currentPhase === 5) {
+                  const yearCounts = svg.selectAll("text.year-counts").data(yearSet, d => d)
+                  yearCounts
+                      .enter()
+                      .append("text")
+                      .attr("class", "year-counts")
+                      .attr("fill", "#FFFFFF")
+                      .attr("text-anchor", "end")
+                      .attr("font-size", newImageWidth / 1.618)
+                      .attr("opacity", 0)
+                      .text(d => numVideosInYear(d))
+                      .attr("transform", function (d) {
+                        const bbox = this.getBBox();
+                        const startX = viewableWidth * 0.3;
+                        const startY = viewableHeight * 0.8;
+                        const k = yearSet.indexOf(d);
+                        const l = numVideosInYear(d);
 
-                  const x = startX + k * newImageWidth + bbox.height;
-                  const y = startY - newImageHeight * l - bbox.width;
-                  return `translate(${x}, ${y}) rotate(-90) `;
-                })
-                .merge(yearCounts)
-                .transition()
-                .duration(750)
-                .attr("opacity", 1);
-            }
-          })
+                        const x = startX + k * newImageWidth + bbox.height;
+                        const y = startY - newImageHeight * l - bbox.width;
+                        return `translate(${x}, ${y}) rotate(-90) `;
+                      })
+                      .merge(yearCounts)
+                      .transition()
+                      .duration(750)
+                      .attr("opacity", 1);
+                }
+              })
+        }
       });
 
     const figure5Title = svg.selectAll("text.figure-5-title").data(["Talks", "Per", "Year"]);
@@ -898,23 +900,25 @@ export default function(svg, data) {
       })
       .attr("opacity", 1)
       .on("end", function(d, i) {
-        if (i === dataSlice.length - 1) {
-          yearTextboxesMerged
-            .transition()
-            .duration(400)
-            .attr("font-size", oldImageWidth / 1.618)
-            .attr("opacity", 1)
-            .attr("transform", function(d, i) {
-              const bbox = this.getBBox();
-              const startX = viewableWidth * 0.3;
-              const startY = viewableHeight * 0.8;
-              const l = numVideosInYear(d);
-              const k = yearSet.indexOf(d);
+        if (currentPhase === 6) {
+          if (i === dataSlice.length - 1) {
+            yearTextboxesMerged
+                .transition()
+                .duration(400)
+                .attr("font-size", oldImageWidth / 1.618)
+                .attr("opacity", 1)
+                .attr("transform", function (d, i) {
+                  const bbox = this.getBBox();
+                  const startX = viewableWidth * 0.3;
+                  const startY = viewableHeight * 0.8;
+                  const l = numVideosInYear(d);
+                  const k = yearSet.indexOf(d);
 
-              const x = startX + k * oldImageWidth + bbox.height * 0.75;
-              const y = startY - oldImageHeight + bbox.width * 1.5;
-              return `translate(${x}, ${y}) rotate(-90) `;
-            });
+                  const x = startX + k * oldImageWidth + bbox.height * 0.75;
+                  const y = startY - oldImageHeight + bbox.width * 1.5;
+                  return `translate(${x}, ${y}) rotate(-90) `;
+                });
+          }
         }
       });
 
@@ -1010,71 +1014,72 @@ export default function(svg, data) {
         return `translate(${x}, ${y})`;
       })
       .on("end", function(d, i) {
-        if (i === 223) {
-          const unitsEnter = units.enter().append("g");
-          unitsEnter
-            .append("a")
-            .attr("href", d => d.url)
-            .attr("target", "_blank")
-            .attr("rel", "noopener noreferrer")
-            .append("image")
-            .attr("xlink:href", d => {
-              return thumbnailDirectory + d["thumbnail_path"];
-            })
-            .attr("preserveAspectRatio", "none")
-            .attr("width", imageWidth)
-            .attr("height", imageHeight)
-            .attr("transform", function(d) {
-              const startX = 10;
-              const startY = viewableHeight - viewableHeight * 0.05;
-              const k = yearSet.indexOf(d["year"]);
-              const l = posInYear(d["year"], d["name"]);
+        if (currentPhase === 7) {
+          if (i === 223) {
+            const unitsEnter = units.enter().append("g");
+            unitsEnter
+                .append("a")
+                .attr("href", d => d.url)
+                .attr("target", "_blank")
+                .attr("rel", "noopener noreferrer")
+                .append("image")
+                .attr("xlink:href", d => {
+                  return thumbnailDirectory + d["thumbnail_path"];
+                })
+                .attr("preserveAspectRatio", "none")
+                .attr("width", imageWidth)
+                .attr("height", imageHeight)
+                .attr("transform", function (d) {
+                  const startX = 10;
+                  const startY = viewableHeight - viewableHeight * 0.05;
+                  const k = yearSet.indexOf(d["year"]);
+                  const l = posInYear(d["year"], d["name"]);
 
-              const x = startX + k * imageWidth;
-              const y = startY - imageHeight * l;
-              return `translate(${x}, ${y})`;
-            });
+                  const x = startX + k * imageWidth;
+                  const y = startY - imageHeight * l;
+                  return `translate(${x}, ${y})`;
+                });
 
-          const unitsMerged = units.merge(unitsEnter);
-          unitsMerged
-            .on("mouseover", (d, i) => {
-              if (fiveVideoTip.frozen === false) {
-                infoController.open();
-                infoController.setTitle(d["title"]);
-                infoController.setThumbnail(d["thumbnail_url"]);
-                infoController.setLink(d["url"]);
-                infoController.setDescription(d["description"]);
-  
-                // Subset dataSlice
-                const fiveVideoRows = dataSlice.slice(i - 2, i + 3);
-                fiveVideoTip.open();
-                fiveVideoTip.displayVideos(fiveVideoRows, false, false);
-              }
+            const unitsMerged = units.merge(unitsEnter);
+            unitsMerged
+                .on("mouseover", (d, i) => {
+                  if (fiveVideoTip.frozen === false) {
+                    infoController.open();
+                    infoController.setTitle(d["title"]);
+                    infoController.setThumbnail(d["thumbnail_url"]);
+                    infoController.setLink(d["url"]);
+                    infoController.setDescription(d["description"]);
 
-              hovering = true;
-            })
-            .on("click", (d, i) => {
-              /*console.log("Called cell click");
-              infoController.open();
-              infoController.setTitle(d["title"]);
-              infoController.setThumbnail(d["thumbnail_url"]);
-              infoController.setDescription(d["description"]);
+                    // Subset dataSlice
+                    const fiveVideoRows = dataSlice.slice(i - 2, i + 3);
+                    fiveVideoTip.open();
+                    fiveVideoTip.displayVideos(fiveVideoRows, false, false);
+                  }
 
-              // Subset dataSlice
-              const fiveVideoRows = dataSlice.slice(i - 2, i + 3);
-              fiveVideoTip.open();
-              fiveVideoTip.displayVideos(fiveVideoRows, true, true);*/
-            })
-            .on("mouseout", () => {
-              hovering = false;
-              fiveVideoTip.close();
-              infoController.close();
-            })
-            .transition()
-            .duration(0)
-            .delay((d, i) => i)
-            .select("image")
-            .attr("opacity", 1)
+                  hovering = true;
+                })
+                .on("click", (d, i) => {
+                  /*console.log("Called cell click");
+                  infoController.open();
+                  infoController.setTitle(d["title"]);
+                  infoController.setThumbnail(d["thumbnail_url"]);
+                  infoController.setDescription(d["description"]);
+
+                  // Subset dataSlice
+                  const fiveVideoRows = dataSlice.slice(i - 2, i + 3);
+                  fiveVideoTip.open();
+                  fiveVideoTip.displayVideos(fiveVideoRows, true, true);*/
+                })
+                .on("mouseout", () => {
+                  hovering = false;
+                  fiveVideoTip.close();
+                  infoController.close();
+                })
+                .transition()
+                .duration(0)
+                .delay((d, i) => i)
+                .select("image")
+                .attr("opacity", 1)
             // .on('end', function(d, i) {
             //   if (i !== dataSlice.length - 1) {
             //     return;
@@ -1105,73 +1110,74 @@ export default function(svg, data) {
             //     })
             // })
 
-          const yearTextboxesEnter = yearTextboxes
-            .enter()
-            .append("text")
-            .attr("class", "year")
-            .attr("text-anchor", "end")
-            .attr("class", "year");
-          yearTextboxes
-            .text(d => d)
-            .attr("fill", "#FFFFFF")
-            .attr("text-anchor", "end")
-            .attr("font-size", imageWidth / 1.618)
-            .attr("opacity", 0)
-            .attr("transform", function(d) {
-              const bbox = this.getBBox();
-              const startX = 10;
-              const k = yearSet.indexOf(d);
+            const yearTextboxesEnter = yearTextboxes
+                .enter()
+                .append("text")
+                .attr("class", "year")
+                .attr("text-anchor", "end")
+                .attr("class", "year");
+            yearTextboxes
+                .text(d => d)
+                .attr("fill", "#FFFFFF")
+                .attr("text-anchor", "end")
+                .attr("font-size", imageWidth / 1.618)
+                .attr("opacity", 0)
+                .attr("transform", function (d) {
+                  const bbox = this.getBBox();
+                  const startX = 10;
+                  const k = yearSet.indexOf(d);
 
-              const x = startX + k * imageWidth + bbox.height;
-              const y = viewableHeight - bbox.width - 5;
-              return `translate(${x}, ${y}) rotate(-90) `;
-            });
-          yearTextboxesEnter
-            .text(d => d)
-            .attr("fill", "#FFFFFF")
-            .attr("font-size", imageWidth / 1.618)
-            .attr("opacity", 0)
-            .attr("transform", function(d) {
-              const bbox = this.getBBox();
-              const startX = 10;
-              const k = yearSet.indexOf(d);
+                  const x = startX + k * imageWidth + bbox.height;
+                  const y = viewableHeight - bbox.width - 5;
+                  return `translate(${x}, ${y}) rotate(-90) `;
+                });
+            yearTextboxesEnter
+                .text(d => d)
+                .attr("fill", "#FFFFFF")
+                .attr("font-size", imageWidth / 1.618)
+                .attr("opacity", 0)
+                .attr("transform", function (d) {
+                  const bbox = this.getBBox();
+                  const startX = 10;
+                  const k = yearSet.indexOf(d);
 
-              const x = startX + k * imageWidth + bbox.height;
-              const y = viewableHeight - bbox.width - 5;
-              return `translate(${x}, ${y}) rotate(-90) `;
-            });
-          const yearTextboxesMerged = yearTextboxes
-            .merge(yearTextboxesEnter);
-          yearTextboxesMerged
-            .transition()
-            .duration(750)
-            .delay((d, i) => i * 10)
-            .attr("opacity", 1);
+                  const x = startX + k * imageWidth + bbox.height;
+                  const y = viewableHeight - bbox.width - 5;
+                  return `translate(${x}, ${y}) rotate(-90) `;
+                });
+            const yearTextboxesMerged = yearTextboxes
+                .merge(yearTextboxesEnter);
+            yearTextboxesMerged
+                .transition()
+                .duration(750)
+                .delay((d, i) => i * 10)
+                .attr("opacity", 1);
 
-          const yearCounts = svg.selectAll("text.year-counts").data(yearSet, d => d)
-          yearCounts
-            .enter()
-            .append("text")
-            .attr("class", "year-counts")
-            .attr("fill", "#FFFFFF")
-            .attr("text-anchor", "end")
-            .attr("font-size", imageWidth / 1.618)
-            .attr("opacity", d => {
-              return numVideosInYear(d) > 0 ? 1 : 0;
-            })
-            .text(d => numVideosInYear(d))
-            .attr("transform", function(d) {
-              const bbox = this.getBBox();
-              const startX = 10;
-              const startY = viewableHeight - viewableHeight * 0.05;
-              const k = yearSet.indexOf(d);
-              const l = numVideosInYear(d);
+            const yearCounts = svg.selectAll("text.year-counts").data(yearSet, d => d)
+            yearCounts
+                .enter()
+                .append("text")
+                .attr("class", "year-counts")
+                .attr("fill", "#FFFFFF")
+                .attr("text-anchor", "end")
+                .attr("font-size", imageWidth / 1.618)
+                .attr("opacity", d => {
+                  return numVideosInYear(d) > 0 ? 1 : 0;
+                })
+                .text(d => numVideosInYear(d))
+                .attr("transform", function (d) {
+                  const bbox = this.getBBox();
+                  const startX = 10;
+                  const startY = viewableHeight - viewableHeight * 0.05;
+                  const k = yearSet.indexOf(d);
+                  const l = numVideosInYear(d);
 
-              const x = startX + k * imageWidth + bbox.height;
-              const y = startY - imageHeight * l - bbox.width;
-              return `translate(${x}, ${y}) rotate(-90) `;
-            })
-            .merge(yearCounts);
+                  const x = startX + k * imageWidth + bbox.height;
+                  const y = startY - imageHeight * l - bbox.width;
+                  return `translate(${x}, ${y}) rotate(-90) `;
+                })
+                .merge(yearCounts);
+          }
         }
       });
   };
@@ -1472,7 +1478,7 @@ export default function(svg, data) {
         return `translate(${x}, ${y})`;
       })
       .on('end', function(d, i) {
-        if (i === 0) {
+        if (i === 0 && currentPhase === 8) {
           createLegendsAndCounts();
         }
       });
@@ -1859,7 +1865,7 @@ export default function(svg, data) {
         return `translate(${x}, ${y})`;
       })
       .on('end', function(d, i) {
-        if (i === 0) {
+        if (i === 0 && currentPhase === 9) {
           createLegendsAndCounts();
         }
       });
