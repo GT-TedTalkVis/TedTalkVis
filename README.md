@@ -1,4 +1,8 @@
 # TedTalkVis
+
+## Website
+You can view the production version of the website at the following URL:
+https://gt-tedtalkvis.github.io/TedTalkVis/
 ## Introduction
 Repo for InfoVis F2019 project on Ted Talk Data. We obtained the data for this project from https://www.kaggle.com/rounakbanik/ted-talks
 

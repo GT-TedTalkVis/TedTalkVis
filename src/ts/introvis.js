@@ -980,7 +980,7 @@ export default function(svg, data) {
       .attr("height", imageHeight)
       .attr("transform", function(d) {
         const startX = 10;
-        const startY = viewableHeight - viewableHeight * 0.05;
+        const startY = viewableHeight - viewableHeight * 0.07;
         const k = yearSet.indexOf(d["year"]);
         const l = posInYear(d["year"], d["name"]);
 
@@ -1006,7 +1006,7 @@ export default function(svg, data) {
                 .attr("height", imageHeight)
                 .attr("transform", function (d) {
                   const startX = 10;
-                  const startY = viewableHeight - viewableHeight * 0.05;
+                  const startY = viewableHeight - viewableHeight * 0.07;
                   const k = yearSet.indexOf(d["year"]);
                   const l = posInYear(d["year"], d["name"]);
 
@@ -1103,7 +1103,7 @@ export default function(svg, data) {
                   const k = yearSet.indexOf(d);
 
                   const x = startX + k * imageWidth + bbox.height;
-                  const y = viewableHeight - bbox.width - 5;
+                  const y = viewableHeight - bbox.width - 12;
                   return `translate(${x}, ${y}) rotate(-90) `;
                 });
             yearTextboxesEnter
@@ -1117,7 +1117,7 @@ export default function(svg, data) {
                   const k = yearSet.indexOf(d);
 
                   const x = startX + k * imageWidth + bbox.height;
-                  const y = viewableHeight - bbox.width - 5;
+                  const y = viewableHeight - bbox.width - 12;
                   return `translate(${x}, ${y}) rotate(-90) `;
                 });
             const yearTextboxesMerged = yearTextboxes
@@ -1143,7 +1143,7 @@ export default function(svg, data) {
                 .attr("transform", function (d) {
                   const bbox = this.getBBox();
                   const startX = 10;
-                  const startY = viewableHeight - viewableHeight * 0.05;
+                  const startY = viewableHeight - viewableHeight * 0.07;
                   const k = yearSet.indexOf(d);
                   const l = numVideosInYear(d);
 
@@ -1237,7 +1237,7 @@ export default function(svg, data) {
       .attr("opacity", 1)
       .attr("transform", function(d) {
         const startX = 10;
-        const startY = viewableHeight - viewableHeight * 0.05;
+        const startY = viewableHeight - viewableHeight * 0.07;
         const k = yearSet.indexOf(d["year"]);
         const l = posInYear(d["year"], d["name"]);
 
@@ -1285,7 +1285,7 @@ export default function(svg, data) {
       .attr("transform", function(d) {
         const bbox = this.getBBox();
         const startX = 10;
-        const startY = viewableHeight - viewableHeight * 0.05;
+        const startY = viewableHeight - viewableHeight * 0.07;
         const k = yearSet.indexOf(d);
         const l = numVideosInYear(d);
 
@@ -1421,7 +1421,7 @@ export default function(svg, data) {
       })
       .attr("transform", function(d) {
         const startX = 10;
-        const startY = viewableHeight - viewableHeight * 0.05;
+        const startY = viewableHeight - viewableHeight * 0.07;
         const k = yearSet.indexOf(d["year"]);
         const l = posInYear(d["year"], d["name"]);
 
@@ -1439,7 +1439,7 @@ export default function(svg, data) {
       .duration(2000)
       .attr("transform", function(d) {
         const startX = 10;
-        const startY = viewableHeight - viewableHeight * 0.05;
+        const startY = viewableHeight - viewableHeight * 0.07;
         const dataDuration = parseInt(d["duration"], 10);
         const durationMinutes = Math.floor(dataDuration / 60);
 
@@ -1474,12 +1474,12 @@ export default function(svg, data) {
         .attr("transform", function(d) {
           const bbox = this.getBBox();
           const startX = 10;
-          const startY = viewableHeight - viewableHeight * 0.05;
+          const startY = viewableHeight - viewableHeight * 0.07;
   
           const x = startX + d * imageWidth + imageWidth * 0.2;
           const y = startY + bbox.height;
           return `translate(${x}, ${y})`;
-        })
+        });
 
       if (currentPhase === 8) {
         const durationTotals = svg.selectAll("text.duration-totals").data(totalVidsOfDurations)
@@ -1494,7 +1494,7 @@ export default function(svg, data) {
             .attr("opacity", 1)
             .attr("transform", function (d, i) {
               const startX = 10;
-              const startY = viewableHeight - viewableHeight * 0.05;
+              const startY = viewableHeight - viewableHeight * 0.07;
 
               const x = startX + i * imageWidth;
               const y = startY - newImageHeight * d;
@@ -1645,7 +1645,7 @@ export default function(svg, data) {
       })
       .attr("transform", function(d) {
         const startX = 10;
-        const startY = viewableHeight - viewableHeight * 0.05;
+        const startY = viewableHeight - viewableHeight * 0.07;
         const dataDuration = parseInt(d["duration"], 10);
         const durationMinutes = Math.floor(dataDuration / 60);
 
@@ -1680,31 +1680,32 @@ export default function(svg, data) {
         .attr("transform", function(d) {
           const bbox = this.getBBox();
           const startX = 10;
-          const startY = viewableHeight - viewableHeight * 0.05;
+          const startY = viewableHeight - viewableHeight * 0.07;
   
           const x = startX + d * imageWidth + imageWidth * 0.2;
           const y = startY + bbox.height;
           return `translate(${x}, ${y})`;
         })
-  
-      const durationTotals = svg.selectAll("text.duration-totals").data(totalVidsOfDurations)
-      durationTotals
-        .enter()
-        .append("text")
-        .attr("class", "duration-totals")
-        .merge(durationTotals)
-        .text(d => d)
-        .attr("fill", "#FFFFFF")
-        .attr("font-size", imageWidth / 1.68)
-        .attr("opacity", 1)
-        .attr("transform", function(d, i) {
-          const startX = 10;
-          const startY = viewableHeight - viewableHeight * 0.05;
-  
-          const x = startX + i * imageWidth;
-          const y = startY - newImageHeight * d;
-          return `translate(${x}, ${y})`;
-        })
+      if (currentPhase === 8) {
+        const durationTotals = svg.selectAll("text.duration-totals").data(totalVidsOfDurations)
+        durationTotals
+            .enter()
+            .append("text")
+            .attr("class", "duration-totals")
+            .merge(durationTotals)
+            .text(d => d)
+            .attr("fill", "#FFFFFF")
+            .attr("font-size", imageWidth / 1.68)
+            .attr("opacity", 1)
+            .attr("transform", function (d, i) {
+              const startX = 10;
+              const startY = viewableHeight - viewableHeight * 0.05;
+
+              const x = startX + i * imageWidth;
+              const y = startY - newImageHeight * d;
+              return `translate(${x}, ${y})`;
+            });
+      }
   
       const viewLegendPoints = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
       const viewLegend = svg.selectAll("rect.view-legend").data(viewLegendPoints)
@@ -1826,7 +1827,7 @@ export default function(svg, data) {
       })
       .attr("transform", function(d) {
         const startX = 10;
-        const startY = viewableHeight - viewableHeight * 0.05;
+        const startY = viewableHeight - viewableHeight * 0.07;
         let fkScore = parseInt(d["fk_score"], 10);
         totalVidsOfFK[fkScore] += 1;
         if (isNaN(fkScore)) {
@@ -1864,7 +1865,7 @@ export default function(svg, data) {
         .attr("transform", function(d) {
           const bbox = this.getBBox();
           const startX = 10;
-          const startY = viewableHeight - viewableHeight * 0.05;
+          const startY = viewableHeight - viewableHeight * 0.07;
   
           const x = startX + d * imageWidth + imageWidth * 0.2;
           const y = startY + bbox.height;
@@ -1883,7 +1884,7 @@ export default function(svg, data) {
         .attr("opacity", 1)
         .attr("transform", function(d, i) {
           const startX = 10;
-          const startY = viewableHeight - viewableHeight * 0.05;
+          const startY = viewableHeight - viewableHeight * 0.07;
 
           const x = startX + i * imageWidth;
           const y = startY - imageHeight * d;

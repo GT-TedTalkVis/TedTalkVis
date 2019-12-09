@@ -37,7 +37,7 @@ export function talkExplorer(div, data)
         .style("left", (d3.select(".explorerDiv").node().getBoundingClientRect().width * 0.817) + "px")
         .style("top", (jq(".explorerDiv").offset().top + d3.select(".explorerDiv").node().getBoundingClientRect().height * 0.55) + "px")
         .style('width', "30vh")
-        .style("height", "34vh")
+        .style("height", "34%")
         .append("ul")
         .attr("class", "details-list");
 
