@@ -358,21 +358,43 @@ export default function(svg, data) {
 
   const introPart3 = () => {
     const numImages = 10;
+    const dataSlice = data.slice(2, 2 + numImages)
     const durations = [750, 750];
     const padding = 10;
     const availableWidth = viewableWidth - padding * numImages;
-    const imageWidth = availableWidth / 5;
+    const imageWidth = availableWidth / 5.5;
     const imageHeight = (imageWidth * thumbnailXRatio) / thumbnailYRatio;
-
-    const units = svg.selectAll("g").data(data.slice(2, 2 + numImages), d => d["name"]);
-    const unitsEnter = units.enter().append("g");
 
     // Make wurman, marks leave.
     removePart2();
     // Make anderson, dimmer from part 4
     removePart4();
 
+    const units = svg.selectAll("g").data(dataSlice, d => d["name"]);
+    const unitsEnter = units.enter().append("g");
+
     // Images
+    units
+      .select("a")
+      .append("text")
+      .attr("class", "figure-2-years")
+      .attr("opacity", 0)
+      .attr("fill", "#FFFFFF")
+      .text(d => {
+        return d["year"];
+      })
+      .attr("transform", function(d, i) {
+        if (i < 5) {
+          const bbox = this.getBBox();
+          const x = (i + 1) * padding + i * imageWidth + (imageWidth - bbox.width) / 2;
+          const y = viewableHeight - imageHeight * 2.5 + imageHeight + bbox.height;
+          return `translate(${x}, ${y})`;
+        } else {
+          const transform = d3.select(this).attr("transform");
+          return transform;
+        }
+      });
+
     unitsEnter
       .append("a")
       .attr("href", d => d.url)
@@ -402,29 +424,26 @@ export default function(svg, data) {
       })
       .attr("xlink:href", d => {
         return thumbnailDirectory + d["thumbnail_path"];
+      })
+      .select(function() { return this.parentNode; })
+      .append("text")
+      .attr("class", "figure-2-years")
+      .attr("opacity", 0)
+      .attr("fill", "#FFFFFF")
+      .text(d => {
+        return d["year"];
+      })
+      .attr("transform", function(d, i) {
+        if (i < 5) {
+          const bbox = this.getBBox();
+          const x = (i + 1) * padding + i * imageWidth + (imageWidth - bbox.width) / 2;
+          const y = viewableHeight - imageHeight * 2.5 + imageHeight + bbox.height;
+          return `translate(${x}, ${y})`;
+        } else {
+          const transform = d3.select(this).attr("transform");
+          return transform;
+        }
       });
-    // Text labels
-    const toUpdate = [units, unitsEnter];
-    toUpdate.forEach(elements => {
-      elements
-        .append("text")
-        .attr("opacity", 0)
-        .attr("fill", "#FFFFFF")
-        .text(d => {
-          return d["year"];
-        })
-        .attr("transform", function(d, i) {
-          if (i < 5) {
-            const bbox = this.getBBox();
-            const x = (i + 1) * padding + i * imageWidth + (imageWidth - bbox.width) / 2;
-            const y = viewableHeight - imageHeight * 2.5 + imageHeight + bbox.height;
-            return `translate(${x}, ${y})`;
-          } else {
-            const transform = d3.select(this).attr("transform");
-            return transform;
-          }
-        });
-    });
 
     // Transition
     const unitsMerged = units.merge(unitsEnter);
@@ -472,15 +491,17 @@ export default function(svg, data) {
           const transform = d3.select(this).attr("transform");
           return transform;
         }
+      }).on('end', function(d, i) {
+        if (i === 0) {
+          unitsMerged
+            .select("text")
+            .transition()
+            .delay((d, i) => 50 * i)
+            .duration(durations[1])
+            .attr("opacity", 1)
+        }
       })
-      .select(function() {
-        return this.parentNode;
-      })
-      .transition()
-      .delay((d, i) => 10 * i)
-      .duration(durations[1])
-      .select("text")
-      .attr("opacity", 1);
+      
   };
 
   const introPart4 = () => {
@@ -620,6 +641,7 @@ export default function(svg, data) {
     // Transition
     const unitsMerged = units.merge(unitsEnter);
     const yearTextboxesMerged = yearTextboxes.merge(yearTextboxesEnter);
+    yearTextboxes.exit().remove();
     unitsMerged
       .on("mouseover", (d, i) => {
         if (fiveVideoTip.frozen === false) {
@@ -952,6 +974,7 @@ export default function(svg, data) {
 
     (function removePart6() {
       svg.selectAll("text.year-counts").remove();
+      svg.selectAll("text.year").remove();
     })();
 
     const imageWidth = viewableWidth * 0.025;
@@ -1599,17 +1622,26 @@ export default function(svg, data) {
       .select("rect")
       .transition()
       .duration(2000)
+      .attr("opacity", d => {
+        let fkScore = parseInt(d["fk_score"], 10);
+        if (isNaN(fkScore)) {
+          return 0;
+        } else {
+          return 1;
+        }
+      })
       .attr("transform", function(d) {
         const startX = 10;
         const startY = viewableHeight - viewableHeight * 0.05;
         let fkScore = parseInt(d["fk_score"], 10);
         totalVidsOfFK[fkScore] += 1;
-        if (fkScore === 0) {
+        if (isNaN(fkScore)) {
           return `translate(${-100}, ${startY})`;
         }
 
         const k = fkScore;
         const l = posInFK(fkScore, d["name"], startY);
+        console.log(k, l);
 
         const x = startX + k * imageWidth;
         const y = startY - imageHeight * l;
@@ -1895,12 +1927,7 @@ export default function(svg, data) {
 
     let text = svg
       .selectAll("text.text-part-2")
-      .transition()
-      .duration(750)
-      .attr("opacity", 0)
-      .on("end", function() {
-        this.remove();
-      });
+      .remove();
   }
   function removePart4() {
     const dimmer = svg.selectAll("rect.black-fade").data(["dimmer"]);
