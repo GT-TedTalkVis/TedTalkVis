@@ -1182,6 +1182,7 @@ export default function(svg, data) {
       svg.selectAll("rect.view-legend").remove();
       svg.selectAll("text.view-legend-text").remove();
       svg.selectAll("text.figure-8-title").remove();
+      svg.selectAll("text.figure-8-axis-label").remove();
     })();
 
     const figure5Title = svg.selectAll("text.figure-5-title").data(["Talks", "Per", "Year"]);
@@ -1328,6 +1329,13 @@ export default function(svg, data) {
       svg.selectAll("text.year-counts").remove();
       svg.selectAll("text.figure-5-title").remove();
     })();
+
+    (function removePart9() {
+      svg.selectAll("text.figure-9-axis-label").remove();
+      svg.selectAll("text.figure-9-title").remove();
+      svg.selectAll("text.fk-totals").remove();
+      svg.selectAll("text.fk-axis").remove();
+    })
 
     const figure8Title = svg.selectAll("text.figure-8-title").data(["Talks", "by" ,"Duration"]);
     figure8Title
@@ -1507,6 +1515,23 @@ export default function(svg, data) {
         .attr("x", viewableWidth - 15)
         .attr("y", (d, i) => 70 + (i * 12))
         .text(d=>d)
+
+      const figure8Label = svg.selectAll("text.figure-8-axis-label").data(["Duration (minutes)"])
+      figure8Label
+        .enter()
+        .append("text")
+        .attr("class", "figure-8-axis-label")
+        .attr("font-size", imageWidth / 1.68)
+        .text(d => "Duration (minutes)")
+        .attr("opacity", 1)
+        .attr("fill", "#FFFFFF")
+        .attr("transform", function() {
+          const bbox = this.getBBox();
+          const x = viewableWidth * 0.3;
+          const y = viewableHeight - bbox.height * 0.5;
+          return `translate(${x}, ${y})`; 
+        })
+        .merge(figure8Label)
     }
   };
 
@@ -1529,8 +1554,8 @@ export default function(svg, data) {
       return 0;
     }
 
-    fiveVideoTip.x = 35;
-    fiveVideoTip.y = 15;
+    fiveVideoTip.x = 30;
+    fiveVideoTip.y = 30;
 
     // Get the min and max views for each year
     const minMaxPerYear = {};
@@ -1550,6 +1575,7 @@ export default function(svg, data) {
       svg.selectAll("text.duration-totals").remove();
       svg.selectAll("text.duration-axis").remove();
       svg.selectAll("text.figure-8-title").remove();
+      svg.selectAll("text.figure-8-axis-label").remove();
     })();
 
     // Get the min and max views for each year
@@ -1632,6 +1658,47 @@ export default function(svg, data) {
           const y = startY - imageHeight * d;
           return `translate(${x}, ${y})`;
         })
+
+      const figure9Title = svg.selectAll("text.figure-9-title").data(["Talks", "by" ,"FK Score"]);
+      figure9Title
+        .enter()
+        .append("text")
+        .attr("class", "figure-9-title")
+        .attr("font-size", viewableHeight * 0.12 / 1.618)
+        .text(d => d)
+        .attr("opacity", 0)
+        .attr("transform", (d, i) => {
+          const x = viewableWidth * 0.5;
+          const y = viewableHeight * 0.1 + (viewableHeight * 0.12 / 1.618) * i;
+          return `translate(${x}, ${y})`
+        })
+        .attr("fill", "#FFFFFF")
+        .merge(figure9Title)
+        .transition()
+        .duration(750)
+        .attr("opacity", 1)
+        .attr("transform", (d, i) => {
+          const x = viewableWidth * 0.5;
+          const y = viewableHeight * 0.15 + (viewableHeight * 0.12 / 1.618) * i;
+          return `translate(${x}, ${y})`
+        })
+
+      const figure9Label = svg.selectAll("text.figure-9-axis-label").data(["Flesch-Kincaid Score"])
+      figure9Label
+        .enter()
+        .append("text")
+        .attr("class", "figure-9-axis-label")
+        .attr("font-size", imageWidth / 1.68)
+        .text(d => "Reading Grade Level")
+        .attr("opacity", 1)
+        .attr("fill", "#FFFFFF")
+        .attr("transform", function() {
+          const bbox = this.getBBox();
+          const x = viewableWidth * 0.14;
+          const y = viewableHeight - bbox.height * 0.5;
+          return `translate(${x}, ${y})`; 
+        })
+        .merge(figure9Label)
     }
   };
 
