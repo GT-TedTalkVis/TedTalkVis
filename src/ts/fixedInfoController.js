@@ -35,7 +35,7 @@ export default class InfoController {
   }
 
   setDescription(description) {
-    this.descriptionElement.innerHTML = description;
+    this.descriptionElement.innerHTML = description + "<br><br><br><span style='font-style: italic; font-size: 12pt'>Click to view talk</span>";
   }
 
   open() {
