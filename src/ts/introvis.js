@@ -1341,7 +1341,7 @@ export default function(svg, data) {
       svg.selectAll("text.figure-9-title").remove();
       svg.selectAll("text.fk-totals").remove();
       svg.selectAll("text.fk-axis").remove();
-    })
+    })();
 
     const figure8Title = svg.selectAll("text.figure-8-title").data(["Talks", "by" ,"Duration"]);
     figure8Title
@@ -1448,7 +1448,7 @@ export default function(svg, data) {
         return `translate(${x}, ${y})`;
       })
       .on('end', function(d, i) {
-        if (i === 0) {
+        if (i === 0 && currentPhase === 8) {
           createLegendsAndCounts();
         }
       });
@@ -1622,7 +1622,7 @@ export default function(svg, data) {
         return `translate(${x}, ${y})`;
       })
       .on('end', function(d, i) {
-        if (i === 0) {
+        if (i === 0 && currentPhase === 9) {
           createLegendsAndCounts();
         }
       });

@@ -63,3 +63,7 @@ p {
 .visible-false {
   visibility: hidden;
 }
+
+text.year {
+  pointer-events: none;
+}
