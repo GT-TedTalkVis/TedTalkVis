@@ -366,7 +366,7 @@ export default function(svg, data) {
     const durations = [750, 750];
     const padding = 10;
     const availableWidth = viewableWidth - padding * numImages;
-    const imageWidth = availableWidth / 5.5;
+    const imageWidth = availableWidth / 6;
     const imageHeight = (imageWidth * thumbnailXRatio) / thumbnailYRatio;
 
     // Make wurman, marks leave.
@@ -1357,6 +1357,7 @@ export default function(svg, data) {
     (function removePart7() {
       svg.selectAll("text.year-counts").remove();
       svg.selectAll("text.figure-5-title").remove();
+      svg.selectAll("text.year").remove();
     })();
 
     (function removePart9() {
@@ -1364,7 +1365,7 @@ export default function(svg, data) {
       svg.selectAll("text.figure-9-title").remove();
       svg.selectAll("text.fk-totals").remove();
       svg.selectAll("text.fk-axis").remove();
-    })
+    })();
 
     const figure8Title = svg.selectAll("text.figure-8-title").data(["Talks", "by" ,"Duration"]);
     figure8Title
@@ -1408,10 +1409,10 @@ export default function(svg, data) {
     const imageHeight = viewableHeight * 0.003;
     const newImageHeight = viewableHeight * 0.004;
 
-    const yearTextboxes = svg
-      .selectAll("text.year")
-      .data(yearSet, d => d)
-      .attr("opacity", 0);
+    // const yearTextboxes = svg
+    //   .selectAll("text.year")
+    //   .data(yearSet, d => d)
+    //   .attr("opacity", 0);
 
     const units = svg.selectAll("g");
 
@@ -1567,6 +1568,210 @@ export default function(svg, data) {
         .merge(figure8Label)
     }
   };
+
+  const part9to8 = () => {
+    /* Duration Histogram */
+    const dataSlice = data.slice(2);
+    const yearMin = parseInt(dataSlice[0]["year"], 10);
+    const yearMax = parseInt(dataSlice[dataSlice.length - 1]["year"], 10);
+    const yearSet = [];
+
+    fiveVideoTip.x = 40;
+    fiveVideoTip.y = 20;
+
+    for (let i = yearMin; i <= yearMax; i++) {
+      yearSet.push(i.toString());
+    }
+
+    const posInDuration = (duration, name) => {
+      const durationSlice = dataSlice.filter(d => {
+        return Math.floor(parseInt(d["duration"], 10) / 60) === duration;
+      });
+      for (let i = 0; i < durationSlice.length; i++) {
+        if (durationSlice[i]["name"] === name) {
+          return i;
+        }
+      }
+      return null;
+    };
+
+    (function removePart9() {
+      svg.selectAll("text.figure-9-axis-label").remove();
+      svg.selectAll("text.figure-9-title").remove();
+      svg.selectAll("text.fk-totals").remove();
+      svg.selectAll("text.fk-axis").remove();
+    })();
+
+    const figure8Title = svg.selectAll("text.figure-8-title").data(["Talks", "by" ,"Duration"]);
+    figure8Title
+      .enter()
+      .append("text")
+      .attr("class", "figure-8-title")
+      .attr("font-size", viewableHeight * 0.12 / 1.618)
+      .text(d => d)
+      .attr("opacity", 0)
+      .attr("transform", (d, i) => {
+        const x = 10;
+        const y = (viewableHeight * 0.12 / 1.618) * i;
+        return `translate(${x}, ${y})`
+      })
+      .attr("fill", "#FFFFFF")
+      .merge(figure8Title)
+      .transition()
+      .duration(750)
+      .attr("opacity", 1)
+      .attr("transform", (d, i) => {
+        const x = 10;
+        const y = 100 + (viewableHeight * 0.12 / 1.618) * i;
+        return `translate(${x}, ${y})`
+      })
+
+    // Get the min and max views for each year
+    const minMaxPerYear = {};
+    for (let i = 0; i < yearSet.length; i++) {
+      const yearSlice = dataSlice.filter(d => d["year"] === yearSet[i]);
+      const minViewsForYear = d3.min(yearSlice, d => +d["views"]);
+      const maxViewsForYear = d3.max(yearSlice, d => +d["views"]);
+      minMaxPerYear[yearSet[i]] = [minViewsForYear, maxViewsForYear]
+      console.log(yearSet[i], minViewsForYear, maxViewsForYear);
+    }
+    console.log(minMaxPerYear);
+    function normalizedView(count, min, max) {
+      return (count - min) / (max - min + 0.001) * 0.5;
+    }
+
+    const imageWidth = viewableWidth * 0.025;
+    const imageHeight = viewableHeight * 0.003;
+    const newImageHeight = viewableHeight * 0.004;
+
+    const units = svg.selectAll("g");
+
+    // Total vids of each duration
+    const totalVidsOfDurations = [];
+    for (let i = 0; i <= 30; i++) totalVidsOfDurations.push(0);
+    units
+      .select("rect")
+      .transition()
+      .duration(750)
+      .attr("width", imageWidth)
+      .attr("height", newImageHeight)
+      .attr("opacity", d => {
+        const dataDuration = parseInt(d["duration"], 10);
+        const durationMinutes = Math.floor(dataDuration / 60);
+        return durationMinutes > 30 ? 0 : 1;
+      })
+      .attr("transform", function(d) {
+        const startX = 10;
+        const startY = viewableHeight - viewableHeight * 0.05;
+        const dataDuration = parseInt(d["duration"], 10);
+        const durationMinutes = Math.floor(dataDuration / 60);
+
+        totalVidsOfDurations[parseInt(durationMinutes, 10)] += 1;
+
+        const k = durationMinutes;
+        const l = posInDuration(durationMinutes, d["name"]);
+
+        const x = startX + k * imageWidth;
+        const y = startY - newImageHeight * l;
+        return `translate(${x}, ${y})`;
+      })
+      .on('end', function(d, i) {
+        if (i === 0) {
+          createLegendsAndCounts();
+        }
+      });
+
+    function createLegendsAndCounts() {
+      const durations = []
+      for (let i = 0; i <= 30; i++) durations.push(i);
+      const durationAxis = svg.selectAll("text.duration-axis").data(durations);
+      durationAxis
+        .enter()
+        .append("text")
+        .attr("class", "duration-axis")
+        .merge(durationAxis)
+        .text(d => d)
+        .attr("fill", "#FFFFFF")
+        .attr("font-size", imageWidth / 1.618)
+        .attr("opacity", 1)
+        .attr("transform", function(d) {
+          const bbox = this.getBBox();
+          const startX = 10;
+          const startY = viewableHeight - viewableHeight * 0.05;
+  
+          const x = startX + d * imageWidth + imageWidth * 0.2;
+          const y = startY + bbox.height;
+          return `translate(${x}, ${y})`;
+        })
+  
+      const durationTotals = svg.selectAll("text.duration-totals").data(totalVidsOfDurations)
+      durationTotals
+        .enter()
+        .append("text")
+        .attr("class", "duration-totals")
+        .merge(durationTotals)
+        .text(d => d)
+        .attr("fill", "#FFFFFF")
+        .attr("font-size", imageWidth / 1.68)
+        .attr("opacity", 1)
+        .attr("transform", function(d, i) {
+          const startX = 10;
+          const startY = viewableHeight - viewableHeight * 0.05;
+  
+          const x = startX + i * imageWidth;
+          const y = startY - newImageHeight * d;
+          return `translate(${x}, ${y})`;
+        })
+  
+      const viewLegendPoints = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+      const viewLegend = svg.selectAll("rect.view-legend").data(viewLegendPoints)
+      const legendBoxWidth = 15;
+      const legendBoxHeight = legendBoxWidth * 2;
+      viewLegend
+        .enter()
+        .append("rect")
+        .attr("class", "view-legend")
+        .merge(viewLegend)
+        .attr("fill", d => d3.interpolateReds(0.5 + normalizedView(d, 1, 10)))
+        .attr("width", legendBoxWidth)
+        .attr("height", legendBoxHeight)
+        .attr("transform", (d, i) => {
+          const startX = viewableWidth - (legendBoxWidth * 10) - 15;
+          const startY = 30;
+          const x = startX + legendBoxWidth * i
+          return `translate(${x}, ${startY})`;
+        })
+      const legendText = svg.selectAll("text.view-legend-text").data(["Least to greatest views,", "relative to other videos", "within the same year."])
+      legendText
+        .enter()
+        .append("text")
+        .attr("class", "view-legend-text")
+        .merge(legendText)
+        .attr("fill", "#FFFFFF")
+        .attr("font-size", 12)
+        .attr("text-anchor", "end")
+        .attr("x", viewableWidth - 15)
+        .attr("y", (d, i) => 70 + (i * 12))
+        .text(d=>d)
+
+      const figure8Label = svg.selectAll("text.figure-8-axis-label").data(["Duration (minutes)"])
+      figure8Label
+        .enter()
+        .append("text")
+        .attr("class", "figure-8-axis-label")
+        .attr("font-size", imageWidth / 1.68)
+        .text(d => "Duration (minutes)")
+        .attr("opacity", 1)
+        .attr("fill", "#FFFFFF")
+        .attr("transform", function() {
+          const bbox = this.getBBox();
+          const x = viewableWidth * 0.3;
+          const y = viewableHeight - bbox.height * 0.5;
+          return `translate(${x}, ${y})`; 
+        })
+        .merge(figure8Label)
+    }
+  }
 
   const introPart9 = () => {
     currentPhase = 9;
@@ -1877,7 +2082,7 @@ export default function(svg, data) {
       if (e.scrollDirection === "FORWARD") {
         introPart9();
       } else {
-        introPart8();
+        part9to8();
       }
 
       fiveVideoTip.close();
