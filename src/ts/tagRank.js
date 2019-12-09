@@ -17,7 +17,7 @@ export default function(div, data) {
 
     let inBar = false;
 
-    const svgWidth = window.innerWidth * 0.75;
+    const svgWidth = window.innerWidth * 0.7;
     const svgHeight = window.innerHeight * 0.75;
     // const svgWidth = window.innerWidth * 0.6;
     // const svgHeight = window.innerHeight * 0.6;
