@@ -1504,25 +1504,27 @@ export default function(svg, data) {
           const y = startY + bbox.height;
           return `translate(${x}, ${y})`;
         })
-  
-      const durationTotals = svg.selectAll("text.duration-totals").data(totalVidsOfDurations)
-      durationTotals
-        .enter()
-        .append("text")
-        .attr("class", "duration-totals")
-        .merge(durationTotals)
-        .text(d => d)
-        .attr("fill", "#FFFFFF")
-        .attr("font-size", imageWidth / 1.68)
-        .attr("opacity", 1)
-        .attr("transform", function(d, i) {
-          const startX = 10;
-          const startY = viewableHeight - viewableHeight * 0.05;
-  
-          const x = startX + i * imageWidth;
-          const y = startY - newImageHeight * d;
-          return `translate(${x}, ${y})`;
-        })
+
+      if (currentPhase === 8) {
+        const durationTotals = svg.selectAll("text.duration-totals").data(totalVidsOfDurations)
+        durationTotals
+            .enter()
+            .append("text")
+            .attr("class", "duration-totals")
+            .merge(durationTotals)
+            .text(d => d)
+            .attr("fill", "#FFFFFF")
+            .attr("font-size", imageWidth / 1.68)
+            .attr("opacity", 1)
+            .attr("transform", function (d, i) {
+              const startX = 10;
+              const startY = viewableHeight - viewableHeight * 0.05;
+
+              const x = startX + i * imageWidth;
+              const y = startY - newImageHeight * d;
+              return `translate(${x}, ${y})`;
+            });
+      }
   
       const viewLegendPoints = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
       const viewLegend = svg.selectAll("rect.view-legend").data(viewLegendPoints)

@@ -96,6 +96,7 @@ export default function(div, data) {
             .selectAll("rect")
             .attr("fill", COLORS.DARK_RED);
         d3.select(this).attr("fill", COLORS.TED_RED);
+        console.log(this);
     }
 
     async function mouseOut() {
